@@ -721,22 +721,25 @@ p {
 
 
 /* MEDIA query: for large screens */
+@media screen and (min-width: 800px)
+
+    .grid_film
+        display grid
+        grid-template-columns 1fr 1fr 1fr
+        grid-template-rows auto
+        grid-template-areas "f_img_slider_box  f_img_slider_box  f_title_box"\
+                            "f_synopsis_box    f_synopsis_box    f_cred_box"\
+                            "f_synopsis_box    f_synopsis_box    f_runtime_box"\
+                            "f_screenings_box  f_screenings_box  f_screenings_box"\
+                            "f_dir_bio_box     f_dir_bio_box     f_extra_box"\
+                            "f_trailer_box     f_trailer_box     f_trailer_box"\
+                            "f_imgs_box        f_imgs_box        f_imgs_box"
+
 
 @media screen and (min-width: 800px) {
 
-  .grid_film {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "f_img_slider_box  f_img_slider_box  f_title_box"
-    "f_synopsis_box    f_synopsis_box    f_cred_box"
-    "f_synopsis_box    f_synopsis_box    f_runtime_box"
-    "f_screenings_box  f_screenings_box  f_screenings_box"
-    "f_dir_bio_box     f_dir_bio_box     f_extra_box"
-    "f_trailer_box     f_trailer_box     f_trailer_box"
-    "f_imgs_box        f_imgs_box        f_imgs_box";
-  }
+
+
 
   .main_menu_toggle_label {
     display: none;
