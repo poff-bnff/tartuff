@@ -17,3 +17,6 @@ search:
         ### Otsing
     placeholder: sisesta →
     button: Otsi
+label:
+    film:
+        title: Nimi

@@ -17,3 +17,6 @@ search:
         ### Поиск
     placeholder: введите →
     button: Искать
+label:
+    film:
+        title: Название

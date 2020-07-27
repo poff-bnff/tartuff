@@ -17,3 +17,6 @@ search:
         ### Search
     placeholder: enter →
     button: Search
+label:
+    film:
+        title: Title
