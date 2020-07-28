@@ -1,21 +1,34 @@
 extends /_templates/layout.pug
 
 block content
-    - localtitle = "filmTitle" + self.locale
-    p= localtitle
-    section.f_title_box
-        .premiere_type= self.label.film.filmPremiereType
-        h1.film_title_detailed= self[localtitle]
-        .str_info_blokk_1
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmLocalTitle
-                .str_info_value= self.filmLocalTitle
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmDirector
-                .str_info_value.clr_primary= self.filmDirector
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmCountries
-                .str_info_value= self.filmCountries
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmYear
-                .str_info_value= self.filmYear
+
+
+
+    if self.films
+        main.grid_filmid
+            each val in self.films
+                section.card_film
+                    .carousel-inner.container_frame_16_9
+                        img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
+                    .card_film_title
+                        h3.film_title_locale= val.filmTitleEt
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmTitle_en
+                        .str_info_value= val.filmTitleEn
+                    .str_info_grid_3
+                        .str_info_label
+                            | Festivali programm
+                        .str_info_value_program
+                            | Tartuff Kunst
+                    .str_info_grid_3
+                        .str_info_label
+                            | Filmi zhanr
+                        .str_info_value_genre
+                            | Dokumentaalfilm
+                    .str_info_grid_3
+                        .str_info_label
+                            | Märksõnad
+                        .str_info_value_keywords
+                            | #kunst #võimalikkus
+
+
