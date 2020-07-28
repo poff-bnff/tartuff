@@ -588,6 +588,27 @@ p
         grid-template-columns auto 1fr
         height 100px
 
+
+    nav
+        ul
+            display flex
+            justify-content flex-end
+            align-items flex-end
+            li
+                height 100%
+                margin 0
+                padding-left 1.2rem
+                padding-right 1.2rem
+                padding-top 1rem
+                padding-bottom 1rem
+                border 1px solid rgba(255, 255, 255, 0)
+                &:hover
+                background-color bg_dark_2
+                border-top 1px solid clr_primary
+                a
+                &:hover
+                    color white_96
+
     .main_menu
         grid-column 2 / 3
         display flex
@@ -598,43 +619,23 @@ p
         margin 0
         padding 0
         padding-right 1.2rem
-        ul
-            display flex
-            justify-content flex-end
-            align-items flex-end
-    nav
-        li
-            height 100%
-            margin 0
-            padding-left 1.2rem
-            padding-right 1.2rem
-            padding-top 1rem
-            padding-bottom 1rem
-            border 1px solid rgba(255, 255, 255, 0)
-            &:hover
-            background-color bg_dark_2
-            border-top 1px solid clr_primary
-            a
-            &:hover
-                color white_96
 
-    .main_menu
         ul
-            li
-            &.dropdown
+            li.dropdown
                 ul
-                background-color bg_dark_2
-                position absolute
-                left 0
-                padding-left 0
-                width max-content
-                display none
-                li
-                    a
-                    text-transform none
+                    background-color bg_dark_2
+                    position absolute
+                    left 0
+                    padding-left 0
+                    width max-content
+                    display none
+                    li
+                        a
+                            text-transform none
                 &:hover
-                ul
-                    display block
+                    ul
+                        display block
+
     .logo
         grid-column 1 / 2
         justify-content flex-start
