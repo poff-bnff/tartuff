@@ -1,417 +1,358 @@
 doctype html
 html(lang='en')
-  // KOMMENTAAR Shift-Option-Aclear
+    // KOMMENTAAR Shift-Option-Aclear
 
-  // KORRASTA treppimist e Beautify Shift-Alt-F
-  head
-    // Required meta tags
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    // Bootstrap CSS
-    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', integrity='sha384-Vkoo8x4CGsO3+Hhxvž8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh', crossorigin='anonymous')
-    // Fondid, fonts.google.com
-    link(href='https://fonts.googleapis.com/css?family=Barlow:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css?family=Lato:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap', rel='stylesheet')
-    link(href='/style.css', rel='stylesheet')
+    // KORRASTA treppimist e Beautify Shift-Alt-F
+    head
+        // Required meta tags
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        // Bootstrap CSS
+        link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxvž8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
+        // Fondid, fonts.google.com
+        link(href='https://fonts.googleapis.com/css?family=Barlow:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Lato:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,300i,400,400i,500,500i,600&display=swap&subset=latin-ext' rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap' rel='stylesheet')
+        link(href='/style.css' rel='stylesheet')
 
-    title TartuFF film
-  body
-    // HEADER, scrolling to hide
-    header
-      .logo
-        a(href='#')
-          img.logo_img(alt='PÖFF', data-src='img/tartuff_logo_white.svg', src='img/tartuff_logo_white.svg')
-      input#main_menu_toggle.main_menu_toggle(type='checkbox')
-      nav.main_menu
-        ul
-          li
-            a(href='#') Uudised
-          li.dropdown
-            a(href='#') Filmid
-            ul
-              li
-                a(href='#') Film 1
-              li
-                a(href='#') Film pika nimega
-              li
-                a(href='#') Film veel pikema nimega
-              li
-                a(href='#') Film numero quatre
-          li
-            a(href='#') Piletid
-          li
-            a(href='#') Press
-          li
-            a(href='#') Festivalist
-          li
-            a(href='#') Toetajad
-      label.main_menu_toggle_label(for='main_menu_toggle')
-        span
-    // Sisu
-    main.grid_film
-      section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel', data-interval='6000')
-        ol.carousel-indicators
-          li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
-          li(data-target='#carouselExampleIndicators', data-slide-to='1')
-          li(data-target='#carouselExampleIndicators', data-slide-to='2')
-          li(data-target='#carouselExampleIndicators', data-slide-to='3')
-          li(data-target='#carouselExampleIndicators', data-slide-to='4')
-        .carousel-inner.container_frame_16_9
-          .carousel-item.active.container_contents_16_9
-            img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_5_Malpaso.jpg', alt='Malpaso / First slide')
-          .carousel-item.container_contents_16_9
-            img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg', alt='Malpaso / Second slide')
-          .carousel-item.container_contents_16_9
-            img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_3_Malpaso.jpg', alt='Malpaso / Third slide')
-          .carousel-item.container_contents_16_9
-            img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_4_Malpaso.jpg', alt='Malpaso / Fourth slide')
-          .carousel-item.container_contents_16_9
-            img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_1_Malpaso.jpg', alt='Malpaso / Fifth slide')
-        a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
-          // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          svg.svg_icon_prev_next(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            polyline(points='15 18 9 12 15 6')
-          span.sr-only Previous
-        a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
-          // <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          svg.svg_icon_prev_next(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            polyline(points='9 18 15 12 9 6')
-          span.sr-only Next
-      section.f_title_box
-        .premiere_type
-          | Esilinastus
-        h1.film_title_detailed
-          | Marcel Duchamp ja võimalikkuse kunst
-        .str_info_blokk_1
-          .str_info_grid_3
-            .str_info_label
-              | Pealkiri inglise keeles
-            .str_info_value
-              | Marcel Duchamp: The Art of Possible
-          .str_info_grid_3
-            .str_info_label
-              | Režissöör
-            .str_info_value.clr_primary
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Riik
-            .str_info_value
-              | USA, Saksamaa
-          .str_info_grid_3
-            .str_info_label
-              | Aasta
-            .str_info_value
-              | 2020
-      section.f_synopsis_box
-        .str_info_meta_gi
-          .str_info_meta_item
-            .str_info_meta_label
-              | Festival
-            .str_info_meta_festival
-              | Tartuff
-          .str_info_meta_item
-            .str_info_meta_label
-              | Programm
-            .str_info_meta_program
-              | Foorum, Põhjusega mässajad
-          .str_info_meta_item
-            .str_info_meta_label
-              | Žanr
-            .str_info_meta_genre
-              | Draama
-          .str_info_meta_item
-            .str_info_meta_label
-              | Märksõnad
-            .str_info_meta_keywords
-              | #armastus #armumine #suhted
-        .synopsis_gi
-          p
-            | Ühest 20. sajandi olulisemast kunstnikust Marcel Duchampist, tema pärandist ja mõjust annab põhjaliku ülevaate Matthew Taylori dokumentaalfilm 'Marcel Duchamp ja võimalikkuse kunst'. Kunstniku loomingut mõtestavad Jeff Koons, Marina Abramović, David Bowie ja paljud teised suurnimed.
-      section.f_cred_box
-        .str_info_blokk_cred
-          .str_info_grid_3
-            .str_info_label
-              | Režissöör
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Stsenarist
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Osades
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Produtsent
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Operaator
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Muusika
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Monteerija
-            .str_info_value
-              | Matthew Taylor
-          .str_info_grid_3
-            .str_info_label
-              | Produktsioon
-            .str_info_value
-              | Matthew Taylor
-      section.f_runtime_box
-        .str_info_grid_3
-          .str_info_label
-            | Keel
-          .str_info_value
-            | inglise, saksa
-        .str_info_grid_3
-          .str_info_label
-            | Subtiitrid
-          .str_info_value
-            | eesti, vene
-        .str_info_grid_3
-          .str_info_label
-            | Kestus
-          .str_info_value
-            | 108 min
-        .str_info_grid_3
-          .str_info_label
-            | Festivalid
-          .str_info_value
-            | Cannes, Toronto, Venice
-      section.f_screenings_box
-        div
-          h1.section_headline_back
-            | Seansid
-        .card-deck.m-o.p-0
-          .card.card_screening.rounded-0.border-0
-            .card-header.rounded-0.bg_dark_4
-              .grid_container_screening_time
+        title TartuFF film
+    body
+        // HEADER, scrolling to hide
+        include ../_templates/header.pug
+        // Sisu
+        main.grid_film
+            section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
+                ol.carousel-indicators
+                    li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='1')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='2')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='3')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='4')
+                .carousel-inner.container_frame_16_9
+                    .carousel-item.active.container_contents_16_9
+                        img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_5_Malpaso.jpg' alt='Malpaso / First slide')
+                    .carousel-item.container_contents_16_9
+                        img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
+                    .carousel-item.container_contents_16_9
+                        img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_3_Malpaso.jpg' alt='Malpaso / Third slide')
+                    .carousel-item.container_contents_16_9
+                        img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_4_Malpaso.jpg' alt='Malpaso / Fourth slide')
+                    .carousel-item.container_contents_16_9
+                        img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_1_Malpaso.jpg' alt='Malpaso / Fifth slide')
+                a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
+                    // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                        polyline(points='15 18 9 12 15 6')
+                    span.sr-only Previous
+                a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
+                    // <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                        polyline(points='9 18 15 12 9 6')
+                    span.sr-only Next
+            section.f_title_box
+                .premiere_type
+                    | Esilinastus
+                h1.film_title_detailed
+                    | Marcel Duchamp ja võimalikkuse kunst
+                .str_info_blokk_1
+                    .str_info_grid_3
+                        .str_info_label
+                            | Pealkiri inglise keeles
+                        .str_info_value
+                            | Marcel Duchamp: The Art of Possible
+                    .str_info_grid_3
+                        .str_info_label
+                            | Režissöör
+                        .str_info_value.clr_primary
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Riik
+                        .str_info_value
+                            | USA, Saksamaa
+                    .str_info_grid_3
+                        .str_info_label
+                            | Aasta
+                        .str_info_value
+                            | 2020
+            section.f_synopsis_box
+                .str_info_meta_gi
+                    .str_info_meta_item
+                        .str_info_meta_label
+                            | Festival
+                        .str_info_meta_festival
+                            | Tartuff
+                    .str_info_meta_item
+                        .str_info_meta_label
+                            | Programm
+                        .str_info_meta_program
+                            | Foorum, Põhjusega mässajad
+                    .str_info_meta_item
+                        .str_info_meta_label
+                            | Žanr
+                        .str_info_meta_genre
+                            | Draama
+                    .str_info_meta_item
+                        .str_info_meta_label
+                            | Märksõnad
+                        .str_info_meta_keywords
+                            | #armastus #armumine #suhted
+                .synopsis_gi
+                    p
+                        | Ühest 20. sajandi olulisemast kunstnikust Marcel Duchampist, tema pärandist ja mõjust annab põhjaliku ülevaate Matthew Taylori dokumentaalfilm 'Marcel Duchamp ja võimalikkuse kunst'. Kunstniku loomingut mõtestavad Jeff Koons, Marina Abramović, David Bowie ja paljud teised suurnimed.
+            section.f_cred_box
+                .str_info_blokk_cred
+                    .str_info_grid_3
+                        .str_info_label
+                            | Režissöör
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Stsenarist
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Osades
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Produtsent
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Operaator
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Muusika
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Monteerija
+                        .str_info_value
+                            | Matthew Taylor
+                    .str_info_grid_3
+                        .str_info_label
+                            | Produktsioon
+                        .str_info_value
+                            | Matthew Taylor
+            section.f_runtime_box
+                .str_info_grid_3
+                    .str_info_label
+                        | Keel
+                    .str_info_value
+                        | inglise, saksa
+                .str_info_grid_3
+                    .str_info_label
+                        | Subtiitrid
+                    .str_info_value
+                        | eesti, vene
+                .str_info_grid_3
+                    .str_info_label
+                        | Kestus
+                    .str_info_value
+                        | 108 min
+                .str_info_grid_3
+                    .str_info_label
+                        | Festivalid
+                    .str_info_value
+                        | Cannes, Toronto, Venice
+            section.f_screenings_box
                 div
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    rect(x='3', y='4', width='18', height='18', rx='2', ry='2')
-                    line(x1='16', y1='2', x2='16', y2='6')
-                    line(x1='8', y1='2', x2='8', y2='6')
-                    line(x1='3', y1='10', x2='21', y2='10')
-                  span.screening_date
-                    | 15. nov
-                    span.screening_weekday , Esmaspäev
-                .text-right
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    circle(cx='12', cy='12', r='10')
-                    polyline(points='12 6 12 12 16 14')
-                  span.screening_time
-                    | 17:30
-              .container_screening_location
-                svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                  path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
-                  circle(cx='12', cy='10', r='3')
-                span.screening_hall
-                  | iSense saal
-                  span.screening_venue
-                    | , Coca-Cola Plaza
-                    span.city , Tallinn
-            .card-body.bg_dark_3
-              .screening_info_blokk
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Screening
-                  span.screening_info_value
-                    | 020402 / Coming Home Again
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Subtitles
-                  span.screening_info_value
-                    | English, Estonian
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Q&A presenter
-                  span.screening_info_value.hoff_red
-                    | Javier Garcia Puerto
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Q&A guests
-                  span.screening_info_value
-                    | Wayne Wang
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Scr duration
-                  span.screening_info_value
-                    | 1 h 50 min
-            .btn-group(role='group', aria-label='Buttons')
-              a.btn.btn_secondary.active(href='#', role='button') Add screening to my schedule
-              a.btn.btn_primary.active(href='#', role='button') Osta pilet
-          .card.card_screening.rounded-0.border-0
-            .card-header.rounded-0.bg_dark_4
-              .grid_container_screening_time
-                div
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    rect(x='3', y='4', width='18', height='18', rx='2', ry='2')
-                    line(x1='16', y1='2', x2='16', y2='6')
-                    line(x1='8', y1='2', x2='8', y2='6')
-                    line(x1='3', y1='10', x2='21', y2='10')
-                  span.screening_date
-                    | 18. nov
-                    span.screening_weekday , Kolmapäev
-                .text-right
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    circle(cx='12', cy='12', r='10')
-                    polyline(points='12 6 12 12 16 14')
-                  span.screening_time
-                    | 19:00
-              .container_screening_location
-                svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                  path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
-                  circle(cx='12', cy='10', r='3')
-                span.screening_hall
-                  | Saal 3
-                  span.screening_venue
-                    | , Apollo Kino Solaris
-                    span.city , Tallinn
-            .card-body.bg_dark_3
-              .screening_info_blokk
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Screening
-                  span.screening_info_value
-                    | 050603 / Coming Home Again
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Subtitles
-                  span.screening_info_value
-                    | English, Estonian
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Q&A presenter
-                  span.screening_info_value.hoff_red
-                    | Javier Garcia Puerto
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Q&A guests
-                  span.screening_info_value
-                    | Wayne Wang
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Scr duration
-                  span.screening_info_value
-                    | 1 h 50 min
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Additional info
-                  span.screening_info_value
-                    | Mi adipiscing habitant tincidunt sed mattis sem. Blandit sodales sit eu, porttitor nullam imperdiet.
-            .btn-group(role='group', aria-label='Buttons')
-              a.btn.btn_secondary.active(href='#', role='button') Add screening to my schedule
-              a.btn.btn_primary.active(href='#', role='button') Osta pilet
-          .card.card_screening.rounded-0.border-0
-            .card-header.rounded-0.bg_dark_4
-              .grid_container_screening_time
-                div
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    rect(x='3', y='4', width='18', height='18', rx='2', ry='2')
-                    line(x1='16', y1='2', x2='16', y2='6')
-                    line(x1='8', y1='2', x2='8', y2='6')
-                    line(x1='3', y1='10', x2='21', y2='10')
-                  span.screening_date
-                    | 22. nov
-                    span.screening_weekday , Pühapäev
-                .text-right
-                  svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                    circle(cx='12', cy='12', r='10')
-                    polyline(points='12 6 12 12 16 14')
-                  span.screening_time
-                    | 22:00
-              .container_screening_location
-                svg.svg_icon(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-                  path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
-                  circle(cx='12', cy='10', r='3')
-                span.screening_hall
-                  | Sõprus
-                  span.screening_venue
-                    | , Kino Sõprus
-                    span.city , Tallinn
-            .card-body.bg_dark_3
-              .screening_info_blokk
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Screening
-                  span.screening_info_value
-                    | 091004 / Coming Home Again
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Subtitles
-                  span.screening_info_value
-                    | English, Estonian
-                .str_info_grid_3
-                  span.screening_info_label
-                    | Scr duration
-                  span.screening_info_value
-                    | 1 h 20 min
-            .btn-group(role='group', aria-label='Buttons')
-              a.btn.btn_secondary.active(href='#', role='button') Add screening to my schedule
-              a.btn.btn_primary.active(href='#', role='button') Osta pilet
-      section.f_dir_bio_box
-        .dir_img
-          img.img_dir(src='img/r_fatih_akin.jpg')
-          .str_info_grid_3
-            .str_info_label.text_left
-              | Režissöör
-            .str_info_value.text_right
-              | Fatih Akin
-        .dir_bio
-          p
-            | Rezhissööri tutvustus ja filmograafia
-      section.f_extra_box
-      section.f_trailer_box
-      section.f_imgs_box
-    footer
-      .social
-        a(href='https://www.facebook.com/tallinnblacknightsff/', target='_blank')
-          svg.svg_icon_footer(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            path(d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z')
-        a(href='https://www.instagram.com/tallinnblacknightsff/', target='_blank')
-          svg.svg_icon_footer(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            rect(x='2', y='2', width='20', height='20', rx='5', ry='5')
-            path(d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z')
-            line(x1='17.5', y1='6.5', x2='17.51', y2='6.5')
-        a(href='https://www.youtube.com/user/Poffihunt', target='_blank')
-          svg.svg_icon_footer(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            path(d='M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z')
-            polygon(points='9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02')
-        a(href='https://twitter.com/tallinnbnff', target='_blank')
-          svg.svg_icon_footer(viewBox='0 0 24 24', width='24', height='24', stroke='white', stroke-width='1', fill='none', stroke-linecap='round', stroke-linejoin='round')
-            path(d='M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z')
-      div
-        | teine
-    // Optional JavaScript
-    // jQuery first, then Popper.js, then Bootstrap JS
-    script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js', integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n', crossorigin='anonymous')
-    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
-    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6', crossorigin='anonymous')
-    script(type='text/javascript').
-      $(function () {
-      $("[rel='tooltip']").tooltip();
-      });
-      $(function () {
-      $('[data-toggle="popover"]').popover()
-      });
+                    h1.section_headline_back
+                        | Seansid
+                .card-deck.m-o.p-0
+                    .card.card_screening.rounded-0.border-0
+                        .card-header.rounded-0.bg_dark_4
+                            .grid_container_screening_time
+                                div
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        rect(x='3' y='4' width='18' height='18' rx='2' ry='2')
+                                        line(x1='16' y1='2' x2='16' y2='6')
+                                        line(x1='8' y1='2' x2='8' y2='6')
+                                        line(x1='3' y1='10' x2='21' y2='10')
+                                    span.screening_date
+                                        | 15. nov
+                                        span.screening_weekday , Esmaspäev
+                                .text-right
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        circle(cx='12' cy='12' r='10')
+                                        polyline(points='12 6 12 12 16 14')
+                                    span.screening_time
+                                        | 17:30
+                            .container_screening_location
+                                svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                    path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
+                                    circle(cx='12' cy='10' r='3')
+                                span.screening_hall
+                                    | iSense saal
+                                    span.screening_venue
+                                        | , Coca-Cola Plaza
+                                        span.city , Tallinn
+                        .card-body.bg_dark_3
+                            .screening_info_blokk
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Screening
+                                    span.screening_info_value
+                                        | 020402 / Coming Home Again
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Subtitles
+                                    span.screening_info_value
+                                        | English, Estonian
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Q&A presenter
+                                    span.screening_info_value.hoff_red
+                                        | Javier Garcia Puerto
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Q&A guests
+                                    span.screening_info_value
+                                        | Wayne Wang
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Scr duration
+                                    span.screening_info_value
+                                        | 1 h 50 min
+                        .btn-group(role='group' aria-label='Buttons')
+                            a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
+                            a.btn.btn_primary.active(href='#' role='button') Osta pilet
+                    .card.card_screening.rounded-0.border-0
+                        .card-header.rounded-0.bg_dark_4
+                            .grid_container_screening_time
+                                div
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        rect(x='3' y='4' width='18' height='18' rx='2' ry='2')
+                                        line(x1='16' y1='2' x2='16' y2='6')
+                                        line(x1='8' y1='2' x2='8' y2='6')
+                                        line(x1='3' y1='10' x2='21' y2='10')
+                                    span.screening_date
+                                        | 18. nov
+                                        span.screening_weekday , Kolmapäev
+                                .text-right
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        circle(cx='12' cy='12' r='10')
+                                        polyline(points='12 6 12 12 16 14')
+                                    span.screening_time
+                                        | 19:00
+                            .container_screening_location
+                                svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                    path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
+                                    circle(cx='12' cy='10' r='3')
+                                span.screening_hall
+                                    | Saal 3
+                                    span.screening_venue
+                                        | , Apollo Kino Solaris
+                                        span.city , Tallinn
+                        .card-body.bg_dark_3
+                            .screening_info_blokk
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Screening
+                                    span.screening_info_value
+                                        | 050603 / Coming Home Again
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Subtitles
+                                    span.screening_info_value
+                                        | English, Estonian
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Q&A presenter
+                                    span.screening_info_value.hoff_red
+                                        | Javier Garcia Puerto
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Q&A guests
+                                    span.screening_info_value
+                                        | Wayne Wang
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Scr duration
+                                    span.screening_info_value
+                                        | 1 h 50 min
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Additional info
+                                    span.screening_info_value
+                                        | Mi adipiscing habitant tincidunt sed mattis sem. Blandit sodales sit eu, porttitor nullam imperdiet.
+                        .btn-group(role='group' aria-label='Buttons')
+                            a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
+                            a.btn.btn_primary.active(href='#' role='button') Osta pilet
+                    .card.card_screening.rounded-0.border-0
+                        .card-header.rounded-0.bg_dark_4
+                            .grid_container_screening_time
+                                div
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        rect(x='3' y='4' width='18' height='18' rx='2' ry='2')
+                                        line(x1='16' y1='2' x2='16' y2='6')
+                                        line(x1='8' y1='2' x2='8' y2='6')
+                                        line(x1='3' y1='10' x2='21' y2='10')
+                                    span.screening_date
+                                        | 22. nov
+                                        span.screening_weekday , Pühapäev
+                                .text-right
+                                    svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                        circle(cx='12' cy='12' r='10')
+                                        polyline(points='12 6 12 12 16 14')
+                                    span.screening_time
+                                        | 22:00
+                            .container_screening_location
+                                svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+                                    path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
+                                    circle(cx='12' cy='10' r='3')
+                                span.screening_hall
+                                    | Sõprus
+                                    span.screening_venue
+                                        | , Kino Sõprus
+                                        span.city , Tallinn
+                        .card-body.bg_dark_3
+                            .screening_info_blokk
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Screening
+                                    span.screening_info_value
+                                        | 091004 / Coming Home Again
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Subtitles
+                                    span.screening_info_value
+                                        | English, Estonian
+                                .str_info_grid_3
+                                    span.screening_info_label
+                                        | Scr duration
+                                    span.screening_info_value
+                                        | 1 h 20 min
+                        .btn-group(role='group' aria-label='Buttons')
+                            a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
+                            a.btn.btn_primary.active(href='#' role='button') Osta pilet
+            section.f_dir_bio_box
+                .dir_img
+                    img.img_dir(src='img/r_fatih_akin.jpg')
+                    .str_info_grid_3
+                        .str_info_label.text_left
+                            | Režissöör
+                        .str_info_value.text_right
+                            | Fatih Akin
+                .dir_bio
+                    p
+                        | Rezhissööri tutvustus ja filmograafia
+            section.f_extra_box
+            section.f_trailer_box
+            section.f_imgs_box
+        include ../_templates/footer.pug
