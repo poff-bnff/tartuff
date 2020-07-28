@@ -1,4 +1,4 @@
-siteTitle: PÖFF
+siteTitle: Tartuff
 root: /
 language:
     et: eesti
@@ -19,4 +19,35 @@ search:
     button: Otsi
 label:
     film:
-        title: Nimi
+        filmOriginalTitle: Algne nimi
+        filmEnglishTitle: Ingliskeelne nimi
+        filmRussianTitle: Venekeelne nimi
+        filmLocalTitle: Nimi
+        filmCountries: Riik
+        filmLanguages: Keel
+        filmYear: Aasta
+        filmDuration: Kestus
+        filmDirector: Režissöör
+        filmProducer: Produtsent
+        filmCoProducer: Kaasprodutsent
+        filmScreenwriter: Stsenarist
+        filmDop: Operaator
+        filmEditor: Monteerija
+        filmComposer: Helilooja
+        filmCast: Osades
+        filmProduction: Produktsioon
+        filmSynopsis: Sünopsis
+        filmTrailer: Treiler
+        filmFestival: Festival
+        filmPremiereType: Esilinastus
+        filmProgramme: Programm
+        filmGenre: Žanr
+        filmKeyword: Märksõnad
+        filmOtherFestivals: Teised festivalid
+        filmAwards: Auhinnad
+        filmScreenings: Seansid
+
+
+
+
+
