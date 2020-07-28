@@ -12,7 +12,7 @@ header
                         ul
                             if self.films
                                 each val in self.films
-                                    li: a(href='#')= val.filmLocalTitle
+                                    li: a(href= val.filmEventivalId)= val.filmTitleEt
                     li
                         a(href='#') Piletid
                     li
