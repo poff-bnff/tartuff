@@ -624,11 +624,12 @@ p
 
     .grid_filmid
         display: grid
-        grid-template-columns: 1fr 1fr 1fr
-        grid-template-rows: auto
-        grid-gap: 1rem
-        padding: 1rem
-        padding-top: 100px
+        // grid-template-columns 1fr 1fr 1fr
+        grid-template-columns repeat(auto-fit, minmax(440px, 1fr))
+        grid-template-rows auto
+        grid-gap 1rem
+        padding 1rem
+        padding-top 100px
 
     .main_menu_toggle_label
         display none
