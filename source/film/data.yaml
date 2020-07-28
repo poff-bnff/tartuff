@@ -1,8 +1,8 @@
 -
     path: '1001'
-    filmLocalTitle: Nähtamatu elu
-    filmOriginalTitle: A Vida Invisivel
-    filmEnglishTitle: Invisible Life of Eurídice Gusmão
+    filmTitleet: Nähtamatu elu
+    filmTitleOriginal: A Vida Invisivel
+    filmTitleen: Invisible Life of Eurídice Gusmão
     filmDirector: Karim Aïnouz
     filmScreenwriter: 'Murilo Hauser, Inés Bortagaray, Karim Aïnouz'
     filmDop: Hélène Louvart
@@ -41,9 +41,9 @@
         finding each other.
 -
     path: '1002'
-    filmLocalTitle: Täiuslik
-    filmOriginalTitle: HaNeshef
-    filmEnglishTitle: Flawless
+    filmTitleet: Täiuslik
+    filmTitleOriginal: HaNeshef
+    filmTitleen: Flawless
     filmDirector: 'Tal Granit, Sharon Maymon'
     filmScreenwriter: 'Tal Granit, Sharon Maymon'
     filmDop: Giora Bejach
@@ -82,9 +82,9 @@
         they have and redefine who they really want to be in this world.
 -
     path: '1003'
-    filmLocalTitle: Hüvasti!
-    filmOriginalTitle: Beol-sae
-    filmEnglishTitle: House of Hummingbird
+    filmTitleet: Hüvasti!
+    filmTitleOriginal: Beol-sae
+    filmTitleen: House of Hummingbird
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
     filmDop: Guk-hyun Kang
@@ -128,9 +128,9 @@
         regular summer that leaves nothing unchanged.
 -
     path: '1004'
-    filmLocalTitle: Õnnejumalanna
-    filmOriginalTitle: La dea fortuna
-    filmEnglishTitle: The Goddess of Fortune
+    filmTitleet: Õnnejumalanna
+    filmTitleOriginal: La dea fortuna
+    filmTitleen: The Goddess of Fortune
     filmDirector: Ferzan Özpetek
     filmScreenwriter: 'Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli'
     filmDop: Gian Filippo Corticelli
@@ -167,9 +167,9 @@
         their life.
 -
     path: '1005'
-    filmLocalTitle: Skeemitajad
-    filmOriginalTitle: ''
-    filmEnglishTitle: Schemers
+    filmTitleet: Skeemitajad
+    filmTitleOriginal: ''
+    filmTitleen: Schemers
     filmDirector: Dave McLean
     filmScreenwriter: |
         Dave McLean, Kyle Titterton
@@ -213,9 +213,9 @@
         celebrates youthful ambition.
 -
     path: '1006'
-    filmLocalTitle: Tšempionid
-    filmOriginalTitle: Campeones
-    filmEnglishTitle: Champions
+    filmTitleet: Tšempionid
+    filmTitleOriginal: Campeones
+    filmTitleen: Champions
     filmDirector: Javier Fesser
     filmScreenwriter: 'David Marqués, Javier Fesser'
     filmDop: Chechu Graf
@@ -253,9 +253,9 @@
         things that matter are what really counts.
 -
     path: '1007'
-    filmLocalTitle: 'Yalda, andestuse öö'
-    filmOriginalTitle: ''
-    filmEnglishTitle: |
+    filmTitleet: 'Yalda, andestuse öö'
+    filmTitleOriginal: ''
+    filmTitleen: |
         Yalda, a Night for Forgiveness
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
@@ -297,9 +297,9 @@
         are forced to relive the past.
 -
     path: '1008'
-    filmLocalTitle: Harjumuse jõud
-    filmOriginalTitle: Tottumiskysymys
-    filmEnglishTitle: Force of Habit
+    filmTitleet: Harjumuse jõud
+    filmTitleOriginal: Tottumiskysymys
+    filmTitleen: Force of Habit
     filmDirector: >-
         Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari, Miia
         Tervo, Elli Toivoniemi, Jenni Toivoniemi
@@ -328,9 +328,9 @@
         try to resolve the situation, but how do the others react?
 -
     path: '1009'
-    filmLocalTitle: Hape
-    filmOriginalTitle: Kislota
-    filmEnglishTitle: ACID
+    filmTitleet: Hape
+    filmTitleOriginal: Kislota
+    filmTitleen: ACID
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
     filmDop: Kseniya Sereda
@@ -367,9 +367,9 @@
         is ripe for them to do things and achieve the status of adult males.
 -
     path: '1010'
-    filmLocalTitle: Viimane portree
-    filmOriginalTitle: ''
-    filmEnglishTitle: Final Portrait
+    filmTitleet: Viimane portree
+    filmTitleOriginal: ''
+    filmTitleen: Final Portrait
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
     filmDop: Danny Cohen
@@ -415,9 +415,9 @@
         of a great artist is a blessing or a curse.
 -
     path: '1011'
-    filmLocalTitle: Maudie
-    filmOriginalTitle: ''
-    filmEnglishTitle: Maudie
+    filmTitleet: Maudie
+    filmTitleOriginal: ''
+    filmTitleen: Maudie
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
     filmDop: Guy Godfree
@@ -453,9 +453,9 @@
         bachelor, Everett Lewis (Ethan Hawke).
 -
     path: '1012'
-    filmLocalTitle: 'Tagaotsitav: Banksy!'
-    filmOriginalTitle: ''
-    filmEnglishTitle: Banksy Most Wanted
+    filmTitleet: 'Tagaotsitav: Banksy!'
+    filmTitleOriginal: ''
+    filmTitleen: Banksy Most Wanted
     filmDirector: 'Aurélia Rouvier, Seamus Haley'
     filmScreenwriter: ''
     filmDop: ''
@@ -497,9 +497,9 @@
         who is hiding behind this name.
 -
     path: '1013'
-    filmLocalTitle: 'Acasa, mu kodu'
-    filmOriginalTitle: ''
-    filmEnglishTitle: 'Acasa, My Home'
+    filmTitleet: 'Acasa, mu kodu'
+    filmTitleOriginal: ''
+    filmTitleen: 'Acasa, My Home'
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
     filmDop: ''
@@ -540,9 +540,9 @@
         society that offers comforts but comes with pressures and conflict?
 -
     path: '1014'
-    filmLocalTitle: Tormipoiss
-    filmOriginalTitle: ''
-    filmEnglishTitle: Storm Boy
+    filmTitleet: Tormipoiss
+    filmTitleOriginal: ''
+    filmTitleen: Storm Boy
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
     filmDop: Bruce Young
@@ -570,9 +570,9 @@
         orphaned pelican, Mr Percival.
 -
     path: '1015'
-    filmLocalTitle: Lammas all paremas nurgas
-    filmOriginalTitle: ''
-    filmEnglishTitle: The Secret Lamb
+    filmTitleet: Lammas all paremas nurgas
+    filmTitleOriginal: ''
+    filmTitleen: The Secret Lamb
     filmDirector: Lembit Ulfsak
     filmScreenwriter: 'Janno Põldma, Lembit Ulsak'
     filmDop: Ago Ruus
@@ -605,9 +605,9 @@
     filmSynopsis_enf: ''
 -
     path: '1016'
-    filmLocalTitle: Marcel Duchamp ja võimalikkuse kunst
-    filmOriginalTitle: ''
-    filmEnglishTitle: 'Marcel Duchamp: Art of the Possible'
+    filmTitleet: Marcel Duchamp ja võimalikkuse kunst
+    filmTitleOriginal: ''
+    filmTitleen: 'Marcel Duchamp: Art of the Possible'
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
     filmDop: ''
@@ -648,9 +648,9 @@
         present day and how does his work shape our future.
 -
     path: '1017'
-    filmLocalTitle: Autoportree
-    filmOriginalTitle: Selvportrett
-    filmEnglishTitle: Self Portrait
+    filmTitleet: Autoportree
+    filmTitleOriginal: Selvportrett
+    filmTitleen: Self Portrait
     filmDirector: 'Katja Høgset, Margreth Olin, Espen Wallin'
     filmScreenwriter: ''
     filmDop: ''
