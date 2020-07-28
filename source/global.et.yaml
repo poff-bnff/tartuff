@@ -46,6 +46,8 @@ label:
         filmOtherFestivals: Teised festivalid
         filmAwards: Auhinnad
         filmScreenings: Seansid
+    screening:
+        screeningSubtitles: Subtiitrid
 films:
 -
     filmEventivalId: '1001'
