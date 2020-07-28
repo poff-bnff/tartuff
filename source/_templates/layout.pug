@@ -39,32 +39,7 @@ html(lang='en')
                     svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                         polyline(points='9 18 15 12 9 6')
                     span.sr-only Next
-            section.f_title_box
-                .premiere_type
-                    | Esilinastus
-                h1.film_title_detailed
-                    | Marcel Duchamp ja võimalikkuse kunst
-                .str_info_blokk_1
-                    .str_info_grid_3
-                        .str_info_label
-                            | Pealkiri inglise keeles
-                        .str_info_value
-                            | Marcel Duchamp: The Art of Possible
-                    .str_info_grid_3
-                        .str_info_label
-                            | Režissöör
-                        .str_info_value.clr_primary
-                            | Matthew Taylor
-                    .str_info_grid_3
-                        .str_info_label
-                            | Riik
-                        .str_info_value
-                            | USA, Saksamaa
-                    .str_info_grid_3
-                        .str_info_label
-                            | Aasta
-                        .str_info_value
-                            | 2020
+            block titleBox
             section.f_synopsis_box
                 .str_info_meta_gi
                     .str_info_meta_item
@@ -338,4 +313,5 @@ html(lang='en')
             section.f_extra_box
             section.f_trailer_box
             section.f_imgs_box
+        block film
         include ../_templates/footer.pug

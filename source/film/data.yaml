@@ -1,54 +1,5 @@
-siteTitle: Tartuff
-root: /
-language:
-    et: eesti
-    en: english
-    ru: русский
-navigation:
-    -
-        url: /riigid/
-        title: Riigid
-    -
-        url: /keeled/
-        title: Keeled
-search:
-    url: /otsing/
-    text: |
-        ### Otsing
-    placeholder: sisesta →
-    button: Otsi
-label:
-    film:
-        filmOriginalTitle: Algne nimi
-        filmEnglishTitle: Ingliskeelne nimi
-        filmRussianTitle: Venekeelne nimi
-        filmLocalTitle: Nimi
-        filmCountries: Riik
-        filmLanguages: Keel
-        filmYear: Aasta
-        filmDuration: Kestus
-        filmDirector: Režissöör
-        filmProducer: Produtsent
-        filmCoProducer: Kaasprodutsent
-        filmScreenwriter: Stsenarist
-        filmDop: Operaator
-        filmEditor: Monteerija
-        filmComposer: Helilooja
-        filmCast: Osades
-        filmProduction: Produktsioon
-        filmSynopsis: Sünopsis
-        filmTrailer: Treiler
-        filmFestival: Festival
-        filmPremiereType: Esilinastus
-        filmProgramme: Programm
-        filmGenre: Žanr
-        filmKeyword: Märksõnad
-        filmOtherFestivals: Teised festivalid
-        filmAwards: Auhinnad
-        filmScreenings: Seansid
-films:
 -
-    filmEventivalId: '1001'
+    path: '1001'
     filmLocalTitle: Nähtamatu elu
     filmOriginalTitle: A Vida Invisivel
     filmEnglishTitle: Invisible Life of Eurídice Gusmão
@@ -89,7 +40,7 @@ films:
         take control of their separate destinies, while never giving up hope of
         finding each other.
 -
-    filmEventivalId: '1002'
+    path: '1002'
     filmLocalTitle: Täiuslik
     filmOriginalTitle: HaNeshef
     filmEnglishTitle: Flawless
@@ -130,7 +81,7 @@ films:
         exposed, all three of them need to come to terms with the prejudices
         they have and redefine who they really want to be in this world.
 -
-    filmEventivalId: '1003'
+    path: '1003'
     filmLocalTitle: Hüvasti!
     filmOriginalTitle: Beol-sae
     filmEnglishTitle: House of Hummingbird
@@ -176,7 +127,7 @@ films:
         With visual precision, Kim Bo-ra weaves a dense narrative around a
         regular summer that leaves nothing unchanged.
 -
-    filmEventivalId: '1004'
+    path: '1004'
     filmLocalTitle: Õnnejumalanna
     filmOriginalTitle: La dea fortuna
     filmEnglishTitle: The Goddess of Fortune
@@ -215,7 +166,7 @@ films:
         daily routine and love will drive them to a crazy and unexpected turn in
         their life.
 -
-    filmEventivalId: '1005'
+    path: '1005'
     filmLocalTitle: Skeemitajad
     filmOriginalTitle: ''
     filmEnglishTitle: Schemers
@@ -261,7 +212,7 @@ films:
         Iron Maiden. Shot in and around Dundee using local talent, Schemers
         celebrates youthful ambition.
 -
-    filmEventivalId: '1006'
+    path: '1006'
     filmLocalTitle: Tšempionid
     filmOriginalTitle: Campeones
     filmEnglishTitle: Champions
@@ -301,7 +252,7 @@ films:
         alongside a team where a desire to live and placing importance on the
         things that matter are what really counts.
 -
-    filmEventivalId: '1007'
+    path: '1007'
     filmLocalTitle: 'Yalda, andestuse öö'
     filmOriginalTitle: ''
     filmEnglishTitle: |
@@ -345,7 +296,7 @@ films:
         TV show and forgive Maryam. But forgiveness proves difficult when they
         are forced to relive the past.
 -
-    filmEventivalId: '1008'
+    path: '1008'
     filmLocalTitle: Harjumuse jõud
     filmOriginalTitle: Tottumiskysymys
     filmEnglishTitle: Force of Habit
@@ -376,7 +327,7 @@ films:
         their boss coming on to her. Miia and a couple of her closest colleagues
         try to resolve the situation, but how do the others react?
 -
-    filmEventivalId: '1009'
+    path: '1009'
     filmLocalTitle: Hape
     filmOriginalTitle: Kislota
     filmEnglishTitle: ACID
@@ -415,7 +366,7 @@ films:
         principal agony is that they grew up without fathers, and now the time
         is ripe for them to do things and achieve the status of adult males.
 -
-    filmEventivalId: '1010'
+    path: '1010'
     filmLocalTitle: Viimane portree
     filmOriginalTitle: ''
     filmEnglishTitle: Final Portrait
@@ -463,7 +414,7 @@ films:
         exhilarating, exasperating and bewildering, questioning whether the gift
         of a great artist is a blessing or a curse.
 -
-    filmEventivalId: '1011'
+    path: '1011'
     filmLocalTitle: Maudie
     filmOriginalTitle: ''
     filmEnglishTitle: Maudie
@@ -501,7 +452,7 @@ films:
         Hawkins) and the unlikely romance between Maud and a hardened reclusive
         bachelor, Everett Lewis (Ethan Hawke).
 -
-    filmEventivalId: '1012'
+    path: '1012'
     filmLocalTitle: 'Tagaotsitav: Banksy!'
     filmOriginalTitle: ''
     filmEnglishTitle: Banksy Most Wanted
@@ -545,7 +496,7 @@ films:
         to claim his work, either legally or emotionally, and to fantasize about
         who is hiding behind this name.
 -
-    filmEventivalId: '1013'
+    path: '1013'
     filmLocalTitle: 'Acasa, mu kodu'
     filmOriginalTitle: ''
     filmEnglishTitle: 'Acasa, My Home'
@@ -588,7 +539,7 @@ films:
         “paradise lost,” with its life free yet harsh, or to become part of the
         society that offers comforts but comes with pressures and conflict?
 -
-    filmEventivalId: '1014'
+    path: '1014'
     filmLocalTitle: Tormipoiss
     filmOriginalTitle: ''
     filmEnglishTitle: Storm Boy
@@ -618,7 +569,7 @@ films:
         childhood and how, as a boy, he rescued and raised an extraordinary
         orphaned pelican, Mr Percival.
 -
-    filmEventivalId: '1015'
+    path: '1015'
     filmLocalTitle: Lammas all paremas nurgas
     filmOriginalTitle: ''
     filmEnglishTitle: The Secret Lamb
@@ -653,7 +604,7 @@ films:
         The film belongs to the classics of Estonian children's films.
     filmSynopsis_enf: ''
 -
-    filmEventivalId: '1016'
+    path: '1016'
     filmLocalTitle: Marcel Duchamp ja võimalikkuse kunst
     filmOriginalTitle: ''
     filmEnglishTitle: 'Marcel Duchamp: Art of the Possible'
@@ -696,7 +647,7 @@ films:
         important; and what is Duchamp’s lasting legacy from his death to
         present day and how does his work shape our future.
 -
-    filmEventivalId: '1017'
+    path: '1017'
     filmLocalTitle: Autoportree
     filmOriginalTitle: Selvportrett
     filmEnglishTitle: Self Portrait
