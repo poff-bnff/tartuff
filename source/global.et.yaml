@@ -20,9 +20,9 @@ search:
 label:
     film:
         filmTitleOriginal: Algne nimi
-        filmTitleEn: Ingliskeelne nimi
-        filmTitleRu: Venekeelne nimi
-        filmTitleEt: Nimi
+        filmTitle_en: Ingliskeelne nimi
+        filmTitle_ru: Venekeelne nimi
+        filmTitle_et: Nimi
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
@@ -49,9 +49,9 @@ label:
 films:
 -
     filmEventivalId: '1001'
-    filmLocalTitle: Nähtamatu elu
-    filmOriginalTitle: A Vida Invisivel
-    filmEnglishTitle: Invisible Life of Eurídice Gusmão
+    filmTitleEt: Nähtamatu elu
+    filmTitleOriginal: A Vida Invisivel
+    filmTitleEn: Invisible Life of Eurídice Gusmão
     filmDirector: Karim Aïnouz
     filmScreenwriter: 'Murilo Hauser, Inés Bortagaray, Karim Aïnouz'
     filmDop: Hélène Louvart
@@ -90,9 +90,9 @@ films:
         finding each other.
 -
     filmEventivalId: '1002'
-    filmLocalTitle: Täiuslik
-    filmOriginalTitle: HaNeshef
-    filmEnglishTitle: Flawless
+    filmTitleEt: Täiuslik
+    filmTitleOriginal: HaNeshef
+    filmTitleEn: Flawless
     filmDirector: 'Tal Granit, Sharon Maymon'
     filmScreenwriter: 'Tal Granit, Sharon Maymon'
     filmDop: Giora Bejach
@@ -131,9 +131,9 @@ films:
         they have and redefine who they really want to be in this world.
 -
     filmEventivalId: '1003'
-    filmLocalTitle: Hüvasti!
-    filmOriginalTitle: Beol-sae
-    filmEnglishTitle: House of Hummingbird
+    filmTitleEt: Hüvasti!
+    filmTitleOriginal: Beol-sae
+    filmTitleEn: House of Hummingbird
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
     filmDop: Guk-hyun Kang
@@ -177,9 +177,9 @@ films:
         regular summer that leaves nothing unchanged.
 -
     filmEventivalId: '1004'
-    filmLocalTitle: Õnnejumalanna
-    filmOriginalTitle: La dea fortuna
-    filmEnglishTitle: The Goddess of Fortune
+    filmTitleEt: Õnnejumalanna
+    filmTitleOriginal: La dea fortuna
+    filmTitleEn: The Goddess of Fortune
     filmDirector: Ferzan Özpetek
     filmScreenwriter: 'Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli'
     filmDop: Gian Filippo Corticelli
@@ -216,9 +216,9 @@ films:
         their life.
 -
     filmEventivalId: '1005'
-    filmLocalTitle: Skeemitajad
-    filmOriginalTitle: ''
-    filmEnglishTitle: Schemers
+    filmTitleEt: Skeemitajad
+    filmTitleOriginal: ''
+    filmTitleEn: Schemers
     filmDirector: Dave McLean
     filmScreenwriter: |
         Dave McLean, Kyle Titterton
@@ -262,9 +262,9 @@ films:
         celebrates youthful ambition.
 -
     filmEventivalId: '1006'
-    filmLocalTitle: Tšempionid
-    filmOriginalTitle: Campeones
-    filmEnglishTitle: Champions
+    filmTitleEt: Tšempionid
+    filmTitleOriginal: Campeones
+    filmTitleEn: Champions
     filmDirector: Javier Fesser
     filmScreenwriter: 'David Marqués, Javier Fesser'
     filmDop: Chechu Graf
@@ -302,9 +302,9 @@ films:
         things that matter are what really counts.
 -
     filmEventivalId: '1007'
-    filmLocalTitle: 'Yalda, andestuse öö'
-    filmOriginalTitle: ''
-    filmEnglishTitle: |
+    filmTitleEt: 'Yalda, andestuse öö'
+    filmTitleOriginal: ''
+    filmTitleEn: |
         Yalda, a Night for Forgiveness
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
@@ -346,9 +346,9 @@ films:
         are forced to relive the past.
 -
     filmEventivalId: '1008'
-    filmLocalTitle: Harjumuse jõud
-    filmOriginalTitle: Tottumiskysymys
-    filmEnglishTitle: Force of Habit
+    filmTitleEt: Harjumuse jõud
+    filmTitleOriginal: Tottumiskysymys
+    filmTitleEn: Force of Habit
     filmDirector: >-
         Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari, Miia
         Tervo, Elli Toivoniemi, Jenni Toivoniemi
@@ -377,9 +377,9 @@ films:
         try to resolve the situation, but how do the others react?
 -
     filmEventivalId: '1009'
-    filmLocalTitle: Hape
-    filmOriginalTitle: Kislota
-    filmEnglishTitle: ACID
+    filmTitleEt: Hape
+    filmTitleOriginal: Kislota
+    filmTitleEn: ACID
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
     filmDop: Kseniya Sereda
@@ -416,9 +416,9 @@ films:
         is ripe for them to do things and achieve the status of adult males.
 -
     filmEventivalId: '1010'
-    filmLocalTitle: Viimane portree
-    filmOriginalTitle: ''
-    filmEnglishTitle: Final Portrait
+    filmTitleEt: Viimane portree
+    filmTitleOriginal: ''
+    filmTitleEn: Final Portrait
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
     filmDop: Danny Cohen
@@ -464,9 +464,9 @@ films:
         of a great artist is a blessing or a curse.
 -
     filmEventivalId: '1011'
-    filmLocalTitle: Maudie
-    filmOriginalTitle: ''
-    filmEnglishTitle: Maudie
+    filmTitleEt: Maudie
+    filmTitleOriginal: ''
+    filmTitleEn: Maudie
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
     filmDop: Guy Godfree
@@ -502,9 +502,9 @@ films:
         bachelor, Everett Lewis (Ethan Hawke).
 -
     filmEventivalId: '1012'
-    filmLocalTitle: 'Tagaotsitav: Banksy!'
-    filmOriginalTitle: ''
-    filmEnglishTitle: Banksy Most Wanted
+    filmTitleEt: 'Tagaotsitav: Banksy!'
+    filmTitleOriginal: ''
+    filmTitleEn: Banksy Most Wanted
     filmDirector: 'Aurélia Rouvier, Seamus Haley'
     filmScreenwriter: ''
     filmDop: ''
@@ -546,9 +546,9 @@ films:
         who is hiding behind this name.
 -
     filmEventivalId: '1013'
-    filmLocalTitle: 'Acasa, mu kodu'
-    filmOriginalTitle: ''
-    filmEnglishTitle: 'Acasa, My Home'
+    filmTitleEt: 'Acasa, mu kodu'
+    filmTitleOriginal: ''
+    filmTitleEn: 'Acasa, My Home'
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
     filmDop: ''
@@ -589,9 +589,9 @@ films:
         society that offers comforts but comes with pressures and conflict?
 -
     filmEventivalId: '1014'
-    filmLocalTitle: Tormipoiss
-    filmOriginalTitle: ''
-    filmEnglishTitle: Storm Boy
+    filmTitleEt: Tormipoiss
+    filmTitleOriginal: ''
+    filmTitleEn: Storm Boy
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
     filmDop: Bruce Young
@@ -619,9 +619,9 @@ films:
         orphaned pelican, Mr Percival.
 -
     filmEventivalId: '1015'
-    filmLocalTitle: Lammas all paremas nurgas
-    filmOriginalTitle: ''
-    filmEnglishTitle: The Secret Lamb
+    filmTitleEt: Lammas all paremas nurgas
+    filmTitleOriginal: ''
+    filmTitleEn: The Secret Lamb
     filmDirector: Lembit Ulfsak
     filmScreenwriter: 'Janno Põldma, Lembit Ulsak'
     filmDop: Ago Ruus
@@ -654,9 +654,9 @@ films:
     filmSynopsis_enf: ''
 -
     filmEventivalId: '1016'
-    filmLocalTitle: Marcel Duchamp ja võimalikkuse kunst
-    filmOriginalTitle: ''
-    filmEnglishTitle: 'Marcel Duchamp: Art of the Possible'
+    filmTitleEt: Marcel Duchamp ja võimalikkuse kunst
+    filmTitleOriginal: ''
+    filmTitleEn: 'Marcel Duchamp: Art of the Possible'
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
     filmDop: ''
@@ -697,9 +697,9 @@ films:
         present day and how does his work shape our future.
 -
     filmEventivalId: '1017'
-    filmLocalTitle: Autoportree
-    filmOriginalTitle: Selvportrett
-    filmEnglishTitle: Self Portrait
+    filmTitleEt: Autoportree
+    filmTitleOriginal: Selvportrett
+    filmTitleEn: Self Portrait
     filmDirector: 'Katja Høgset, Margreth Olin, Espen Wallin'
     filmScreenwriter: ''
     filmDop: ''
