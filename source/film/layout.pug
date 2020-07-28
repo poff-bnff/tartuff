@@ -1,8 +1,10 @@
 extends ../_templates/layout.pug
+include ../_templates/mixins.pug
 
 
 
 block content
+
     main.grid_film
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
@@ -308,8 +310,9 @@ block content
                     | Rezhissööri tutvustus ja filmograafia
         section.f_extra_box
         section.f_trailer_box
+            +youtube("2fXQm4ZLlFg")
         section.f_imgs_box
 
 
-        
+
     block film
