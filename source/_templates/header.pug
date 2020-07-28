@@ -10,14 +10,9 @@ header
                     li.dropdown
                         a(href='#') Filmid
                         ul
-                            li
-                                a(href='#') Film 1
-                            li
-                                a(href='#') Film pika nimega
-                            li
-                                a(href='#') Film veel pikema nimega
-                            li
-                                a(href='#') Film numero quatre
+                            if self.films
+                                each val in self.films
+                                    li: a(href='#')= val.filmLocalTitle
                     li
                         a(href='#') Piletid
                     li
