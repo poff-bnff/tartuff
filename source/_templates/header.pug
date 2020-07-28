@@ -9,8 +9,8 @@ header
                         a(href='#') Uudised
                     li.dropdown
                         a(href='#') Filmid
-                        ul
-                            if self.films
+                        if self.films
+                            ul
                                 each val in self.films
                                     li: a(href= val.filmEventivalId)= val.filmTitleEt
                     li
