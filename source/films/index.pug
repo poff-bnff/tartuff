@@ -12,23 +12,17 @@ block content
                         img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
                     .card_film_title
                         h3.film_title_locale= val.filmTitleEt
-                    .str_info_grid_3
-                        .str_info_label= self.label.film.filmTitle_en
-                        .str_info_value= val.filmTitleEn
-                    .str_info_grid_3
-                        .str_info_label
-                            | Festivali programm
-                        .str_info_value_program
-                            | Tartuff Kunst
-                    .str_info_grid_3
-                        .str_info_label
-                            | Filmi zhanr
-                        .str_info_value_genre
-                            | Dokumentaalfilm
-                    .str_info_grid_3
-                        .str_info_label
-                            | Märksõnad
-                        .str_info_value_keywords
-                            | #kunst #võimalikkus
+                    if val.filmTitleEn
+                        .str_info_grid_3
+                            .str_info_label= self.label.film.filmTitle_en
+                            .str_info_value= val.filmTitleEn
+                    if val.filmDirector
+                        .str_info_grid_3
+                            .str_info_label= self.label.film.filmDirector
+                            .str_info_value_genre= val.filmDirector
+                    if val.filmCast
+                        .str_info_grid_3
+                            .str_info_label= self.label.film.filmCast
+                            .str_info_value_keywords= val.filmCast
 
 
