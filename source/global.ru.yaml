@@ -20,3 +20,5 @@ search:
 label:
     film:
         title: Название
+    screening:
+        screeningSubtitles: Subtiitrid
