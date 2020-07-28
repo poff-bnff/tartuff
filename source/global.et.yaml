@@ -20,9 +20,9 @@ search:
 label:
     film:
         filmTitleOriginal: Algne nimi
-        filmTitleEn: Ingliskeelne nimi
-        filmTitleRu: Venekeelne nimi
-        filmTitleEt: Nimi
+        filmTitle_en: Ingliskeelne nimi
+        filmTitle_ru: Venekeelne nimi
+        filmTitle_et: Nimi
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
