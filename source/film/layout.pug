@@ -280,7 +280,8 @@ block content
 
         section.f_extra_box
         section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-            +youtube("2fXQm4ZLlFg")
+            - youtubeVideoCode = self.filmTrailer.split("=")
+            +youtube(youtubeVideoCode[1])
         section.f_imgs_box
 
 
