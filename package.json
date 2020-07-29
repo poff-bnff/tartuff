@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": ". ./build.sh",
-    "build": "entu-ssg entu-ssg.yaml full",
+    "build": "node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full",
     "dev": "node ./node_modules/entu-ssg/src/serve.js ./entu-ssg.yaml full"
   },
   "repository": {
