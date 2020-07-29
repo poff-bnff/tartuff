@@ -1,1 +1,3 @@
 path: ''
+data:
+    pictures: ../pictures.yaml
