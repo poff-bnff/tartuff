@@ -23,7 +23,7 @@ jobs:
               run: node ./helpers/compile_pictures.js
 
             - name: Build Project
-              run: entu-ssg entu-ssg.yaml full
+              run: node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full
 
             - name: List output files
               run: ls
