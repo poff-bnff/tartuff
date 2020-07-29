@@ -28,8 +28,8 @@ block content
     if self.films
         main.grid_filmid
             each val in self.films
-                a(href= val.filmEventivalId)
-                    section.card_film
+                a(href= val.filmEventivalId).card_film
+                    section
                         .container_frame_16_9
                             img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
                         .card_film_title
