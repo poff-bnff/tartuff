@@ -34,3 +34,4 @@ jobs:
                   ftp-server: ${{ secrets.FTP_DEV_ADDRESS }}
                   ftp-username: ${{ secrets.FTP_DEV_USER }}
                   ftp-password: ${{ secrets.FTP_DEV_PASS }}
+                  local-dir: build
