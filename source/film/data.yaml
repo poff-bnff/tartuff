@@ -1,8 +1,9 @@
 -
     path: '1001'
-    filmTitleet: Nähtamatu elu
+    filmSlug: invisible-life-of-eurdice-gusmo
+    filmTitle_et: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
-    filmTitleen: Invisible Life of Eurídice Gusmão
+    filmTitle_en: Invisible Life of Eurídice Gusmão
     filmDirector: Karim Aïnouz
     filmScreenwriter: 'Murilo Hauser, Inés Bortagaray, Karim Aïnouz'
     filmDop: Hélène Louvart
@@ -16,21 +17,21 @@
     filmCountries: 'Brasiilia, Saksamaa / Brazil, Germany'
     filmYear: '2019'
     filmDuration: '2.19'
-    filmSynopsis_et: >-
+    filmSynopsis_et: >
         Filmi tegevus toimub 1950ndatel Rio de Janeiros. Gusmãode perekonnas
-        sirguvad kaks erineva iseloomuga õde: Guida naudib kogu hingega elu,
-        Eurídice on täielikult pühendud klaverimängule. Guida armub, abiellub
-        kreeka noormehega ning lahkub kodust. Abielu ei lähe aga sugugi
-        „roosiliselt“ ning ta pöördub koju tagasi. Noorte naiste isa on
+        sirgub kaks erineva iseloomuga õde: Guida naudib kogu hingega elu,
+        Eurídice on pühendud klaverimängule. Guida armub, abiellub kreeka
+        noormehega ning lahkub omavoliliselt kodust. Abielu ei lähe aga
+        „roosiliselt“ ning ta pöördub tagasi. Paraku on noorte naiste isa
         patriarhaalse mõttelaadiga ja et perekonnale mitte häbi teha, suleb ta
-        Guida ees ukse. Kuna kommunikatsioonivahendid on minimaalsed, siis
-        kaotavad õed omavahel kontakti. Guida ja Eurídice elavad aga eraldatult
-        edasi, elavad nii nagu oskavad ja võtavad vastu kõik selle, mida saatus
-        neile toob.
+        Guida ees ukse. Õed kaotavad omavahel kontakti, kuid ei jäta lootust
+        ükskord jälle kohtuda. Nad elavad nagu oskavad ja võtavad vastu selle,
+        mille saatus neile toob.
+
 
         Lugu põhineb Martha Batalha romaanil „Eurídice Gusmão nähtamatu elu“.
-        Film linastus 2019. aastal Cannes’i filmifestivalil programmis „Un
-        Certain Regard“ ja võitis peaauhinna.
+        Film linastus 2019. aastal mainekal Cannes’i filmifestivalil programmis
+        „Un Certain Regard“ ja võitis seal peaauhinna.
     filmSynopsis_en: >
         Rio de Janeiro, 1950. Eurídice, 18, and Guida, 20, are two inseparable
         sisters living at home with their conservative parents. Although
@@ -41,9 +42,10 @@
         finding each other.
 -
     path: '1002'
-    filmTitleet: Täiuslik
+    filmSlug: flawless
+    filmTitle_et: Täiuslik
     filmTitleOriginal: HaNeshef
-    filmTitleen: Flawless
+    filmTitle_en: Flawless
     filmDirector: 'Tal Granit, Sharon Maymon'
     filmScreenwriter: 'Tal Granit, Sharon Maymon'
     filmDop: Giora Bejach
@@ -55,7 +57,7 @@
     filmCountries: 'Iisrael, Saksamaa / Israel, Germany'
     filmYear: '2018'
     filmDuration: '1.37'
-    filmSynopsis_et: >-
+    filmSynopsis_et: >
         Kas sina loovutaksid kellelegi oma neeru? Aga mis siis, kui sa saaksid
         selle eest vastutasuks kopsaka summa raha? Ja teeksid teoks oma kõige
         suurema unistuse?
@@ -71,7 +73,7 @@
         režissöörid Sharon Maymon ja Tal Granit toovad meieni inimliku ja
         liigutava loo sõprusest, aktsepteerimisest ja iseendale otsa
         vaatamisest.
-    filmSynopsis_en: >-
+    filmSynopsis_en: >
         Eden a 17-year-old high school student discovers that her two best
         friends are planning to sell their kidneys to pay for cosmetic surgery
         and a dress for prom. Eden, who is secretly a trans woman, realizes that
@@ -82,9 +84,10 @@
         they have and redefine who they really want to be in this world.
 -
     path: '1003'
-    filmTitleet: Hüvasti!
+    filmSlug: house-of-hummingbird
+    filmTitle_et: Hüvasti!
     filmTitleOriginal: Beol-sae
-    filmTitleen: House of Hummingbird
+    filmTitle_en: House of Hummingbird
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
     filmDop: Guk-hyun Kang
@@ -96,28 +99,28 @@
     filmCountries: Lõuna Korea / South Korea
     filmYear: '2018'
     filmDuration: '2.18'
-    filmSynopsis_et: >-
-        Noore koolitüdruku Eunhee isiklikud läbielamised, esimene armastus ja
-        tulevikuväljavaated ristuvad selles auhinnatud tippdraamas sündmustega
-        Lõuna-Korea ühiskonnas, kulmineerudes Seongsuu silla kokkuvarisemisega
-        1994. aasta sügisel.
+    filmSynopsis_et: >
+        Koolitüdruk Eun-hee isiklikud läbielamised, esimene armastus ja
+        tulevikuväljavaated ristuvad selles auhinnatud tippdraamas Lõuna-Korea
+        ühiskonnas aset leidvate sündmustega, mis kulmineeruvad Seongsuu silla
+        kokkuvarisemisega 1994. aasta sügisel.
 
         Nagu kogu ülejäänud maailm, elavad ka lõunakorealased palavalt kaasa
         1994. aasta jalgpalli maailmameistrivõistlusetele ja ootavad uudiseid
         põhjanaabrite juurest, kus on äsja surnud „Suur Juht“ Kim Il-sung.
 
         Täiskasvanute maailm ja nende tegemised, aga ka kool ja kaasõpilased
-        jätavad külmaks Seouli 8-klassi õpilase Eunhee, kelle vanemad on päevast
-        päeva üksteise kõri kallal. Ka esimene armastus ei sisenda noorele
-        neiule erilist usku paremasse tulevikku. Piinavaks muutuvasse olukorda
-        toob leevendust uus hiina keele õpetaja, kellega noorel neiul tekib
-        omapärane side. Kuid kui uudistesse jõuavad ärevad teated Seongsuu silla
-        kokkuvarisemisest ja inimohvritest, saab Eunhee aru, et möödunud suvi ja
-        algav sügis toovad tema ellu pöörde, mida kutsutakse täiskasvanuks
-        saamiseks.
+        jätavad külmaks Seouli 8-klassi õpilase Eun-hee, kelle vanemad on
+        päevast päeva üksteise kõri kallal. Ka esimene armastus ei sisenda
+        noorele neiule erilist usku paremasse tulevikku. Piinavaks muutuvasse
+        olukorda toob leevendust uus hiina keele õpetaja, kellega noorel neiul
+        tekib omapärane side. Kuid kui uudistesse jõuavad ärevad teated Seongsuu
+        silla kokkuvarisemisest ja inimohvritest, saab Eun-hee aru, et möödunud
+        suvi ja algav sügis toovad tema ellu pöörde, mida kutsutakse
+        täiskasvanuks saamiseks.
     filmSynopsis_en: >
         Korea, 1994. The South is in the grips of FIFA World Cup fever, while
-        the North mourns its newly deceased dictator. Eunhee registers all of
+        the North mourns its newly deceased dictator. Eun-hee registers all of
         this only in passing. Drifting through her days in Seoul, the
         eighth-grader feels like an outsider everywhere: at school, where her
         classmates bore her even more than the schoolwork, and at home, where
@@ -128,9 +131,10 @@
         regular summer that leaves nothing unchanged.
 -
     path: '1004'
-    filmTitleet: Õnnejumalanna
+    filmSlug: the-goddess-of-fortune
+    filmTitle_et: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
-    filmTitleen: The Goddess of Fortune
+    filmTitle_en: The Goddess of Fortune
     filmDirector: Ferzan Özpetek
     filmScreenwriter: 'Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli'
     filmDop: Gian Filippo Corticelli
@@ -167,9 +171,10 @@
         their life.
 -
     path: '1005'
-    filmTitleet: Skeemitajad
+    filmSlug: schemers
+    filmTitle_et: Skeemitajad
     filmTitleOriginal: ''
-    filmTitleen: Schemers
+    filmTitle_en: Schemers
     filmDirector: Dave McLean
     filmScreenwriter: |
         Dave McLean, Kyle Titterton
@@ -182,28 +187,28 @@
     filmCountries: Suurbritannia
     filmYear: '2019'
     filmDuration: '1.31'
-    filmSynopsis_et: >-
-        Kultusfilmi „Trainspotting” vaibiga komöödia režissöör David McLeani
+    filmSynopsis_et: >
+        Kultusfilmi „Trainspotting” vaibiga komöödia režissöör Dave McLeani
         noorpõlveajast, mis viib vaataja varajastesse kaheksakümnendatesse, kui
         Dundee-nimelises väikelinnas kusagil Ida-Šotimaa pärapõrgus ehk kohas,
         millest keegi polnud suures muusikaäris midagi kuulnud, alustasid kolm
-        elujanulist noormeest tõusvate Briti bändide reklaamimist.
+        elujanulist noormeest tõusvate Briti bändide produtsentidena.
 
         Pärast jalgpallikarjäärist loobumist hakkab Dave (Conor Barry) koos kahe
         semuga mõtlema noorte ja vihaste bändide esindamisele, tuues neid Dundee
-        ööklubidesse esinema. Kuigi nende karjäär ei tõota algul tulla just
+        ööklubidesse esinema. Kuigi nende karjäär ei tõota tulla just
         paljulubav, sest muusikaärist tahavad ampsu saada kõik, ka gangsterid,
         terendavad peagi noormeeste silme ees suur raha, glamuur ja hiilgav
         tulevik. Ei möödugi palju aega, kui nende uksele koputab oma esimesel
         tuuril olev hilisem heviroki lipulaev Iron Maiden…
 
-        Filmi režissöör David McLean on tänaseks üks edukamaid Inglise
-        promootoreid, tänu kellele said britid osa selliste tõusvate Ameerika
-        grunge-ansamblite nagu Smashing Pumpkins, Green Day ja muidugi Nirvana
+        Filmi režissöör Dave McLean on tänaseks üks edukamaid Inglise
+        promootoreid, tänu kellele said britid osa tõusvate Ameerika
+        grunge-ansamblite Smashing Pumpkins, Green Day ja muidugi Nirvana
         tähelennust. McLean seisab ka 1990. aastate ühe edukama Briti bändi
         Placebo edu taga.
-    filmSynopsis_en: >-
-        Set in Dundee c. 1979, Schemers is based on writer-producer David
+    filmSynopsis_en: >
+        Set in Dundee c. 1979, Schemers is based on writer-producer Dave
         McLean’s early years in the music business. A fledgling promoter, he
         ambitiously booked bands with his friends John and Scot, all of them
         from the Dundee schemes. Young Davie (Conor Berry) is determined not to
@@ -213,9 +218,10 @@
         celebrates youthful ambition.
 -
     path: '1006'
-    filmTitleet: Tšempionid
+    filmSlug: champions
+    filmTitle_et: Tšempionid
     filmTitleOriginal: Campeones
-    filmTitleen: Champions
+    filmTitle_en: Champions
     filmDirector: Javier Fesser
     filmScreenwriter: 'David Marqués, Javier Fesser'
     filmDop: Chechu Graf
@@ -253,10 +259,10 @@
         things that matter are what really counts.
 -
     path: '1007'
-    filmTitleet: 'Yalda, andestuse öö'
+    filmSlug: yalda-a-night-for-forgiveness
+    filmTitle_et: 'Yalda, andestuse öö'
     filmTitleOriginal: ''
-    filmTitleen: |
-        Yalda, a Night for Forgiveness
+    filmTitle_en: 'Yalda, a Night for Forgiveness'
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
     filmDop: Julian Atanassov
@@ -297,9 +303,10 @@
         are forced to relive the past.
 -
     path: '1008'
-    filmTitleet: Harjumuse jõud
+    filmSlug: force-of-habit
+    filmTitle_et: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
-    filmTitleen: Force of Habit
+    filmTitle_en: Force of Habit
     filmDirector: >-
         Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari, Miia
         Tervo, Elli Toivoniemi, Jenni Toivoniemi
@@ -313,8 +320,27 @@
     filmCountries: Soome
     filmYear: '2019'
     filmDuration: '1.15'
-    filmSynopsis_et: Eestikeelne synopsis veel tuleb
-    filmSynopsis_en: >-
+    filmSynopsis_et: >
+        Viimastel aastatel on aina enam jõudnud avalikkuseni #MeToo juhtumeid.
+        Vaprad naised räägivad oma loo sellest, kuidas neid on tööl, peol,
+        avalikus ja privaatses ruumis ahistatud. Ometi on see ainult jäämäe
+        tipp. Kas tegu on vaid meeste “harjumuse jõuga” või ühiskonnas juurdunud
+        normiga, mida naised ise soodustavad?
+
+
+        Vastus on vaataja silmis, sest “Harjumuse jõud” toob teieni kuue naise
+        lood: romantiline puhkus kaaslasega, igapäevane koolitee, korteri- ja
+        kontoripidu, noore näitleja katsumused meeste maailmas ja pikk õigluse
+        otsimine pärast vägistamisjuhtumit. Enamik neist üpris tavapärased
+        olukorrad, mis näitavad naiste igapäevaelu uues valguses. Film ise on
+        täis soomlastele iseloomulikku ja ka eestlastele südamelähedast
+        absurdihuumorit, kus korraga naerad ja siis vangutad pead ning
+        paratamatult tekib küsimus, kas see kõik toimub meie ümber päriselt.
+
+
+        Film põhineb kuuel lühifilmil erakordselt populaarsest sarjast
+        “Yksittäistapaus”, mille on lavastanud Soome parimad naisrežissöörid.
+    filmSynopsis_en: >
         Force of Habit follows the lives of various women throughout one day.
         Hilla is having a romantic vacation, Emmi is throwing a house party, and
         Milja is on her way to school when they're approached by a stranger and
@@ -328,9 +354,10 @@
         try to resolve the situation, but how do the others react?
 -
     path: '1009'
-    filmTitleet: Hape
+    filmSlug: acid
+    filmTitle_et: Hape
     filmTitleOriginal: Kislota
-    filmTitleen: ACID
+    filmTitle_en: ACID
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
     filmDop: Kseniya Sereda
@@ -367,9 +394,10 @@
         is ripe for them to do things and achieve the status of adult males.
 -
     path: '1010'
-    filmTitleet: Viimane portree
+    filmSlug: final-portrait
+    filmTitle_et: Viimane portree
     filmTitleOriginal: ''
-    filmTitleen: Final Portrait
+    filmTitle_en: Final Portrait
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
     filmDop: Danny Cohen
@@ -415,9 +443,10 @@
         of a great artist is a blessing or a curse.
 -
     path: '1011'
-    filmTitleet: Maudie
+    filmSlug: maudie
+    filmTitle_et: Maudie
     filmTitleOriginal: ''
-    filmTitleen: Maudie
+    filmTitle_en: Maudie
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
     filmDop: Guy Godfree
@@ -432,7 +461,7 @@
     filmCountries: 'Kanada, Iirimaa'
     filmYear: '2016'
     filmDuration: '1.55'
-    filmSynopsis_et: >
+    filmSynopsis_et: >-
         “Maudie“ on erakordne lugu artriidihaigest ühiskonnaheidikust, kes leiab
         ennast kunsti kaudu, jäädes meeleheitlikule olukorrale vaatamata alati
         heatahtlikuks, usaldavaks ja optimistlikuks. Film on saanud
@@ -446,16 +475,17 @@
 
         Sally Hawkins on võitnud selle tundliku rolli eest auhindu paljudelt
         festivalidelt, nii nagu ka Ethan Hawke Maudie´ rämedavõitu ja
-        asotsiaalse elukaaslasena.
+        asotsiaalse elukaaslase Everettina.
     filmSynopsis_en: >
         „Maudie“, is based on the true story of folk artist Maud Lewis (Sally
         Hawkins) and the unlikely romance between Maud and a hardened reclusive
         bachelor, Everett Lewis (Ethan Hawke).
 -
     path: '1012'
-    filmTitleet: 'Tagaotsitav: Banksy!'
+    filmSlug: banksy-most-wanted
+    filmTitle_et: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
-    filmTitleen: Banksy Most Wanted
+    filmTitle_en: Banksy Most Wanted
     filmDirector: 'Aurélia Rouvier, Seamus Haley'
     filmScreenwriter: ''
     filmDop: ''
@@ -497,9 +527,10 @@
         who is hiding behind this name.
 -
     path: '1013'
-    filmTitleet: 'Acasa, mu kodu'
+    filmSlug: acasa-my-home
+    filmTitle_et: 'Acasa, mu kodu'
     filmTitleOriginal: ''
-    filmTitleen: 'Acasa, My Home'
+    filmTitle_en: 'Acasa, My Home'
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
     filmDop: ''
@@ -511,7 +542,7 @@
     filmCountries: Rumeenia
     filmYear: '2020'
     filmDuration: '1.26'
-    filmSynopsis_et: >-
+    filmSynopsis_et: >
         9-lapseline roma perekond peab oma poolmetsiku eluviisiga hüvasti jätma,
         kui nende elupaigast, Bukarestis laiuvast hiiglaslikust märgalast
         tehakse looduspark.
@@ -540,9 +571,10 @@
         society that offers comforts but comes with pressures and conflict?
 -
     path: '1014'
-    filmTitleet: Tormipoiss
+    filmSlug: storm-boy
+    filmTitle_et: Tormipoiss
     filmTitleOriginal: ''
-    filmTitleen: Storm Boy
+    filmTitle_en: Storm Boy
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
     filmDop: Bruce Young
@@ -555,14 +587,17 @@
     filmYear: '2019'
     filmDuration: '1.39'
     filmSynopsis_et: >
-        Eelmise aasta üks suurimaid perefilme on saanud paljudel mainekatel
-        festivalidel publiku sooja vastuvõtu osaliseks. Film põhineb
-        samanimelisel Austraalia muinasjutul. Korraga hakkab vanahärra Michael
-        nägema pilte oma elust, mida ta seletada ei oska, justkui temaga oleks
-        toimumas midagi eriskummalist. Tasapisi hakkab talle meenuma ammu
-        unustuse hõlma vajunud muinasjutuline lapsepõlv. Ta meenutab oma parimat
-        sõpra, kelleks ei olnud keegi muu kui härra Percival, täiesti harilik
-        pelikan. Uskumatud ja ennekuulmatud seiklused võivad kinolinal alata!
+        Eelmise aasta suurimaid perefilme on saanud paljudel mainekatel
+        festivalidel publiku sooja vastuvõtu osaliseks.
+
+        Film põhineb samanimelisel Austraalia muinasjutul. Vanahärra Michael
+        hakkab ühel heal päeval nägema pilte oma elust, mida ta seletada ei
+        oska. Justkui oleks temaga toimumas midagi eriskummalist. Tasapisi
+        hakkab talle meenuma ammu unustuse hõlma vajunud muinasjutuline
+        lapsepõlv. Ta meenutab oma parimat sõpra, kelleks ei olnud keegi muu kui
+        härra Percival, täiesti harilik pelikan.
+
+        Uskumatud ja ennekuulmatud seiklused võivad kinolinal alata!
     filmSynopsis_en: >
         When Michael Kingley, a successful retired businessman starts to see
         images from his past that he can't explain, he's forced to remember his
@@ -570,9 +605,10 @@
         orphaned pelican, Mr Percival.
 -
     path: '1015'
-    filmTitleet: Lammas all paremas nurgas
+    filmSlug: the-secret-lamb
+    filmTitle_et: Lammas all paremas nurgas
     filmTitleOriginal: ''
-    filmTitleen: The Secret Lamb
+    filmTitle_en: The Secret Lamb
     filmDirector: Lembit Ulfsak
     filmScreenwriter: 'Janno Põldma, Lembit Ulsak'
     filmDop: Ago Ruus
@@ -598,16 +634,16 @@
 
         Taasiseseisvusaja populaarsemaid koguperefilme taastati ja
         digitaliseeriti 2013. aastal.
-
+    filmSynopsis_en: >
         The family film directed by Lembit Ulfsak tells the humorous story about
         detective adventures that boys undertake during their summer holiday.
         The film belongs to the classics of Estonian children's films.
-    filmSynopsis_en: ''
 -
     path: '1016'
-    filmTitleet: Marcel Duchamp ja võimalikkuse kunst
+    filmSlug: marcel-duchamp-art-of-the-possible
+    filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
-    filmTitleen: 'Marcel Duchamp: Art of the Possible'
+    filmTitle_en: 'Marcel Duchamp: Art of the Possible'
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
     filmDop: ''
@@ -620,26 +656,25 @@
     filmYear: '2019'
     filmDuration: '1.26'
     filmSynopsis_et: >
-        Pole kahtlustki, kes on 20. sajandi tähtsaim kunstnik. Marcel Duchamp
-        muidugi!
+        Kultusfilmi „Trainspotting” vaibiga komöödia režissöör Dave McLeani
+        noorpõlveajast, mis viib vaataja varajastesse kaheksakümnendatesse, kui
+        Dundee-nimelises väikelinnas kusagil Ida-Šotimaa pärapõrgus ehk kohas,
+        millest keegi polnud suures muusikaäris midagi kuulnud, alustasid kolm
+        elujanulist noormeest tõusvate Briti bändide produtsentidena.
 
-        Vähemalt ei kahtle selles filmi autor Matthew Taylor. See on enam kui
-        põhjalik portree, mis ei tutvusta üksnes selle pissuaari ja lumelabida
-        kunstisaali tassinud ja Mona Lisale vuntsid ette joonistanud
-        kunstirevolutsionääri elulugu ja loomingut, vaid näitab ka, kuidas tema
-        ideed muutsid ühiskonda, arusaamist esteetikast ja kunstist. Veel enam:
-        kuidas need meid jätkuvalt mõjutavad.
+        Pärast jalgpallikarjäärist loobumist hakkab Dave (Conor Barry) koos kahe
+        semuga mõtlema noorte ja vihaste bändide esindamisele, tuues neid Dundee
+        ööklubidesse esinema. Kuigi nende karjäär ei tõota tulla just
+        paljulubav, sest muusikaärist tahavad ampsu saada kõik, ka gangsterid,
+        terendavad peagi noormeeste silme ees suur raha, glamuur ja hiilgav
+        tulevik. Ei möödugi palju aega, kui nende uksele koputab oma esimesel
+        tuuril olev hilisem heviroki lipulaev Iron Maiden…
 
-        Jeff Koons, David Bowie, Marina Abramović, Paul Matisse, Robert
-        Rauschenberg... - kõigil on midagi öelda mehe kohta, kes pööras kunsti
-        definitsiooni pea peale, lõhkus hierarhiaid, demokratiseeris seda,
-        väites, et igaüks võib olla kunstnik. Ta ei mõjutanud mitte ainult
-        kujutavat kunsti ennast, vaid ka etenduskunste, muusikat, koguni
-        arhitektuuri ja luulet.
-
-        „Ma olen sundinud ennast kogu aeg enesele vastu rääkima, et vältida
-        mugandumist,” armastas korrata Duchamp ise. Kohustuslik vaatamine
-        kõigile kunstihuvilistele.
+        Filmi režissöör Dave McLean on tänaseks üks edukamaid Inglise
+        promootoreid, tänu kellele said britid osa tõusvate Ameerika
+        grunge-ansamblite Smashing Pumpkins, Green Day ja muidugi Nirvana
+        tähelennust. McLean seisab ka 1990. aastate ühe edukama Briti bändi
+        Placebo edu taga.
     filmSynopsis_en: >
         Art Of The Possible is broken into three acts that follow the arcs of
         Duchamp’s life. Each act functions to explain three ideas: who is Marcel
@@ -648,9 +683,10 @@
         present day and how does his work shape our future.
 -
     path: '1017'
-    filmTitleet: Autoportree
+    filmSlug: self-portrait
+    filmTitle_et: Autoportree
     filmTitleOriginal: Selvportrett
-    filmTitleen: Self Portrait
+    filmTitle_en: Self Portrait
     filmDirector: 'Katja Høgset, Margreth Olin, Espen Wallin'
     filmScreenwriter: ''
     filmDop: ''
@@ -662,7 +698,7 @@
     filmCountries: Norra
     filmYear: '2020'
     filmDuration: '1.20'
-    filmSynopsis_et: >-
+    filmSynopsis_et: >
         Kurbilus lugu tüdrukust, kes ei tahtnud suureks saada.
 
         Lene Marie Fossen oli 10-aastane, kui ta otsustas, et peatab aja. Ta
@@ -680,7 +716,7 @@
         mõte. Linateos on võitnud mitu publiku- ja kriitikute auhinda
         rahvusvahelistelt festivalidelt ja kandideerib ühtlasi aasta parima
         Norra filmi preemiale – koos mängufilmidega!
-    filmSynopsis_en: >-
+    filmSynopsis_en: >
         Lene Marie Fossen is 32-years-old and a unique photographer with an
         extraordinary talent. But she also suffers from severe anorexia and has
         done so for ten years.
