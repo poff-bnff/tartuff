@@ -1,5 +1,5 @@
 filmslugs:
-  - slug: acasa-my-home
+  acasa-my-home:
     poster: F_1_acasa_my_home.jpg
     pics:
       - F_2_acasa_my_home.jpg
@@ -7,88 +7,88 @@ filmslugs:
       - F_4_acasa_my_home.jpg
       - F_5_acasa_my_home.jpg
       - F_6_acasa_my_home.jpg
-  - slug: acid
+  acid:
     poster: F_1_Acid.jpg
     pics:
       - F_2_Acid.jpg
       - F_3_Acid.jpg
-  - slug: banksy-most-wanted
+  banksy-most-wanted:
     poster: F_1_banksy_most_wanted.jpg
     pics:
       - F_2_banksy_most_wanted.jpg
       - F_3_banksy_most_wanted.jpg
       - F_4_banksy_most_wanted.jpg
       - F_5_banksy_most_wanted.jpg
-  - slug: champions
+  champions:
     poster: F_1_Champions.jpg
     pics:
       - F_2_Champions.jpg
       - F_3_Champions.jpg
       - F_4_Champions.jpg
       - F_5_Champions.jpg
-  - slug: final-portrait
+  final-portrait:
     poster: F_1_final_portrait.jpg
     pics:
       - F_2_final_portrait.jpg
       - F_3_final_portrait.jpg
       - F_4_final_portrait.jpg
       - F_5_final_portrait.jpg
-  - slug: flawless
+  flawless:
     poster: F_1_flawless.jpg
     pics:
       - F_2_flawless.jpg
       - F_3_flawless.jpg
       - F_4_flawless.jpg
       - F_5_flawless.jpg
-  - slug: force-of-habit
+  force-of-habit:
     poster: F_1_force_of_habit.jpg
     pics:
       - F_2_force_of_habit.jpg
       - F_3_force_of_habit.jpg
       - F_4_force_of_habit.jpg
       - F_5_force_of_habit.jpg
-  - slug: house-of-hummingbird
+  house-of-hummingbird:
     poster: F_1_house_of_hummingbird.jpg
     pics:
       - F_2_house_of_hummingbird.jpg
-  - slug: invisible-life-of-eurdice-gusmo
+  invisible-life-of-eurdice-gusmo:
     poster: F_1_invisible_life.jpg
     pics:
       - F_2_invisible_life.jpg
       - F_3_invisible_life.jpg
-  - slug: marcel-duchamp-art-of-the-possible
+  marcel-duchamp-art-of-the-possible:
     poster: F_1_marcel_duchamp_art_of_the_possible.jpg
     pics:
       - F_2_marcel_duchamp_art_of_the_possible.jpg
       - F_3_marcel_duchamp_art_of_the_possible.jpg
       - F_4_marcel_duchamp_art_of_the_possible.jpg
-  - slug: maudie
+  maudie:
     poster: F_1_maudie.jpg
     pics:
       - F_2_maudie.jpg
       - F_3_maudie.jpg
       - F_5_maudie.jpg
-  - slug: schemers
+  schemers:
     poster: ''
     pics:
       - vrkPiltKohv.jpg
-  - slug: self-portrait
+  self-portrait:
     poster: F_1_self_portrait.jpg
     pics:
       - F_2_self_portrait.jpg
       - F_3_self_portrait.jpg
-  - slug: storm-boy
+  storm-boy:
     poster: ''
     pics:
       - 997t.jpg
-  - slug: the-goddess-of-fortune
+  the-goddess-of-fortune:
     poster: F_1_The_Goddess_of_Fortune.jpg
     pics:
       - F_2_The_Goddess_of_Fortune.jpg
       - F_3_The_Goddess_of_Fortune.jpg
       - F_4_The_Goddess_of_Fortune.jpg
       - F_5_The_Goddess_of_Fortune.jpg
-  - slug: the-secret-lamb
+  the-secret-lamb:
     poster: F_1_lammas_all_paremas.jpg
     pics:
       - F_10_lammas_all_paremas.jpg
@@ -100,7 +100,7 @@ filmslugs:
       - F_7_lammas_all_paremas.jpg
       - F_8_lammas_all_paremas.jpg
       - F_9_lammas_all_paremas.jpg
-  - slug: yalda-a-night-for-forgiveness
+  yalda-a-night-for-forgiveness:
     poster: F_1_yalda_a_night_for_forgiveness.jpg
     pics:
       - F_2_yalda_a_night_for_forgiveness.jpg
