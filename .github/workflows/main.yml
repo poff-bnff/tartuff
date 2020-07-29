@@ -26,7 +26,7 @@ jobs:
               run: node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full
 
             - name: Copy Assets
-                run: cp -R assets build/assets
+              run: cp -R assets build/assets
 
             - name: List output files
               run: ls
