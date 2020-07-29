@@ -20,7 +20,7 @@ jobs:
               run: npm install
 
             - name: Build Project
-              run: entu-ssg entu-ssg.yaml full
+              run: node ./node_modules/entu-ssg/src/serve.js ./entu-ssg.yaml full
 
             - name: List output files
               run: ls
