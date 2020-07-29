@@ -1,19 +1,31 @@
 on:
-  push:
-    branches: [ master ]
-name: Publish DEV site
+    push:
+        branches: [master]
+name: Build and publish DEV site
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: ${{ secrets.FTP_DEV_ADDRESS }}
-        ftp-username: ${{ secrets.FTP_DEV_USER }}
-        ftp-password: ${{ secrets.FTP_DEV_PASS }}
+    FTP-Deploy-Action:
+        name: FTP-Deploy-Action
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2.1.0
+              with:
+                  fetch-depth: 2
 
+            - name: Use Node.js 12.x
+              uses: actions/setup-node@v1
+              with:
+                  node-version: "12.x"
+
+            - name: Build Project
+              run: npm install
+                  npm run build --if-present
+
+            - name: List output files
+              run: ls
+
+            - name: FTP-Deploy-Action
+              uses: SamKirkland/FTP-Deploy-Action@3.1.1
+              with:
+                  ftp-server: ${{ secrets.FTP_DEV_ADDRESS }}
+                  ftp-username: ${{ secrets.FTP_DEV_USER }}
+                  ftp-password: ${{ secrets.FTP_DEV_PASS }}
