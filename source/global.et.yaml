@@ -774,6 +774,7 @@ films:
 
 articles:
 - articleId: '1'
+  path: a1
   articleType: News
   articleActive: '1'
   articleTitle_et: Tartu armastusfilmide festival laieneb üle kogu eesti
@@ -844,18 +845,19 @@ articles:
   tagKeyword: '#armastus #ElisaStage #koroonaviirus'
   tagGenre: ''
 - articleId: '2'
+  path: a2
   articleType: News
   articleActive: '1'
-  articleTitle_et: Tartuff on põhendatud kunstile
+  articleTitle_et: Tartuff on pühendatud kunstile
   articleSlug_et: tartuff-on-phendatud-kunstile
   articleTitle_en: ''
   articleSlug_en: ''
   articleTitle_ru: ''
   articleSlug_ru: ''
-  articleLead_et: >-
+  articleLead_et: ''
+  articleLead_en: >-
     PÖFFi armastusfilmide festival Tartuff pöörab tänavu erilist tähelepanu
     kunstile.
-  articleLead_en: ''
   articleLead_ru: ''
   articleAuthor: Pöffihunt
   articleImage: ''
@@ -958,6 +960,7 @@ articles:
   tagKeyword: '#kunst'
   tagGenre: ''
 - articleId: '3'
+  path: a3
   articleType: News
   articleActive: '1'
   articleTitle_et: Tartu armastusfilmide festivali avab troopiline melodraama
@@ -1020,4 +1023,3 @@ articles:
   articleTtr: 1 min
   tagKeyword: '#melodraama #troopilinemelodraama'
   tagGenre: ''
-
