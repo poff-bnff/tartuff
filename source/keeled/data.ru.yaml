@@ -1,8 +1,8 @@
 path: 'keeled'
 title: Keeled
 pictures:
-    - /assets/images/bg/kohakivid_1.jpg
-    - /assets/images/bg/kohakivid_2.jpg
+    - /build/assets/images/bg/kohakivid_1.jpg
+    - /build/assets/images/bg/kohakivid_2.jpg
 content:
     -
         text: |
