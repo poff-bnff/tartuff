@@ -50,14 +50,6 @@ block content
                         | Programm
                     .str_info_meta_program
                         | Foorum, Põhjusega mässajad
-                    if self.filmDirector
-                        .str_info_meta_item
-                            .str_info_meta_label= self.label.film.filmDirector
-                            .str_info_meta_genre= self.filmDirector
-                    if self.filmCast
-                        .str_info_meta_item
-                            .str_info_meta_label= self.label.film.filmCast
-                            .str_info_meta_genre= self.filmCast
             .synopsis_gi
                 p= self["filmSynopsis_" + self.locale]
 
@@ -103,10 +95,6 @@ block content
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmLanguages
                     .str_info_value= self.filmLanguages
-            .str_info_grid_3
-                .str_info_label= self.label.screening.screeningSubtitles
-                .str_info_value
-                    | Vajab timmimist!!!
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
