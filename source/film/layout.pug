@@ -59,7 +59,11 @@ block content
                             .str_info_meta_label= self.label.film.filmCast
                             .str_info_meta_genre= self.filmCast
             .synopsis_gi
-                p= self.filmSynopsis_est
+                p= self["filmSynopsis_" + self.locale]
+
+
+
+
         section.f_cred_box
             .str_info_blokk_cred
                 if self.filmDirector
