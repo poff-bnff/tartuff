@@ -1,0 +1,33 @@
+extends layout.pug
+
+block film
+    p= self.filmLocalTitle
+
+block titleBox
+    - localtitle = "filmTitle_" + self.locale
+    section.f_title_box
+        .premiere_type= self.label.film.filmPremiereType
+        h1.film_title_detailed= self[localtitle]
+        .str_info_blokk_1
+            .str_info_grid_3
+                .str_info_label= self.label.film.filmLocalTitle
+                .str_info_value= self.filmLocalTitle
+
+            each url, loc in self.otherLocalePaths
+                .str_info_grid_3
+                    - foreignlabel = "filmTitle_" + loc
+                    - foreigntitle = "filmTitle_" + loc
+                    .str_info_label= self.label.film[foreignlabel]
+                    .str_info_value= self[foreigntitle]
+            .str_info_grid_3
+                .str_info_label= self.label.film.filmTitleOriginal
+                .str_info_value= self.filmTitleOriginal
+            .str_info_grid_3
+                .str_info_label= self.label.film.filmDirector
+                .str_info_value.clr_primary= self.filmDirector
+            .str_info_grid_3
+                .str_info_label= self.label.film.filmCountries
+                .str_info_value= self.filmCountries
+            .str_info_grid_3
+                .str_info_label= self.label.film.filmYear
+                .str_info_value= self.filmYear
