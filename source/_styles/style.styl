@@ -228,6 +228,11 @@ nav
     grid-template-columns: auto
     grid-template-rows: auto
 
+.grid_articles
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-columns: auto
+    grid-template-rows: auto
 
 header
     grid-area header
@@ -574,7 +579,7 @@ p
 .str_info_blokk_cred
   align-self start
 
-.card_film
+.card_film, .card_article
     display: flex
     flex-direction: column
     margin-top: 2rem
@@ -592,7 +597,58 @@ p
     padding-left: 1rem
     padding-right: 1rem
 
+.card_article_title
+    padding-left: 1.618rem
+    padding-top: 1.618rem
+    padding-right: 1.618rem
+    padding-bottom: .1rem
+
+.card_article_lead
+    padding-top .5rem
+    padding-bottom: 1rem
+    padding-left 1rem
+    padding-right 1rem
+    overflow hidden
+    text-overflow ellipsis
+
+.card_article_footer
+    padding-top: .5rem
+    padding-bottom: 1.618rem
+    padding-left: 1rem
+    padding-right: 1rem
+
+.article_hero_image
+    width 100%
+    height 100vh
+    object-fit: cover
+
+.article_lead
+    font-family font_p
+    color white_96
+    font-size 1rem
+    line-height 1.618rem
+
+.article_author
+    font-family font_h
+    color white_96
+    font-size 1rem
+    line-height 1.5rem
+    display inline
+
+.article_publish_start
+    font-family font_h
+    color white_96
+    font-size 1rem
+    line-height 1.5rem
+    display inline
+
+
 .film_title_locale
+    font-size: 2rem
+    color: white_96
+    letter-spacing: 0.04rem
+
+.article_title_locale
     font-size: 2rem
     color: white_96
     letter-spacing: 0.04rem
@@ -623,6 +679,15 @@ p
                             "f_imgs_box        f_imgs_box        f_imgs_box"
 
     .grid_filmid
+        display grid
+        // grid-template-columns 1fr 1fr 1fr
+        grid-template-columns repeat(auto-fit, minmax(455px, 1fr))
+        grid-template-rows auto
+        grid-gap 1rem
+        padding 1rem
+        padding-top 100px
+
+    .grid_articles
         display: grid
         // grid-template-columns 1fr 1fr 1fr
         grid-template-columns repeat(auto-fit, minmax(455px, 1fr))
