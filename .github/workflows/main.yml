@@ -18,7 +18,7 @@ jobs:
 
             - name: Build Project
               run: npm install
-                  npm run build --if-present
+                   entu-ssg entu-ssg.yaml full
 
             - name: List output files
               run: ls
