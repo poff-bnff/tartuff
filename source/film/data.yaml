@@ -1,6 +1,6 @@
 -
-    path: '1001'
-    filmSlug: invisible-life-of-eurdice-gusmo
+    filmEventivalId: '1001'
+    path: invisible-life-of-eurdice-gusmo
     filmTitle_et: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
     filmTitle_en: Invisible Life of Eurídice Gusmão
@@ -41,8 +41,8 @@
         take control of their separate destinies, while never giving up hope of
         finding each other.
 -
-    path: '1002'
-    filmSlug: flawless
+    filmEventivalId: '1002'
+    path: flawless
     filmTitle_et: Täiuslik
     filmTitleOriginal: HaNeshef
     filmTitle_en: Flawless
@@ -83,8 +83,8 @@
         exposed, all three of them need to come to terms with the prejudices
         they have and redefine who they really want to be in this world.
 -
-    path: '1003'
-    filmSlug: house-of-hummingbird
+    filmEventivalId: '1003'
+    path: house-of-hummingbird
     filmTitle_et: Hüvasti!
     filmTitleOriginal: Beol-sae
     filmTitle_en: House of Hummingbird
@@ -130,8 +130,8 @@
         With visual precision, Kim Bo-ra weaves a dense narrative around a
         regular summer that leaves nothing unchanged.
 -
-    path: '1004'
-    filmSlug: the-goddess-of-fortune
+    filmEventivalId: '1004'
+    path: the-goddess-of-fortune
     filmTitle_et: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
     filmTitle_en: The Goddess of Fortune
@@ -170,8 +170,8 @@
         daily routine and love will drive them to a crazy and unexpected turn in
         their life.
 -
-    path: '1005'
-    filmSlug: schemers
+    filmEventivalId: '1005'
+    path: schemers
     filmTitle_et: Skeemitajad
     filmTitleOriginal: ''
     filmTitle_en: Schemers
@@ -217,8 +217,8 @@
         Iron Maiden. Shot in and around Dundee using local talent, Schemers
         celebrates youthful ambition.
 -
-    path: '1006'
-    filmSlug: champions
+    filmEventivalId: '1006'
+    path: champions
     filmTitle_et: Tšempionid
     filmTitleOriginal: Campeones
     filmTitle_en: Champions
@@ -258,8 +258,8 @@
         alongside a team where a desire to live and placing importance on the
         things that matter are what really counts.
 -
-    path: '1007'
-    filmSlug: yalda-a-night-for-forgiveness
+    filmEventivalId: '1007'
+    path: yalda-a-night-for-forgiveness
     filmTitle_et: 'Yalda, andestuse öö'
     filmTitleOriginal: ''
     filmTitle_en: 'Yalda, a Night for Forgiveness'
@@ -302,8 +302,8 @@
         TV show and forgive Maryam. But forgiveness proves difficult when they
         are forced to relive the past.
 -
-    path: '1008'
-    filmSlug: force-of-habit
+    filmEventivalId: '1008'
+    path: force-of-habit
     filmTitle_et: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
     filmTitle_en: Force of Habit
@@ -353,8 +353,8 @@
         their boss coming on to her. Miia and a couple of her closest colleagues
         try to resolve the situation, but how do the others react?
 -
-    path: '1009'
-    filmSlug: acid
+    filmEventivalId: '1009'
+    path: acid
     filmTitle_et: Hape
     filmTitleOriginal: Kislota
     filmTitle_en: ACID
@@ -393,8 +393,8 @@
         principal agony is that they grew up without fathers, and now the time
         is ripe for them to do things and achieve the status of adult males.
 -
-    path: '1010'
-    filmSlug: final-portrait
+    filmEventivalId: '1010'
+    path: final-portrait
     filmTitle_et: Viimane portree
     filmTitleOriginal: ''
     filmTitle_en: Final Portrait
@@ -442,8 +442,8 @@
         exhilarating, exasperating and bewildering, questioning whether the gift
         of a great artist is a blessing or a curse.
 -
-    path: '1011'
-    filmSlug: maudie
+    filmEventivalId: '1011'
+    path: maudie
     filmTitle_et: Maudie
     filmTitleOriginal: ''
     filmTitle_en: Maudie
@@ -481,8 +481,8 @@
         Hawkins) and the unlikely romance between Maud and a hardened reclusive
         bachelor, Everett Lewis (Ethan Hawke).
 -
-    path: '1012'
-    filmSlug: banksy-most-wanted
+    filmEventivalId: '1012'
+    path: banksy-most-wanted
     filmTitle_et: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
     filmTitle_en: Banksy Most Wanted
@@ -526,8 +526,8 @@
         to claim his work, either legally or emotionally, and to fantasize about
         who is hiding behind this name.
 -
-    path: '1013'
-    filmSlug: acasa-my-home
+    filmEventivalId: '1013'
+    path: acasa-my-home
     filmTitle_et: 'Acasa, mu kodu'
     filmTitleOriginal: ''
     filmTitle_en: 'Acasa, My Home'
@@ -570,8 +570,8 @@
         “paradise lost,” with its life free yet harsh, or to become part of the
         society that offers comforts but comes with pressures and conflict?
 -
-    path: '1014'
-    filmSlug: storm-boy
+    filmEventivalId: '1014'
+    path: storm-boy
     filmTitle_et: Tormipoiss
     filmTitleOriginal: ''
     filmTitle_en: Storm Boy
@@ -604,8 +604,8 @@
         childhood and how, as a boy, he rescued and raised an extraordinary
         orphaned pelican, Mr Percival.
 -
-    path: '1015'
-    filmSlug: the-secret-lamb
+    filmEventivalId: '1015'
+    path: the-secret-lamb
     filmTitle_et: Lammas all paremas nurgas
     filmTitleOriginal: ''
     filmTitle_en: The Secret Lamb
@@ -639,8 +639,8 @@
         detective adventures that boys undertake during their summer holiday.
         The film belongs to the classics of Estonian children's films.
 -
-    path: '1016'
-    filmSlug: marcel-duchamp-art-of-the-possible
+    filmEventivalId: '1016'
+    path: marcel-duchamp-art-of-the-possible
     filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
     filmTitle_en: 'Marcel Duchamp: Art of the Possible'
@@ -682,8 +682,8 @@
         important; and what is Duchamp’s lasting legacy from his death to
         present day and how does his work shape our future.
 -
-    path: '1017'
-    filmSlug: self-portrait
+    filmEventivalId: '1017'
+    path: self-portrait
     filmTitle_et: Autoportree
     filmTitleOriginal: Selvportrett
     filmTitle_en: Self Portrait
