@@ -5,13 +5,12 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 let data = new Object();
 
-data.filmslugs = []
+data.filmslugs = new Object()
 
 fs.readdirSync(testFolder).forEach(folder => {
     console.log(folder);
 
     filmSlug = {
-        slug: folder,
         poster: '',
         pics: []
     }
@@ -27,7 +26,7 @@ fs.readdirSync(testFolder).forEach(folder => {
 
     });
 
-    data.filmslugs.push(filmSlug)
+    data.filmslugs[folder] = filmSlug
 
     console.log(data)
 
