@@ -1,6 +1,6 @@
 
 
-const testFolder = '../assets/img/pildid_proc/';
+const testFolder = 'assets/img/pildid_proc/';
 const fs = require('fs');
 const yaml = require('js-yaml');
 let data = new Object();
@@ -35,4 +35,4 @@ fs.readdirSync(testFolder).forEach(folder => {
 
 
 let yamlStr = yaml.safeDump(data);
-fs.writeFileSync('../source/pictures.yaml', yamlStr, 'utf8');
+fs.writeFileSync('source/pictures.yaml', yamlStr, 'utf8');
