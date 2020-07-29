@@ -1,4 +1,5 @@
-path: ''
-alias: 'films'
+paths:
+    - ''
+    - 'films'
 data:
     pictures: ../pictures.yaml

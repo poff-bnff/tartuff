@@ -7,12 +7,15 @@ header
                 ul
                     li
                         a(href='/articles') Uudised
-                    li.dropdown
+                    //- li.dropdown
+                    //-     a(href='/films') Filmid
+                    //-     if self.films
+                    //-         ul
+                    //-             each val in self.films
+                    //-                 li: a(href= val.filmEventivalId)= val.filmTitle_et
+
+                    li
                         a(href='/films') Filmid
-                        if self.films
-                            ul
-                                each val in self.films
-                                    li: a(href= val.filmEventivalId)= val.filmTitle_et
                     li
                         a(href='#') Piletid
                     li
