@@ -23,7 +23,6 @@ fs.readdirSync(testFolder).forEach(folder => {
         }
             console.log(file.substring(0, 3));
             console.log(file);
-
     });
 
     data.filmslugs[folder] = filmSlug

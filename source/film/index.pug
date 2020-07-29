@@ -14,20 +14,29 @@ block titleBox
                 .str_info_value= self.filmLocalTitle
 
             each url, loc in self.otherLocalePaths
+                - foreignlabel = "filmTitle_" + loc
+                - foreigntitle = "filmTitle_" + loc
+                if self[foreigntitle]
+                    .str_info_grid_3
+                        .str_info_label= self.label.film[foreignlabel]
+                        .str_info_value= self[foreigntitle]
+
+            if self.filmTitleOriginal
                 .str_info_grid_3
-                    - foreignlabel = "filmTitle_" + loc
-                    - foreigntitle = "filmTitle_" + loc
-                    .str_info_label= self.label.film[foreignlabel]
-                    .str_info_value= self[foreigntitle]
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmTitleOriginal
-                .str_info_value= self.filmTitleOriginal
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmDirector
-                .str_info_value.clr_primary= self.filmDirector
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmCountries
-                .str_info_value= self.filmCountries
-            .str_info_grid_3
-                .str_info_label= self.label.film.filmYear
-                .str_info_value= self.filmYear
+                    .str_info_label= self.label.film.filmTitleOriginal
+                    .str_info_value= self.filmTitleOriginal
+
+            if self.filmDirector
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmDirector
+                    .str_info_value.clr_primary= self.filmDirector
+
+            if self.filmCountries
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmCountries
+                    .str_info_value= self.filmCountries
+
+            if self.filmYear
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmYear
+                    .str_info_value= self.filmYear
