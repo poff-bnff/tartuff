@@ -1,0 +1,61 @@
+extends ../_templates/layout.pug
+include ../_templates/mixins.pug
+
+
+
+block content
+
+    main.grid_film
+
+
+
+        section.f_cred_box
+            .str_info_blokk_cred
+                if self.filmDirector
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmDirector
+                        .str_info_value= self.filmDirector
+                if self.filmScreenwriter
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmScreenwriter
+                        .str_info_value= self.filmScreenwriter
+                if self.filmCast
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmCast
+                        .str_info_value= self.filmCast
+                if self.filmProducer
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmProducer
+                        .str_info_value= self.filmProducer
+                if self.filmDop
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmDop
+                        .str_info_value= self.filmDop
+                if self.filmComposer
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmComposer
+                        .str_info_value= self.filmComposer
+                if self.filmEditor
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmEditor
+                        .str_info_value= self.filmEditor
+                if self.filmProduction
+                    .str_info_grid_3
+                        .str_info_label= self.label.film.filmProduction
+                        .str_info_value= self.filmProduction
+
+        section.f_runtime_box
+            if self.filmLanguages
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmLanguages
+                    .str_info_value= self.filmLanguages
+            if self.filmDuration
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmDuration
+                    .str_info_value= self.filmDuration
+
+        section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
+            - youtubeVideoCode = self.filmTrailer.split("=")
+            +youtube(youtubeVideoCode[1])
+        section.f_imgs_box
+

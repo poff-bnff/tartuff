@@ -213,6 +213,7 @@ nav
   display grid
   grid-template-columns 1fr
   grid-template-rows auto
+  padding-top 100px
   grid-template-areas   "f_img_slider_box"\
                         "f_title_box"\
                         "f_synopsis_box"\
@@ -229,12 +230,14 @@ nav
     grid-template-columns: 1fr
     grid-template-columns: auto
     grid-template-rows: auto
+    padding-top 100px
 
 .grid_articles
     display: grid
     grid-template-columns: 1fr
     grid-template-columns: auto
     grid-template-rows: auto
+    padding-top 100px
 
 header
     grid-area header
@@ -242,7 +245,7 @@ header
 .f_img_slider_box
     grid-area f_img_slider_box
     background bg_dark_1
-    margin-top 100px
+    // margin-top 100px
 
 .f_title_box
     grid-area f_title_box
@@ -719,6 +722,7 @@ p
                             "f_dir_bio_box     f_dir_bio_box     f_extra_box"\
                             "f_trailer_box     f_trailer_box     f_trailer_box"\
                             "f_imgs_box        f_imgs_box        f_imgs_box"
+        padding-top 100px
 
     .grid_filmid
         display grid
@@ -729,10 +733,31 @@ p
         padding 1rem
         padding-top 100px
 
+    .grid_article
+        display grid
+        grid-template-columns minmax(min-content, 1fr) minmac(72ch, 1fr) 1fr
+        grid-template-rows auto
+        // grid-template-areas "f_img_slider_box  f_img_slider_box  f_title_box"\
+        //                     "f_synopsis_box    f_synopsis_box    f_cred_box"\
+        //                     "f_synopsis_box    f_synopsis_box    f_runtime_box"\
+        //                     "f_screenings_box  f_screenings_box  f_screenings_box"\
+        //                     "f_dir_bio_box     f_dir_bio_box     f_extra_box"\
+        //                     "f_trailer_box     f_trailer_box     f_trailer_box"\
+        //                     "f_imgs_box        f_imgs_box        f_imgs_box"
+        padding-top 100px
+
     .grid_articles
         display: grid
         // grid-template-columns 1fr 1fr 1fr
         grid-template-columns repeat(auto-fit, minmax(455px, 1fr))
+        grid-template-rows auto
+        grid-gap 1rem
+        padding 1rem
+        padding-top 100px
+
+    .grid_home
+        display grid
+        grid-template-columns 1fr 1fr 1fr
         grid-template-rows auto
         grid-gap 1rem
         padding 1rem
@@ -828,8 +853,8 @@ p
         grid-template-columns minmax(214px, 1fr) 2fr
         grid-gap 4rem
 
-    .f_title_box
-        margin-top 100px
+    // .f_title_box
+    //     margin-top 100px
 
     .f_title_box
     .f_synopsis_box
