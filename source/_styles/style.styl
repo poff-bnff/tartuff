@@ -632,6 +632,12 @@ p
 .clr_tartuff_red
     color clr_tartuff_red
 
+.clr_white_semi
+    color white_semi
+
+.clr_white_96
+    color white_96
+
 .str_info_blokk_cred
   align-self start
 
@@ -782,15 +788,23 @@ p
     border solid .5px bg_dark_4
     width 100%
     height auto
+    margin-bottom 2rem
 
 .calendar_day_head
-    background-color bg_dark_3
-    height 2rem
+    background-color clr_primary
+    // color bg_dark_4
+    height max-content
+    // height 2.5rem
+    // padding-left 1rem
+    // padding-right 1rem
+    padding .7rem 1rem .7rem 1rem
     // align-self flex-start
 
 .calendar_day_body
-    height 10rem
-    background-color bg_dark_4
+    background-color bg_dark_3
+    height 16rem
+    padding 1.618rem 1rem 1.618rem 1rem
+    // padding 1rem
     // align-self flex-end
 
 
@@ -859,7 +873,7 @@ p
 
     .calendar
         display grid
-        grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr
         grid-template-rows auto
         grid-gap 1rem
         padding 1rem
@@ -999,3 +1013,12 @@ p
 
 .text_right
   text-align right
+
+.caps
+    text-transform uppercase
+
+.bold
+    font-weight 600
+
+.lh2
+    line-height 4rem
