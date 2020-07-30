@@ -68,10 +68,6 @@ filmslugs:
       - F_2_maudie.jpg
       - F_3_maudie.jpg
       - F_5_maudie.jpg
-  schemers:
-    poster: ''
-    pics:
-      - vrkPiltKohv.jpg
   self-portrait:
     poster: F_1_self_portrait.jpg
     pics:
