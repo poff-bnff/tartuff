@@ -22,16 +22,16 @@ block content
                         each val, index in filmslug.pics
                             if index == 0
                                 .carousel-item.active.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = my_path)
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
                             else
                                 .carousel-item.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = my_path)
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
                     else
                         .carousel-item.active.container_contents_16_9
-                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val["filmTitle_" + self.locale])
+                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
                 else
                     .carousel-item.active.container_contents_16_9
-                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val["filmTitle_" + self.locale])
+                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
 
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
                 // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
