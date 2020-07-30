@@ -768,6 +768,33 @@ p
     line-height: 1.681rem
     align-self center
 
+.calendar
+    display grid
+    grid-template-columns 1fr
+    grid-template-rows auto
+    // grid-gap 2rem
+    // padding 1rem
+
+.calendar_day
+    display flex
+    flex-direction column
+    background-color bg_dark_2
+    border solid .5px bg_dark_4
+    width 100%
+    height auto
+
+.calendar_day_head
+    background-color bg_dark_3
+    height 2rem
+    // align-self flex-start
+
+.calendar_day_body
+    height 10rem
+    background-color bg_dark_4
+    // align-self flex-end
+
+
+
 // TEXT ALIGNMENT MOBILE
 
 .m_center_d_right, .m_center_d_left
@@ -829,6 +856,14 @@ p
         margin 0
         padding 2rem
         padding-top 100px
+
+    .calendar
+        display grid
+        grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        grid-template-rows auto
+        grid-gap 1rem
+        padding 1rem
+
 
 
     .main_menu_toggle_label
