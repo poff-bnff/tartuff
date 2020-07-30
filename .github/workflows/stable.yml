@@ -1,6 +1,6 @@
 on:
-    push:
-        branches: [stable]
+    release:
+        types: [published]
 name: Build and publish LIVE site
 jobs:
     FTP-Deploy-Action:
