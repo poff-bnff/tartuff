@@ -1,7 +1,7 @@
 on:
     push:
         branches: [stable]
-name: Build and publish LIVE site
+name: Build and publish LIVE
 jobs:
     FTP-Deploy-Action:
         name: FTP-Deploy-Action
