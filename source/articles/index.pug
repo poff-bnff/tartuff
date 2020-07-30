@@ -28,7 +28,7 @@ block content
     if self.data.articles
         main.grid_articles
             each val in self.data.articles
-                a(href= val.path).card_article
+                a(href= '/' + val.path).card_article
                     .container_frame_16_9
                         img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
                         //img.container_contents_16_9(src='/assets/img/img_films/'+val.filmSlug+'/'+self.data.pictures.filmslugs[val.filmSlug].poster alt = val["filmTitle_" + self.locale])
