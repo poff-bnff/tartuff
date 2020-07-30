@@ -260,7 +260,7 @@ nav
     display grid
     grid-template-columns 1fr
     margin 0
-    padding 0
+    padding 1rem
     padding-top 100px
 
 header
@@ -400,6 +400,10 @@ p
   color white_96
   font-weight 300
   margin-bottom calc((1rem * 1.618) / 2)
+
+// br
+//     display block
+//     line-height 5rem
 
 .section_headline_back
   font-family font_h
@@ -735,13 +739,16 @@ p
     background-color: bg_dark_3
 
 .home_1
-    padding 3rem
+    // display inline-block
+    // vertical-align middle
+    align-self center
 
 .home_2
-    vertical-align middle
+    padding 2rem
 
 .home_3
-    vertical-align middle
+    // vertical-align middle
+    align-self center
 
 .home_hero_img
     width 100%
@@ -750,13 +757,24 @@ p
     padding 3rem
 
 .hero_p
-    padding 1rem
+    font-family font_h
+    // padding 1rem
     // padding-left 3rem
     // padding-right 3rem
-    column-count auto
-    column-width 36ch
-    column-gap 2rem
-    font-size: 1.2rem
+    // column-count auto
+    // column-width 36ch
+    // column-gap 2rem
+    font-size: 1rem
+    line-height: 1.681rem
+    align-self center
+
+// TEXT ALIGNMENT MOBILE
+
+.m_center_d_right, .m_center_d_left
+    text-align center
+
+
+
 
 /* MEDIA query: for large screens */
 @media screen and (min-width: 800px)
@@ -809,7 +827,7 @@ p
         display grid
         grid-template-columns 1fr 1fr 1fr
         margin 0
-        padding 0
+        padding 2rem
         padding-top 100px
 
 
@@ -931,6 +949,13 @@ p
         max-width 400px
         margin-left 1vw
         margin-right 1vw
+
+    // TEXT ALIGNMENT DESKTOP
+
+    .m_center_d_right
+        text-align right
+    .m_center_d_left
+        text-align left
 
 /* OVERRIDES */
 
