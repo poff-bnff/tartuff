@@ -25,12 +25,13 @@ block content
     //-                         .str_info_value= val.filmCast
 
 
-    if self.articles
+    if self.data.articles
         main.grid_articles
-            each val in self.articles
+            each val in self.data.articles
                 a(href= val.path).card_article
                     .container_frame_16_9
-                        img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Img alt text')
+                        img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
+                        //img.container_contents_16_9(src='/assets/img/img_films/'+val.filmSlug+'/'+self.data.pictures.filmslugs[val.filmSlug].poster alt = val["filmTitle_" + self.locale])
                     .card_article_title
                         p.keywords_left=val.tagKeyword
                         h3.article_title_locale=val.articleTitle_et
