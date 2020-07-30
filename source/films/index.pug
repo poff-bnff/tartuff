@@ -28,7 +28,7 @@ block content
     if self.films
         main.grid_films
             each val in self.films
-                a(href= val.filmSlug).card_film
+                a(href= '/' + val.filmSlug).card_film
                     section
                         .container_frame_16_9
                             if self.data.pictures.filmslugs[val.filmSlug].poster
