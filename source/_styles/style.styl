@@ -41,6 +41,7 @@ clr_pimary_semi = rgba(236,0,140,.2)
 clr_pimary_light = rgba(170, 64, 131, 0.6)
 clr_secondary = #F67625
 clr_keyword = #3EADEF
+clr_elisa_stage = #0019af
 clr_header_bg = #0E1417
 clr_tartuff_red = #c92c33
 
@@ -638,6 +639,12 @@ p
 .clr_white_96
     color white_96
 
+.clr_keyword
+    color clr_keyword
+
+.clr_elisa_stage
+    color clr_keyword
+
 .str_info_blokk_cred
   align-self start
 
@@ -755,6 +762,7 @@ p
 .home_3
     // vertical-align middle
     align-self center
+    padding-right calc(.1rem + 3vw)
 
 .home_hero_img
     width 100%
@@ -788,7 +796,8 @@ p
     border solid .5px bg_dark_4
     width 100%
     height auto
-    margin-bottom 2rem
+    margin-bottom 1rem
+    margin-top 1rem
 
 .calendar_day_head
     background-color clr_primary
@@ -807,6 +816,14 @@ p
     padding 1.618rem 1rem 1.618rem 1rem
     // padding 1rem
     // align-self flex-end
+
+.calendar_e
+    width 100vw
+    height auto
+    padding 1rem
+    margin 0
+    text-align center
+    margin-bottom 2rem
 
 
 
@@ -867,7 +884,7 @@ p
 
     .grid_hero
         display grid
-        grid-template-columns 1fr 1fr 1fr
+        grid-template-columns 2fr 3fr 2fr
         margin 0
         padding 2rem
         padding-top 100px
