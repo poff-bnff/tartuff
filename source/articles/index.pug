@@ -28,7 +28,7 @@ block content
     if self.articles
         main.grid_articles
             each val in self.articles
-                a(href= val.articleId).card_article
+                a(href= val.path).card_article
                     .container_frame_16_9
                         img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Img alt text')
                     .card_article_title
