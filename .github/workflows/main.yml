@@ -19,8 +19,11 @@ jobs:
             - name: Install node dependencies
               run: npm install
 
-            - name: Compile pictures
-              run: node ./helpers/compile_pictures.js
+            - name: Compile film pictures
+              run: node ./helpers/compile_film_pictures.js
+
+            - name: Compile article pictures
+              run: node ./helpers/compile_article_pictures.js
 
             - name: Build Project
               run: node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full
