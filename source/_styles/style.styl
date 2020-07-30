@@ -729,7 +729,38 @@ p
 .card_film_footer
     background-color: bg_dark_3
 
+.home_hero
+    grid-area home_hero
+    display grid
+    grid-template-columns 4fr 3fr
+    grid-template-rows auto
+    grid-gap 1rem
+    // padding 3rem
+    // background-color bg_dark_2
 
+
+.home_hero_1
+    // background-color bg_dark_4
+    padding 0
+    margin 0
+
+.home_hero_2
+    // background-color bg_dark_2
+    padding 3rem
+
+.hero_p
+    padding 3rem
+    // padding-left 3rem
+    // padding-right 3rem
+    column-count auto
+    column-width 36ch
+    column-gap 2rem
+
+.home_calendar
+    grid-area home_calendar
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(180px, 1fr))
+    grid-template-rows auto
 
 /* MEDIA query: for large screens */
 @media screen and (min-width: 800px)
@@ -776,14 +807,17 @@ p
         grid-gap 1rem
         padding 1rem
         padding-top 100px
+        // height 100vh
 
     .grid_home
         display grid
         grid-template-columns 1fr 1fr 1fr
         grid-template-rows auto
-        grid-gap 1rem
-        padding 1rem
+        grid-template-areas "home_hero home_hero home_hero"\
+                            "home_calendar home_calendar home_calendar"
+        // padding 1rem
         padding-top 100px
+        height 100vh
 
     .main_menu_toggle_label
         display none
