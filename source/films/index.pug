@@ -35,9 +35,9 @@ block content
                                 if self.data.pictures.filmslugs[val.filmSlug].poster
                                     img.container_contents_16_9(src='/assets/img/img_films/'+val.filmSlug+'/'+self.data.pictures.filmslugs[val.filmSlug].poster alt = val["filmTitle_" + self.locale])
                                 else
-                                    img.container_contents_16_9(src='https://tartuff.ee/wp-content/uploads/2020/07/Tartuff_b2nner_960x292mm_main.jpg' alt = val["filmTitle_" + self.locale])
+                                    img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val["filmTitle_" + self.locale])
                             else
-                                img.container_contents_16_9(src='https://tartuff.ee/wp-content/uploads/2020/07/Tartuff_b2nner_960x292mm_main.jpg' alt = val["filmTitle_" + self.locale])
+                                img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val["filmTitle_" + self.locale])
                         .card_film_title
                             h3.film_title_locale= val.filmTitle_et
                         .card_film_info
