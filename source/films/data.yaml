@@ -1,4 +1,4 @@
 path: '/films'
 aliases: ''
 data:
-    pictures: ../pictures.yaml
+    pictures: ../film_pictures.yaml

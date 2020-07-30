@@ -1,5 +1,5 @@
 build
 node_modules
 .DS_Store
-source/pictures.yaml
+source/film_pictures.yaml
 source/article_pictures.yaml
