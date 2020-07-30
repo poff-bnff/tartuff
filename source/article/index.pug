@@ -45,5 +45,13 @@ block content
 
         p= self.articleAuthor
 
-        //- img.d-block.container_contents_16_9(src='/assets/img/img_articles/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
+
+        if self.locale != 'et'
+            - my_path = self.path.substring(1).split("/")[1]
+        else
+            - my_path = self.path.substring(1)
+        - articlePics = self.data.article_pictures.articles
+        - articlePic = articlePics[my_path]
+
+        img.d-block.container_contents_16_9(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage)
 
