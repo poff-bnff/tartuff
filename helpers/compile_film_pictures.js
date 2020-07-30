@@ -36,3 +36,4 @@ fs.readdirSync(testFolder).forEach(folder => {
 
 let yamlStr = yaml.safeDump(data);
 fs.writeFileSync('source/film_pictures.yaml', yamlStr, 'utf8');
+
