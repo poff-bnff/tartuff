@@ -1,5 +1,5 @@
 
-# ls -lRm assets/img/pildid_proc/* > uusfail.txt
+# ls -lRm assets/img/img_films/* > uusfail.txt
 node ./helpers/compile_pictures.js
 node ./helpers/compile_article_pictures.js
 cp -R assets build/assets
