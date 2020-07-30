@@ -1,0 +1,40 @@
+on:
+    push:
+        branches: [stable]
+name: Build and publish LIVE site over SFTP
+jobs:
+    FTP-Deploy-Action:
+        name: FTP-Deploy-Action
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2.1.0
+              with:
+                  fetch-depth: 2
+
+            - name: Use Node.js 12.x
+              uses: actions/setup-node@v1
+              with:
+                  node-version: '12.x'
+
+            - name: Install node dependencies
+              run: npm install
+
+            - name: Compile pictures
+              run: node ./helpers/compile_pictures.js
+
+            - name: Build Project
+              run: node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full
+
+            - name: Copy Assets
+              run: cp -R assets build/assets
+
+            - name: List output files
+              run: ls
+
+            - name: FTP-Deploy-Action
+              uses: SamKirkland/FTP-Deploy-Action@3.1.1
+              with:
+                  ftp-server: ${{ secrets.FTP_LIVE_ADDRESS }}
+                  ftp-username: ${{ secrets.FTP_LIVE_USER }}
+                  ftp-password: ${{ secrets.FTP_LIVE_PASS }}
+                  local-dir: build
