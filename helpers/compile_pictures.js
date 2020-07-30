@@ -18,12 +18,14 @@ fs.readdirSync(testFolder).forEach(folder => {
     fs.readdirSync(testFolder + '/' + folder).forEach(file => {
         if (file.substring(0, 4) == 'F_1_') {
             filmSlug.poster = file
+            //filmSlug.pics.push(file)
         }else{
             filmSlug.pics.push(file)
         }
-            console.log(file.substring(0, 3));
-            console.log(file);
+        console.log(file.substring(0, 3));
+        console.log(file);
     });
+    filmSlug.pics.unshift(filmSlug.poster);
 
     data.filmslugs[folder] = filmSlug
 
