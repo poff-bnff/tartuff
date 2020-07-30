@@ -68,6 +68,9 @@ filmslugs:
       - F_2_maudie.jpg
       - F_3_maudie.jpg
       - F_5_maudie.jpg
+  schemers:
+    poster: ''
+    pics: []
   self-portrait:
     poster: F_1_self_portrait.jpg
     pics:
@@ -75,8 +78,7 @@ filmslugs:
       - F_3_self_portrait.jpg
   storm-boy:
     poster: ''
-    pics:
-      - 997t.jpg
+    pics: []
   the-goddess-of-fortune:
     poster: F_1_The_Goddess_of_Fortune.jpg
     pics:

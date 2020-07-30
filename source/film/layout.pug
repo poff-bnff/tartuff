@@ -6,24 +6,29 @@ include ../_templates/mixins.pug
 block content
 
     main.grid_film
+        - my_path = self.path.substring(1)
+        - filmslugs = self.data.pictures.filmslugs
+        - filmslug = filmslugs[my_path]
+
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
-                li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
-                li(data-target='#carouselExampleIndicators' data-slide-to='1')
-                li(data-target='#carouselExampleIndicators' data-slide-to='2')
-                li(data-target='#carouselExampleIndicators' data-slide-to='3')
-                li(data-target='#carouselExampleIndicators' data-slide-to='4')
+                if filmslug
+                    if filmslug.pics
+                        each val, index in filmslug.pics
+                            li(data-target='#carouselExampleIndicators' data-slide-to = index)
             .carousel-inner.container_frame_16_9
-                .carousel-item.active.container_contents_16_9
-                    img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_5_Malpaso.jpg' alt='Malpaso / First slide')
-                .carousel-item.container_contents_16_9
-                    img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
-                .carousel-item.container_contents_16_9
-                    img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_3_Malpaso.jpg' alt='Malpaso / Third slide')
-                .carousel-item.container_contents_16_9
-                    img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_4_Malpaso.jpg' alt='Malpaso / Fourth slide')
-                .carousel-item.container_contents_16_9
-                    img.d-block.container_contents_16_9(src='https://inscaping.eu/img/F_1_Malpaso.jpg' alt='Malpaso / Fifth slide')
+                if filmslug
+                    if filmslug.pics.length
+                        each val, index in filmslug.pics
+                            if index == 0
+                                .carousel-item.active.container_contents_16_9
+                                    img.d-block.container_contents_16_9(src='/assets/img/pildid_proc/'+ my_path + '/' + val alt = my_path)
+                            else
+                                .carousel-item.container_contents_16_9
+                                    img.d-block.container_contents_16_9(src='/assets/img/pildid_proc/'+ my_path + '/' + val alt = my_path)
+                    else
+                        .carousel-item.active.container_contents_16_9
+                            img.d-block.container_contents_16_9(src = 'https://tartuff.ee/wp-content/uploads/2020/07/Tartuff_b2nner_960x292mm_main.jpg' alt = "foo")
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
                 // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
@@ -34,6 +39,7 @@ block content
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                     polyline(points='9 18 15 12 9 6')
                 span.sr-only Next
+
 
 
 
