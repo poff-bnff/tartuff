@@ -6,7 +6,10 @@ include ../_templates/mixins.pug
 block content
 
     main.grid_film
-        - my_path = self.path.substring(1)
+        if self.locale != 'et'
+            - my_path = self.path.substring(1).split("/")[1]
+        else
+            - my_path = self.path.substring(1)
         - filmslugs = self.data.pictures.filmslugs
         - filmslug = filmslugs[my_path]
 
