@@ -1,5 +1,5 @@
 on:
-    push:
+    release:
         branches: [stable]
 name: Build and publish LIVE
 jobs:
