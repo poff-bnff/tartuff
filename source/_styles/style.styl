@@ -42,6 +42,7 @@ clr_pimary_light = rgba(170, 64, 131, 0.6)
 clr_secondary = #F67625
 clr_keyword = #3EADEF
 clr_header_bg = #0E1417
+clr_tartuff_red = #c92c33
 
 
 breakpoint-lg = 992px
@@ -253,12 +254,6 @@ nav
     grid-template-columns: 1fr
     grid-template-columns: auto
     grid-template-rows: auto
-    padding-top 100px
-
-.grid_home
-    display grid
-    grid-template-columns 1fr
-    grid-template-rows auto
     padding-top 100px
 
 header
@@ -623,6 +618,9 @@ p
 .clr_secondary
   color clr_secondary
 
+.clr_tartuff_red
+    color clr_tartuff_red
+
 .str_info_blokk_cred
   align-self start
 
@@ -729,32 +727,11 @@ p
 .card_film_footer
     background-color: bg_dark_3
 
-.home_hero
-    grid-area home_hero
-    display grid
-    grid-template-columns 4fr 3fr
-    grid-template-rows auto
-    grid-gap 1rem
-    // height 100vh
-    // padding 3rem
-    // background-color bg_dark_2
-
-
-.home_hero_1
-    // background-color bg_dark_4
-    padding 0
-    margin 0
-
-.home_hero_2
-    // background-color bg_dark_2
-    // padding 3rem
-    padding-left calc(.5rem + 3vw)
-    padding-right calc(.5rem + 3vw)
-
-.home_hero_img
+.hero_img
     width 100%
     height auto
     object-fit cover
+    padding 3rem
 
 .hero_p
     padding 1rem
@@ -763,12 +740,7 @@ p
     column-count auto
     column-width 36ch
     column-gap 2rem
-
-.home_calendar
-    grid-area home_calendar
-    display grid
-    grid-template-columns repeat(auto-fit, minmax(180px, 1fr))
-    grid-template-rows auto
+    font-size: 1.2rem
 
 /* MEDIA query: for large screens */
 @media screen and (min-width: 800px)
@@ -817,15 +789,6 @@ p
         padding-top 100px
         // height 100vh
 
-    .grid_home
-        display grid
-        grid-template-columns 1fr 1fr 1fr
-        grid-template-rows auto
-        grid-template-areas "home_hero home_hero home_hero"\
-                            "home_calendar home_calendar home_calendar"
-        // padding 1rem
-        padding-top 100px
-        // height 100vh
 
     .main_menu_toggle_label
         display none
