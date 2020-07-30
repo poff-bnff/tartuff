@@ -1,6 +1,6 @@
 
 
-const testFolder = 'assets/img/pildid_proc/';
+const testFolder = 'assets/img/img_films/';
 const fs = require('fs');
 const yaml = require('js-yaml');
 let data = new Object();
