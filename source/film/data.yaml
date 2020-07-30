@@ -1,4 +1,6 @@
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitle_et: Nähtamatu elu
@@ -41,6 +43,8 @@
         take control of their separate destinies, while never giving up hope of
         finding each other.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1002'
     path: flawless
     filmTitle_et: Täiuslik
@@ -83,6 +87,8 @@
         exposed, all three of them need to come to terms with the prejudices
         they have and redefine who they really want to be in this world.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitle_et: Hüvasti!
@@ -130,6 +136,8 @@
         With visual precision, Kim Bo-ra weaves a dense narrative around a
         regular summer that leaves nothing unchanged.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitle_et: Õnnejumalanna
@@ -170,6 +178,8 @@
         daily routine and love will drive them to a crazy and unexpected turn in
         their life.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1005'
     path: schemers
     filmTitle_et: Skeemitajad
@@ -217,6 +227,8 @@
         Iron Maiden. Shot in and around Dundee using local talent, Schemers
         celebrates youthful ambition.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1006'
     path: champions
     filmTitle_et: Tšempionid
@@ -258,6 +270,8 @@
         alongside a team where a desire to live and placing importance on the
         things that matter are what really counts.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitle_et: 'Yalda, andestuse öö'
@@ -302,6 +316,8 @@
         TV show and forgive Maryam. But forgiveness proves difficult when they
         are forced to relive the past.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitle_et: Harjumuse jõud
@@ -353,6 +369,8 @@
         their boss coming on to her. Miia and a couple of her closest colleagues
         try to resolve the situation, but how do the others react?
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1009'
     path: acid
     filmTitle_et: Hape
@@ -393,6 +411,8 @@
         principal agony is that they grew up without fathers, and now the time
         is ripe for them to do things and achieve the status of adult males.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1010'
     path: final-portrait
     filmTitle_et: Viimane portree
@@ -442,6 +462,8 @@
         exhilarating, exasperating and bewildering, questioning whether the gift
         of a great artist is a blessing or a curse.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1011'
     path: maudie
     filmTitle_et: Maudie
@@ -481,6 +503,8 @@
         Hawkins) and the unlikely romance between Maud and a hardened reclusive
         bachelor, Everett Lewis (Ethan Hawke).
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitle_et: 'Tagaotsitav: Banksy!'
@@ -526,6 +550,8 @@
         to claim his work, either legally or emotionally, and to fantasize about
         who is hiding behind this name.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1013'
     path: acasa-my-home
     filmTitle_et: 'Acasa, mu kodu'
@@ -570,6 +596,8 @@
         “paradise lost,” with its life free yet harsh, or to become part of the
         society that offers comforts but comes with pressures and conflict?
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1014'
     path: storm-boy
     filmTitle_et: Tormipoiss
@@ -604,6 +632,8 @@
         childhood and how, as a boy, he rescued and raised an extraordinary
         orphaned pelican, Mr Percival.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitle_et: Lammas all paremas nurgas
@@ -639,6 +669,8 @@
         detective adventures that boys undertake during their summer holiday.
         The film belongs to the classics of Estonian children's films.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
@@ -682,6 +714,8 @@
         important; and what is Duchamp’s lasting legacy from his death to
         present day and how does his work shape our future.
 -
+    data:
+        pictures: ../pictures.yaml
     filmEventivalId: '1017'
     path: self-portrait
     filmTitle_et: Autoportree
