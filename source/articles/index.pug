@@ -27,7 +27,7 @@ block content
 
     if self.data.articles
         main.grid_articles
-            each val in self.data.articles
+            each val in self.data.articles.sort(function(a, b){ return (a.articlePublishStart > b.articlePublishStart) ? -1 : ((b.articlePublishStart > a.articlePublishStart) ? 1 : 0); })
                 a(href= '/' + val.path).card_article
                     .container_frame_16_9
                         img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
