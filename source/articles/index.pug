@@ -10,9 +10,14 @@ block content
                 - article_slug = val.path
                 - article_pictures = self.data.article_pictures.articles[article_slug]
                 a(href= '/' + article_slug).card_article
+                    .container_frame_16_9
+                        img.container_contents_16_9(src='/assets/img/img_articles/'+article_slug+'/'+article_pictures.heroImage
+                        alt='Img alt text')
+
                     //- .container_frame_16_9
-                    //-     img.container_contents_16_9(src='/assets/img/img_articles/'+article_slug+'/'+article_pictures.heroImage
-                    //-     alt='Img alt text')
+                    //-     img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
+
+
                     .card_article_title
                         p.keywords_left=val.tagKeyword
                         h3.article_title_locale=val.articleTitle_et
