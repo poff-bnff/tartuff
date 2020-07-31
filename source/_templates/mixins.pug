@@ -3,5 +3,13 @@ mixin youtube(videoId)
         frameborder='0', allow='accelerometer', autoplay;='', encrypted-media;='',
         gyroscope;='', picture-in-picture”='', allowfullscreen='')
 
+mixin localdatetime(id, dateString)
+    div(id='id')
 
-//- mixin vimeo(videoId)
+    script.
+        (function()
+        {
+            var eDisplayMoment1 = document.getElementById('#{id}');
+            var NowMoment1 = moment('#{dateString}').format('L LT');
+            eDisplayMoment1.innerHTML = NowMoment1;
+        })();
