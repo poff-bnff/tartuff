@@ -1,5 +1,6 @@
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitle_et: Nähtamatu elu
@@ -36,6 +37,7 @@
         separate destinies, while never giving up hope of finding each other.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1002'
     path: flawless
     filmTitle_et: Täiuslik
@@ -75,6 +77,7 @@
         they really want to be in this world.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitle_et: Hüvasti!
@@ -119,6 +122,7 @@
         summer that leaves nothing unchanged.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitle_et: Õnnejumalanna
@@ -155,6 +159,7 @@
         routine and love will drive them to a crazy and unexpected turn in their life.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1005'
     path: schemers
     filmTitle_et: Skeemitajad
@@ -197,6 +202,7 @@
         local talent, Schemers celebrates youthful ambition.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1006'
     path: champions
     filmTitle_et: Tšempionid
@@ -234,6 +240,7 @@
         are what really counts.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitle_et: Yalda, andestuse öö
@@ -274,6 +281,7 @@
         to relive the past.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitle_et: Harjumuse jõud
@@ -323,6 +331,7 @@
         do the others react?
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1009'
     path: acid
     filmTitle_et: Hape
@@ -362,6 +371,7 @@
         of adult males.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1010'
     path: final-portrait
     filmTitle_et: Viimane portree
@@ -406,6 +416,7 @@
         questioning whether the gift of a great artist is a blessing or a curse.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1011'
     path: maudie
     filmTitle_et: Maudie
@@ -441,6 +452,7 @@
         bachelor, Everett Lewis (Ethan Hawke).'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitle_et: 'Tagaotsitav: Banksy!'
@@ -483,6 +495,7 @@
         is hiding behind this name.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1013'
     path: acas-my-home
     filmTitle_et: Acasă, mu kodu
@@ -525,6 +538,7 @@
         comforts but comes with pressures and conflict?
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1014'
     path: storm-boy
     filmTitle_et: Tormipoiss
@@ -555,6 +569,7 @@
         pelican, Mr Percival.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitle_et: Lammas all paremas nurgas
@@ -587,6 +602,7 @@
         The film belongs to the classics of Estonian children's films.
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
@@ -627,6 +643,7 @@
         day and how does his work shape our future.'
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1017'
     path: self-portrait
     filmTitle_et: Autoportree
