@@ -19,10 +19,10 @@ search:
     button: Otsi
 label:
     film:
-        filmTitleOriginal: Algne nimi
-        filmTitle_en: Ingliskeelne nimi
-        filmTitle_ru: Venekeelne nimi
-        filmTitle_et: Nimi
+        filmTitleOriginal: Pealkirja originaal
+        filmTitle_en: Pealkiri inglise keeles
+        filmTitle_ru: Pealkiri vene keeles
+        filmTitle_et: Pealkiri
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
