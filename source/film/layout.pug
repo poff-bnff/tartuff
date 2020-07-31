@@ -64,7 +64,7 @@ block content
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
             .synopsis_gi
-                p= self["filmSynopsis_" + self.locale]
+                | !{ self.md(self["filmSynopsis_" + self.locale])}
 
 
 

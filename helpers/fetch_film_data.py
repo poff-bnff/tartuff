@@ -6,6 +6,8 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
+os.chdir(os.path.dirname(__file__))
+
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
@@ -62,15 +64,16 @@ def main():
 
         for row in values:
             # Print columns A and E, which correspond to indices 0 and 4.
-            print('%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s' % (row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17]))
+            # print('%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s' % (row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17]))
 
             if count == 0:
                 for x in row:
                     headers.append(x)
 
             else:
-                count2 = 0
+
                 dict_file = dict_file + [{
+                            'data' : {'pictures': '../film_pictures.yaml'},
                             headers[0] : row[0].strip(),
                             headers[1] : row[1].strip(),
                             headers[2] : row[2].strip(),
@@ -88,16 +91,17 @@ def main():
                             headers[14] : row[14].strip(),
                             headers[15] : row[15].strip(),
                             headers[16] : row[16].strip(),
-                            headers[17] : row[17].strip()
+                            headers[17] : row[17].strip(),
                         }]
 
-                with open(r'testyaml.yaml', 'w', encoding='utf-8') as file:
+                with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
                     documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
 
 
 
 
             count = count + 1
+
 
 if __name__ == '__main__':
     main()
