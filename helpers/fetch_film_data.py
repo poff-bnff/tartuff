@@ -73,7 +73,7 @@ def main():
             else:
 
                 dict_file = dict_file + [{
-                            'data' : {'pictures': '../film_pictures.yaml'},
+                            'data' : {'pictures': '../film_pictures.yaml', 'screenings': 'screenings.yaml'},
                             headers[0] : row[0].strip(),
                             headers[1] : row[1].strip(),
                             headers[2] : row[2].strip(),
@@ -95,7 +95,7 @@ def main():
                         }]
 
                 with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
-                    documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
+                    documents = yaml.dump(dict_file, file, default_flow_style=False, indent=4, allow_unicode=True)
 
 
 
