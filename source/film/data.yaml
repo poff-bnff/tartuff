@@ -1,6 +1,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitle_et: Nähtamatu elu
@@ -45,6 +46,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1002'
     path: flawless
     filmTitle_et: Täiuslik
@@ -89,6 +91,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitle_et: Hüvasti!
@@ -138,6 +141,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitle_et: Õnnejumalanna
@@ -180,6 +184,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1005'
     path: schemers
     filmTitle_et: Skeemitajad
@@ -229,6 +234,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1006'
     path: champions
     filmTitle_et: Tšempionid
@@ -272,6 +278,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitle_et: 'Yalda, andestuse öö'
@@ -318,6 +325,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitle_et: Harjumuse jõud
@@ -371,6 +379,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1009'
     path: acid
     filmTitle_et: Hape
@@ -413,6 +422,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1010'
     path: final-portrait
     filmTitle_et: Viimane portree
@@ -464,6 +474,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1011'
     path: maudie
     filmTitle_et: Maudie
@@ -505,6 +516,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitle_et: 'Tagaotsitav: Banksy!'
@@ -552,6 +564,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1013'
     path: acasa-my-home
     filmTitle_et: 'Acasa, mu kodu'
@@ -598,6 +611,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1014'
     path: storm-boy
     filmTitle_et: Tormipoiss
@@ -634,6 +648,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitle_et: Lammas all paremas nurgas
@@ -671,6 +686,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
@@ -716,6 +732,7 @@
 -
     data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1017'
     path: self-portrait
     filmTitle_et: Autoportree

@@ -4,7 +4,8 @@
   "description": "poff",
   "private": true,
   "dependencies": {
-    "entu-ssg": "5.2.5"
+    "entu-ssg": "^5.2.6",
+    "moment": "^2.27.0"
   },
   "scripts": {
     "dev": ". ./build.sh",
