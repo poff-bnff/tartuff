@@ -1,37 +1,23 @@
 extends /_templates/layout.pug
+include ../_templates/mixins.pug
 
 block content
-
-
-    //- if self.films
-    //-     main.grid_filmid
-    //-         each val in self.films
-    //-             section.card_film
-    //-                 .container_frame_16_9
-    //-                     img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
-    //-                 .card_film_title
-    //-                     h3.film_title_locale= val.filmTitleEt
-    //-                 if val.filmTitleEn
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmTitle_en
-    //-                         .str_info_value= val.filmTitleEn
-    //-                 if val.filmDirector
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmDirector
-    //-                         .str_info_value= val.filmDirector
-    //-                 if val.filmCast
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmCast
-    //-                         .str_info_value= val.filmCast
 
 
     if self.data.articles
         main.grid_articles
             each val in self.data.articles.sort(function(a, b){ return (a.articlePublishStart > b.articlePublishStart) ? -1 : ((b.articlePublishStart > a.articlePublishStart) ? 1 : 0); })
-                a(href= '/' + val.path).card_article
+                - article_slug = val.path
+                - article_pictures = self.data.article_pictures.articles[article_slug]
+                a(href= '/' + article_slug).card_article
                     .container_frame_16_9
-                        img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
-                        //img.container_contents_16_9(src='/assets/img/img_films/'+val.filmSlug+'/'+self.data.pictures.filmslugs[val.filmSlug].poster alt = val["filmTitle_" + self.locale])
+                        img.container_contents_16_9(src='/assets/img/img_articles/'+article_slug+'/'+article_pictures.heroImage
+                        alt='Img alt text')
+
+                    //- .container_frame_16_9
+                    //-     img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
+
+
                     .card_article_title
                         p.keywords_left=val.tagKeyword
                         h3.article_title_locale=val.articleTitle_et
@@ -43,6 +29,8 @@ block content
                     .card_article_footer
                         .article_author=val.articleAuthor
                         span &nbsp;&nbsp;
-                        .article_publish_start=val.articlePublishStart
+                        .article_publish_start
+                            +localdatetime(val.articlePublishStart)
+
 
 
