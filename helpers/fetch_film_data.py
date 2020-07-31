@@ -95,7 +95,7 @@ def main():
                         }]
 
                 with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
-                    documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
+                    documents = yaml.dump(dict_file, file, default_flow_style=False, indent=4, allow_unicode=True)
 
 
 
