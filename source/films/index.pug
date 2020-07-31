@@ -25,15 +25,15 @@ block content
     //-                         .str_info_value= val.filmCast
 
 
-    if self.films
+    if self.data.films
         main.grid_films
-            each val in self.films
-                a(href= '/' + val.filmSlug).card_film
+            each val in self.data.films
+                a(href= '/' + val.path).card_film
                     section
                         .container_frame_16_9
-                            if self.data.pictures.filmslugs[val.filmSlug]
-                                if self.data.pictures.filmslugs[val.filmSlug].poster
-                                    img.container_contents_16_9(src='/assets/img/img_films/'+val.filmSlug+'/'+self.data.pictures.filmslugs[val.filmSlug].poster alt = val["filmTitle_" + self.locale])
+                            if self.data.pictures.filmslugs[val.path]
+                                if self.data.pictures.filmslugs[val.path].poster
+                                    img.container_contents_16_9(src='/assets/img/img_films/'+val.path+'/'+self.data.pictures.filmslugs[val.path].poster alt = val["filmTitle_" + self.locale])
                                 else
                                     img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val["filmTitle_" + self.locale])
                             else
