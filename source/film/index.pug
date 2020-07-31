@@ -1,5 +1,6 @@
 extends layout.pug
 
+
 block film
     p= self.filmLocalTitle
 
@@ -47,4 +48,6 @@ block titleBox
 
             each screening in self.data.screenings
                 if filmPath == screening.filmPath
-                    p= screening.screeningDatetime
+                    p= 'datsdsdsda: ' + screening.screeningDatetime
+
+                    +localdatetime('id', screening.screeningDatetime)
