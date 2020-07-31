@@ -3,13 +3,14 @@ mixin youtube(videoId)
         frameborder='0', allow='accelerometer', autoplay;='', encrypted-media;='',
         gyroscope;='', picture-in-picture”='', allowfullscreen='')
 
-mixin localdatetime(id, dateString)
-    div(id='id')
+mixin localdatetime(dateString)
+    - dom_id = Math.random()
+    div(id = 'dt_' + dom_id)
 
     script.
         (function()
         {
-            var eDisplayMoment1 = document.getElementById('#{id}');
+            var eDisplayMoment1 = document.getElementById('#{dom_id}');
             var NowMoment1 = moment('#{dateString}').format('L LT');
             eDisplayMoment1.innerHTML = NowMoment1;
         })();
