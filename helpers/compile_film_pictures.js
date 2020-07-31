@@ -8,28 +8,34 @@ let data = new Object();
 data.filmslugs = new Object()
 
 fs.readdirSync(testFolder).forEach(folder => {
-    console.log(folder);
+    if (folder != '.DS_Store') {
 
-    filmSlug = {
-        poster: '',
-        pics: []
-    }
+        console.log(folder);
 
-    fs.readdirSync(testFolder + '/' + folder).forEach(file => {
-        if (file.substring(0, 4) == 'F_1_') {
-            filmSlug.poster = file
-            //filmSlug.pics.push(file)
-        }else{
-            filmSlug.pics.push(file)
+        filmSlug = {
+            poster: '',
+            pics: []
         }
-        console.log(file.substring(0, 3));
-        console.log(file);
-    });
-    filmSlug.pics.unshift(filmSlug.poster);
 
-    data.filmslugs[folder] = filmSlug
+        fs.readdirSync(testFolder + '/' + folder).forEach(file => {
+            if (folder != '.DS_Store') {
 
-    console.log(data)
+                if (file.substring(0, 4) == 'F_1_') {
+                    filmSlug.poster = file
+                    //filmSlug.pics.push(file)
+                }else{
+                    filmSlug.pics.push(file)
+                }
+                console.log(file.substring(0, 3));
+                console.log(file);
+            }
+        });
+        filmSlug.pics.unshift(filmSlug.poster);
+
+        data.filmslugs[folder] = filmSlug
+
+        console.log(data)
+    }
 
 });
 
