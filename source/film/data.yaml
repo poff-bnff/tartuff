@@ -1,5 +1,6 @@
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Julia Stockler, Carol Duarte, Flávia Gusmão
     filmComposer: Benedikt Schiefer
     filmCountries: Brasiilia, Saksamaa
@@ -37,6 +38,7 @@
     path: invisible-life-of-eurdice-gusmo
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Stav Strashko, Netsanet Mekonen, Noam Lugasy
     filmComposer: Ivri Lider
     filmCountries: Iisrael, Saksamaa
@@ -76,6 +78,7 @@
     path: flawless
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Ji-hu Park, Sae-byeok Kim, Seung-Yun Lee
     filmComposer: Matija Strnisa
     filmCountries: Lõuna-Korea
@@ -115,6 +118,7 @@
     path: house-of-hummingbird
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Stefano Accorsi, Jasmine Trinca, Edoardo Leo
     filmComposer: Pasquale Catalano
     filmCountries: Itaalia
@@ -151,6 +155,7 @@
     path: the-goddess-of-fortune
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Conor Berry, Sean Connor, Grant Robert Keelan
     filmComposer: ''
     filmCountries: Suurbritannia
@@ -193,6 +198,7 @@
     path: schemers
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Javier Gutiérrez, Athenea Mata, Juan Margallo
     filmComposer: Rafael Arnau
     filmCountries: Hispaania
@@ -230,6 +236,7 @@
     path: champions
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Sadaf Asgari, Behnaz Jafari, Babak Karimi
     filmComposer: ''
     filmCountries: Iraan, Prantsusmaa, Saksamaa, Šveits, Luksemburg, Liibanon
@@ -270,6 +277,7 @@
     path: yalda-a-night-for-forgiveness
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: ''
     filmComposer: Joona Jaakkola
     filmCountries: Soome
@@ -319,6 +327,7 @@
     path: force-of-habit
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Filipp Avdeev, Aleksandr Kuznetsov, Aleksandra Rebenok
     filmComposer: ''
     filmCountries: Venemaa
@@ -358,6 +367,7 @@
     path: acid
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Geoffrey Rush, Armie Hammer, Tony Shalhoub
     filmComposer: Evan Lurie
     filmCountries: Suurbritannia
@@ -402,6 +412,7 @@
     path: final-portrait
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Sally Hawkins, Ethan Hawke, Kari Matchett
     filmComposer: Michael Timmins
     filmCountries: Kanada, Iirimaa
@@ -437,6 +448,7 @@
     path: maudie
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: ''
     filmComposer: ''
     filmCountries: Prantsusmaa, USA
@@ -479,6 +491,7 @@
     path: banksy-most-wanted
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Corina Enache, Duca Enache, Georgiana Enache
     filmComposer: ''
     filmCountries: Rumeenia, Saksamaa, Soome
@@ -521,6 +534,7 @@
     path: acas-my-home
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Finn Little, Jai Courtney, Geoffrey Rush
     filmComposer: Alan John
     filmCountries: Austraalia
@@ -551,6 +565,7 @@
     path: storm-boy
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Tõnu Kark, Margus Alver, Kaur Sinissaar, Dan Põldroos, Ain Lutsepp
     filmComposer: Tõnu Naissoo
     filmCountries: Eesti
@@ -583,6 +598,7 @@
     path: the-secret-lamb
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Marina Abramovic, William Anastasi, Michel Gondry
     filmComposer: ''
     filmCountries: USA, Saksamaa
@@ -623,6 +639,7 @@
     path: marcel-duchamp-art-of-the-possible
 -   data:
         pictures: ../film_pictures.yaml
+        screenings: screenings.yaml
     filmCast: Geir Fossen, Lene Marie Fossen, Torill Fossen
     filmComposer: ''
     filmCountries: Norra
