@@ -1,5 +1,5 @@
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
@@ -39,7 +39,7 @@
         separated by their father and forced to live apart. They take control of their
         separate destinies, while never giving up hope of finding each other.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1002'
     path: flawless
@@ -81,7 +81,7 @@
         them need to come to terms with the prejudices they have and redefine who
         they really want to be in this world.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
@@ -125,7 +125,7 @@
         With visual precision, Kim Bo-ra weaves a dense narrative around a regular
         summer that leaves nothing unchanged.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
@@ -164,7 +164,7 @@
         take care of her two kids for a few days, something changes in their daily
         routine and love will drive them to a crazy and unexpected turn in their life.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1005'
     path: schemers
@@ -209,7 +209,7 @@
         to booking major bands such as Iron Maiden. Shot in and around Dundee using
         local talent, Schemers celebrates youthful ambition.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1006'
     path: champions
@@ -249,7 +249,7 @@
         a team where a desire to live and placing importance on the things that matter
         are what really counts.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
@@ -292,7 +292,7 @@
         and forgive Maryam. But forgiveness proves difficult when they are forced
         to relive the past.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1008'
     path: force-of-habit
@@ -344,7 +344,7 @@
         and a couple of her closest colleagues try to resolve the situation, but how
         do the others react?
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1009'
     path: acid
@@ -386,7 +386,7 @@
         fathers, and now the time is ripe for them to do things and achieve the status
         of adult males.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1010'
     path: final-portrait
@@ -433,7 +433,7 @@
         on the artistic process itself, by turns exhilarating, exasperating and bewildering,
         questioning whether the gift of a great artist is a blessing or a curse.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1011'
     path: maudie
@@ -471,7 +471,7 @@
         (Sally Hawkins) and the unlikely romance between Maud and a hardened reclusive
         bachelor, Everett Lewis (Ethan Hawke).'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
@@ -516,7 +516,7 @@
         claim his work, either legally or emotionally, and to fantasize about who
         is hiding behind this name.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1013'
     path: acas-my-home
@@ -561,7 +561,7 @@
         with its life free yet harsh, or to become part of the society that offers
         comforts but comes with pressures and conflict?
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1014'
     path: storm-boy
@@ -596,7 +596,7 @@
         his childhood and how, as a boy, he rescued and raised an extraordinary orphaned
         pelican, Mr Percival.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
@@ -633,7 +633,7 @@
         story about detective adventures that boys undertake during their summer holiday.
         The film belongs to the classics of Estonian children's films.
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
@@ -676,7 +676,7 @@
         important; and what is Duchamp’s lasting legacy from his death to present
         day and how does his work shape our future.'
 -   data:
-        pictures: ../film_pictures.yaml
+        pictures: ./film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1017'
     path: self-portrait
