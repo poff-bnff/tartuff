@@ -13,7 +13,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = '1J_cYJnZI41V8TGuOa8GVDjnHSD9qRmgKTJR3sd9Ff7Y'
-SAMPLE_RANGE_NAME = 'Filmid!A:R'
+SAMPLE_RANGE_NAME = 'Filmid'
 
 def main():
     """Shows basic usage of the Sheets API.
@@ -49,7 +49,7 @@ def main():
     if not values:
         print('No data found.')
     else:
-        print('Name, Major:')
+        print('Fetching films')
 
         class Films:
             def __init__(self, a, b):
@@ -63,42 +63,27 @@ def main():
         nullkoht = None
 
         for row in values:
-            # Print columns A and E, which correspond to indices 0 and 4.
-            # print('%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s' % (row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17]))
 
             if count == 0:
                 for x in row:
                     headers.append(x)
 
             else:
+                count2 = 0
+                data = {}
+                for x in row:
 
-                dict_file = dict_file + [{
-                            'data' : {'pictures': '../film_pictures.yaml', 'screenings': 'screenings.yaml'},
-                            headers[0] : row[0].strip(),
-                            headers[1] : row[1].strip(),
-                            headers[2] : row[2].strip(),
-                            headers[3] : row[3].strip(),
-                            headers[4] : row[4].strip(),
-                            headers[5] : row[5].strip(),
-                            headers[6] : row[6].strip(),
-                            headers[7] : row[7].strip(),
-                            headers[8] : row[8].strip(),
-                            headers[9] : row[9].strip(),
-                            headers[10] : row[10].strip(),
-                            headers[11] : row[11].strip(),
-                            headers[12] : row[12].strip(),
-                            headers[13] : row[13].strip(),
-                            headers[14] : row[14].strip(),
-                            headers[15] : row[15].strip(),
-                            headers[16] : row[16].strip(),
-                            headers[17] : row[17].strip(),
-                        }]
+                    if count2 == 0:
+                        data['data'] = {'pictures': '../film_pictures.yaml', 'screenings': 'screenings.yaml'}
+
+                    data[headers[count2]] = row[count2].strip()
+
+                    count2 = count2 + 1
+
+                dict_file = dict_file + [data]
 
                 with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
-                    documents = yaml.dump(dict_file, file, default_flow_style=False, indent=4, allow_unicode=True)
-
-
-
+                    documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
 
             count = count + 1
 
