@@ -46,18 +46,16 @@ def main():
                                 range=SAMPLE_RANGE_NAME).execute()
     values = result.get('values', [])
 
+    # Check if any values found
     if not values:
         print('No data found.')
     else:
         print('Fetching films')
 
-        class Films:
-            def __init__(self, a, b):
-                self.a = a
-                self.b = b
-
+        # Counter
         count = 0
 
+        #
         dict_file = []
         headers = []
         nullkoht = None
