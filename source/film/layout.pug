@@ -7,11 +7,11 @@ block content
 
     main.grid_film
         if self.locale != 'et'
-            - my_path = self.path.substring(1).split('/')[1]
+            - var my_path = self.path.substring(1).split('/')[1]
         else
-            - my_path = self.path.substring(1)
-        - filmslugs = self.data.pictures.filmslugs
-        - filmslug = filmslugs[my_path]
+            - var my_path = self.path.substring(1)
+        - var filmslugs = self.data.pictures.filmslugs
+        - var filmslug = filmslugs[my_path]
 
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
@@ -286,7 +286,7 @@ block content
         if self.filmTrailer
             section.f_extra_box
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - youtubeVideoCode = self.filmTrailer.split('=')
+                - var youtubeVideoCode = self.filmTrailer.split('=')
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 

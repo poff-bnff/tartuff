@@ -6,10 +6,10 @@ include ../_templates/mixins.pug
 
 block content
 
-    - my_path = self.path.split("/")[self.path.split("/").length-1]
+    - var my_path = self.path.split("/")[self.path.split("/").length-1]
 
-    - articlePics = self.data.article_pictures.articles
-    - articlePic = articlePics[my_path]
+    - var articlePics = self.data.article_pictures.articles
+    - var articlePic = articlePics[my_path]
 
     main.grid_article
         section.article_hero_head
