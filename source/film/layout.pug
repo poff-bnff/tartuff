@@ -7,7 +7,7 @@ block content
 
     main.grid_film
         if self.locale != 'et'
-            - my_path = self.path.substring(1).split("/")[1]
+            - my_path = self.path.substring(1).split('/')[1]
         else
             - my_path = self.path.substring(1)
         - filmslugs = self.data.pictures.filmslugs
@@ -25,24 +25,24 @@ block content
                         each val, index in filmslug.pics
                             if index == 0
                                 .carousel-item.active.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self['filmTitle_' + self.locale])
                             else
                                 .carousel-item.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self['filmTitle_' + self.locale])
                     else
                         .carousel-item.active.container_contents_16_9
-                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
+                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self['filmTitle_' + self.locale])
                 else
                     .carousel-item.active.container_contents_16_9
-                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
+                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self['filmTitle_' + self.locale])
 
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
-                // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                // <span class='carousel-control-prev-icon' aria-hidden='true'></span>
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                     polyline(points='15 18 9 12 15 6')
                 span.sr-only Previous
             a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
-                // <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                // <span class='carousel-control-next-icon' aria-hidden='true'></span>
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                     polyline(points='9 18 15 12 9 6')
                 span.sr-only Next
@@ -64,7 +64,7 @@ block content
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
             .synopsis_gi
-                | !{ self.md(self["filmSynopsis_" + self.locale])}
+                | !{ self.md(self['filmSynopsis_' + self.locale])}
 
 
 
@@ -286,7 +286,7 @@ block content
         if self.filmTrailer
             section.f_extra_box
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - youtubeVideoCode = self.filmTrailer.split("=")
+                - youtubeVideoCode = self.filmTrailer.split('=')
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 

@@ -6,7 +6,7 @@ include ../_templates/mixins.pug
 
 block content
 
-    - my_path = self.path.split("/")[self.path.split("/").length-1]
+    - my_path = self.path.split('/')[self.path.split('/').length-1]
 
     - articlePics = self.data.article_pictures.articles
     - articlePic = articlePics[my_path]
