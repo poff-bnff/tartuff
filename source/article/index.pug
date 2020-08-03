@@ -6,14 +6,14 @@ include ../_templates/mixins.pug
 
 block content
 
-    - my_path = self.path.split('/')[self.path.split('/').length-1]
+    - my_path = self.path.split("/")[self.path.split("/").length-1]
 
     - articlePics = self.data.article_pictures.articles
     - articlePic = articlePics[my_path]
 
     main.grid_article
         section.article_hero_head
-            img(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage).article_hero_image
+            img.article_hero_image(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage)
         .article_hero_headline_box
             .article_title_detailed= self.articleTitle_et
 
