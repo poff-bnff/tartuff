@@ -18,7 +18,6 @@ search:
     placeholder: enter →
     button: Search
 label:
-    label:
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
@@ -49,3 +48,9 @@ label:
         filmScreenings: Screenings
     screening:
         screeningSubtitles: Subtitles
+        screeningQaPresenter: Q&A presenter
+        screeningQaGuests: Q&A guests
+        screeningQaDuration: Q&A duration
+        screeningTotalDuration: Screening duration
+        screeningName: Screening
+        screeningAdditionalInfo: Additional info
