@@ -3,7 +3,7 @@ root: /en/
 language:
     et: eesti
     en: english
-    ru: русский
+    # ru: русский
 navigation:
     -
         url: /countries/
@@ -19,6 +19,38 @@ search:
     button: Search
 label:
     film:
-        title: Title
+        filmTitleOriginal: Original title
+        filmTitle_en: Title in English
+        filmTitle_ru: Title in Russian
+        filmTitle_et: Title
+        filmCountries: Country
+        filmLanguages: Language
+        filmYear: Year
+        filmDuration: Runtime
+        filmDirector: Director
+        filmProducer: Producer
+        filmCoProducer: Coproducer
+        filmScreenwriter: Screenwriter
+        filmDop: DoP
+        filmEditor: Editor
+        filmComposer: Music
+        filmCast: Cast
+        filmProduction: Production
+        filmSynopsis: Synopsis
+        filmTrailer: Trailer
+        filmFestival: Festival
+        filmPremiereType: Premiere type
+        filmProgramme: Programme
+        filmGenre: Genre
+        filmKeyword: Keywords
+        filmOtherFestivals: Festivals
+        filmAwards: Awards
+        filmScreenings: Screenings
     screening:
-        screeningSubtitles: Subtiitrid
+        screeningSubtitles: Subtitles
+        screeningQaPresenter: Q&A presenter
+        screeningQaGuests: Q&A guests
+        screeningQaDuration: Q&A duration
+        screeningTotalDuration: Screening duration
+        screeningName: Screening
+        screeningAdditionalInfo: Additional info

@@ -63,8 +63,9 @@ block content
                 //-         | Programm
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
+            - synopsis_md = self["filmSynopsis_" + self.locale]
             .synopsis_gi
-                | !{ self.md(self["filmSynopsis_" + self.locale])}
+                | !{ self.md(synopsis_md)}
 
 
 
