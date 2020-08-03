@@ -1,7 +1,7 @@
 -
     articleId: '1'
     data:
-        article_pictures: ../article_pictures.yaml
+        article_pictures: /article_pictures.yaml
     path: a1
     articleType: Uudised
     articleActive: '1'
@@ -75,7 +75,7 @@
 -
     articleId: '2'
     data:
-        article_pictures: ../article_pictures.yaml
+        article_pictures: /article_pictures.yaml
     path: a2
     articleType: Uudised
     articleActive: '1'
@@ -195,7 +195,7 @@
 -
     articleId: '3'
     data:
-        article_pictures: ../article_pictures.yaml
+        article_pictures: /article_pictures.yaml
     path: a3
     articleType: Uudised
     articleActive: '1'
@@ -264,7 +264,7 @@
 -
     articleId: '4'
     data:
-        article_pictures: ../article_pictures.yaml
+        article_pictures: /article_pictures.yaml
     path: a4
     articleType: Uudised
     articleActive: '1'
