@@ -74,7 +74,7 @@ def main():
                 for x in row:
 
                     if count2 == 0:
-                        data['data'] = {'pictures': '../film_pictures.yaml', 'screenings': 'screenings.yaml'}
+                        data['data'] = {'pictures': './film_pictures.yaml', 'screenings': 'screenings.yaml'}
 
                     data[headers[count2]] = row[count2].strip()
 
