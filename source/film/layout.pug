@@ -1,5 +1,5 @@
-extends /_templates/layout.pug
-include /_templates/mixins.pug
+extends ../_templates/layout.pug
+include ../_templates/mixins.pug
 
 
 
@@ -7,11 +7,11 @@ block content
 
     main.grid_film
         if self.locale != 'et'
-            - var my_path = self.path.substring(1).split('/')[1]
+            - my_path = self.path.substring(1).split("/")[1]
         else
-            - var my_path = self.path.substring(1)
-        - var filmslugs = self.data.pictures.filmslugs
-        - var filmslug = filmslugs[my_path]
+            - my_path = self.path.substring(1)
+        - filmslugs = self.data.pictures.filmslugs
+        - filmslug = filmslugs[my_path]
 
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
@@ -25,24 +25,24 @@ block content
                         each val, index in filmslug.pics
                             if index == 0
                                 .carousel-item.active.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
                             else
                                 .carousel-item.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
+                                    img.d-block.container_contents_16_9(src='/assets/img/img_films/'+ my_path + '/' + val alt = self["filmTitle_" + self.locale])
                     else
                         .carousel-item.active.container_contents_16_9
-                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_${self.locale}`])
+                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
                 else
                     .carousel-item.active.container_contents_16_9
-                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_${self.locale}`])
+                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self["filmTitle_" + self.locale])
 
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
-                // <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+                // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                     polyline(points='15 18 9 12 15 6')
                 span.sr-only Previous
             a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
-                // <span class='carousel-control-next-icon' aria-hidden='true'></span>
+                // <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 svg.svg_icon_prev_next(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                     polyline(points='9 18 15 12 9 6')
                 span.sr-only Next
@@ -54,12 +54,18 @@ block content
         section.f_synopsis_box
             .str_info_meta_gi
                 .str_info_meta_item
-                    .str_info_meta_label Festival
-                    .str_info_meta_festival Tartuff
+                    .str_info_meta_label
+                        | Festival
+                    .str_info_meta_festival
+                        | Tartuff
                 //- .str_info_meta_item
-                //-     .str_info_meta_label Programm
-                //-     .str_info_meta_program Foorum, Põhjusega mässajad
-            .synopsis_gi !{ self.md(self[`filmSynopsis_${self.locale}`])}
+                //-     .str_info_meta_label
+                //-         | Programm
+                //-     .str_info_meta_program
+                //-         | Foorum, Põhjusega mässajad
+            - synopsis_md = self["filmSynopsis_" + self.locale]
+            .synopsis_gi
+                | !{ self.md(synopsis_md)}
 
 
 
@@ -120,37 +126,51 @@ block content
         //-                             line(x1='16' y1='2' x2='16' y2='6')
         //-                             line(x1='8' y1='2' x2='8' y2='6')
         //-                             line(x1='3' y1='10' x2='21' y2='10')
-        //-                         span.screening_date 15. nov
+        //-                         span.screening_date
+        //-                             | 15. nov
         //-                             span.screening_weekday , Esmaspäev
         //-                     .text-right
         //-                         svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                             circle(cx='12' cy='12' r='10')
         //-                             polyline(points='12 6 12 12 16 14')
-        //-                         span.screening_time 17:30
+        //-                         span.screening_time
+        //-                             | 17:30
         //-                 .container_screening_location
         //-                     svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                         path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
         //-                         circle(cx='12' cy='10' r='3')
-        //-                     span.screening_hall iSense saal
-        //-                         span.screening_venue , Coca-Cola Plaza
+        //-                     span.screening_hall
+        //-                         | iSense saal
+        //-                         span.screening_venue
+        //-                             | , Coca-Cola Plaza
         //-                             span.city , Tallinn
         //-             .card-body.bg_dark_3
         //-                 .screening_info_blokk
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Screening
-        //-                         span.screening_info_value 020402 / Coming Home Again
+        //-                         span.screening_info_label
+        //-                             | Screening
+        //-                         span.screening_info_value
+        //-                             | 020402 / Coming Home Again
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Subtitles
-        //-                         span.screening_info_value English, Estonian
+        //-                         span.screening_info_label
+        //-                             | Subtitles
+        //-                         span.screening_info_value
+        //-                             | English, Estonian
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Q&A presenter
-        //-                         span.screening_info_value.hoff_red Javier Garcia Puerto
+        //-                         span.screening_info_label
+        //-                             | Q&A presenter
+        //-                         span.screening_info_value.hoff_red
+        //-                             | Javier Garcia Puerto
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Q&A guests
-        //-                         span.screening_info_value Wayne Wang
+        //-                         span.screening_info_label
+        //-                             | Q&A guests
+        //-                         span.screening_info_value
+        //-                             | Wayne Wang
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Scr duration
-        //-                         span.screening_info_value 1 h 50 min
+        //-                         span.screening_info_label
+        //-                             | Scr duration
+        //-                         span.screening_info_value
+        //-                             | 1 h 50 min
         //-             .btn-group(role='group' aria-label='Buttons')
         //-                 a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
         //-                 a.btn.btn_primary.active(href='#' role='button') Osta pilet
@@ -163,40 +183,56 @@ block content
         //-                             line(x1='16' y1='2' x2='16' y2='6')
         //-                             line(x1='8' y1='2' x2='8' y2='6')
         //-                             line(x1='3' y1='10' x2='21' y2='10')
-        //-                         span.screening_date 18. nov
+        //-                         span.screening_date
+        //-                             | 18. nov
         //-                             span.screening_weekday , Kolmapäev
         //-                     .text-right
         //-                         svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                             circle(cx='12' cy='12' r='10')
         //-                             polyline(points='12 6 12 12 16 14')
-        //-                         span.screening_time 19:00
+        //-                         span.screening_time
+        //-                             | 19:00
         //-                 .container_screening_location
         //-                     svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                         path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
         //-                         circle(cx='12' cy='10' r='3')
-        //-                     span.screening_hall Saal 3
-        //-                         span.screening_venue , Apollo Kino Solaris
+        //-                     span.screening_hall
+        //-                         | Saal 3
+        //-                         span.screening_venue
+        //-                             | , Apollo Kino Solaris
         //-                             span.city , Tallinn
         //-             .card-body.bg_dark_3
         //-                 .screening_info_blokk
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Screening
-        //-                         span.screening_info_value 050603 / Coming Home Again
+        //-                         span.screening_info_label
+        //-                             | Screening
+        //-                         span.screening_info_value
+        //-                             | 050603 / Coming Home Again
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Subtitles
-        //-                         span.screening_info_value English, Estonian
+        //-                         span.screening_info_label
+        //-                             | Subtitles
+        //-                         span.screening_info_value
+        //-                             | English, Estonian
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Q&A presenter
-        //-                         span.screening_info_value.hoff_red Javier Garcia Puerto
+        //-                         span.screening_info_label
+        //-                             | Q&A presenter
+        //-                         span.screening_info_value.hoff_red
+        //-                             | Javier Garcia Puerto
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Q&A guests
-        //-                         span.screening_info_value Wayne Wang
+        //-                         span.screening_info_label
+        //-                             | Q&A guests
+        //-                         span.screening_info_value
+        //-                             | Wayne Wang
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Scr duration
-        //-                         span.screening_info_value 1 h 50 min
+        //-                         span.screening_info_label
+        //-                             | Scr duration
+        //-                         span.screening_info_value
+        //-                             | 1 h 50 min
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Additional info
-        //-                         span.screening_info_value Mi adipiscing habitant tincidunt sed mattis sem. Blandit sodales sit eu, porttitor nullam imperdiet.
+        //-                         span.screening_info_label
+        //-                             | Additional info
+        //-                         span.screening_info_value
+        //-                             | Mi adipiscing habitant tincidunt sed mattis sem. Blandit sodales sit eu, porttitor nullam imperdiet.
         //-             .btn-group(role='group' aria-label='Buttons')
         //-                 a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
         //-                 a.btn.btn_primary.active(href='#' role='button') Osta pilet
@@ -209,31 +245,41 @@ block content
         //-                             line(x1='16' y1='2' x2='16' y2='6')
         //-                             line(x1='8' y1='2' x2='8' y2='6')
         //-                             line(x1='3' y1='10' x2='21' y2='10')
-        //-                         span.screening_date 22. nov
+        //-                         span.screening_date
+        //-                             | 22. nov
         //-                             span.screening_weekday , Pühapäev
         //-                     .text-right
         //-                         svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                             circle(cx='12' cy='12' r='10')
         //-                             polyline(points='12 6 12 12 16 14')
-        //-                         span.screening_time 22:00
+        //-                         span.screening_time
+        //-                             | 22:00
         //-                 .container_screening_location
         //-                     svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
         //-                         path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
         //-                         circle(cx='12' cy='10' r='3')
-        //-                     span.screening_hall Sõprus
-        //-                         span.screening_venue , Kino Sõprus
+        //-                     span.screening_hall
+        //-                         | Sõprus
+        //-                         span.screening_venue
+        //-                             | , Kino Sõprus
         //-                             span.city , Tallinn
         //-             .card-body.bg_dark_3
         //-                 .screening_info_blokk
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Screening
-        //-                         span.screening_info_value 091004 / Coming Home Again
+        //-                         span.screening_info_label
+        //-                             | Screening
+        //-                         span.screening_info_value
+        //-                             | 091004 / Coming Home Again
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Subtitles
-        //-                         span.screening_info_value English, Estonian
+        //-                         span.screening_info_label
+        //-                             | Subtitles
+        //-                         span.screening_info_value
+        //-                             | English, Estonian
         //-                     .str_info_grid_3
-        //-                         span.screening_info_label Scr duration
-        //-                         span.screening_info_value 1 h 20 min
+        //-                         span.screening_info_label
+        //-                             | Scr duration
+        //-                         span.screening_info_value
+        //-                             | 1 h 20 min
         //-             .btn-group(role='group' aria-label='Buttons')
         //-                 a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
         //-                 a.btn.btn_primary.active(href='#' role='button') Osta pilet
@@ -241,7 +287,7 @@ block content
         if self.filmTrailer
             section.f_extra_box
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - var youtubeVideoCode = self.filmTrailer.split('=')
+                - youtubeVideoCode = self.filmTrailer.split("=")
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 
