@@ -3,7 +3,7 @@ root: /
 language:
     et: eesti
     en: english
-    ru: русский
+    # ru: русский
 navigation:
     -
         url: /riigid/
@@ -48,3 +48,9 @@ label:
         filmScreenings: Seansid
     screening:
         screeningSubtitles: Subtiitrid
+        screeningQaPresenter: Q&A küsitleja
+        screeningQaGuests: Q&A külalised
+        screeningQaDuration: Q&A kestus
+        screeningTotalDuration: Seansi kestus
+        screeningName: Seanss
+        screeningAdditionalInfo: Lisainfo

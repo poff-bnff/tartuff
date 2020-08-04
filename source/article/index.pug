@@ -13,7 +13,10 @@ block content
 
     main.grid_article
         section.article_hero_head
-            img.article_hero_image(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage)
+            if articlePic
+                img(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage).article_hero_image
+            else
+                img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
         .article_hero_headline_box
             .article_title_detailed= self.articleTitle_et
 
@@ -32,7 +35,9 @@ block content
 
         section.article_contents
             p= self.articleLead_et
-            p= self.articleContents_et
+            //- p= self.articleContents_et
+            - articleContents = self["articleContents_" + self.locale]
+            | !{ self.md(articleContents)}
 
         section.article_extra
 
