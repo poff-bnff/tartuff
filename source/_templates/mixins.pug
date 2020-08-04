@@ -14,23 +14,17 @@ mixin localdatetime(dateString)
             var NowMoment1 = moment('#{dateString}').format('L HH:mm');
             eDisplayMoment1.innerHTML = NowMoment1;
 
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
 
-            //- Allpool vajalik erinevate riikide tarbeks !!!!!!!! ÄRA KUSTUTA !!!!!!!!!!!!
-
-            //- var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
-
+            //- //- Allpool vajalik erinevate riikide tarbeks !!!!!!!!! ÄRA KUSTUTA !!!!!!!!!
             //- var NowMoment1 = moment.utc('#{dateString}').toDate();
-            //- console.log(NowMoment1);
+            //- console.log(`Local time of publishing: ${NowMoment1}`);
             //- var UTCTime = moment.utc(NowMoment1).format();
-            //- console.log(UTCTime);
-            //- var local = moment(NowMoment1).local("et").format("dddd");
-            //- console.log(local);
-            //- console.log(moment("01-06-2018", 'MM-DD-YYYY').locale("en").format("dddd"));
+            //- console.log(`UTC: ${UTCTime}`);
+            //- var localday = moment(NowMoment1).locale("et").format("dddd");
+            //- console.log(`Estonian day in word: ${localday}`);
+            //- var localday2 = moment(NowMoment1).locale("ru").format("dddd");
+            //- console.log(`Russain day in word: ${localday2}`);
+
             //- eDisplayMoment1.innerHTML = local;
-
-            //- var res = moment("01-06-2018", 'MM-DD-YYYY').locale("ru").format("dddd");
-            //- console.log(res);
-            //- script(src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment-with-locales.min.js')
-
-
         })();
