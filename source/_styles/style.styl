@@ -144,14 +144,16 @@ header
 
 footer
     grid-area footer
+    border-top 1px solid rgba(255,255,255,.1)
+    padding 2rem
+
+.grid_footer_contact
     display grid
     grid-template-columns 1fr
     grid-template-rows auto
     grid-gap 2rem
     justify-items center
     align-items center
-    border-top 1px solid rgba(255,255,255,.1)
-    padding 2rem
 
 nav
     ul
@@ -280,6 +282,34 @@ nav
     margin 0
     padding 1rem
     padding-top 78px
+
+
+.footer_sponsors_1
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(440px, 1fr))
+    justify-items center
+    align-items center
+    grid-gap 2rem
+
+.footer_sponsors_2
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(440px, 1fr))
+    justify-items center
+    align-items center
+    grid-gap 2rem
+
+.footer_sponsors_3
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(440px, 1fr))
+    justify-items center
+    align-items center
+    grid-gap 2rem
+
+.sponsor_item_1
+.sponsor_item_2
+.sponsor_item_3
+    background-color bg_dark_3
+
 
 header
     grid-area header
@@ -749,9 +779,7 @@ p
     padding-bottom 1rem
     a
         text-decoration: none
-        // color white_96
-
-
+        color white_96
 
 .article_meta
     padding 1rem
@@ -961,14 +989,17 @@ p
 
     footer
         grid-area footer
+        border-top 1px solid rgba(255,255,255,.1)
+        padding 2rem
+
+    .grid_footer_contact
         display grid
         grid-template-columns 1fr 1fr 1fr
         grid-template-rows auto
         grid-gap 2rem
         justify-items center
         align-items center
-        border-top 1px solid rgba(255,255,255,.1)
-        padding 2rem
+
 
     nav
         ul
