@@ -73,7 +73,7 @@ def main():
                     for x in row:
 
                         if count2 == 0:
-                            data['data'] = {'pictures': '/article_pictures.yaml'}
+                            data['data'] = {'article_pictures': '/article_pictures.yaml'}
 
                         data[headers[count2]] = row[count2].strip()
 
