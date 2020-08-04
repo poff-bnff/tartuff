@@ -4,13 +4,13 @@ mixin youtube(videoId)
         gyroscope;='', picture-in-picture”='', allowfullscreen='')
 
 mixin localdatetime(dateString)
-    - dom_id = Math.random()
+    - var dom_id = Math.random()
     div(id = 'dt_' + dom_id)
 
     script.
         (function()
         {
-            var eDisplayMoment1 = document.getElementById('#{dom_id}');
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
             var NowMoment1 = moment('#{dateString}').format('L LT');
             eDisplayMoment1.innerHTML = NowMoment1;
         })();

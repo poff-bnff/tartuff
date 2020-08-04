@@ -1,6 +1,6 @@
 //- extends /_templates/layout.pug
-extends ../_templates/layout.pug
-include ../_templates/mixins.pug
+extends /_templates/layout.pug
+include /_templates/mixins.pug
 
 
 
@@ -28,7 +28,9 @@ block content
                 .str_info_meta_item
                     .str_info_meta_value= self.articleAuthor
                 .str_info_meta_item
-                    .str_info_meta_value= self.kuupäev + '  ' + self.kell
+                    //- .str_info_meta_value= self.kuupäev + '  ' + self.kell
+                    .str_info_meta_value
+                        +localdatetime(self.articlePublishStart)
                 .str_info_meta_item
                     .str_info_meta_keywords= self.tagKeyword
 
