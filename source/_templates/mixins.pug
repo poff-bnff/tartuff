@@ -11,6 +11,6 @@ mixin localdatetime(dateString)
         (function()
         {
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
-            var NowMoment1 = moment('#{dateString}').format('ddd L HH:mm');
+            var NowMoment1 = moment('#{dateString}').format('L HH:mm');
             eDisplayMoment1.innerHTML = NowMoment1;
         })();
