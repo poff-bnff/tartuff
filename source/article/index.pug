@@ -34,7 +34,7 @@ block content
 
 
         section.article_contents
-            p.article_lead= self.articleLead_et
+            p.font_weight_500= self.articleLead_et
             //- p= self.articleContents_et
             - articleContents = self["articleContents_" + self.locale]
             | !{ self.md(articleContents)}
