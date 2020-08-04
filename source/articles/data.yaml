@@ -1,4 +1,4 @@
-path: '/articles'
+path: articles
 data:
-    articles: ../article/data.yaml
-    article_pictures: ../article_pictures.yaml
+    articles: /article/data.yaml
+    article_pictures: /article_pictures.yaml

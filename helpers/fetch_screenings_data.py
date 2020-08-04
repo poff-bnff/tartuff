@@ -13,7 +13,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = '1J_cYJnZI41V8TGuOa8GVDjnHSD9qRmgKTJR3sd9Ff7Y'
-SAMPLE_RANGE_NAME = 'Filmid'
+SAMPLE_RANGE_NAME = 'Seansid'
 
 def main():
     """Shows basic usage of the Sheets API.
@@ -50,7 +50,7 @@ def main():
     if not values:
         print('No data found.')
     else:
-        print('Fetching films')
+        print('Fetching screenings info')
 
         # Counter
         count = 0
@@ -71,8 +71,6 @@ def main():
                 data = {}
                 for x in row:
 
-                    if count2 == 0:
-                        data['data'] = {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'}
 
                     data[headers[count2]] = row[count2].strip()
 
@@ -80,7 +78,7 @@ def main():
 
                 dict_file = dict_file + [data]
 
-                with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
+                with open(r'../source/film/screenings.yaml', 'w', encoding='utf-8') as file:
                     documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
 
             count = count + 1

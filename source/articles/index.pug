@@ -1,5 +1,5 @@
 extends /_templates/layout.pug
-include ../_templates/mixins.pug
+include /_templates/mixins.pug
 
 block content
 
@@ -11,8 +11,10 @@ block content
                 - article_pictures = self.data.article_pictures.articles[article_slug]
                 a(href= '/' + article_slug).card_article
                     .container_frame_16_9
-                        img.container_contents_16_9(src='/assets/img/img_articles/'+article_slug+'/'+article_pictures.heroImage
-                        alt='Img alt text')
+                        if article_pictures
+                            img.container_contents_16_9(src='/assets/img/img_articles/'+article_slug+'/'+article_pictures.heroImage)
+                        else
+                            img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg')
 
                     //- .container_frame_16_9
                     //-     img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
