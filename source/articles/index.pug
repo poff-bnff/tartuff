@@ -19,19 +19,25 @@ block content
                         //- .container_frame_16_9
                         //-     img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
 
-                        .card_article_title
-                            p.keywords_left=val.tagKeyword
-                            h3.article_title_locale=val[`articleTitle_${self.locale}`]
+                        if val[`articleTitle_${self.locale}`]
+                            .card_article_title
+                                p.keywords_left=val.tagKeyword
+                                h3.article_title_locale=val[`articleTitle_${self.locale}`]
+
                         .card_article_lead
                             if val[`articleLead_${self.locale}`]
                                 .article_lead=val[`articleLead_${self.locale}`]
                             else
-                                .article_lead=val[`articleContents_${self.locale}`]
+                                if val[`articleContents_${self.locale}`]
+                                    .article_lead=val[`articleContents_${self.locale}`]
+
                         .card_article_footer
-                            .article_author=val.articleAuthor
+                            if val.articleAuthor
+                                .article_author=val.articleAuthor
                             span &nbsp;&nbsp;
-                            .article_publish_start
-                                +localdatetime(val.articlePublishStart)
+                            if val.articlePublishStart
+                                .article_publish_start
+                                    +localdatetime(val.articlePublishStart)
 
 
 
