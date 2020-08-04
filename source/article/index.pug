@@ -35,7 +35,9 @@ block content
 
         section.article_contents
             p= self.articleLead_et
-            p= self.articleContents_et
+            //- p= self.articleContents_et
+            - articleContents = self["articleContents_" + self.locale]
+            | !{ self.md(articleContents)}
 
         section.article_extra
 
