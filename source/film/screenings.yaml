@@ -234,6 +234,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
     screeningsQaDuration: '20'
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/fqwmeUfVAY0
 -   screeningEventivalId: '2020'
     filmEventivalId: '1004'
     filmPath: the-goddess-of-fortune
