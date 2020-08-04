@@ -113,6 +113,17 @@ block content
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
                     .str_info_value= self.filmDuration
+
+        //- section.f_screenings_box
+        //-     div
+        //-         h1.section_headline_back= self.label.film.filmScreenings
+
+        //- each screening in self.data.screenings
+            //-     if filmPath == screening.filmPath
+            //-         p= 'datsdsdsda: ' + screening.screeningDatetime
+
+            //-         +localdatetime(screening.screeningDatetime)
+
         //- section.f_screenings_box
         //-     div
         //-         h1.section_headline_back= self.label.film.filmScreenings
