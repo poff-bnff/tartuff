@@ -17,16 +17,4 @@ mixin localdatetime(dateString)
             eDisplayMoment1.innerHTML = weekDay + ' ' +  NowMoment1;
 
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
-
-            //- //- Allpool vajalik erinevate riikide tarbeks !!!!!!!!! ÄRA KUSTUTA !!!!!!!!!
-            //- var NowMoment1 = moment.utc('#{dateString}').toDate();
-            //- console.log(`Local time of publishing: ${NowMoment1}`);
-            //- var UTCTime = moment.utc(NowMoment1).format();
-            //- console.log(`UTC: ${UTCTime}`);
-            //- var localday = moment(NowMoment1).locale("et").format("dddd");
-            //- console.log(`Estonian day in word: ${localday}`);
-            //- var localday2 = moment(NowMoment1).locale("ru").format("dddd");
-            //- console.log(`Russain day in word: ${localday2}`);
-
-            //- eDisplayMoment1.innerHTML = local;
         })();
