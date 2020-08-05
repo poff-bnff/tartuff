@@ -38,8 +38,8 @@ bg_dark_4 = #29333A
 clr_popover = #192024
 // clr_primary = #ec008c
 clr_primary = #ef0f20 // tartuff red
-clr_pimary_semi = rgba(236,0,140,.2)
-clr_pimary_light = rgba(170, 64, 131, 0.6)
+clr_primary_semi = rgba(236,0,140,.2)
+clr_primary_light = rgba(195, 22, 28, 0.3)
 clr_secondary = #F67625
 clr_keyword = #3EADEF
 clr_elisa_stage = #0019af
@@ -144,14 +144,16 @@ header
 
 footer
     grid-area footer
+    border-top 1px solid rgba(255,255,255,.1)
+    padding 10vw
+
+.grid_footer_contact
     display grid
     grid-template-columns 1fr
     grid-template-rows auto
     grid-gap 2rem
     justify-items center
     align-items center
-    border-top 1px solid rgba(255,255,255,.1)
-    padding 2rem
 
 nav
     ul
@@ -280,6 +282,43 @@ nav
     margin 0
     padding 1rem
     padding-top 78px
+
+
+.footer_sponsors_1
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(200px, 1fr))
+    justify-content center
+    justify-items center
+    align-items center
+    grid-gap 2rem
+
+.footer_sponsors_2
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(200px, .5fr))
+    justify-content center
+    justify-items center
+    align-items center
+    grid-gap 5rem
+    margin-bottom 3rem
+
+.footer_sponsors_3
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(200px, .3fr))
+    justify-content center
+    justify-items center
+    align-items center
+    grid-gap 5rem
+
+.sponsor_item_1
+    // background-color bg_dark_3
+    width 60%
+    // padding 7rem
+
+.sponsor_item_2
+    width 70%
+
+.sponsor_item_3
+    width 70%
 
 header
     grid-area header
@@ -427,13 +466,26 @@ p
   font-family font_h
   font-size calc(4rem + 5vw)
   line-height 1.2
-  font-weight 500
-  color clr_pimary_light
+  font-weight 700
+  color bg_dark_3
   letter-spacing 0.04em
   text-align center
   padding-left calc(1rem + 1vw)
   padding-right calc(1rem + 1vw)
   margin-bottom -.7em
+
+.section_headline_footer
+  font-family font_h
+  font-size calc(4rem + 5vw)
+  line-height 1.2
+  font-weight 700
+  color bg_dark_3
+  letter-spacing 0.04em
+  text-align center
+  padding-left calc(1rem + 1vw)
+  padding-right calc(1rem + 1vw)
+  margin-bottom -.3em
+
 
 .main_menu_toggle
   &:checked
@@ -607,10 +659,10 @@ p
 
 .btn_secondary
   background-color bg_dark_4
-  color clr_pimary_semi
+  color white_semi
   border-radius 0
   text-transform uppercase
-  display none
+//   display none
 
 .btn_primary
   background-color clr_primary
@@ -750,8 +802,6 @@ p
     a
         text-decoration: none
         // color white_96
-
-
 
 .article_meta
     padding 1rem
@@ -961,14 +1011,17 @@ p
 
     footer
         grid-area footer
+        border-top 1px solid rgba(255,255,255,.1)
+        padding 10vw
+
+    .grid_footer_contact
         display grid
         grid-template-columns 1fr 1fr 1fr
         grid-template-rows auto
         grid-gap 2rem
         justify-items center
         align-items center
-        border-top 1px solid rgba(255,255,255,.1)
-        padding 2rem
+
 
     nav
         ul
