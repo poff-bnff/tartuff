@@ -3,3 +3,4 @@ node_modules
 .DS_Store
 source/film_pictures.yaml
 source/article_pictures.yaml
+helpers/token.pickle
