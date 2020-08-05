@@ -1,7 +1,5 @@
 header
             nav.lang-menu
-                p= self.otherLocalePaths
-
                 each p, locale in self.otherLocalePaths
                     a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
             .logo
