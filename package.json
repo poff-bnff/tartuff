@@ -7,7 +7,7 @@
     "entu-ssg": "^5.2.6"
   },
   "scripts": {
-    "fetch": ". ./fetch.sh",
+    "fetch": "python ./helpers/fetch_data.py",
     "dev": ". ./build.sh",
     "build": "node ./node_modules/entu-ssg/src/build.js ./entu-ssg.yaml full"
   },
