@@ -3,7 +3,7 @@ root: /
 language:
     et: eesti
     en: english
-    ru: русский
+    # ru: русский
 navigation:
     -
         url: /riigid/
@@ -19,10 +19,10 @@ search:
     button: Otsi
 label:
     film:
-        filmTitleOriginal: Algne nimi
-        filmTitle_en: Ingliskeelne nimi
-        filmTitle_ru: Venekeelne nimi
-        filmTitle_et: Nimi
+        filmTitleOriginal: Pealkirja originaal
+        filmTitle_en: Pealkiri inglise keeles
+        filmTitle_ru: Pealkiri vene keeles
+        filmTitle_et: Pealkiri
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
@@ -48,3 +48,9 @@ label:
         filmScreenings: Seansid
     screening:
         screeningSubtitles: Subtiitrid
+        screeningQaPresenter: Q&A küsitleja
+        screeningQaGuests: Q&A külalised
+        screeningQaDuration: Q&A kestus
+        screeningTotalDuration: Seansi kestus
+        screeningName: Seanss
+        screeningAdditionalInfo: Lisainfo

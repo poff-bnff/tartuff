@@ -1,44 +1,22 @@
 //- extends /_templates/layout.pug
-extends ../_templates/layout.pug
-include ../_templates/mixins.pug
+extends /_templates/layout.pug
+include /_templates/mixins.pug
 
 
 
 block content
 
-    if self.locale != 'et'
-        - my_path = self.path.substring(1).split("/")[1]
-    else
-        - my_path = self.path.substring(1)
+    - my_path = self.path.split("/")[self.path.split("/").length-1]
+
     - articlePics = self.data.article_pictures.articles
     - articlePic = articlePics[my_path]
 
-
-    //- if self.films
-    //-     main.grid_filmid
-    //-         each val in self.films
-    //-             section.card_film
-    //-                 .container_frame_16_9
-    //-                     img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
-    //-                 .card_film_title
-    //-                     h3.film_title_locale= val.filmTitleEt
-    //-                 if val.filmTitleEn
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmTitle_en
-    //-                         .str_info_value= val.filmTitleEn
-    //-                 if val.filmDirector
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmDirector
-    //-                         .str_info_value= val.filmDirector
-    //-                 if val.filmCast
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmCast
-    //-                         .str_info_value= val.filmCast
-
-
     main.grid_article
         section.article_hero_head
-            img(src='/assets/img/img_articles/' + my_path + '/' + articlePic.heroImage).article_hero_image
+            if articlePic
+                img(src=`/assets/img/img_articles/${my_path}/${articlePic.heroImage}`).article_hero_image
+            else
+                img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
         .article_hero_headline_box
             .article_title_detailed= self.articleTitle_et
 
@@ -50,24 +28,18 @@ block content
                 .str_info_meta_item
                     .str_info_meta_value= self.articleAuthor
                 .str_info_meta_item
-                    .str_info_meta_value= self.kuupäev + '  ' + self.kell
+                    //- .str_info_meta_value= self.kuupäev + '  ' + self.kell
+                    .str_info_meta_value
+                        +localdatetime(self.articlePublishStart)
                 .str_info_meta_item
                     .str_info_meta_keywords= self.tagKeyword
-                //- .str_info_meta_item
-                //-     .str_info_meta_label
-                //-         | Programm
-                //-     .str_info_meta_program
-                //-         | Foorum, Põhjusega mässajad
-
-        //- section
-        //-     p= self.articleType
-        //-     p= self.articleAuthor
-        //-     p= self.kuupäev + ' - ' + self.kell
-        //-     p= self.tagKeyword
 
 
         section.article_contents
-            p= self.articleContents_et
+            p.font_weight_600= self.articleLead_et
+            //- p= self.articleContents_et
+            - articleContents = self[`articleContents_${self.locale}`]
+            | !{ self.md(articleContents)}
 
         section.article_extra
 

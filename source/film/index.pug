@@ -1,14 +1,16 @@
 extends layout.pug
 
+
 block film
     p= self.filmLocalTitle
 
 block titleBox
-    - localtitle = "filmTitle_" + self.locale
+    - var pathParts = self.path.split('/')
+    - var filmPath = pathParts[pathParts.length - 1]
+    - var localtitle = `filmTitle_${self.locale}`
     section.f_title_box
         //- .premiere_type= self.label.film.filmPremiereType
-        .premiere_type
-            | &nbsp;
+        .premiere_type &nbsp;
         h1.film_title_detailed= self[localtitle]
         .str_info_blokk_1
             .str_info_grid_3
@@ -16,8 +18,8 @@ block titleBox
                 .str_info_value= self.filmLocalTitle
 
             each url, loc in self.otherLocalePaths
-                - foreignlabel = "filmTitle_" + loc
-                - foreigntitle = "filmTitle_" + loc
+                - var foreignlabel = `filmTitle_${loc}`
+                - var foreigntitle = `filmTitle_${loc}`
                 if self[foreigntitle]
                     .str_info_grid_3
                         .str_info_label= self.label.film[foreignlabel]
@@ -42,3 +44,9 @@ block titleBox
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmYear
                     .str_info_value= self.filmYear
+
+            //- each screening in self.data.screenings
+            //-     if filmPath == screening.filmPath
+            //-         p= 'datsdsdsda: ' + screening.screeningDatetime
+
+            //-         +localdatetime(screening.screeningDatetime)

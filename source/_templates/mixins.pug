@@ -1,7 +1,16 @@
 mixin youtube(videoId)
-    iframe(width='560', height='315', src='https://www.youtube.com/embed/'+videoId,
-        frameborder='0', allow='accelerometer', autoplay;='', encrypted-media;='',
-        gyroscope;='', picture-in-picture”='', allowfullscreen='')
+    iframe(width='560' height='315' src=`https://www.youtube.com/embed/${videoId}`
+        frameborder='0' allow='accelerometer' autoplay;='' encrypted-media;=''
+        gyroscope;='' picture-in-picture”='' allowfullscreen='')
 
+mixin localdatetime(dateString)
+    - var dom_id = Math.random()
+    div(id = 'dt_' + dom_id)
 
-//- mixin vimeo(videoId)
+    script.
+        (function()
+        {
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
+            var NowMoment1 = moment('#{dateString}').format('L HH:mm');
+            eDisplayMoment1.innerHTML = NowMoment1;
+        })();
