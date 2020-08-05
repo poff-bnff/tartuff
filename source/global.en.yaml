@@ -22,7 +22,7 @@ label:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
         filmTitle_ru: Title in Russian
-        filmTitle_et: Title
+        filmTitle_et: Local title
         filmCountries: Country
         filmLanguages: Language
         filmYear: Year
