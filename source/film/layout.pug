@@ -67,9 +67,6 @@ block content
             .synopsis_gi
                 | !{ self.md(synopsis_md)}
 
-
-
-
         section.f_cred_box
             .str_info_blokk_cred
                 if self.filmDirector
@@ -104,11 +101,12 @@ block content
                     .str_info_grid_3
                         .str_info_label= self.label.film.filmProduction
                         .str_info_value= self.filmProduction
+
         section.f_runtime_box
-            if self.filmLanguages
+            if self[localfilmlanguages]
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmLanguages
-                    .str_info_value= self.filmLanguages
+                    .str_info_value= self[localfilmlanguages]
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
@@ -168,7 +166,8 @@ block content
                                     if screening.screeningSubtitles
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningSubtitles
-                                            span.screening_info_value= screening.screeningSubtitles
+                                            span.screening_info_value= screening[localsubtitles]
+                                            //- span.screening_info_value= screening.screeningSubtitles
                                     if screening.screeningQaGuests
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningQaGuests
