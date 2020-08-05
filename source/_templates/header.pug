@@ -36,7 +36,7 @@ header
                             //- | prefiks&nbsp;
                             //- .clr_primary= self.label.film.languageSelect + 'rr'
                             each p, locale in self.otherLocalePaths
-                                span.clr_white_semi= self.label.film.languageSelect + ':  '
+                                span.clr_white_semi= self.label.film.languageSelect + ':   '
                                 a(href=(p !== '/' ? p + '/' : '/'))= locale
 
                                 //- a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
