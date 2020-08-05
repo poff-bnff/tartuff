@@ -1,7 +1,7 @@
 header
-            //- nav.lang-menu
-            //-     each p, locale in self.otherLocalePaths
-            //-         a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
+            nav.lang-menu
+                each p, locale in self.otherLocalePaths
+                    a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
             .logo
                 //- Defining locale path for multilingual support
                 - lang_path = self.locale === 'et' ? '' : `${self.locale}/`
