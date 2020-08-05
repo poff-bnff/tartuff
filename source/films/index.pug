@@ -28,7 +28,7 @@ block content
     if self.data.films
         main.grid_films
             each val in self.data.films
-                a.card_film(href= `/${val.path}`)
+                a.card_film(href= `/${lang_path}${val.path}`)
                     .container_frame_16_9
                         if self.data.pictures.filmslugs[val.path]
                             if self.data.pictures.filmslugs[val.path].poster
@@ -38,12 +38,14 @@ block content
                         else
                             img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val[`filmTitle_${self.locale}`])
                     .card_film_title
-                        h3.film_title_locale= val.filmTitle_et
+                        - var local_film_title = val[`filmTitle_${self.locale}`]
+                        - var foreign_lang = self.locale === 'et' ? 'en' : 'et'
+                        h3.film_title_locale= local_film_title
                     .card_film_info
-                        if val.filmTitle_en
+                        if local_film_title
                             .str_info_grid_3
-                                .str_info_label= self.label.film.filmTitle_en
-                                .str_info_value= val.filmTitle_en
+                                .str_info_label= self.label.film[`filmTitle_${foreign_lang}`]
+                                .str_info_value= val[`filmTitle_${foreign_lang}`]
                         if val.filmDirector
                             .str_info_grid_3
                                 .str_info_label= self.label.film.filmDirector
@@ -52,5 +54,4 @@ block content
                             .str_info_grid_3
                                 .str_info_label= self.label.film.filmCast
                                 .str_info_value= val.filmCast
-
 
