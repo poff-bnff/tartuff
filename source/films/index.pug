@@ -39,12 +39,13 @@ block content
                             img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val[`filmTitle_${self.locale}`])
                     .card_film_title
                         - var local_film_title = val[`filmTitle_${self.locale}`]
+                        - var foreign_lang = self.locale === 'et' ? 'en' : 'et'
                         h3.film_title_locale= local_film_title
                     .card_film_info
                         if local_film_title
                             .str_info_grid_3
-                                .str_info_label= self.label.film.filmTitle_en
-                                .str_info_value= local_film_title
+                                .str_info_label= self.label.film[`filmTitle_${foreign_lang}`]
+                                .str_info_value= val[`filmTitle_${foreign_lang}`]
                         if val.filmDirector
                             .str_info_grid_3
                                 .str_info_label= self.label.film.filmDirector
