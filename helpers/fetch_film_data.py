@@ -58,7 +58,6 @@ def main():
         #
         dict_file = []
         headers = []
-        nullkoht = None
 
         for row in values:
 
@@ -81,7 +80,7 @@ def main():
                 dict_file = dict_file + [data]
 
                 with open(r'../source/film/data.yaml', 'w', encoding='utf-8') as file:
-                    documents = yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
+                    yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
 
             count = count + 1
 
