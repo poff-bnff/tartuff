@@ -18,6 +18,8 @@ search:
     placeholder: sisesta →
     button: Otsi
 label:
+    all:
+        selectLocale: Languages
     film:
         filmTitleOriginal: Pealkirja originaal
         filmTitle_en: Pealkiri inglise keeles
@@ -46,6 +48,8 @@ label:
         filmOtherFestivals: Teised festivalid
         filmAwards: Auhinnad
         filmScreenings: Seansid
+        filmKeelevalik: Keeled
+        languageSelect: Keeled
     screening:
         screeningSubtitles: Subtiitrid
         screeningQaPresenter: Q&A küsitleja

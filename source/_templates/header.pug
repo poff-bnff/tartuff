@@ -33,8 +33,13 @@ header
                     //-     a(href='#') Toetajad
                     li
                         nav.lang_menu
+                            //- | prefiks&nbsp;
+                            //- .clr_primary= self.label.film.languageSelect + 'rr'
                             each p, locale in self.otherLocalePaths
-                                a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
+                                span.clr_white_semi= self.label.film.languageSelect + ':  '
+                                a(href=(p !== '/' ? p + '/' : '/'))= locale
+
+                                //- a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
 
             label.main_menu_toggle_label(for='main_menu_toggle')
                 span

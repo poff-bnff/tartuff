@@ -18,6 +18,8 @@ search:
     placeholder: enter →
     button: Search
 label:
+    all:
+        selectLocale: Languages
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
@@ -25,6 +27,7 @@ label:
         filmTitle_et: Local title
         filmCountries: Country
         filmLanguages: Language
+        # filmYear2: keelevalik
         filmYear: Year
         filmDuration: Runtime
         filmDirector: Director
@@ -46,6 +49,7 @@ label:
         filmOtherFestivals: Festivals
         filmAwards: Awards
         filmScreenings: Screenings
+        languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
         screeningQaPresenter: Q&A presenter
