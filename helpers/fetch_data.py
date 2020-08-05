@@ -85,8 +85,23 @@ def fetchData(sheetName, location, dataSources):
     kui ei ole midagi vaja lisada  kirjuta {}
 """
 fetchData('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
+fetchData('art-et', 'article/data_et.yaml', {'article_pictures': '/article_pictures.yaml'})
+fetchData('art-en', 'article/data_en.yaml', {'article_pictures': '/article_pictures.yaml'})
+fetchData('art-ru', 'article/data_ru.yaml', {'article_pictures': '/article_pictures.yaml'})
+
 fetchData('Events', 'events/data.yaml', {})
+fetchData('events-et', 'events/data_et.yaml', {})
+fetchData('events-en', 'events/data_en.yaml', {})
+fetchData('events-ru', 'events/data_ru.yaml', {})
+
 fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+fetchData('filmid-et', 'film/data_et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+fetchData('filmid-en', 'film/data_en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+fetchData('filmid-ru', 'film/data_ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+
 fetchData('Seansid', 'film/screenings.yaml', {})
+fetchData('seansid-et', 'film/screenings_et.yaml', {})
+fetchData('seansid-en', 'film/screenings_en.yaml', {})
+fetchData('seansid-ru', 'film/screenings_ru.yaml', {})
 
 
