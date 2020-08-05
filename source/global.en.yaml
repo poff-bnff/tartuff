@@ -6,11 +6,11 @@ language:
     # ru: русский
 navigation:
     -
-        url: /countries/
-        title: Countries
+        url: films/
+        title: Films
     -
-        url: /languages/
-        title: Languages
+        url: news/
+        title: News
 search:
     url: /en/search/
     text: |

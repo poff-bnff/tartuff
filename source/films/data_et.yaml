@@ -1,0 +1,4 @@
+path: filmid
+data:
+    films: /film/data.yaml
+    pictures: /film_pictures.yaml
