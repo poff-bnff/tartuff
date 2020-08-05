@@ -17,29 +17,36 @@ block content
                 img(src=`/assets/img/img_articles/${my_path}/${articlePic.heroImage}`).article_hero_image
             else
                 img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
-        .article_hero_headline_box
-            .article_title_detailed= self.articleTitle_et
+        if self[`articleTitle_${self.locale}`]
+            .article_hero_headline_box
+                .article_title_detailed= self[`articleTitle_${self.locale}`]
 
     section.grid_article
         section.article_meta
             .str_info_meta_gi
-                .str_info_meta_item
-                    .str_info_meta_value= self.articleType
-                .str_info_meta_item
-                    .str_info_meta_value= self.articleAuthor
-                .str_info_meta_item
-                    //- .str_info_meta_value= self.kuupäev + '  ' + self.kell
-                    .str_info_meta_value
-                        +localdatetime(self.articlePublishStart)
-                .str_info_meta_item
-                    .str_info_meta_keywords= self.tagKeyword
+                if self.articleType
+                    .str_info_meta_item
+                        .str_info_meta_value= self.articleType
+                if self.articleAuthor
+                    .str_info_meta_item
+                        .str_info_meta_value= self.articleAuthor
+                if self.articlePublishStart
+                    .str_info_meta_item
+                        //- .str_info_meta_value= self.kuupäev + '  ' + self.kell
+                        .str_info_meta_value
+                            +localdatetime(self.articlePublishStart)
+                if self.tagKeyword
+                    .str_info_meta_item
+                        .str_info_meta_keywords= self.tagKeyword
 
 
         section.article_contents
-            p.font_weight_600= self.articleLead_et
+            if self[`articleLead_${self.locale}`]
+                p.font_weight_600= self[`articleLead_${self.locale}`]
             //- p= self.articleContents_et
-            - articleContents = self[`articleContents_${self.locale}`]
-            | !{ self.md(articleContents)}
+            if self[`articleContents_${self.locale}`]
+                - articleContents = self[`articleContents_${self.locale}`]
+                | !{ self.md(articleContents)}
 
         section.article_extra
 
