@@ -8,6 +8,7 @@ header
                 a(href=`/${lang_path}`)
                     img.logo_img(alt='PÖFF' data-src='/assets/img/global/tartuff_logo_white.svg' src='/assets/img/global/tartuff_logo_white_red.svg')
             input#main_menu_toggle.main_menu_toggle(type='checkbox')
+
             nav.main_menu
                 ul
                     li
@@ -21,14 +22,20 @@ header
 
                     li
                         a(href=`/${lang_path}films`) Filmid
-                    li
+                    //- li
                     //-     a(href='#') Piletid
                     //- li
                     //-     a(href='#') Press
                     //- li
                     //-     a(href='#') Festivalist
                     //- li
+                    //-     p.select_locale_label= self.label.selectLocale
                     //-     a(href='#') Toetajad
+                    li
+                        nav.lang_menu
+                            each p, locale in self.otherLocalePaths
+                                a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
+
             label.main_menu_toggle_label(for='main_menu_toggle')
                 span
 

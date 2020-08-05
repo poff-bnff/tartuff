@@ -17,7 +17,8 @@ block titleBox
         h1.film_title_detailed= self[localtitle]
         .str_info_blokk_1
             .str_info_grid_3
-                .str_info_label= self.label.film.filmLocalTitle
+                //- .str_info_label= self.label.film.filmTitle_et
+                //- .str_info_label= self.label.film.filmLocalTitle
                 .str_info_value= self.filmLocalTitle
 
             each url, loc in self.otherLocalePaths
