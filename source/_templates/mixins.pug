@@ -18,3 +18,10 @@ mixin localdatetime(dateString)
 
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
         })();
+
+mixin tabname(currenttitle)
+    script.
+        document.title= 'Tartuff 2020: ' + ('#{currenttitle}');
+
+
+
