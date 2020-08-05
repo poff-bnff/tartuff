@@ -133,13 +133,15 @@ block content
                                             line(x1='16' y1='2' x2='16' y2='6')
                                             line(x1='8' y1='2' x2='8' y2='6')
                                             line(x1='3' y1='10' x2='21' y2='10')
-                                        span.screening_date= screening.screeningDate
+                                        span.screening_date
+                                            +screeningDate(screening.screeningDate)
                                             //- | 15. nov
                                     .text-right
                                         svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                                             circle(cx='12' cy='12' r='10')
                                             polyline(points='12 6 12 12 16 14')
-                                        span.screening_time= screening.screeningTime
+                                        span.screening_time
+                                            +screeningTime(screening.screeningDatetime)
                                             //- | 17:30
                                 .container_screening_location
                                     svg.svg_icon(viewBox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
