@@ -10,7 +10,39 @@ mixin localdatetime(dateString)
     script.
         (function()
         {
+            moment.locale('#{self.locale}');
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
-            var NowMoment1 = moment('#{dateString}').format('L HH:mm');
+            var NowMoment1 = moment('#{dateString}').format('L LT');
+            var weekDay= moment('#{dateString}').format('ddd');
+            eDisplayMoment1.innerHTML = weekDay + ' ' +  NowMoment1;
+
+        })();
+
+mixin screeningDate(dateString)
+    - var dom_id = Math.random()
+    span(id = 'dt_' + dom_id)
+
+    script.
+        (function()
+        {
+            moment.locale('#{self.locale}');
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
+            var NowMoment1 = moment('#{dateString}').format('Do MMM');
+            var weekDay= moment('#{dateString}').format('dddd');
+            eDisplayMoment1.innerHTML = NowMoment1 + ', ' + weekDay;
+
+        })();
+
+mixin screeningTime(dateString)
+    - var dom_id = Math.random()
+    span(id = 'dt_' + dom_id)
+
+    script.
+        (function()
+        {
+            moment.locale('#{self.locale}');
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
+            var NowMoment1 = moment('#{dateString}').format('LT');
             eDisplayMoment1.innerHTML = NowMoment1;
+
         })();

@@ -2,9 +2,11 @@
     filmEventivalId: '1001'
     filmPath: invisible-life-of-eurdice-gusmo
     screeningSubtitles: eesti, inglise, vene
+    screeningSubtitles_et: eesti, inglise, vene
+    screeningSubtitles_en: Estonian, English, Russian
     screeningDate: '2020-08-10'
     screeningTime: '22:45'
-    screeningDatetime: 2020-08-10T22:45+003
+    screeningDatetime: 2020-08-10T22:45+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -16,9 +18,11 @@
     filmEventivalId: '1002'
     filmPath: flawless
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-11'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-11T22:00+003
+    screeningDatetime: 2020-08-11T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -30,9 +34,11 @@
     filmEventivalId: '1003'
     filmPath: house-of-hummingbird
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-11'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-11T23:59+003
+    screeningDatetime: 2020-08-11T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -41,9 +47,11 @@
     filmEventivalId: '1004'
     filmPath: the-goddess-of-fortune
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-12'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-12T22:00+003
+    screeningDatetime: 2020-08-12T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -52,9 +60,11 @@
     filmEventivalId: '1005'
     filmPath: schemers
     screeningSubtitles: eesti
+    screeningSubtitles_et: eesti
+    screeningSubtitles_en: Estonian
     screeningDate: '2020-08-13'
     screeningTime: 00:15
-    screeningDatetime: 2020-08-13T00:15+003
+    screeningDatetime: 2020-08-13T00:15+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -66,9 +76,11 @@
     filmEventivalId: '1006'
     filmPath: champions
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-13'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-13T22:00+003
+    screeningDatetime: 2020-08-13T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -77,9 +89,11 @@
     filmEventivalId: '1007'
     filmPath: yalda-a-night-for-forgiveness
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-13'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-13T23:59+003
+    screeningDatetime: 2020-08-13T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -91,9 +105,11 @@
     filmEventivalId: '1008'
     filmPath: force-of-habit
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-14'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-14T22:00+003
+    screeningDatetime: 2020-08-14T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -105,9 +121,11 @@
     filmEventivalId: '1009'
     filmPath: acid
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-14'
     screeningTime: '23:45'
-    screeningDatetime: 2020-08-14T23:45+003
+    screeningDatetime: 2020-08-14T23:45+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -116,9 +134,11 @@
     filmEventivalId: '1010'
     filmPath: final-portrait
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-15'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-15T22:00+003
+    screeningDatetime: 2020-08-15T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -127,9 +147,11 @@
     filmEventivalId: '1011'
     filmPath: maudie
     screeningSubtitles: eesti
+    screeningSubtitles_et: eesti
+    screeningSubtitles_en: ''
     screeningDate: '2020-08-15'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-15T23:59+003
+    screeningDatetime: 2020-08-15T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -138,9 +160,11 @@
     filmEventivalId: '1012'
     filmPath: banksy-most-wanted
     screeningSubtitles: ''
+    screeningSubtitles_et: ''
+    screeningSubtitles_en: ''
     screeningDate: '2020-08-12'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-12T16:00+003
+    screeningDatetime: 2020-08-12T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -152,9 +176,11 @@
     filmEventivalId: '1013'
     filmPath: acas-my-home
     screeningSubtitles: inglise
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-12'
     screeningTime: '20:00'
-    screeningDatetime: 2020-08-12T20:00+003
+    screeningDatetime: 2020-08-12T20:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -163,9 +189,11 @@
     filmEventivalId: '1014'
     filmPath: storm-boy
     screeningSubtitles: eesti
+    screeningSubtitles_et: eesti
+    screeningSubtitles_en: Estonian
     screeningDate: '2020-08-14'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-14T16:00+003
+    screeningDatetime: 2020-08-14T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -174,9 +202,11 @@
     filmEventivalId: '1015'
     filmPath: the-secret-lamb
     screeningSubtitles: inglise
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-13'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-13T16:00+003
+    screeningDatetime: 2020-08-13T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -188,9 +218,11 @@
     filmEventivalId: '1016'
     filmPath: marcel-duchamp-art-of-the-possible
     screeningSubtitles: ''
+    screeningSubtitles_et: ''
+    screeningSubtitles_en: ''
     screeningDate: '2020-08-14'
     screeningTime: '19:00'
-    screeningDatetime: 2020-08-14T19:00+003
+    screeningDatetime: 2020-08-14T19:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -199,9 +231,11 @@
     filmEventivalId: '1017'
     filmPath: self-portrait
     screeningSubtitles: inglise
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-13'
     screeningTime: '21:00'
-    screeningDatetime: 2020-08-13T21:00+003
+    screeningDatetime: 2020-08-13T21:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -215,9 +249,11 @@
     filmEventivalId: '1001'
     filmPath: invisible-life-of-eurdice-gusmo
     screeningSubtitles: eesti, inglise, vene
+    screeningSubtitles_et: eesti, inglise, vene
+    screeningSubtitles_en: Estonian, English, Russian
     screeningDate: '2020-08-11'
     screeningTime: 00:05
-    screeningDatetime: 2020-08-11T00:05+003
+    screeningDatetime: 2020-08-11T00:05+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -231,9 +267,11 @@
     filmEventivalId: '1002'
     filmPath: flawless
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-11'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-11T23:59+003
+    screeningDatetime: 2020-08-11T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -247,9 +285,11 @@
     filmEventivalId: '1004'
     filmPath: the-goddess-of-fortune
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-12'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-12T23:59+003
+    screeningDatetime: 2020-08-12T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -263,9 +303,11 @@
     filmEventivalId: '1005'
     filmPath: schemers
     screeningSubtitles: eesti
+    screeningSubtitles_et: eesti
+    screeningSubtitles_en: Estonian
     screeningDate: '2020-08-13'
     screeningTime: 02:15
-    screeningDatetime: 2020-08-13T02:15+003
+    screeningDatetime: 2020-08-13T02:15+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -279,9 +321,11 @@
     filmEventivalId: '1006'
     filmPath: champions
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-13'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-13T23:59+003
+    screeningDatetime: 2020-08-13T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -295,9 +339,11 @@
     filmEventivalId: '1008'
     filmPath: force-of-habit
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-14'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-14T23:59+003
+    screeningDatetime: 2020-08-14T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -311,9 +357,11 @@
     filmEventivalId: '1009'
     filmPath: acid
     screeningSubtitles: eesti, inglise
+    screeningSubtitles_et: eesti, inglise
+    screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-15'
     screeningTime: 01:15
-    screeningDatetime: 2020-08-15T01:15+003
+    screeningDatetime: 2020-08-15T01:15+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -327,9 +375,11 @@
     filmEventivalId: '1012'
     filmPath: banksy-most-wanted
     screeningSubtitles: ''
+    screeningSubtitles_et: ''
+    screeningSubtitles_en: ''
     screeningDate: '2020-08-12'
     screeningTime: '18:00'
-    screeningDatetime: 2020-08-12T18:00+003
+    screeningDatetime: 2020-08-12T18:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -343,9 +393,11 @@
     filmEventivalId: '1013'
     filmPath: acas-my-home
     screeningSubtitles: inglise
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-12'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-12T22:00+003
+    screeningDatetime: 2020-08-12T22:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -359,9 +411,11 @@
     filmEventivalId: '1017'
     filmPath: self-portrait
     screeningSubtitles: inglise
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-15'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-15T23:59+003
+    screeningDatetime: 2020-08-15T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
