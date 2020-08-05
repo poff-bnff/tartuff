@@ -11,7 +11,7 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2002'
     filmEventivalId: '1002'
     filmPath: flawless
@@ -25,7 +25,7 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2003'
     filmEventivalId: '1003'
     filmPath: house-of-hummingbird
@@ -61,7 +61,7 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2006'
     filmEventivalId: '1006'
     filmPath: champions
@@ -86,7 +86,7 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Massoud Bakhshi
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2008'
     filmEventivalId: '1008'
     filmPath: force-of-habit
@@ -100,7 +100,7 @@
     screeningQa: '1'
     screeningQaPresenter: Kristiina Reidolv
     screeningQaGuests: Suvi Blick
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2009'
     filmEventivalId: '1009'
     filmPath: acid
@@ -147,7 +147,7 @@
     screeningQa: '1'
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2013'
     filmEventivalId: '1013'
     filmPath: acas-my-home
@@ -183,7 +183,7 @@
     screeningQa: '1'
     screeningQaPresenter: Dagmar Raudam
     screeningQaGuests: Margus Alver
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
 -   screeningEventivalId: '2016'
     filmEventivalId: '1016'
     filmPath: marcel-duchamp-art-of-the-possible
@@ -206,6 +206,11 @@
     screeningCinema: Elisa Stage
     screeningHall: Online
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
 -   screeningEventivalId: '2018'
     filmEventivalId: '1001'
     filmPath: invisible-life-of-eurdice-gusmo
@@ -219,7 +224,9 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/gOAm4onOZHX
 -   screeningEventivalId: '2019'
     filmEventivalId: '1002'
     filmPath: flawless
@@ -233,7 +240,8 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/fqwmeUfVAY0
 -   screeningEventivalId: '2020'
     filmEventivalId: '1004'
@@ -246,6 +254,11 @@
     screeningCinema: Elisa Stage
     screeningHall: Online
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/p_RoahriYln
 -   screeningEventivalId: '2021'
     filmEventivalId: '1005'
     filmPath: schemers
@@ -259,7 +272,9 @@
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/3M85InEnwNo
 -   screeningEventivalId: '2022'
     filmEventivalId: '1006'
     filmPath: champions
@@ -271,6 +286,11 @@
     screeningCinema: Elisa Stage
     screeningHall: Online
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/CTlJW8MpJoO
 -   screeningEventivalId: '2023'
     filmEventivalId: '1008'
     filmPath: force-of-habit
@@ -284,7 +304,9 @@
     screeningQa: '1'
     screeningQaPresenter: Kristiina Reidolv
     screeningQaGuests: Suvi Blick
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/6YlyCoW4ukl
 -   screeningEventivalId: '2024'
     filmEventivalId: '1009'
     filmPath: acid
@@ -298,7 +320,9 @@
     screeningQa: '?'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Alexander Gorchilin
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/uM-V8MMllbR
 -   screeningEventivalId: '2025'
     filmEventivalId: '1012'
     filmPath: banksy-most-wanted
@@ -312,7 +336,9 @@
     screeningQa: '1'
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
-    screeningsQaDuration: '20'
+    screeningQaDuration: '20'
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/tWA94wCNQHB
 -   screeningEventivalId: '2026'
     filmEventivalId: '1013'
     filmPath: acas-my-home
@@ -324,6 +350,11 @@
     screeningCinema: Elisa Stage
     screeningHall: Online
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/Q-UvwJr_1Fy
 -   screeningEventivalId: '2027'
     filmEventivalId: '1017'
     filmPath: self-portrait
@@ -335,3 +366,8 @@
     screeningCinema: Elisa Stage
     screeningHall: Online
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: ''
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu

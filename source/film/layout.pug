@@ -182,12 +182,13 @@ block content
                                             span.screening_info_value= screening.screeningTotalDuratiom
 
                             .btn-group(role='group' aria-label='Buttons')
+
                                 a.btn.btn_secondary.active(href='#' role='button') &nbsp;
                                 if screening.screeningHall == 'Online'
                                     a.btn.btn_primary.active(href=screening.screeningOnlineUrl role='button') Osta pilet
                                 if screening.screeningTown == 'Tartu'
                                     a.btn.btn_primary.active(href='#' role='button') Tasuta
-
+                                    
                         //- p= screening.screeningHall
                         //- p= screening.screeningCinema
                         //- p= screening.screeningTown
