@@ -4,7 +4,7 @@
     screeningSubtitles: eesti, inglise, vene
     screeningDate: '2020-08-10'
     screeningTime: '22:45'
-    screeningDatetime: 2020-08-10T22:45+003
+    screeningDatetime: 2020-08-10T22:45+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -18,7 +18,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-11'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-11T22:00+003
+    screeningDatetime: 2020-08-11T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -32,7 +32,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-11'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-11T23:59+003
+    screeningDatetime: 2020-08-11T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -43,7 +43,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-12'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-12T22:00+003
+    screeningDatetime: 2020-08-12T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -54,7 +54,7 @@
     screeningSubtitles: eesti
     screeningDate: '2020-08-13'
     screeningTime: 00:15
-    screeningDatetime: 2020-08-13T00:15+003
+    screeningDatetime: 2020-08-13T00:15+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -68,7 +68,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-13'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-13T22:00+003
+    screeningDatetime: 2020-08-13T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -79,7 +79,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-13'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-13T23:59+003
+    screeningDatetime: 2020-08-13T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -93,7 +93,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-14T22:00+003
+    screeningDatetime: 2020-08-14T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -107,7 +107,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '23:45'
-    screeningDatetime: 2020-08-14T23:45+003
+    screeningDatetime: 2020-08-14T23:45+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -118,7 +118,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-15'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-15T22:00+003
+    screeningDatetime: 2020-08-15T22:00+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -129,7 +129,7 @@
     screeningSubtitles: eesti
     screeningDate: '2020-08-15'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-15T23:59+003
+    screeningDatetime: 2020-08-15T23:59+0300
     screeningTown: Tartu
     screeningCinema: Raekoja Plats
     screeningHall: ''
@@ -140,7 +140,7 @@
     screeningSubtitles: ''
     screeningDate: '2020-08-12'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-12T16:00+003
+    screeningDatetime: 2020-08-12T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -154,7 +154,7 @@
     screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '20:00'
-    screeningDatetime: 2020-08-12T20:00+003
+    screeningDatetime: 2020-08-12T20:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -165,7 +165,7 @@
     screeningSubtitles: eesti
     screeningDate: '2020-08-14'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-14T16:00+003
+    screeningDatetime: 2020-08-14T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -176,7 +176,7 @@
     screeningSubtitles: inglise
     screeningDate: '2020-08-13'
     screeningTime: '16:00'
-    screeningDatetime: 2020-08-13T16:00+003
+    screeningDatetime: 2020-08-13T16:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -190,7 +190,7 @@
     screeningSubtitles: ''
     screeningDate: '2020-08-14'
     screeningTime: '19:00'
-    screeningDatetime: 2020-08-14T19:00+003
+    screeningDatetime: 2020-08-14T19:00+0300
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
@@ -201,7 +201,7 @@
     screeningSubtitles: inglise
     screeningDate: '2020-08-13'
     screeningTime: '21:00'
-    screeningDatetime: 2020-08-13T21:00+003
+    screeningDatetime: 2020-08-13T21:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -217,7 +217,7 @@
     screeningSubtitles: eesti, inglise, vene
     screeningDate: '2020-08-11'
     screeningTime: 00:05
-    screeningDatetime: 2020-08-11T00:05+003
+    screeningDatetime: 2020-08-11T00:05+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -233,7 +233,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-11'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-11T23:59+003
+    screeningDatetime: 2020-08-11T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -249,7 +249,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-12'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-12T23:59+003
+    screeningDatetime: 2020-08-12T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -265,7 +265,7 @@
     screeningSubtitles: eesti
     screeningDate: '2020-08-13'
     screeningTime: 02:15
-    screeningDatetime: 2020-08-13T02:15+003
+    screeningDatetime: 2020-08-13T02:15+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -281,7 +281,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-13'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-13T23:59+003
+    screeningDatetime: 2020-08-13T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -297,7 +297,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-14T23:59+003
+    screeningDatetime: 2020-08-14T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -313,7 +313,7 @@
     screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-15'
     screeningTime: 01:15
-    screeningDatetime: 2020-08-15T01:15+003
+    screeningDatetime: 2020-08-15T01:15+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -329,7 +329,7 @@
     screeningSubtitles: ''
     screeningDate: '2020-08-12'
     screeningTime: '18:00'
-    screeningDatetime: 2020-08-12T18:00+003
+    screeningDatetime: 2020-08-12T18:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -345,7 +345,7 @@
     screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '22:00'
-    screeningDatetime: 2020-08-12T22:00+003
+    screeningDatetime: 2020-08-12T22:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
@@ -361,7 +361,7 @@
     screeningSubtitles: inglise
     screeningDate: '2020-08-15'
     screeningTime: '23:59'
-    screeningDatetime: 2020-08-15T23:59+003
+    screeningDatetime: 2020-08-15T23:59+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online

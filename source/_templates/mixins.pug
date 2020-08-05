@@ -19,7 +19,7 @@ mixin localdatetime(dateString)
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
         })();
 
-mixin screeningTime(dateString)
+mixin screeningDate(dateString)
     - var dom_id = Math.random()
     span(id = 'dt_' + dom_id)
 
@@ -31,6 +31,21 @@ mixin screeningTime(dateString)
             var NowMoment1 = moment('#{dateString}').format('Do MMM');
             var weekDay= moment('#{dateString}').format('dddd');
             eDisplayMoment1.innerHTML = NowMoment1 + ', ' + weekDay;
+
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
+        })();
+
+mixin screeningTime(dateString)
+    - var dom_id = Math.random()
+    span(id = 'dt_' + dom_id)
+
+    script.
+        (function()
+        {
+            moment.locale('#{self.locale}');
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
+            var NowMoment1 = moment('#{dateString}').format('LT');
+            eDisplayMoment1.innerHTML = NowMoment1;
 
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}');
         })();
