@@ -1,8 +1,11 @@
 extends layout.pug
 
 
+
 block film
     p= self.filmLocalTitle
+
+    +tabname(self[`filmTitle_${self.locale}`])
 
 block titleBox
     - var pathParts = self.path.split('/')

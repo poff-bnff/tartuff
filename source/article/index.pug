@@ -11,6 +11,9 @@ block content
     - articlePics = self.data.article_pictures.articles
     - articlePic = articlePics[my_path]
 
+
+    +tabname(self[`articleTitle_${self.locale}`])
+
     main.grid_article
         section.article_hero_head
             if articlePic
