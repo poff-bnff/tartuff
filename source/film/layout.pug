@@ -101,11 +101,12 @@ block content
                     .str_info_grid_3
                         .str_info_label= self.label.film.filmProduction
                         .str_info_value= self.filmProduction
+
         section.f_runtime_box
-            if self.filmLanguages
+            if self[localfilmlanguages]
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmLanguages
-                    .str_info_value= self.filmLanguages
+                    .str_info_value= self[localfilmlanguages]
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
