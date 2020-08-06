@@ -20,6 +20,8 @@ search:
 label:
     all:
         selectLocale: Languages
+        presenters: Esitlejad
+        thanksTo: Täname
     film:
         filmTitleOriginal: Pealkirja originaal
         filmTitle_en: Pealkiri inglise keeles
@@ -61,4 +63,8 @@ label:
         selectLocale: Keeled
 
     selectLocale: Keeled
-
+    buttons:
+        filmTicketBuy: Osta pilet
+        filmTicketFree: Tasuta
+        newsButton: Uudised
+        filmsButton: Filmid
