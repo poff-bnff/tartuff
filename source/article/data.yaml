@@ -1,4 +1,4 @@
--   data: &id001
+-   data:
         article_pictures: /article_pictures.yaml
     articleId: '1'
     path: a1
@@ -58,7 +58,8 @@
     mitu minutit TTR?: '2'
     articleTtr: 2 min
     tagKeyword: '#armastus #ElisaStage #koroonaviirus'
--   data: *id001
+-   data:
+        article_pictures: /article_pictures.yaml
     articleId: '2'
     path: a2
     articleType: Uudised
@@ -219,7 +220,8 @@
     mitu minutit TTR?: '3'
     articleTtr: 3 min
     tagKeyword: '#kunst'
--   data: *id001
+-   data:
+        article_pictures: /article_pictures.yaml
     articleId: '3'
     path: a3
     articleType: Uudised
@@ -281,7 +283,8 @@
     mitu minutit TTR?: '1'
     articleTtr: 1 min
     tagKeyword: '#melodraama #troopilinemelodraama'
--   data: *id001
+-   data:
+        article_pictures: /article_pictures.yaml
     articleId: '4'
     path: a4
     articleType: Uudised
@@ -343,7 +346,8 @@
     mitu minutit TTR?: '2'
     articleTtr: 2 min
     tagKeyword: '#MeToo #SeksuaalneAhistamine'
--   data: *id001
+-   data:
+        article_pictures: /article_pictures.yaml
     articleId: '5'
     path: a5
     articleType: Uudised
