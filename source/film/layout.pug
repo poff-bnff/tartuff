@@ -381,6 +381,12 @@ block content
         //-                 a.btn.btn_secondary.active(href='#' role='button') Add screening to my schedule
         //-                 a.btn.btn_primary.active(href='#' role='button') Osta pilet
 
+
+        //- Sample img for showing presenter logo/pic - can be deleted
+        if self.data.pictures.filmslugs[filmPath].presenter
+            section.f_extra_box
+                    img.presenter_img(src=`/assets/img/img_films/${filmPath}/${self.data.pictures.filmslugs[filmPath].presenter}`)
+
         if self.filmTrailer
             section.f_extra_box
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
