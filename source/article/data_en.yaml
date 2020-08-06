@@ -7,7 +7,7 @@
     articleTitle: ''
     articleSlug: ''
     articleLead: ''
-    articleAuthor: Tiit Tuumalu
+    articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
@@ -30,7 +30,7 @@
         on Banksy, Marchel Duchamp, Alberto Giacometti, Maud Lewis.
 
         The festival will be available online throughout Estonia'
-    articleAuthor: Tiit Tuumalu
+    articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents: 'The Robin Hood of the art world aka Banksy, Marcel Duchamp,
@@ -98,7 +98,7 @@
     articleTitle: ''
     articleSlug: ''
     articleLead: ''
-    articleAuthor: Tiit Tuumalu
+    articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
@@ -118,7 +118,7 @@
     articleTitle: ''
     articleSlug: ''
     articleLead: ''
-    articleAuthor: Tiit Tuumalu
+    articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
@@ -138,11 +138,28 @@
     articleTitle: ''
     articleSlug: ''
     articleLead: ''
-    articleAuthor: Tiit Tuumalu
+    articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
     kuupäev: ''
     kell: ''
     articlePublishStart: 2020-07-31T10:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '6'
+    path: a6
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: T+0300
     articlePublishEnd: T+0300
