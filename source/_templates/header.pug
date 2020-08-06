@@ -10,7 +10,7 @@ header
             nav.main_menu
                 ul
                     li
-                        a(href=`/articles`) Uudised
+                        a(href=`/${lang_path}articles`)= self.label.buttons.newsButton
                     //- li.dropdown
                     //-     a(href='/films') Filmid
                     //-     if self.films
@@ -19,7 +19,7 @@ header
                     //-                 li: a(href= val.filmEventivalId)= val.filmTitle_et
 
                     li
-                        a(href=`/films`) Filmid
+                        a(href=`/${lang_path}films`)= self.label.buttons.filmsButton
                     //- li
                     //-     a(href='#') Piletid
                     //- li

@@ -20,6 +20,8 @@ search:
 label:
     all:
         selectLocale: Languages
+        presenters: Presenters
+        thanksTo: Thanks to
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
@@ -60,3 +62,8 @@ label:
         screeningAdditionalInfo: Additional info
 
     selectLocale: Languages
+    buttons:
+        filmTicketBuy: Buy ticket
+        filmTicketFree: Free
+        newsButton: News
+        filmsButton: Films
