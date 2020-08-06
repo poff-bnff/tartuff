@@ -3,7 +3,7 @@
         screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
-    filmTitle_et: Nähtamatu elu
+    filmTitle: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
     filmDirector: Karim Aïnouz
     filmScreenwriter: Murilo Hauser, Inés Bortagaray, Karim Aïnouz
@@ -32,7 +32,7 @@
 -   data: *id001
     filmEventivalId: '1002'
     path: flawless
-    filmTitle_et: Täiuslik
+    filmTitle: Täiuslik
     filmTitleOriginal: HaNeshef
     filmDirector: Tal Granit, Sharon Maymon
     filmScreenwriter: Tal Granit, Sharon Maymon
@@ -61,7 +61,7 @@
 -   data: *id001
     filmEventivalId: '1003'
     path: house-of-hummingbird
-    filmTitle_et: Hüvasti!
+    filmTitle: Hüvasti!
     filmTitleOriginal: Beol-sae
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
@@ -91,7 +91,7 @@
 -   data: *id001
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
-    filmTitle_et: Õnnejumalanna
+    filmTitle: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
     filmDirector: Ferzan Özpetek
     filmScreenwriter: Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli
@@ -120,7 +120,7 @@
 -   data: *id001
     filmEventivalId: '1005'
     path: schemers
-    filmTitle_et: Skeemitajad
+    filmTitle: Skeemitajad
     filmTitleOriginal: ''
     filmDirector: Dave McLean
     filmScreenwriter: Dave McLean, Kyle Titterton
@@ -153,7 +153,7 @@
 -   data: *id001
     filmEventivalId: '1006'
     path: champions
-    filmTitle_et: Tšempionid
+    filmTitle: Tšempionid
     filmTitleOriginal: Campeones
     filmDirector: Javier Fesser
     filmScreenwriter: David Marqués, Javier Fesser
@@ -182,7 +182,7 @@
 -   data: *id001
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
-    filmTitle_et: Yalda, andestuse öö
+    filmTitle: Yalda, andestuse öö
     filmTitleOriginal: Yalda
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
@@ -215,7 +215,7 @@
 -   data: *id001
     filmEventivalId: '1008'
     path: force-of-habit
-    filmTitle_et: Harjumuse jõud
+    filmTitle: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
     filmDirector: Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari,
         Miia Tervo, Elli Toivoniemi, Jenni Toivoniemi
@@ -251,7 +251,7 @@
 -   data: *id001
     filmEventivalId: '1009'
     path: acid
-    filmTitle_et: Hape
+    filmTitle: Hape
     filmTitleOriginal: Kislota
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
@@ -278,7 +278,7 @@
 -   data: *id001
     filmEventivalId: '1010'
     path: final-portrait
-    filmTitle_et: Viimane portree
+    filmTitle: Viimane portree
     filmTitleOriginal: ''
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
@@ -310,7 +310,7 @@
 -   data: *id001
     filmEventivalId: '1011'
     path: maudie
-    filmTitle_et: Maudie
+    filmTitle: Maudie
     filmTitleOriginal: ''
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
@@ -340,7 +340,7 @@
 -   data: *id001
     filmEventivalId: '1012'
     path: banksy-most-wanted
-    filmTitle_et: 'Tagaotsitav: Banksy!'
+    filmTitle: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
     filmDirector: Aurélia Rouvier, Seamus Haley
     filmScreenwriter: ''
@@ -373,7 +373,7 @@
 -   data: *id001
     filmEventivalId: '1013'
     path: acas-my-home
-    filmTitle_et: Acasă, mu kodu
+    filmTitle: Acasă, mu kodu
     filmTitleOriginal: Acasă
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
@@ -408,7 +408,7 @@
 -   data: *id001
     filmEventivalId: '1014'
     path: storm-boy
-    filmTitle_et: Tormipoiss
+    filmTitle: Tormipoiss
     filmTitleOriginal: ''
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
@@ -434,7 +434,7 @@
 -   data: *id001
     filmEventivalId: '1015'
     path: the-secret-lamb
-    filmTitle_et: Lammas all paremas nurgas
+    filmTitle: Lammas all paremas nurgas
     filmTitleOriginal: ''
     filmDirector: Lembit Ulfsak
     filmScreenwriter: Janno Põldma, Lembit Ulsak
@@ -463,7 +463,7 @@
 -   data: *id001
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
-    filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
+    filmTitle: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
@@ -496,7 +496,7 @@
 -   data: *id001
     filmEventivalId: '1017'
     path: self-portrait
-    filmTitle_et: Autoportree
+    filmTitle: Autoportree
     filmTitleOriginal: Selvportrett
     filmDirector: Katja Høgset, Margreth Olin, Espen Wallin
     filmScreenwriter: ''
