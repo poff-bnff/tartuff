@@ -64,7 +64,6 @@ def fetchData(sheetName, location, dataSources):
             count = 0
             dict_file = []
             headers = []
-            nullkoht = None
             for row in values:
                 if count == 0:
                     for x in row:
