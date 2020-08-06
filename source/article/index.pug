@@ -22,7 +22,7 @@ block content
                 img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
         if self.articleTitle
             .article_hero_headline_box
-                .article_title_detailed= sel.articleTitle
+                .article_title_detailed= self.articleTitle
 
     section.grid_article
         section.article_meta
@@ -48,7 +48,7 @@ block content
                 p.font_weight_600= self.articleLead
             //- p= self.articleContents_et
             if self.articleContents
-                - articleContents = self.articleContents
+                - var articleContents = self.articleContents
                 | !{ self.md(articleContents)}
 
         section.article_extra
