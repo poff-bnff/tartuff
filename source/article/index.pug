@@ -12,7 +12,7 @@ block content
     - articlePic = articlePics[my_path]
 
 
-    +tabname(self[`articleTitle_${self.locale}`])
+    +tabname(self.articleTitle)
 
     main.grid_article
         section.article_hero_head
@@ -20,9 +20,9 @@ block content
                 img(src=`/assets/img/img_articles/${my_path}/${articlePic.heroImage}`).article_hero_image
             else
                 img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
-        if self[`articleTitle_${self.locale}`]
+        if self.articleTitle
             .article_hero_headline_box
-                .article_title_detailed= self[`articleTitle_${self.locale}`]
+                .article_title_detailed= sel.articleTitle
 
     section.grid_article
         section.article_meta
@@ -44,11 +44,11 @@ block content
 
 
         section.article_contents
-            if self[`articleLead_${self.locale}`]
-                p.font_weight_600= self[`articleLead_${self.locale}`]
+            if self.articleLead
+                p.font_weight_600= self.articleLead
             //- p= self.articleContents_et
-            if self[`articleContents_${self.locale}`]
-                - articleContents = self[`articleContents_${self.locale}`]
+            if self.articleContents
+                - articleContents = self.articleContents
                 | !{ self.md(articleContents)}
 
         section.article_extra
