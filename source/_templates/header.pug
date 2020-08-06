@@ -12,7 +12,7 @@ header
             nav.main_menu
                 ul
                     li
-                        a(href=`/${lang_path}articles`) Uudised
+                        a(href=`/${lang_path}articles`)= self.locale === 'et' ? 'Uudised' : 'News'
                     //- li.dropdown
                     //-     a(href='/films') Filmid
                     //-     if self.films
@@ -21,7 +21,7 @@ header
                     //-                 li: a(href= val.filmEventivalId)= val.filmTitle_et
 
                     li
-                        a(href=`/${lang_path}films`) Filmid
+                        a(href=`/${lang_path}films`)= self.locale === 'et' ? 'Filmid' : 'Films'
                     //- li
                     //-     a(href='#') Piletid
                     //- li
