@@ -1,0 +1,97 @@
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '1'
+    path: a1
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '5'
+    articleAuthor: Tiit Tuumalu
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-06-18T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
+    mitu minutit TTR?: '2'
+    articleTtr: 2 min
+    tagKeyword: '#armastus #ElisaStage #koroonaviirus'
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '2'
+    path: a2
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '3'
+    articleAuthor: Tiit Tuumalu
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-07-15T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
+    mitu minutit TTR?: '3'
+    articleTtr: 3 min
+    tagKeyword: '#kunst'
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '3'
+    path: a3
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '2'
+    articleAuthor: Tiit Tuumalu
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-07-22T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
+    mitu minutit TTR?: '1'
+    articleTtr: 1 min
+    tagKeyword: '#melodraama #troopilinemelodraama'
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '4'
+    path: a4
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '4'
+    articleAuthor: Tiit Tuumalu
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-07-07T12:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
+    mitu minutit TTR?: '2'
+    articleTtr: 2 min
+    tagKeyword: '#MeToo #SeksuaalneAhistamine'
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '5'
+    path: a5
+    articleType: Uudised
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '1'
+    articleAuthor: Tiit Tuumalu
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-07-31T10:00:00+0300
+    articlePublishEnd: T+0300
