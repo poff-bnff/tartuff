@@ -45,6 +45,7 @@ clr_keyword = #3EADEF
 clr_elisa_stage = #0019af
 clr_header_bg = #0E1417
 clr_tartuff_red = #c92c33
+clr_popover = #0E1417
 
 
 breakpoint-lg = 992px
@@ -87,7 +88,7 @@ body
     font-size 16px
     line-height 1.618rem
     color white_96
-    background bg_dark_1
+    background-color bg_dark_1
     font-family font_h
     margin 0
     // padding-left 0
@@ -580,25 +581,82 @@ p
 .str_info_meta_program,
 .str_info_meta_genre,
 .str_info_meta_value
-  font-family font_h
-  color white_96
-  font-size 1rem
-  text-align left
-  line-height 1.618
+    font-family font_h
+    color white_96
+    font-size 1rem
+    text-align left
+    line-height 1.618
 
 .str_info_meta_keywords
-  font-family font_h
-  color ghost_blue
-  font-size 1rem
-  text-align left
-  line-height 1.618
+    font-family font_h
+    color ghost_blue
+    font-size 1rem
+    text-align left
+    line-height 1.618
 
 .keywords_left
+    font-family font_h
+    color clr_keyword
+    font-size 1rem
+    text-align left
+    line-height 1.618
+
+
+// POPOVER
+
+.popover
+  background-color white_96
+  color white_96
+  max-width 376px
+
+
+.popover-header
+  background-color white_96
+  color bg_dark_1
   font-family font_h
-  color clr_keyword
-  font-size 1rem
-  text-align left
+  font-size 1.2rem
+  line-height 1.618rem
+  font-weight 300
+  letter-spacing 0.04em
+
+
+.popover-body
+  font-size 16px
   line-height 1.618
+  font-family font_p
+  color bg_dark_1
+  margin-bottom calc((1rem * 1.618) / 2)
+  p
+    color bg_dark_1
+
+
+
+.svg_icon_syn
+    height calc(1.2rem)
+    width calc(1.2rem)
+    margin-right 0
+    margin-top -.2rem
+    stroke ghost_blue
+    fill rgba(255,0,0,.5)
+    text-align: right
+    padding-top 0
+    margin-left .6rem
+
+.svg_icon_syn:hover
+    stroke rgba(255,255,255,.96)
+    // stroke-width 2
+
+.btn_popover
+    // background-color bg_dark_2
+    margin 0
+    padding 0
+    border 0
+
+a.btn_popover
+    // background-color bg_dark_2
+    margin 0
+    padding 0
+    border 0
 
 
 
