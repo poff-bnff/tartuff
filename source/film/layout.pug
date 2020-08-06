@@ -63,7 +63,7 @@ block content
                 //-         | Foorum, Põhjusega mässajad
             - var synopsis_md = self.filmSynopsis
             .synopsis_gi
-                | !{ self.md(synopsis_md)}
+                +format(self.filmSynopsis)
 
         section.f_cred_box
             .str_info_blokk_cred
