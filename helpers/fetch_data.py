@@ -116,7 +116,7 @@ fetchData('events-et', 'events/data.et.yaml', {})
 fetchData('events-en', 'events/data.en.yaml', {})
 fetchData('events-ru', 'events/data.ru.yaml', {})
 
-#fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
 fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
 fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
 fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
