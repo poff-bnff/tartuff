@@ -18,7 +18,15 @@ search:
     placeholder: введите →
     button: Искать
 label:
+    all:
+        presenters: Esitlejad
+        thanksTo: Täname
     film:
         title: Название
     screening:
         screeningSubtitles: Subtiitrid
+    buttons:
+        filmTicketBuy: Osta pilet
+        filmTicketFree: Tasuta
+        newsButton: Uudised
+        filmsButton: Filmid
