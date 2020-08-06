@@ -6,10 +6,8 @@ include ../_templates/mixins.pug
 block content
 
     main.grid_film
-        if self.locale != 'et'
-            - my_path = self.path.substring(1).split("/")[1]
-        else
-            - my_path = self.path.substring(1)
+        - var pathParts = self.path.split('/')
+        - var my_path = pathParts[pathParts.length - 1]
         - filmslugs = self.data.pictures.filmslugs
         - filmslug = filmslugs[my_path]
 
@@ -25,16 +23,16 @@ block content
                         each val, index in filmslug.pics
                             if index == 0
                                 .carousel-item.active.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
+                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self.filmTitle)
                             else
                                 .carousel-item.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
+                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self.filmTitle)
                     else
                         .carousel-item.active.container_contents_16_9
-                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_${self.locale}`])
+                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self.filmTitle)
                 else
                     .carousel-item.active.container_contents_16_9
-                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_"${self.locale}`])
+                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self.filmTitle)
 
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
                 // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,7 +61,7 @@ block content
                 //-         | Programm
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
-            - synopsis_md = self[`filmSynopsis_${self.locale}`]
+            - var synopsis_md = self.filmSynopsis
             .synopsis_gi
                 | !{ self.md(synopsis_md)}
 
@@ -103,10 +101,10 @@ block content
                         .str_info_value= self.filmProduction
 
         section.f_runtime_box
-            if self[localfilmlanguages]
+            if self.filmLanguages
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmLanguages
-                    .str_info_value= self[localfilmlanguages]
+                    .str_info_value= self.filmLanguages
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
@@ -162,11 +160,11 @@ block content
                                 .screening_info_blokk
                                     .str_info_grid_3
                                         span.screening_info_label= self.label.screening.screeningName
-                                        span.screening_info_value= self[localtitle]
+                                        span.screening_info_value= self.filmTitle
                                     if screening.screeningSubtitles
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningSubtitles
-                                            span.screening_info_value= screening[localsubtitles]
+                                            span.screening_info_value= screening.screeningSubtitles
                                             //- span.screening_info_value= screening.screeningSubtitles
                                     if screening.screeningQaGuests
                                         .str_info_grid_3

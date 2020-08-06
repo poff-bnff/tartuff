@@ -3,16 +3,14 @@ header
             //-     each p, locale in self.otherLocalePaths
             //-         a(href=(p !== '/' ? p + '/' : '/'))= locale.toUpperCase()
             .logo
-                //- Defining locale path for multilingual support
-                - var lang_path = self.locale === 'et' ? '' : `${self.locale}/`
-                a(href=`/${lang_path}`)
+                a(href=`/`)
                     img.logo_img(alt='PÖFF' data-src='/assets/img/global/tartuff_logo_white.svg' src='/assets/img/global/tartuff_logo_white_red.svg')
             input#main_menu_toggle.main_menu_toggle(type='checkbox')
 
             nav.main_menu
                 ul
                     li
-                        a(href=`/${lang_path}articles`) Uudised
+                        a(href=`/articles`) Uudised
                     //- li.dropdown
                     //-     a(href='/films') Filmid
                     //-     if self.films
@@ -21,7 +19,7 @@ header
                     //-                 li: a(href= val.filmEventivalId)= val.filmTitle_et
 
                     li
-                        a(href=`/${lang_path}films`) Filmid
+                        a(href=`/films`) Filmid
                     //- li
                     //-     a(href='#') Piletid
                     //- li
