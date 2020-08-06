@@ -52,10 +52,8 @@ block content
         section.f_synopsis_box
             .str_info_meta_gi
                 .str_info_meta_item
-                    .str_info_meta_label
-                        | #{self.label.film.filmFestival}
-                    .str_info_meta_festival
-                        | #{self.siteTitle}
+                    .str_info_meta_label #{self.label.film.filmFestival}
+                    .str_info_meta_festival #{self.siteTitle}
 
                 //- .str_info_meta_item
                 //-     .str_info_meta_label
@@ -388,7 +386,7 @@ block content
 
         if self.filmTrailer
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - youtubeVideoCode = self.filmTrailer.split("=")
+                - var youtubeVideoCode = self.filmTrailer.split("=")
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 
