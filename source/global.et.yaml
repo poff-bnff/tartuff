@@ -22,6 +22,8 @@ label:
         selectLocale: Languages
         presenters: Esitlejad
         thanksTo: Täname
+        screeningsCalendar: Seansside kalender
+        eventsCalendar: Ürituste kalender
     film:
         filmTitleOriginal: Pealkirja originaal
         filmTitle_en: Pealkiri inglise keeles

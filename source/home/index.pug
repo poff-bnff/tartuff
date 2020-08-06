@@ -27,30 +27,54 @@ block content
 
 
     main.home
-        section.grid_hero
-            .home_1
-                .article_title_detailed.m_center_d_right
-                    span.article_title_detailed.clr_primary 10. - 15. august
-                    br
-                    | Tartu Raekoja Plats
-                    br
-                    | Athena Keskus
-                    br
-                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
-                        | Elisa Stage
-            .home_2
-                img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
-            .home_3
-                .hero_p
-                    p Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
-                    p Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
-                    p Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide festivali.
-                    p Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta, virtuaalsetele seanssidele tuleb osta pilet.
+        if self.locale == 'et'
+            section.grid_hero
+                .home_1
+                    .article_title_detailed.m_center_d_right
+                        span.article_title_detailed.clr_primary 10. - 15. august
+                        br
+                        | Tartu Raekoja Plats
+                        br
+                        | Athena Keskus
+                        br
+                        a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
+                            | Elisa Stage
+                .home_2
+                    img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
+                .home_3
+                    .hero_p
+                        p Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
+                        p Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
+                        p Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide festivali.
+                        p Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta, virtuaalsetele seanssidele tuleb osta pilet.
+
+        if self.locale == 'en'
+            section.grid_hero
+                .home_1
+                    .article_title_detailed.m_center_d_right
+                        span.article_title_detailed.clr_primary August 10th - 15th
+                        br
+                        | Town Hall Square
+                        br
+                        | Athena Center
+                        br
+                        a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
+                            | Elisa Stage
+                .home_2
+                    img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
+                .home_3
+                    .hero_p
+                        p Tartuff is a unique outdoor film festival taking place in the heart of the beautiful Tartu Old Town, Estonia. The festival screens a diverse selection of genre and documentary films, focusing on the most important thing in the world – love.
+                        p Thirteen feature films and four documentaries will screen at the 15th Tartu Love Film Festival aka Tartuff from 10 to 15 August 2020. For the first time in the history of the festival organised by the team at the Tallinn Black Nights Film Festival most of the films will also be available online.
+                        p The screenings are accompanied by daily lectures and family friendly special events. With its cosy midsummer atmosphere and the biggest open air cinema in the Baltics, Tartuff has grown to be one of the most beloved summer festivals in Estonia.
+                        p Welcome to Tartuff!
+
+
 
         //- FILMS / SCREENINGS calendar
         div
-                h1.section_headline_footer
-                    | Seansside kalender
+            h1.section_headline_footer= self.label.all.screeningsCalendar
+                    //- | Seansside kalender
 
         section.calendar
             .calendar_day
@@ -187,8 +211,8 @@ block content
 
         //- EVENTS calendar
         div
-                h1.section_headline_footer
-                    | Ürituste kalender
+            h1.section_headline_footer= self.label.all.eventsCalendar
+                    //- | Ürituste kalender
 
         section.calendar
             .calendar_day
@@ -699,7 +723,7 @@ block content
                     br
                     | 12:00&nbsp;&nbsp;&nbsp;Töötoad
                     br
-                    | 13:00&nbsp;&nbsp;&nbsp;etendus "Kulda väärt"“" Miku-Manni näitetrupi esituses
+                    | 13:00&nbsp;&nbsp;&nbsp;etendus "Kulda väärt" Miku-Manni näitetrupi esituses
                     br
                     | 14:00&nbsp;&nbsp;&nbsp;Giidituur muinasjutunäitusel "Elas kord..."
                     br
@@ -723,7 +747,7 @@ block content
                             line(x1='21' y1='14' x2='3' y2='14')
                             line(x1='17' y1='18' x2='3' y2='18')
                     br
-                    | 14:00&nbsp;&nbsp;&nbsp;
+                    | 15:00&nbsp;&nbsp;&nbsp;
                     a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Eesti Dokumentalistide Gild esitleb: vestlus kujutavast kunstist eesti kaasaegses dokumentalistikas' data-content='\
 <p>Filmid kunstnike elust ja loomingust – hetkel töösolevatest eesti kunstnike dokumentaalfilmidest vestlevad rahvusvaheliselt hinnatud eesti dokumentalist, autor ja produtsent Marianna Kaat („Ülo Sooster. Mees, kes kuivatas rätikut tuule käes“, režissöör Lilija Vjugina, produtsent Marianna Kaat, Eesti-Vene 2020) ning kunstnik, kuraator ja dokumentalist Sandra Jõgeva („Kunst ja külm sõda“).\
 </p>\
