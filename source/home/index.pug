@@ -30,14 +30,22 @@ block content
         section.grid_hero
             .home_1
                 .article_title_detailed.m_center_d_right
-                    span.article_title_detailed.clr_primary 10. - 15. august
+                    span.article_title_detailed.clr_primary= self.festivalDates
                     br
-                    | Tartu Raekoja Plats
+                    span
+                        - var festivalLocations = self.festivalLocations
+                        | !{ self.md(festivalLocations)}
                     br
-                    | Athena Keskus
-                    br
-                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
-                        | Elisa Stage
+                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.virtualLocation
+
+                    //- span.article_title_detailed.clr_primary 10. - 15. august
+                    //- br
+                    //- | Tartu Raekoja Plats
+                    //- br
+                    //- | Athena Keskus
+                    //- br
+                    //- a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
+                    //-     | Elisa Stage
             .home_2
                 img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
             .home_3
