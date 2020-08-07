@@ -3,6 +3,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
+    path_et: nhtamatu-elu
+    path_en: invisible-life-of-eurdice-gusmo
     filmTitle_et: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
     filmTitle_en: Invisible Life of Eurídice Gusmão
@@ -43,6 +45,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1002'
     path: flawless
+    path_et: tiuslik
+    path_en: flawless
     filmTitle_et: Täiuslik
     filmTitleOriginal: HaNeshef
     filmTitle_en: Flawless
@@ -85,6 +89,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
+    path_et: hvasti
+    path_en: house-of-hummingbird
     filmTitle_et: Hüvasti!
     filmTitleOriginal: Beol-sae
     filmTitle_en: House of Hummingbird
@@ -129,6 +135,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
+    path_et: nnejumalanna
+    path_en: the-goddess-of-fortune
     filmTitle_et: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
     filmTitle_en: The Goddess of Fortune
@@ -168,6 +176,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1005'
     path: schemers
+    path_et: skeemitajad
+    path_en: schemers
     filmTitle_et: Skeemitajad
     filmTitleOriginal: ''
     filmTitle_en: Schemers
@@ -213,6 +223,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1006'
     path: champions
+    path_et: tempionid
+    path_en: champions
     filmTitle_et: Tšempionid
     filmTitleOriginal: Campeones
     filmTitle_en: Champions
@@ -253,6 +265,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
+    path_et: yalda-andestuse-
+    path_en: yalda-a-night-for-forgiveness
     filmTitle_et: Yalda, andestuse öö
     filmTitleOriginal: Yalda
     filmTitle_en: Yalda, a Night for Forgiveness
@@ -296,6 +310,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1008'
     path: force-of-habit
+    path_et: harjumuse-jud
+    path_en: force-of-habit
     filmTitle_et: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
     filmTitle_en: Force of Habit
@@ -348,6 +364,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1009'
     path: acid
+    path_et: hape
+    path_en: acid
     filmTitle_et: Hape
     filmTitleOriginal: Kislota
     filmTitle_en: Acid
@@ -390,6 +408,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1010'
     path: final-portrait
+    path_et: viimane-portree
+    path_en: final-portrait
     filmTitle_et: Viimane portree
     filmTitleOriginal: ''
     filmTitle_en: Final Portrait
@@ -437,6 +457,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1011'
     path: maudie
+    path_et: maudie
+    path_en: maudie
     filmTitle_et: Maudie
     filmTitleOriginal: ''
     filmTitle_en: Maudie
@@ -475,6 +497,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
+    path_et: tagaotsitav-banksy
+    path_en: banksy-most-wanted
     filmTitle_et: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
     filmTitle_en: Banksy Most Wanted
@@ -520,6 +544,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1013'
     path: acas-my-home
+    path_et: acas-mu-kodu
+    path_en: acas-my-home
     filmTitle_et: Acasă, mu kodu
     filmTitleOriginal: Acasă
     filmTitle_en: Acasă, My Home
@@ -565,6 +591,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1014'
     path: storm-boy
+    path_et: tormipoiss
+    path_en: storm-boy
     filmTitle_et: Tormipoiss
     filmTitleOriginal: ''
     filmTitle_en: Storm Boy
@@ -600,6 +628,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
+    path_et: lammas-all-paremas-nurgas
+    path_en: the-secret-lamb
     filmTitle_et: Lammas all paremas nurgas
     filmTitleOriginal: ''
     filmTitle_en: The Secret Lamb
@@ -637,6 +667,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
+    path_et: marcel-duchamp-ja-vimalikkuse-kunst
+    path_en: marcel-duchamp-art-of-the-possible
     filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
     filmTitle_en: 'Marcel Duchamp: Art of the Possible'
@@ -680,6 +712,8 @@
         screenings: screenings.yaml
     filmEventivalId: '1017'
     path: self-portrait
+    path_et: autoportree
+    path_en: self-portrait
     filmTitle_et: Autoportree
     filmTitleOriginal: Selvportrett
     filmTitle_en: Self Portrait
