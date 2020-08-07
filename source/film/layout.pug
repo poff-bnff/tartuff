@@ -1,5 +1,5 @@
-extends ../_templates/layout.pug
-include ../_templates/mixins.pug
+extends /_templates/layout.pug
+include /_templates/mixins.pug
 
 
 
@@ -8,8 +8,8 @@ block content
     main.grid_film
         - var pathParts = self.path.split('/')
         - var my_path = pathParts[pathParts.length - 1]
-        - filmslugs = self.data.pictures.filmslugs
-        - filmslug = filmslugs[my_path]
+        - var filmslugs = self.data.pictures.filmslugs
+        - var filmslug = filmslugs[my_path]
 
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
@@ -52,16 +52,15 @@ block content
         section.f_synopsis_box
             .str_info_meta_gi
                 .str_info_meta_item
-                    .str_info_meta_label
-                        | Festival
-                    .str_info_meta_festival
-                        | Tartuff
+                    .str_info_meta_label #{self.label.film.filmFestival}
+                    .str_info_meta_festival #{self.siteTitle}
+
                 //- .str_info_meta_item
                 //-     .str_info_meta_label
                 //-         | Programm
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
-            - var synopsis_md = self.filmSynopsis
+
             .synopsis_gi
                 +format(self.filmSynopsis)
 
@@ -387,7 +386,7 @@ block content
 
         if self.filmTrailer
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - youtubeVideoCode = self.filmTrailer.split("=")
+                - var youtubeVideoCode = self.filmTrailer.split("=")
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 
