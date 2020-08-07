@@ -33,10 +33,11 @@ block content
                 .article_title_detailed.m_center_d_right
                     span.article_title_detailed.clr_primary= self.festivalDates
                     br
-                    span
-                        +format(self.festivalLocations)
+                    | !{self.festivalLocations.outdoors}
                     br
-                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.virtualLocation
+                    | !{self.festivalLocations.indoors}
+                    br
+                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.festivalLocations.virtual
 
                     //- span.article_title_detailed.clr_primary 10. - 15. august
                     //- br
@@ -52,50 +53,6 @@ block content
                 .hero_p
                     - var frontpageText = self.frontpageText
                     | !{ self.md(frontpageText)}
-
-
-        //- if self.locale == 'et'
-        //-     section.grid_hero
-        //-         .home_1
-        //-             .article_title_detailed.m_center_d_right
-        //-                 span.article_title_detailed.clr_primary 10. - 15. august
-        //-                 br
-        //-                 | Tartu Raekoja Plats
-        //-                 br
-        //-                 | Athena Keskus
-        //-                 br
-        //-                 a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
-        //-                     | Elisa Stage
-        //-         .home_2
-        //-             img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
-        //-         .home_3
-        //-             .hero_p
-        //-                 p Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
-        //-                 p Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
-        //-                 p Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide festivali.
-        //-                 p Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta, virtuaalsetele seanssidele tuleb osta pilet.
-
-        //- if self.locale == 'en'
-        //-     section.grid_hero
-        //-         .home_1
-        //-             .article_title_detailed.m_center_d_right
-        //-                 span.article_title_detailed.clr_primary August 10th - 15th
-        //-                 br
-        //-                 | Town Hall Square
-        //-                 br
-        //-                 | Athena Center
-        //-                 br
-        //-                 a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
-        //-                     | Elisa Stage
-        //-         .home_2
-        //-             img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
-        //-         .home_3
-        //-             .hero_p
-        //-                 p Tartuff is a unique outdoor film festival taking place in the heart of the beautiful Tartu Old Town, Estonia. The festival screens a diverse selection of genre and documentary films, focusing on the most important thing in the world – love.
-        //-                 p Thirteen feature films and four documentaries will screen at the 15th Tartu Love Film Festival aka Tartuff from 10 to 15 August 2020. For the first time in the history of the festival organised by the team at the Tallinn Black Nights Film Festival most of the films will also be available online.
-        //-                 p The screenings are accompanied by daily lectures and family friendly special events. With its cosy midsummer atmosphere and the biggest open air cinema in the Baltics, Tartuff has grown to be one of the most beloved summer festivals in Estonia.
-        //-                 p Welcome to Tartuff!
-
 
 
         //- FILMS / SCREENINGS calendar
@@ -233,7 +190,7 @@ block content
 
         section.calendar_e
             span.font_h.clr_elisa_stage e
-            span.clr_white_96 &nbsp;-&nbsp;filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage
+            span.clr_white_96=self.eFilmInfo
 
 
         //- EVENTS calendar

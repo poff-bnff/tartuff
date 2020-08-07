@@ -1,10 +1,18 @@
 path: ''
 data:
     pictures: /film_pictures.yaml
-frontpageText:
-    This english translation is missing
-festivalDates: '10. - 15. august???'
-festivalLocations: 'Tartu town square??
+frontpageText: 'Tartuff is a unique outdoor film festival taking place in the heart of the beautiful Tartu Old Town, Estonia. The festival screens a diverse selection of genre and documentary films, focusing on the most important thing in the world – love.
 
-    Athena Centre???'
-virtualLocation: 'Elisa Stage'
+
+    Thirteen feature films and four documentaries will screen at the 15th Tartu Love Film Festival aka Tartuff from 10 to 15 August 2020. For the first time in the history of the festival organised by the team at the Tallinn Black Nights Film Festival most of the films will also be available online.
+
+
+    The screenings are accompanied by daily lectures and family friendly special events. With its cosy midsummer atmosphere and the biggest open air cinema in the Baltics, Tartuff has grown to be one of the most beloved summer festivals in Estonia.
+
+
+    Welcome to Tartuff!'
+festivalDates: 'August 10th - 15th'
+festivalLocations:
+    outdoors: 'Town Hall Square'
+    indoors: 'Athena Center'
+    virtual: 'Elisa Stage'
