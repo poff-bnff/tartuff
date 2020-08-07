@@ -4,6 +4,7 @@
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitle: Nähtamatu elu
+    filmTitleSec: Invisible Life of Eurídice Gusmão
     filmTitleOriginal: A Vida Invisivel
     filmDirector: Karim Aïnouz
     filmScreenwriter: Murilo Hauser, Inés Bortagaray, Karim Aïnouz
@@ -35,6 +36,7 @@
     filmEventivalId: '1002'
     path: flawless
     filmTitle: Täiuslik
+    filmTitleSec: Flawless
     filmTitleOriginal: HaNeshef
     filmDirector: Tal Granit, Sharon Maymon
     filmScreenwriter: Tal Granit, Sharon Maymon
@@ -66,6 +68,7 @@
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitle: Hüvasti!
+    filmTitleSec: House of Hummingbird
     filmTitleOriginal: Beol-sae
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
@@ -98,6 +101,7 @@
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitle: Õnnejumalanna
+    filmTitleSec: The Goddess of Fortune
     filmTitleOriginal: La dea fortuna
     filmDirector: Ferzan Özpetek
     filmScreenwriter: Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli
@@ -129,6 +133,7 @@
     filmEventivalId: '1005'
     path: schemers
     filmTitle: Skeemitajad
+    filmTitleSec: Schemers
     filmTitleOriginal: ''
     filmDirector: Dave McLean
     filmScreenwriter: Dave McLean, Kyle Titterton
@@ -164,6 +169,7 @@
     filmEventivalId: '1006'
     path: champions
     filmTitle: Tšempionid
+    filmTitleSec: Champions
     filmTitleOriginal: Campeones
     filmDirector: Javier Fesser
     filmScreenwriter: David Marqués, Javier Fesser
@@ -195,6 +201,7 @@
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitle: Yalda, andestuse öö
+    filmTitleSec: Yalda, a Night for Forgiveness
     filmTitleOriginal: Yalda
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
@@ -230,6 +237,7 @@
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitle: Harjumuse jõud
+    filmTitleSec: Force of Habit
     filmTitleOriginal: Tottumiskysymys
     filmDirector: Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari,
         Miia Tervo, Elli Toivoniemi, Jenni Toivoniemi
@@ -268,6 +276,7 @@
     filmEventivalId: '1009'
     path: acid
     filmTitle: Hape
+    filmTitleSec: Acid
     filmTitleOriginal: Kislota
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
@@ -297,6 +306,7 @@
     filmEventivalId: '1010'
     path: final-portrait
     filmTitle: Viimane portree
+    filmTitleSec: Final Portrait
     filmTitleOriginal: ''
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
@@ -331,6 +341,7 @@
     filmEventivalId: '1011'
     path: maudie
     filmTitle: Maudie
+    filmTitleSec: Maudie
     filmTitleOriginal: ''
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
@@ -363,6 +374,7 @@
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitle: 'Tagaotsitav: Banksy!'
+    filmTitleSec: Banksy Most Wanted
     filmTitleOriginal: ''
     filmDirector: Aurélia Rouvier, Seamus Haley
     filmScreenwriter: ''
@@ -398,6 +410,7 @@
     filmEventivalId: '1013'
     path: acas-my-home
     filmTitle: Acasă, mu kodu
+    filmTitleSec: Acasă, My Home
     filmTitleOriginal: Acasă
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
@@ -435,6 +448,7 @@
     filmEventivalId: '1014'
     path: storm-boy
     filmTitle: Tormipoiss
+    filmTitleSec: Storm Boy
     filmTitleOriginal: ''
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
@@ -463,6 +477,7 @@
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitle: Lammas all paremas nurgas
+    filmTitleSec: The Secret Lamb
     filmTitleOriginal: ''
     filmDirector: Lembit Ulfsak
     filmScreenwriter: Janno Põldma, Lembit Ulsak
@@ -494,6 +509,7 @@
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitle: Marcel Duchamp ja võimalikkuse kunst
+    filmTitleSec: 'Marcel Duchamp: Art of the Possible'
     filmTitleOriginal: ''
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
@@ -529,6 +545,7 @@
     filmEventivalId: '1017'
     path: self-portrait
     filmTitle: Autoportree
+    filmTitleSec: Self Portrait
     filmTitleOriginal: Selvportrett
     filmDirector: Katja Høgset, Margreth Olin, Espen Wallin
     filmScreenwriter: ''
