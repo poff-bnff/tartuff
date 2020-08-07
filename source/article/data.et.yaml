@@ -390,6 +390,9 @@
     kell: ''
     articlePublishStart: 2020-07-31T10:00:00+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#armastus #kunst'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '6'
@@ -441,5 +444,8 @@
         \ ja Tartu loomemajanduskeskusega."
     kuupäev: ''
     kell: ''
-    articlePublishStart: T+0300
+    articlePublishStart: 07.08T10:00+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#piletid'
