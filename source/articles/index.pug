@@ -10,7 +10,7 @@ block content
                 if val.articleTitle
                     - var article_slug = val.path
                     - var article_pictures = self.data.article_pictures.articles[article_slug]
-                    a(href= `/${article_slug}`).card_article
+                    a(href= `/${lang_path}${article_slug}`).card_article
                         .container_frame_16_9
                             if article_pictures
                                 img.container_contents_16_9(src=`/assets/img/img_articles/${article_slug}/${article_pictures.heroImage}`)

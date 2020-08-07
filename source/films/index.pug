@@ -28,7 +28,7 @@ block content
     if self.data.films
         main.grid_films
             each val in self.data.films
-                a.card_film(href= `/${val.path}`)
+                a.card_film(href= `/${lang_path}${val.path}`)
                     .container_frame_16_9
                         if self.data.pictures.filmslugs[val.path]
                             if self.data.pictures.filmslugs[val.path].poster
