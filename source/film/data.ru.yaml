@@ -1,6 +1,6 @@
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitleOriginal: A Vida Invisivel
@@ -16,7 +16,7 @@
     filmDuration: '2.19'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1002'
     path: flawless
     filmTitleOriginal: HaNeshef
@@ -31,7 +31,7 @@
     filmDuration: '1.37'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitleOriginal: Beol-sae
@@ -46,7 +46,7 @@
     filmDuration: '2.18'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitleOriginal: La dea fortuna
@@ -61,7 +61,7 @@
     filmDuration: '1.54'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1005'
     path: schemers
     filmTitleOriginal: ''
@@ -76,7 +76,7 @@
     filmDuration: '1.31'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1006'
     path: champions
     filmTitleOriginal: Campeones
@@ -92,7 +92,7 @@
     filmDuration: '2.04'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitleOriginal: Yalda
@@ -107,7 +107,7 @@
     filmDuration: '1.29'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitleOriginal: Tottumiskysymys
@@ -123,7 +123,7 @@
     filmDuration: '1.15'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1009'
     path: acid
     filmTitleOriginal: Kislota
@@ -138,7 +138,7 @@
     filmDuration: '1.37'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1010'
     path: final-portrait
     filmTitleOriginal: ''
@@ -154,7 +154,7 @@
     filmDuration: '1.3'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1011'
     path: maudie
     filmTitleOriginal: ''
@@ -171,7 +171,7 @@
     filmDuration: '1.55'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitleOriginal: ''
@@ -186,7 +186,7 @@
     filmDuration: '1.30'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1013'
     path: acas-my-home
     filmTitleOriginal: Acasă
@@ -201,7 +201,7 @@
     filmDuration: '1.26'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1014'
     path: storm-boy
     filmTitleOriginal: ''
@@ -216,7 +216,7 @@
     filmDuration: '1.39'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitleOriginal: ''
@@ -230,7 +230,7 @@
     filmYear: '1992'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitleOriginal: ''
@@ -245,7 +245,7 @@
     filmDuration: '1.26'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.ru.yaml
     filmEventivalId: '1017'
     path: self-portrait
     filmTitleOriginal: Selvportrett

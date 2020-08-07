@@ -1,6 +1,6 @@
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
     filmTitle: Nähtamatu elu
@@ -32,7 +32,7 @@
         võitis seal peaauhinna.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1002'
     path: flawless
     filmTitle: Täiuslik
@@ -64,7 +64,7 @@
         aktsepteerimisest ja iseendale otsa vaatamisest.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
     filmTitle: Hüvasti!
@@ -97,7 +97,7 @@
         saamiseks.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
     filmTitle: Õnnejumalanna
@@ -129,7 +129,7 @@
         silmad uuesti särama panevad.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1005'
     path: schemers
     filmTitle: Skeemitajad
@@ -165,7 +165,7 @@
         aastate ühe edukama Briti bändi Placebo edu taga.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1006'
     path: champions
     filmTitle: Tšempionid
@@ -197,7 +197,7 @@
         moodustavad näitlejad, kellele see on esimene ülesastumine kinolinal.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
     filmTitle: Yalda, andestuse öö
@@ -233,7 +233,7 @@
         peaauhinna.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1008'
     path: force-of-habit
     filmTitle: Harjumuse jõud
@@ -272,7 +272,7 @@
         mille on lavastanud Soome parimad naisrežissöörid.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1009'
     path: acid
     filmTitle: Hape
@@ -302,7 +302,7 @@
         ka meie noorele vaatajale.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1010'
     path: final-portrait
     filmTitle: Viimane portree
@@ -337,7 +337,7 @@
         Film nagu lõuend, mis tasapisi värvidega kattub.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1011'
     path: maudie
     filmTitle: Maudie
@@ -370,7 +370,7 @@
         nagu ka Ethan Hawke Maudie´ rämedavõitu ja asotsiaalse elukaaslase Everettina.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
     filmTitle: 'Tagaotsitav: Banksy!'
@@ -406,7 +406,7 @@
         sa tahad, et sind kuulataks.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1013'
     path: acas-my-home
     filmTitle: Acasă, mu kodu
@@ -444,7 +444,7 @@
         film on võitnud juba hulk auhindu mainekatelt festivalidelt.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1014'
     path: storm-boy
     filmTitle: Tormipoiss
@@ -473,7 +473,7 @@
         Uskumatud ja ennekuulmatud seiklused võivad kinolinal alata!'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
     filmTitle: Lammas all paremas nurgas
@@ -505,7 +505,7 @@
         2013. aastal.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
     filmTitle: Marcel Duchamp ja võimalikkuse kunst
@@ -541,7 +541,7 @@
         armastas korrata Duchamp ise. Kohustuslik vaatamine kõigile kunstihuvilistele.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.yaml
+        screenings: screenings.et.yaml
     filmEventivalId: '1017'
     path: self-portrait
     filmTitle: Autoportree
