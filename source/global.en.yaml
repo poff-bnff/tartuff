@@ -22,6 +22,8 @@ label:
         selectLocale: Languages
         presenters: Presenters
         thanksTo: Thanks to
+        screeningsCalendar: Screenings calendar
+        eventsCalendar: Events calendar
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
