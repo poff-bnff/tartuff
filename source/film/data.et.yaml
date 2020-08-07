@@ -2,7 +2,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1001'
-    path: nhtamatu-elu
+    path: invisible-life-of-eurdice-gusmo
     filmTitle: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
     filmDirector: Karim Aïnouz
@@ -33,7 +33,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1002'
-    path: tiuslik
+    path: flawless
     filmTitle: Täiuslik
     filmTitleOriginal: HaNeshef
     filmDirector: Tal Granit, Sharon Maymon
@@ -64,7 +64,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1003'
-    path: hvasti
+    path: house-of-hummingbird
     filmTitle: Hüvasti!
     filmTitleOriginal: Beol-sae
     filmDirector: Bora Kim
@@ -96,7 +96,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1004'
-    path: nnejumalanna
+    path: the-goddess-of-fortune
     filmTitle: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
     filmDirector: Ferzan Özpetek
@@ -127,7 +127,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1005'
-    path: skeemitajad
+    path: schemers
     filmTitle: Skeemitajad
     filmTitleOriginal: ''
     filmDirector: Dave McLean
@@ -162,7 +162,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1006'
-    path: tempionid
+    path: champions
     filmTitle: Tšempionid
     filmTitleOriginal: Campeones
     filmDirector: Javier Fesser
@@ -193,7 +193,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1007'
-    path: yalda-andestuse-
+    path: yalda-a-night-for-forgiveness
     filmTitle: Yalda, andestuse öö
     filmTitleOriginal: Yalda
     filmDirector: Massoud Bakhshi
@@ -228,7 +228,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1008'
-    path: harjumuse-jud
+    path: force-of-habit
     filmTitle: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
     filmDirector: Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari,
@@ -266,7 +266,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1009'
-    path: hape
+    path: acid
     filmTitle: Hape
     filmTitleOriginal: Kislota
     filmDirector: Aleksandr Gorchilin
@@ -295,7 +295,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1010'
-    path: viimane-portree
+    path: final-portrait
     filmTitle: Viimane portree
     filmTitleOriginal: ''
     filmDirector: Stanley Tucci
@@ -361,7 +361,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1012'
-    path: tagaotsitav-banksy
+    path: banksy-most-wanted
     filmTitle: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
     filmDirector: Aurélia Rouvier, Seamus Haley
@@ -396,7 +396,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1013'
-    path: acas-mu-kodu
+    path: acas-my-home
     filmTitle: Acasă, mu kodu
     filmTitleOriginal: Acasă
     filmDirector: Radu Ciorniciuc
@@ -433,7 +433,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1014'
-    path: tormipoiss
+    path: storm-boy
     filmTitle: Tormipoiss
     filmTitleOriginal: ''
     filmDirector: Shawn Seet
@@ -461,7 +461,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1015'
-    path: lammas-all-paremas-nurgas
+    path: the-secret-lamb
     filmTitle: Lammas all paremas nurgas
     filmTitleOriginal: ''
     filmDirector: Lembit Ulfsak
@@ -492,7 +492,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1016'
-    path: marcel-duchamp-ja-vimalikkuse-kunst
+    path: marcel-duchamp-art-of-the-possible
     filmTitle: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
     filmDirector: Matthew Taylor
@@ -527,7 +527,7 @@
         pictures: /film_pictures.yaml
         screenings: screenings.yaml
     filmEventivalId: '1017'
-    path: autoportree
+    path: self-portrait
     filmTitle: Autoportree
     filmTitleOriginal: Selvportrett
     filmDirector: Katja Høgset, Margreth Olin, Espen Wallin
