@@ -17,7 +17,7 @@
     articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: '2'
     articleTtr: 2 min
-    tagKeyword: '#armastus #ElisaStage #koroonaviirus'
+    tagKeyword: '#love #ElisaStage #coronavirus'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '2'
@@ -88,7 +88,7 @@
     articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: '3'
     articleTtr: 3 min
-    tagKeyword: '#kunst'
+    tagKeyword: '#art'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '3'
@@ -108,7 +108,7 @@
     articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: '1'
     articleTtr: 1 min
-    tagKeyword: '#melodraama #troopilinemelodraama'
+    tagKeyword: '#melodrama #tropicalmelodrama'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '4'
@@ -128,7 +128,7 @@
     articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: '2'
     articleTtr: 2 min
-    tagKeyword: '#MeToo #SeksuaalneAhistamine'
+    tagKeyword: '#MeToo #SexualHarrassment'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '5'
@@ -146,6 +146,9 @@
     kell: ''
     articlePublishStart: 2020-07-31T10:00:00+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#love #art'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '6'
@@ -163,3 +166,6 @@
     kell: ''
     articlePublishStart: T+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#tickets'
