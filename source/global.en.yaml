@@ -72,3 +72,7 @@ label:
         filmTicketFree: Free
         newsButton: News
         filmsButton: Films
+    menu:
+        mainNews: News
+        mainFilms: Films
+        mainInfo: Info
