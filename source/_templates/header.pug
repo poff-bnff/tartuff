@@ -12,8 +12,6 @@ header
             nav.main_menu
                 ul
                     li
-                        a(href=`/${lang_path}info`)= self.label.menu.mainInfo
-                    li
                         a(href=`/${lang_path}articles`)= self.label.menu.mainNews
                     //- li.dropdown
                     //-     a(href='/films') Filmid
@@ -24,6 +22,10 @@ header
 
                     li
                         a(href=`/${lang_path}films`)= self.label.menu.mainFilms
+                    li
+                        a(href=`/${lang_path}info`)= self.label.menu.mainInfo
+                    li
+                        a(href=`/${lang_path}festival`)= self.label.menu.mainFestival
                     //- li
                     //-     a(href='#') Piletid
                     //- li
