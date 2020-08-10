@@ -206,6 +206,12 @@ block content
             section.f_extra_box
                     img.presenter_img(src=`/assets/img/img_films/${filmPath}/${self.data.pictures.filmslugs[filmPath].presenter}`)
 
+        //- if self.filmQaClip
+        //-     section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
+        //-         - youtubeVideoCode = self.filmQaClip.split("=")
+        //-         +youtube(youtubeVideoCode[1])
+        //-     section.f_imgs_box
+
         if self.filmTrailer
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
                 - youtubeVideoCode = self.filmTrailer.split("=")
