@@ -4,6 +4,7 @@ language:
     et: eesti
     en: english
     # ru: русский
+
 navigation:
     -
         url: /riigid/
@@ -11,16 +12,22 @@ navigation:
     -
         url: /keeled/
         title: Keeled
+
 search:
     url: /otsing/
     text: |
         ### Otsing
     placeholder: sisesta →
     button: Otsi
+
 label:
     all:
         selectLocale: Languages
         presenters: Esitlejad
+        sponsors: Sponsor
+        supporters: Toetajad
+        officialPartners: Ametlikud partnerid
+        partners: Partnerid
         thanksTo: Täname
         screeningsCalendar: Seansside kalender
         eventsCalendar: Ürituste kalender
@@ -29,7 +36,6 @@ label:
         filmTitle_en: Pealkiri inglise keeles
         filmTitle_ru: Pealkiri vene keeles
         filmTitle_et: Pealkiri
-        filmTitleSec: Pealkiri inglise keeles
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
@@ -64,15 +70,22 @@ label:
         screeningName: Seanss
         screeningAdditionalInfo: Lisainfo
         selectLocale: Keeled
-
     selectLocale: Keeled
     buttons:
         filmTicketBuy: Osta pilet
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
+    menu:
+        mainNews: Uudised
+        mainFilms: Filmid
+        mainInfo: Info
+        mainFestival: Festival
+
 eFilmInfo: ' - filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage'
+
 festivalDates: '10. - 15. august'
+
 festivalLocations:
     screenings:
         outdoors: 'Tartu Raekoja Plats'
@@ -89,4 +102,3 @@ festivalLocations:
         location_8: 'VORONJA GALERII, VARNJA, KESK 27'
         location_9: 'TARTU LOOMEMAJANDUSKESKUS'
         location_10: 'GenKlubi'
-

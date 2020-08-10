@@ -21,7 +21,10 @@ label:
     all:
         selectLocale: Languages
         presenters: Presenters
-        thanksTo: Thanks to
+        sponsors: Sponsor
+        supporters: Supporters
+        officialPartners: Official partners
+        partners: Partners
         screeningsCalendar: Screenings calendar
         eventsCalendar: Events calendar
     film:
@@ -29,7 +32,6 @@ label:
         filmTitle_en: Title in English
         filmTitle_ru: Title in Russian
         filmTitle_et: Local title
-        filmTitleSec: Local title
         filmCountries: Country
         filmLanguages: Language
         # filmYear2: keelevalik
@@ -63,11 +65,16 @@ label:
         screeningTotalDuration: Screening duration
         screeningName: Screening
         screeningAdditionalInfo: Additional info
-
     selectLocale: Languages
     buttons:
         filmTicketBuy: Buy ticket
         filmTicketFree: Free
         newsButton: News
         filmsButton: Films
+    menu:
+        mainNews: News
+        mainFilms: Films
+        mainInfo: Info
+        mainFestival: Festival
+
 eFilmInfo: ' - You can see the film also on Elisa Stage, a VOD platform by Elisa'

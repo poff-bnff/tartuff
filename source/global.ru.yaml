@@ -11,12 +11,14 @@ navigation:
     -
         url: /keeled/
         title: Keeled
+
 search:
     url: /ru/poisk/
     text: |
         ### Поиск
     placeholder: введите →
     button: Искать
+
 label:
     all:
         presenters: Esitlejad
@@ -30,4 +32,5 @@ label:
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
+
 eFilmInfo: ''

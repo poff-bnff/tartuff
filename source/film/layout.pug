@@ -1,15 +1,17 @@
-extends /_templates/layout.pug
-include /_templates/mixins.pug
+extends ../_templates/layout.pug
+include ../_templates/mixins.pug
 
 
 
 block content
 
     main.grid_film
-        - var pathParts = self.path.split('/')
-        - var my_path = pathParts[pathParts.length - 1]
-        - var filmslugs = self.data.pictures.filmslugs
-        - var filmslug = filmslugs[my_path]
+        if self.locale != 'et'
+            - my_path = self.path.substring(1).split("/")[1]
+        else
+            - my_path = self.path.substring(1)
+        - filmslugs = self.data.pictures.filmslugs
+        - filmslug = filmslugs[my_path]
 
         section#carouselExampleIndicators.f_img_slider_box.carousel.slide(data-ride='carousel' data-interval='6000')
             ol.carousel-indicators
@@ -23,16 +25,16 @@ block content
                         each val, index in filmslug.pics
                             if index == 0
                                 .carousel-item.active.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self.filmTitle)
+                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
                             else
                                 .carousel-item.container_contents_16_9
-                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self.filmTitle)
+                                    img.d-block.container_contents_16_9(src=`/assets/img/img_films/${my_path}/${val}` alt = self[`filmTitle_${self.locale}`])
                     else
                         .carousel-item.active.container_contents_16_9
-                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self.filmTitle)
+                            img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_${self.locale}`])
                 else
                     .carousel-item.active.container_contents_16_9
-                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self.filmTitle)
+                        img.d-block.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = self[`filmTitle_"${self.locale}`])
 
             a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
                 // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,17 +54,18 @@ block content
         section.f_synopsis_box
             .str_info_meta_gi
                 .str_info_meta_item
-                    .str_info_meta_label #{self.label.film.filmFestival}
-                    .str_info_meta_festival #{self.siteTitle}
-
+                    .str_info_meta_label
+                        | Festival
+                    .str_info_meta_festival
+                        | Tartuff
                 //- .str_info_meta_item
                 //-     .str_info_meta_label
                 //-         | Programm
                 //-     .str_info_meta_program
                 //-         | Foorum, Põhjusega mässajad
-
+            - synopsis_md = self[`filmSynopsis_${self.locale}`]
             .synopsis_gi
-                +format(self.filmSynopsis)
+                | !{ self.md(synopsis_md)}
 
         section.f_cred_box
             .str_info_blokk_cred
@@ -100,10 +103,10 @@ block content
                         .str_info_value= self.filmProduction
 
         section.f_runtime_box
-            if self.filmLanguages
+            if self[localfilmlanguages]
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmLanguages
-                    .str_info_value= self.filmLanguages
+                    .str_info_value= self[localfilmlanguages]
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
@@ -159,11 +162,12 @@ block content
                                 .screening_info_blokk
                                     .str_info_grid_3
                                         span.screening_info_label= self.label.screening.screeningName
-                                        span.screening_info_value= self.filmTitle
-                                    if screening.screeningSubtitles
+                                        span.screening_info_value= self[localtitle]
+                                    //- if screening.screeningSubtitles
+                                    if screening[`screeningSubtitles_${self.locale}`]
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningSubtitles
-                                            span.screening_info_value= screening.screeningSubtitles
+                                            span.screening_info_value= screening[localsubtitles]
                                             //- span.screening_info_value= screening.screeningSubtitles
                                     if screening.screeningQaGuests
                                         .str_info_grid_3
@@ -380,15 +384,13 @@ block content
 
 
         //- Sample img for showing presenter logo/pic - can be deleted
-
-
-        //- if self.data.pictures.filmslugs[filmPath].presenter
-        //-     section.f_extra_box
-        //-             img.presenter_img(src=`/assets/img/img_films/${filmPath}/${self.data.pictures.filmslugs[filmPath].presenter}`)
+        if self.data.pictures.filmslugs[filmPath].presenter
+            section.f_extra_box
+                    img.presenter_img(src=`/assets/img/img_films/${filmPath}/${self.data.pictures.filmslugs[filmPath].presenter}`)
 
         if self.filmTrailer
             section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - var youtubeVideoCode = self.filmTrailer.split("=")
+                - youtubeVideoCode = self.filmTrailer.split("=")
                 +youtube(youtubeVideoCode[1])
             section.f_imgs_box
 

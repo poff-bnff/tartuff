@@ -5,19 +5,26 @@
     kuupäev: '2020-08-10'
     kell: '22:00:00'
     eventStartDt: 2020-08-10T22:00:00+0300
-    eventTitle: tARTuFFi avamine
-    eventSlug: tartuffi-avamine
-    eventLead: '15. armastusfilmide festivali tARTuFFi avamine ja kontsert Tartu Raekoja
-        platsil -
+    eventTitle_et: tARTuFFi avamine
+    eventSlug_et: tartuffi-avamine
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: '15. armastusfilmide festivali tARTuFFi avamine ja kontsert Tartu
+        Raekoja platsil -
 
         Maarja Nuut & Ruum'
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: 'Tervitussõnad: Tartu linnapea Urmas Klaas, Pimedate Ööde Filmifestivali
-        juht Tiina Lokk, Tartu 2024 juht Priit Mikk, tARTuFFi juht ning Tartu Filmifondi
-        ja Tartu Loomemajanduskeskuse juht Kristiina Reidolv, tARTuFFi filmiprogrammi
-        juht ja Pimedate Ööde filmifestivali filmiprogrammi koostaja Dagmar Raudam.
+    eventDescription_et: 'Tervitussõnad: Tartu linnapea Urmas Klaas, Pimedate Ööde
+        Filmifestivali juht Tiina Lokk, Tartu 2024 juht Priit Mikk, tARTuFFi juht
+        ning Tartu Filmifondi ja Tartu Loomemajanduskeskuse juht Kristiina Reidolv,
+        tARTuFFi filmiprogrammi juht ja Pimedate Ööde filmifestivali filmiprogrammi
+        koostaja Dagmar Raudam.
 
 
         Maarja Nuut & Ruum on enigmaatiline, varjude ja valguse vahel liikuv duo,
@@ -49,13 +56,19 @@
     kuupäev: '2020-08-11'
     kell: '12:00:00'
     eventStartDt: 2020-08-11T12:00:00+0300
-    eventTitle: ERMI lasteprogramm
-    eventSlug: ermi-lasteprogramm
-    eventLead: Muinasjutunäituse „Elas kord…“ giidituur ning töötoad peredele ERMis
+    eventTitle_et: ERMI lasteprogramm
+    eventSlug_et: ermi-lasteprogramm
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Muinasjutunäituse „Elas kord…“ giidituur ning töötoad peredele ERMis
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: On aeg otsida välja seitsmepenikoormasaapad või tellida treppi
+    eventDescription_et: On aeg otsida välja seitsmepenikoormasaapad või tellida treppi
         lendav vaip, sättida pähe kroon ja vöö vahele mõõk ning võtta suund Raadile,
         kus tARTuFF ja ERM viivad nii suured kui ka väikesed külalised muinasjuturadadele.
 -   eventId: '3'
@@ -65,13 +78,19 @@
     kuupäev: '2020-08-11'
     kell: '14:00:00'
     eventStartDt: 2020-08-11T14:00:00+0300
-    eventTitle: ERMI lasteprogramm
-    eventSlug: ermi-lasteprogramm
-    eventLead: Filmiprogramm lastele ERMi Hurda saalis
+    eventTitle_et: ERMI lasteprogramm
+    eventSlug_et: ermi-lasteprogramm
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Filmiprogramm lastele ERMi Hurda saalis
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Näituse piletiga filmiprogramm tasuta
+    eventDescription_et: Näituse piletiga filmiprogramm tasuta
 -   eventId: '4'
     path: e4
     eventType: ''
@@ -79,13 +98,19 @@
     kuupäev: '2020-08-11'
     kell: '14:00:00'
     eventStartDt: 2020-08-11T14:00:00+0300
-    eventTitle: Armastuse mälumäng festivaliklubis
-    eventSlug: armastuse-mlumng-festivaliklubis
-    eventLead: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventTitle_et: Armastuse mälumäng festivaliklubis
+    eventSlug_et: armastuse-mlumng-festivaliklubis
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: 'Mis nimi olevat muistsete eestlaste jaoks tähendanud “armastatut”?
+    eventDescription_et: 'Mis nimi olevat muistsete eestlaste jaoks tähendanud “armastatut”?
 
         Tule ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastuseteemalise
         mälumänguga. Parimatele auhinnad.'
@@ -96,16 +121,23 @@
     kuupäev: '2020-08-11'
     kell: '16:00:00'
     eventStartDt: 2020-08-11T16:00:00+0300
-    eventTitle: Tänavakunsti tuur jalgratastel
-    eventSlug: tnavakunsti-tuur-jalgratastel
-    eventLead: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab 2h.
+    eventTitle_et: Tänavakunsti tuur jalgratastel
+    eventSlug_et: tnavakunsti-tuur-jalgratastel
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab
+        2h.
 
         Piletid (5€) saadaval <a href="https://stencibility.ee/pood/tuur" target="_BLANK">Stencibility
         e-poes.'
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Kes on need müstilised ööpimeduses tegutsevad tänavakunstnikud
+    eventDescription_et: Kes on need müstilised ööpimeduses tegutsevad tänavakunstnikud
         ja mis märke nad endast maha on jätnud? Avastame sel suvel tekkinud uusi teoseid,
         vanu klassikuid ja pisiobskuursusi. Tuuri viib läbi Stencibility korraldaja
         Kadri Lind.
@@ -116,13 +148,19 @@
     kuupäev: '2020-08-11'
     kell: '18:00:00'
     eventStartDt: 2020-08-11T18:00:00+0300
-    eventTitle: 'Tartuff »--♥-> Voronja: Kadri Kosk'
-    eventSlug: tartuff-----voronja-kadri-kosk
-    eventLead: Kroonuaia 68, Supilinn, Tartu
+    eventTitle_et: 'Tartuff »--♥-> Voronja: Kadri Kosk'
+    eventSlug_et: tartuff-----voronja-kadri-kosk
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Kroonuaia 68, Supilinn, Tartu
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Tartu ühes värvilisemas majas avab kunstnik Kadri Kosk tARTuFF
+    eventDescription_et: Tartu ühes värvilisemas majas avab kunstnik Kadri Kosk tARTuFF
         külalistele aianäituse ja kodukohviku „Naba“. Klaveril musitseerib Leila Röömel.
 -   eventId: '7'
     path: e7
@@ -131,13 +169,19 @@
     kuupäev: '2020-08-11'
     kell: '19:00:00'
     eventStartDt: 2020-08-11T19:00:00+0300
-    eventTitle: Miré akustilise muusika live
-    eventSlug: mir-akustilise-muusika-live
-    eventLead: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventTitle_et: Miré akustilise muusika live
+    eventSlug_et: mir-akustilise-muusika-live
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Kontsert on tasuta.
+    eventDescription_et: Kontsert on tasuta.
 -   eventId: '8'
     path: e8
     eventType: ''
@@ -145,13 +189,19 @@
     kuupäev: '2020-08-12'
     kell: '12:00:00'
     eventStartDt: 2020-08-12T12:00:00+0300
-    eventTitle: ERMI lasteprogramm
-    eventSlug: ermi-lasteprogramm
-    eventLead: Muinasjutunäituse „Elas kord…“ giidituur ning töötoad peredele ERMis
+    eventTitle_et: ERMI lasteprogramm
+    eventSlug_et: ermi-lasteprogramm
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Muinasjutunäituse „Elas kord…“ giidituur ning töötoad peredele ERMis
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: On aeg otsida välja seitsmepenikoormasaapad või tellida treppi
+    eventDescription_et: On aeg otsida välja seitsmepenikoormasaapad või tellida treppi
         lendav vaip, sättida pähe kroon ja vöö vahele mõõk ning võtta suund Raadile,
         kus tARTuFF ja ERM viivad nii suured kui ka väikesed külalised muinasjuturadadele.
 -   eventId: '9'
@@ -161,13 +211,19 @@
     kuupäev: '2020-08-12'
     kell: '14:00:00'
     eventStartDt: 2020-08-12T14:00:00+0300
-    eventTitle: ERMI lasteprogramm
-    eventSlug: ermi-lasteprogramm
-    eventLead: filmiprogramm lastele ERMi Hurda saalis
+    eventTitle_et: ERMI lasteprogramm
+    eventSlug_et: ermi-lasteprogramm
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: filmiprogramm lastele ERMi Hurda saalis
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Näituse piletiga filmiprogramm tasuta
+    eventDescription_et: Näituse piletiga filmiprogramm tasuta
 -   eventId: '10'
     path: e10
     eventType: ''
@@ -175,13 +231,19 @@
     kuupäev: '2020-08-12'
     kell: '14:00:00'
     eventStartDt: 2020-08-12T14:00:00+0300
-    eventTitle: Armastuse mälumäng festivaliklubis
-    eventSlug: armastuse-mlumng-festivaliklubis
-    eventLead: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventTitle_et: Armastuse mälumäng festivaliklubis
+    eventSlug_et: armastuse-mlumng-festivaliklubis
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Kuidas avaldavad armastust meie lõunanaabrid lätlased? Tule
+    eventDescription_et: Kuidas avaldavad armastust meie lõunanaabrid lätlased? Tule
         ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastuseteemalise mälumänguga.
         Parimatele auhinnad.
 -   eventId: '11'
@@ -191,13 +253,19 @@
     kuupäev: '2020-08-12'
     kell: '15:00:00'
     eventStartDt: 2020-08-12T15:00:00+0300
-    eventTitle: Vestlus filmikunstniku Katrin Sipelgaga
-    eventSlug: vestlus-filmikunstniku-katrin-sipelgaga-
-    eventLead: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventTitle_et: Vestlus filmikunstniku Katrin Sipelgaga
+    eventSlug_et: vestlus-filmikunstniku-katrin-sipelgaga-
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: 'Katrin Sipelgas on vabakutseline filmikunstnik, kes on olnud
+    eventDescription_et: 'Katrin Sipelgas on vabakutseline filmikunstnik, kes on olnud
         kunstnikuks eesti mängufilmidele “Must Alpinist”, “Sangarid”, “Jan Uuspõld
         läheb Tartusse”, “Ükssarvik” jpt. Samuti on ta ERMi muinasjututeemalise näituse
         “Elas kord…” idee autoriks ja kuraatoriks. Näituse sündi on panustanud mitmed
@@ -213,16 +281,23 @@
     kuupäev: '2020-08-12'
     kell: '19:00:00'
     eventStartDt: 2020-08-12T19:00:00+0300
-    eventTitle: Tänavakunsti tuur jalgratastel
-    eventSlug: tnavakunsti-tuur-jalgratastel
-    eventLead: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab 2h.
+    eventTitle_et: Tänavakunsti tuur jalgratastel
+    eventSlug_et: tnavakunsti-tuur-jalgratastel
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab
+        2h.
 
         Piletid (5€) saadaval <a href="https://stencibility.ee/pood/tuur" target="_BLANK">Stencibility
         e-poes.'
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Kes on need müstilised ööpimeduses tegutsevad tänavakunstnikud
+    eventDescription_et: Kes on need müstilised ööpimeduses tegutsevad tänavakunstnikud
         ja mis märke nad endast maha on jätnud? Avastame sel suvel tekkinud uusi teoseid,
         vanu klassikuid ja pisiobskuursusi. Tuuri viib läbi Stencibility korraldaja
         Kadri Lind.
@@ -233,13 +308,19 @@
     kuupäev: '2020-08-12'
     kell: '19:00:00'
     eventStartDt: 2020-08-12T19:00:00+0300
-    eventTitle: Forrest Kämp live festivaliklubis
-    eventSlug: forrest-kmp-live-festivaliklubis
-    eventLead: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventTitle_et: Forrest Kämp live festivaliklubis
+    eventSlug_et: forrest-kmp-live-festivaliklubis
+    eventTitle_en: ''
+    eventSlug_en: ''
+    eventTitle_ru: ''
+    eventSlug_ru: ''
+    eventLead_et: Pepe´s Bistro & tARTuFF Social Club (Ülikooli 7)
+    eventLead_en: ''
+    eventLead_ru: ''
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription: Forest Kämp on Tartu indie-folk ansambel, mis tegutseb alates
+    eventDescription_et: Forest Kämp on Tartu indie-folk ansambel, mis tegutseb alates
         2013. aastast. Bändi kuuluvad Jaan Sepp (vokaal), Kaarel Tammur (bass, taustahelid),
         Siim Valtna (trummid, muud löökpillid), Peeter Tammur (akustiline kitarr,
         taustahelid) ja Mikk Valtna (elektrikitarr). Kontsert on tasuta.

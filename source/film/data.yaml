@@ -1,11 +1,13 @@
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1001'
     path: invisible-life-of-eurdice-gusmo
-    filmTitle: Nähtamatu elu
-    filmTitleSec: Invisible Life of Eurídice Gusmão
+    path_et: nhtamatu-elu
+    path_en: invisible-life-of-eurdice-gusmo
+    filmTitle_et: Nähtamatu elu
     filmTitleOriginal: A Vida Invisivel
+    filmTitle_en: Invisible Life of Eurídice Gusmão
     filmDirector: Karim Aïnouz
     filmScreenwriter: Murilo Hauser, Inés Bortagaray, Karim Aïnouz
     filmDop: Hélène Louvart
@@ -13,45 +15,57 @@
     filmProduction: Canal Brasil / Pola Pandora Filmproduktions / RT Features / Sony
         Pictures Releasing
     filmCast: Julia Stockler, Carol Duarte, Flávia Gusmão
-    filmLanguages: portugali, kreeka
+    filmLanguages_et: portugali, kreeka
+    filmLanguages_en: Portuguese, Greek
     filmTrailer: https://www.youtube.com/watch?v=NRF-Pba3QrE
-    filmCountries: Brasiilia, Saksamaa
+    filmCountries_et: Brasiilia, Saksamaa
+    filmCountries_en: Brasil, Germany
     filmYear: '2019'
     filmDuration: '2.19'
-    filmSynopsis: 'Filmi tegevus toimub 1950. aastatel Rio de Janeiros. Gusmãode perekonnas
-        sirgub kaks erineva iseloomuga õde: Guida naudib kogu hingest elu, Eurídice
-        on pühendunud klaverimängule. Ühel heal päeval armub Guida kreeka meremehesse
-        ja lahkub koos temaga omavoliliselt kodust. Abielu ei lähe aga roosiliselt
-        ja ta on sunnitud tagasi pöörduma. Paraku on noorte naiste isa nagu kogu ühiskondki
-        konservatiivne ja et perekonnale mitte häbi teha, suleb ta Guida ees ukse.
-        Kui Guida küsib oma õe järele, valetab isa, et ta õpib välismaal. Guida ja
-        Eurídice kaotavad kontakti, kuid ei jäta lootust jälle kohtuda. Nad elavad,
-        nagu oskavad ja võtavad vastu selle, mida saatus neile pakub. Lugu põhineb
-        Martha Batalha romaanil "Eurídice Gusmão nähtamatu elu". Film linastus 2019.
-        aastal mainekal Cannes’i filmifestivalil programmis "Un Certain Regard" ja
-        võitis seal peaauhinna.'
+    filmSynopsis_et: 'Filmi tegevus toimub 1950. aastatel Rio de Janeiros. Gusmãode
+        perekonnas sirgub kaks erineva iseloomuga õde: Guida naudib kogu hingest elu,
+        Eurídice on pühendunud klaverimängule. Ühel heal päeval armub Guida kreeka
+        meremehesse ja lahkub koos temaga omavoliliselt kodust. Abielu ei lähe aga
+        roosiliselt ja ta on sunnitud tagasi pöörduma. Paraku on noorte naiste isa
+        nagu kogu ühiskondki konservatiivne ja et perekonnale mitte häbi teha, suleb
+        ta Guida ees ukse. Kui Guida küsib oma õe järele, valetab isa, et ta õpib
+        välismaal. Guida ja Eurídice kaotavad kontakti, kuid ei jäta lootust jälle
+        kohtuda. Nad elavad, nagu oskavad ja võtavad vastu selle, mida saatus neile
+        pakub. Lugu põhineb Martha Batalha romaanil "Eurídice Gusmão nähtamatu elu".
+        Film linastus 2019. aastal mainekal Cannes’i filmifestivalil programmis "Un
+        Certain Regard" ja võitis seal peaauhinna.'
+    filmSynopsis_en: 'Rio de Janeiro, 1950. Eurídice, 18, and Guida, 20, are two inseparable
+        sisters living at home with their conservative parents. Although immersed
+        in a traditional life, each one nourishes a dream: Eurídice of becoming a
+        renowned pianist, Guida of finding true love. In a dramatic turn, they are
+        separated by their father and forced to live apart. They take control of their
+        separate destinies, while never giving up hope of finding each other.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1002'
     path: flawless
-    filmTitle: Täiuslik
-    filmTitleSec: Flawless
+    path_et: tiuslik
+    path_en: flawless
+    filmTitle_et: Täiuslik
     filmTitleOriginal: HaNeshef
+    filmTitle_en: Flawless
     filmDirector: Tal Granit, Sharon Maymon
     filmScreenwriter: Tal Granit, Sharon Maymon
     filmDop: Giora Bejach
     filmComposer: Ivri Lider
     filmProduction: Pie Films / United King Films
     filmCast: Stav Strashko, Netsanet Mekonen, Noam Lugasy
-    filmLanguages: heebrea, vene, inglise
+    filmLanguages_et: heebrea, vene, inglise
+    filmLanguages_en: Hebrew, Russian, English
     filmTrailer: https://www.youtube.com/watch?v=xfc4490kzo0
-    filmCountries: Iisrael, Saksamaa
+    filmCountries_et: Iisrael, Saksamaa
+    filmCountries_en: Israel, Germany
     filmYear: '2018'
     filmDuration: '1.37'
-    filmSynopsis: 'Kas sina loovutaksid kellelegi oma neeru? Aga mis siis, kui sa
-        saaksid selle eest vastutasuks kopsaka summa raha? Ja teeksid teoks oma kõige
-        suurema unistuse?
+    filmSynopsis_et: 'Kas sina loovutaksid kellelegi oma neeru? Aga mis siis, kui
+        sa saaksid selle eest vastutasuks kopsaka summa raha? Ja teeksid teoks oma
+        kõige suurema unistuse?
 
         17-aastane Eden (Stav Strashko) avastab, et just seda plaanivadki tema kaks
         parimat sõpra. Tüdrukutele on see väike ohverdus, et saada endale rinnakam
@@ -62,26 +76,38 @@
         Veneetsias, Karlovy Varys ja mitmetel teistel festivalidel auhinnatud režissöörid
         Sharon Maymon ja Tal Granit toovad meieni inimliku ja liigutava loo sõprusest,
         aktsepteerimisest ja iseendale otsa vaatamisest.'
+    filmSynopsis_en: Eden a 17-year-old high school student discovers that her two
+        best friends are planning to sell their kidneys to pay for cosmetic surgery
+        and a dress for prom. Eden, who is secretly a trans woman, realizes that this
+        may be the answer to her prayers. She joins the others on their journey to
+        Kiev to exchange their kidneys for the flawless body of their dreams. Their
+        trip does not go as planned and when Eden’s secret is exposed, all three of
+        them need to come to terms with the prejudices they have and redefine who
+        they really want to be in this world.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1003'
     path: house-of-hummingbird
-    filmTitle: Hüvasti!
-    filmTitleSec: House of Hummingbird
+    path_et: hvasti
+    path_en: house-of-hummingbird
+    filmTitle_et: Hüvasti!
     filmTitleOriginal: Beol-sae
+    filmTitle_en: House of Hummingbird
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
     filmDop: Guk-hyun Kang
     filmComposer: Matija Strnisa
     filmProduction: Epiphany / Mass Ornament Films
     filmCast: Ji-hu Park, Sae-byeok Kim, Seung-Yun Lee
-    filmLanguages: korea
+    filmLanguages_et: korea
+    filmLanguages_en: Korean
     filmTrailer: https://www.youtube.com/watch?v=s6ZgBnq7Tt4
-    filmCountries: Lõuna-Korea
+    filmCountries_et: Lõuna-Korea
+    filmCountries_en: South Korea
     filmYear: '2018'
     filmDuration: '2.18'
-    filmSynopsis: 'Seouli 8-klassi õpilase Eun-hee isiklikud läbielamised, esimene
+    filmSynopsis_et: 'Seouli 8-klassi õpilase Eun-hee isiklikud läbielamised, esimene
         armastus ja tulevikuväljavaated ristuvad selles auhinnatud tippdraamas Lõuna-Korea
         ühiskonnas aset leidvate sündmustega, mis kulmineeruvad Seongsu silla kokkuvarisemisega
         1994. aasta sügisel.
@@ -95,26 +121,39 @@
         teated Seongsu silla kokkuvarisemisest ja inimohvritest, saab Eun-hee aru,
         et möödunud suvi ja algav sügis toovad tema ellu pöörde, mida kutsutakse täiskasvanuks
         saamiseks.'
+    filmSynopsis_en: 'Korea, 1994. The South is in the grips of FIFA World Cup fever,
+        while the North mourns its newly deceased dictator. Eun-hee registers all
+        of this only in passing. Drifting through her days in Seoul, the eighth-grader
+        feels like an outsider everywhere: at school, where her classmates bore her
+        even more than the schoolwork, and at home, where her parents are always at
+        each other''s throats and her brother beats her.
+
+        With visual precision, Kim Bo-ra weaves a dense narrative around a regular
+        summer that leaves nothing unchanged.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1004'
     path: the-goddess-of-fortune
-    filmTitle: Õnnejumalanna
-    filmTitleSec: The Goddess of Fortune
+    path_et: nnejumalanna
+    path_en: the-goddess-of-fortune
+    filmTitle_et: Õnnejumalanna
     filmTitleOriginal: La dea fortuna
+    filmTitle_en: The Goddess of Fortune
     filmDirector: Ferzan Özpetek
     filmScreenwriter: Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli
     filmDop: Gian Filippo Corticelli
     filmComposer: Pasquale Catalano
     filmProduction: R&C Produzioni / Faros Film / Warner Bros.
     filmCast: Stefano Accorsi, Jasmine Trinca, Edoardo Leo
-    filmLanguages: itaalia
+    filmLanguages_et: itaalia
+    filmLanguages_en: Italian
     filmTrailer: https://www.youtube.com/watch?v=JTg4-5kdKvY
-    filmCountries: Itaalia
+    filmCountries_et: Itaalia
+    filmCountries_en: Italy
     filmYear: '2019'
     filmDuration: '1.54'
-    filmSynopsis: 'Ferzan Özpeteki filmid kannavad nüüdisaegse itaalia filmi pitserit:
+    filmSynopsis_et: 'Ferzan Özpeteki filmid kannavad nüüdisaegse itaalia filmi pitserit:
         tempokad, südamlikud, satiirilised, pisarateni liigutavad. Nii ka seekord.
 
         "Õnnejumalanna" on film kolmest lapsepõlvesõbrast Arturost, Annamariast ja
@@ -127,30 +166,39 @@
         kooselu vältel tekkinud rutiin ja pettumused vajuvad tagaplaanile, uus situatsioon
         toob nende ellu aga väheke maagiat, ettearvamatust ja irratsionaalsust, mis
         silmad uuesti särama panevad.'
+    filmSynopsis_en: Alessandro and Arturo have been together for over 15 years and,
+        despite the feeling they still have for each other, their relationship is
+        now at crisis. When Alessandro’s best friend, out of the blue, asks them to
+        take care of her two kids for a few days, something changes in their daily
+        routine and love will drive them to a crazy and unexpected turn in their life.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1005'
     path: schemers
-    filmTitle: Skeemitajad
-    filmTitleSec: Schemers
+    path_et: skeemitajad
+    path_en: schemers
+    filmTitle_et: Skeemitajad
     filmTitleOriginal: ''
+    filmTitle_en: Schemers
     filmDirector: Dave McLean
     filmScreenwriter: Dave McLean, Kyle Titterton
     filmDop: Alan C. McLaughlin
     filmComposer: ''
     filmProduction: Schemers Film
     filmCast: Conor Berry, Sean Connor, Grant Robert Keelan
-    filmLanguages: inglise
+    filmLanguages_et: inglise
+    filmLanguages_en: English
     filmTrailer: https://www.youtube.com/watch?v=Mhkn3D4BVKk
-    filmCountries: Suurbritannia
+    filmCountries_et: Suurbritannia
+    filmCountries_en: GB
     filmYear: '2019'
     filmDuration: '1.31'
-    filmSynopsis: 'Kultusfilmi "Trainspotting" vaibiga komöödia režissöör Dave McLeani
-        noorpõlveajast, mis viib vaataja varajastesse kaheksakümnendatesse, kui Dundee-nimelises
-        väikelinnas kusagil Ida-Šotimaa pärapõrgus ehk kohas, millest keegi polnud
-        suures muusikaäris midagi kuulnud, otsustasid kolm elujanulist noormeest hakata
-        tõusvate Briti bändide produtsentideks.
+    filmSynopsis_et: 'Kultusfilmi "Trainspotting" vaibiga komöödia režissöör Dave
+        McLeani noorpõlveajast, mis viib vaataja varajastesse kaheksakümnendatesse,
+        kui Dundee-nimelises väikelinnas kusagil Ida-Šotimaa pärapõrgus ehk kohas,
+        millest keegi polnud suures muusikaäris midagi kuulnud, otsustasid kolm elujanulist
+        noormeest hakata tõusvate Briti bändide produtsentideks.
 
         Pärast jalgpallikarjäärist loobumist hakkab Davie (Conor Berry) koos kahe
         semuga mõtlema noorte ja vihaste bändide esindamisele, tuues neid Dundee ööklubidesse
@@ -163,14 +211,23 @@
         tänu kellele said britid osa tõusvate Ameerika grunge-ansamblite Smashing
         Pumpkins, Green Day ja muidugi Nirvana tähelennust. McLean seisab ka 1990.
         aastate ühe edukama Briti bändi Placebo edu taga.'
+    filmSynopsis_en: Set in Dundee c. 1979, Schemers is based on writer-producer Dave
+        McLean’s early years in the music business. A fledgling promoter, he ambitiously
+        booked bands with his friends John and Scot, all of them from the Dundee schemes.
+        Young Davie (Conor Berry) is determined not to get a ‘real’ job. He starts
+        out running discos and, after a run in with a local gangster, raises his ambitions
+        to booking major bands such as Iron Maiden. Shot in and around Dundee using
+        local talent, Schemers celebrates youthful ambition.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1006'
     path: champions
-    filmTitle: Tšempionid
-    filmTitleSec: Champions
+    path_et: tempionid
+    path_en: champions
+    filmTitle_et: Tšempionid
     filmTitleOriginal: Campeones
+    filmTitle_en: Champions
     filmDirector: Javier Fesser
     filmScreenwriter: David Marqués, Javier Fesser
     filmDop: Chechu Graf
@@ -178,12 +235,14 @@
     filmProduction: ICO / ICAA / Marenostrum Producciones / Morena Films / Movistar+
         / Películas Pendelton / RTVE / Rey de Babia / Triodos Bank
     filmCast: Javier Gutiérrez, Athenea Mata, Juan Margallo
-    filmLanguages: hispaania
+    filmLanguages_et: hispaania
+    filmLanguages_en: Spanish
     filmTrailer: https://www.youtube.com/watch?v=qo_PDXou77c
-    filmCountries: Hispaania
+    filmCountries_et: Hispaania
+    filmCountries_en: Spain
     filmYear: '2018'
     filmDuration: '2.04'
-    filmSynopsis: 'Hispaania režissöör Javier Fesser on ka oma varasemates filmides
+    filmSynopsis_et: 'Hispaania režissöör Javier Fesser on ka oma varasemates filmides
         käsitlenud tõsiseid teemasid läbi kergendustunnet tekitava huumoriprisma,
         mis vaataja meelt ühest küljest lõbustab, teisalt elus mitte just loterii
         peavõitu tõmmanud inimestele kaasa elama paneb.
@@ -195,26 +254,36 @@
         loovad ridamisi hirmnaljakaid, kuid ka südamlikke situatsioone. Vaatajale
         on oluline teada, et film põhineb paljuski tõestisündinud lool ning "meeskonna”
         moodustavad näitlejad, kellele see on esimene ülesastumine kinolinal.'
+    filmSynopsis_en: The assistant trainer of a professional league side, Marco, is
+        given community service in the form of coaching a very special basketball
+        team of people with intellectual disabilities. Surprisingly even for Marco
+        himself, he’ll be the one to learn a real lesson from the adventure alongside
+        a team where a desire to live and placing importance on the things that matter
+        are what really counts.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1007'
     path: yalda-a-night-for-forgiveness
-    filmTitle: Yalda, andestuse öö
-    filmTitleSec: Yalda, a Night for Forgiveness
+    path_et: yalda-andestuse-
+    path_en: yalda-a-night-for-forgiveness
+    filmTitle_et: Yalda, andestuse öö
     filmTitleOriginal: Yalda
+    filmTitle_en: Yalda, a Night for Forgiveness
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
     filmDop: Julian Atanassov
     filmComposer: ''
     filmProduction: JBA Production
     filmCast: Sadaf Asgari, Behnaz Jafari, Babak Karimi
-    filmLanguages: pärsia
+    filmLanguages_et: pärsia
+    filmLanguages_en: Persian
     filmTrailer: https://www.youtube.com/watch?v=MIU7UPn5-I0
-    filmCountries: Iraan, Prantsusmaa, Saksamaa, Šveits, Luksemburg, Liibanon
+    filmCountries_et: Iraan, Prantsusmaa, Saksamaa, Šveits, Luksemburg, Liibanon
+    filmCountries_en: Iran, France, Germany, Switzerland, Luxembourg, Lebanon
     filmYear: '2019'
     filmDuration: '1.29'
-    filmSynopsis: 'Kas te kujutaksite ette telesõud, kus otsustatakse inimese elu
+    filmSynopsis_et: 'Kas te kujutaksite ette telesõud, kus otsustatakse inimese elu
         ja surma üle? Iraanis on see võimalik.
 
         22-aastane Maryam tapab tüli käigus kogemata oma 65-aastase abikaasa Nasseri,
@@ -231,14 +300,21 @@
 
         Linateos võitis mainekal Sundance´i festivalil maailmafilmi võistlusprogrammi
         peaauhinna.'
+    filmSynopsis_en: 'In Iran today: Maryam (22) accidentally kills her husband Nasser
+        (65) and is sentenced to death. The only person who can save her is Mona (37),
+        Nasser''s daughter. All Mona has to do is appear on a popular live TV show
+        and forgive Maryam. But forgiveness proves difficult when they are forced
+        to relive the past.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1008'
     path: force-of-habit
-    filmTitle: Harjumuse jõud
-    filmTitleSec: Force of Habit
+    path_et: harjumuse-jud
+    path_en: force-of-habit
+    filmTitle_et: Harjumuse jõud
     filmTitleOriginal: Tottumiskysymys
+    filmTitle_en: Force of Habit
     filmDirector: Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari,
         Miia Tervo, Elli Toivoniemi, Jenni Toivoniemi
     filmScreenwriter: ''
@@ -246,16 +322,18 @@
     filmComposer: Joona Jaakkola
     filmProduction: Tuffi Film
     filmCast: ''
-    filmLanguages: soome, inglise
+    filmLanguages_et: soome, inglise
+    filmLanguages_en: Finnish, English
     filmTrailer: https://www.youtube.com/watch?v=2fXQm4ZLlFg
-    filmCountries: Soome
+    filmCountries_et: Soome
+    filmCountries_en: Finland
     filmYear: '2019'
     filmDuration: '1.15'
-    filmSynopsis: 'Viimastel aastatel on aina enam jõudnud avalikkuseni #MeToo juhtumeid.
-        Vaprad naised räägivad oma loo sellest, kuidas neid on tööl, peol, avalikus
-        ja privaatses ruumis ahistatud. Ometi on see ainult jäämäe tipp. Kas tegu
-        on vaid meeste "harjumuse jõuga” või ühiskonnas juurdunud normiga, mida naised
-        ise soodustavad?
+    filmSynopsis_et: 'Viimastel aastatel on aina enam jõudnud avalikkuseni #MeToo
+        juhtumeid. Vaprad naised räägivad oma loo sellest, kuidas neid on tööl, peol,
+        avalikus ja privaatses ruumis ahistatud. Ometi on see ainult jäämäe tipp.
+        Kas tegu on vaid meeste "harjumuse jõuga” või ühiskonnas juurdunud normiga,
+        mida naised ise soodustavad?
 
 
         Vastus on vaataja silmis, sest "Harjumuse jõud” toob teieni kuue naise lood:
@@ -270,44 +348,71 @@
 
         Film põhineb kuuel lühifilmil erakordselt populaarsest sarjast "Yksittäistapaus”,
         mille on lavastanud Soome parimad naisrežissöörid.'
+    filmSynopsis_en: Force of Habit follows the lives of various women throughout
+        one day. Hilla is having a romantic vacation, Emmi is throwing a house party,
+        and Milja is on her way to school when they're approached by a stranger and
+        things take an unexpected turn. At the same time, Emppu, a young actress,
+        is conflicted as she rehearses for the biggest role of her life. Elsewhere,
+        Aleksi, an inexperienced prosecutor, is preparing for his first court case
+        in haste; Niina, the victim of the crime, has been waiting years to see her
+        case tried. Miia throws a company party, and the mood dramatically changes
+        when her colleague Katja opens up about their boss coming on to her. Miia
+        and a couple of her closest colleagues try to resolve the situation, but how
+        do the others react?
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1009'
     path: acid
-    filmTitle: Hape
-    filmTitleSec: Acid
+    path_et: hape
+    path_en: acid
+    filmTitle_et: Hape
     filmTitleOriginal: Kislota
+    filmTitle_en: Acid
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
     filmDop: Kseniya Sereda
     filmComposer: ''
     filmProduction: Studio Slon / Truemen Pictures
     filmCast: Filipp Avdeev, Aleksandr Kuznetsov, Aleksandra Rebenok
-    filmLanguages: vene
+    filmLanguages_et: vene
+    filmLanguages_en: Russian
     filmTrailer: https://www.youtube.com/watch?v=U3uVN-ZveCc
-    filmCountries: Venemaa
+    filmCountries_et: Venemaa
+    filmCountries_en: Russia
     filmYear: '2018'
     filmDuration: '1.37'
-    filmSynopsis: 'Noore vene näitleja Aleksandr Gortšilini režiidebüüti "Hape" kirjeldab
-        lavastaja ise kui vaikivat manifesti. See räägib 21-aastaste vene noorte tühjusetundest
-        ühiskonnas, mis on hüljanud põhilised alustalad, millele noor inimene võiks
-        toetuda: perekond, armastus, sõbrad ja võimalused. Nad hävitavad iseennast
-        ja üksteist nagu hape, mis söövitab maailma nende ümber. Gortšilinile on oluline,
-        et inimesed kuuleks, mitte kuulaks, näeks, mitte vaataks - ja leiaks oma tee.
+    filmSynopsis_et: 'Noore vene näitleja Aleksandr Gortšilini režiidebüüti "Hape"
+        kirjeldab lavastaja ise kui vaikivat manifesti. See räägib 21-aastaste vene
+        noorte tühjusetundest ühiskonnas, mis on hüljanud põhilised alustalad, millele
+        noor inimene võiks toetuda: perekond, armastus, sõbrad ja võimalused. Nad
+        hävitavad iseennast ja üksteist nagu hape, mis söövitab maailma nende ümber.
+        Gortšilinile on oluline, et inimesed kuuleks, mitte kuulaks, näeks, mitte
+        vaataks - ja leiaks oma tee.
 
         Tänase päeva andekad ja tuntud vene nätlejad Aleksandr Kuznetsov ja Filipp
         Avdejev sooritavad oma rollid kompromissitu ehedusega ning ei ole kahtlust,
         et probleemid, millega elluastujad filmis silmitsi seisavad, ei ole võõrad
         ka meie noorele vaatajale.'
+    filmSynopsis_en: '"Acid” is an ode to youth, a film about today’s 20-year-olds
+        who are entering the real world for the first time, and becoming conscious
+        of their role within it.  The film is a portrait of a generation for whom
+        ambition is devoid of meaning.  They lament the fact that everything has already
+        been invented before their appearance, already done for them.  The main characters
+        justify their irresponsibility and infantile behaviour by the lack of communication
+        with their parents.   But their principal agony is that they grew up without
+        fathers, and now the time is ripe for them to do things and achieve the status
+        of adult males.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1010'
     path: final-portrait
-    filmTitle: Viimane portree
-    filmTitleSec: Final Portrait
+    path_et: viimane-portree
+    path_en: final-portrait
+    filmTitle_et: Viimane portree
     filmTitleOriginal: ''
+    filmTitle_en: Final Portrait
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
     filmDop: Danny Cohen
@@ -315,12 +420,14 @@
     filmProduction: Potboiler Productions / Riverstone Pictures / Olive Productions
         / Lowsun Productions
     filmCast: Geoffrey Rush, Armie Hammer, Tony Shalhoub
-    filmLanguages: inglise, prantsuse, itaalia
+    filmLanguages_et: inglise, prantsuse, itaalia
+    filmLanguages_en: English, Fresnch, Italian
     filmTrailer: https://www.youtube.com/watch?v=sRsiW5c29Sk
-    filmCountries: Suurbritannia
+    filmCountries_et: Suurbritannia
+    filmCountries_en: GB
     filmYear: '2017'
     filmDuration: '1.3'
-    filmSynopsis: 'Rohkem näitlejana tuntud Stanley Tucci viies film režissöörina
+    filmSynopsis_et: 'Rohkem näitlejana tuntud Stanley Tucci viies film režissöörina
         kujutab maailmakuulsa šveitsi skulptori Alberto Giacometti ja jõuka kunstiarmastajast
         kirjaniku James Lordi eriskummalist kunstniku ja modelli suhet. Film põhineb
         Lordi mälestusteraamatul "Giacometti portree" ning nii nagu Stanley Tucci
@@ -335,14 +442,26 @@
         poole kisub.
 
         Film nagu lõuend, mis tasapisi värvidega kattub.'
+    filmSynopsis_en: 'In 1964, while on a short trip to Paris, the American writer
+        and art-lover James Lord is asked by his friend, the world-renowned artist
+        Alberto Giacometti, to sit for a portrait. The process, Giacometti assures
+        Lord, will take only a few days. Flattered and intrigued, Lord agrees.
+
+        "Final Portrait” is a bewitching portrait of a genius, and of a friendship
+        between two men who are utterly different, yet increasingly bonded through
+        a single, ever-evolving act of creativity. It is a film which shines a light
+        on the artistic process itself, by turns exhilarating, exasperating and bewildering,
+        questioning whether the gift of a great artist is a blessing or a curse.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1011'
     path: maudie
-    filmTitle: Maudie
-    filmTitleSec: Maudie
+    path_et: maudie
+    path_en: maudie
+    filmTitle_et: Maudie
     filmTitleOriginal: ''
+    filmTitle_en: Maudie
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
     filmDop: Guy Godfree
@@ -351,12 +470,14 @@
         / Rink Rat Productions / Screen Door / Small Shack Productions / Solo Productions
         / Storyscape Entertainment
     filmCast: Sally Hawkins, Ethan Hawke, Kari Matchett
-    filmLanguages: inglise
+    filmLanguages_et: inglise
+    filmLanguages_en: English
     filmTrailer: https://www.youtube.com/watch?v=wCZ_guQTGNw
-    filmCountries: Kanada, Iirimaa
+    filmCountries_et: Kanada, Iirimaa
+    filmCountries_en: Canada, Ireland
     filmYear: '2016'
     filmDuration: '1.55'
-    filmSynopsis: '"Maudie" on erakordne lugu artriidihaigest ühiskonnaheidikust,
+    filmSynopsis_et: '"Maudie" on erakordne lugu artriidihaigest ühiskonnaheidikust,
         kes leiab ennast kunsti kaudu, jäädes meeleheitlikule olukorrale vaatamata
         alati heatahtlikuks, usaldavaks ja optimistlikuks. Film on saanud inspiratsiooni
         Nova Scotia (Kanada) naivistliku kunstniku Maud Lewise eluloost. Tema hingejõud
@@ -368,26 +489,33 @@
 
         Sally Hawkins on võitnud selle tundliku rolli eest auhindu paljudelt festivalidelt,
         nagu ka Ethan Hawke Maudie´ rämedavõitu ja asotsiaalse elukaaslase Everettina.'
+    filmSynopsis_en: '"Maudie", is based on the true story of folk artist Maud Lewis
+        (Sally Hawkins) and the unlikely romance between Maud and a hardened reclusive
+        bachelor, Everett Lewis (Ethan Hawke).'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1012'
     path: banksy-most-wanted
-    filmTitle: 'Tagaotsitav: Banksy!'
-    filmTitleSec: Banksy Most Wanted
+    path_et: tagaotsitav-banksy
+    path_en: banksy-most-wanted
+    filmTitle_et: 'Tagaotsitav: Banksy!'
     filmTitleOriginal: ''
+    filmTitle_en: Banksy Most Wanted
     filmDirector: Aurélia Rouvier, Seamus Haley
     filmScreenwriter: ''
     filmDop: ''
     filmComposer: ''
     filmProduction: Tribeca Film Festival
     filmCast: ''
-    filmLanguages: inglise
+    filmLanguages_et: inglise
+    filmLanguages_en: English
     filmTrailer: https://www.youtube.com/watch?v=8PbqSnG7wcI
-    filmCountries: Prantsusmaa, USA
+    filmCountries_et: Prantsusmaa, USA
+    filmCountries_en: France, USA
     filmYear: '2020'
     filmDuration: '1.30'
-    filmSynopsis: 'Kunstimaailma tagaotsituim mees tegutseb nagu moodne Robin Hood.
+    filmSynopsis_et: 'Kunstimaailma tagaotsituim mees tegutseb nagu moodne Robin Hood.
 
         2014. aastal kogunesid Bristoli noortekeskuse kohale murepilved. Huviharidust
         ei rahastatud enam endises mahus. Äkki ilmus keskuse ette seinale maaling,
@@ -404,26 +532,37 @@
 
         Teravmeelne film kunstnikust, kes usub, et tänapäeval tuleb kanda maski, kui
         sa tahad, et sind kuulataks.'
+    filmSynopsis_en: 'Banksy is a household name, but behind this name hides a multitude
+        of stories, artworks, stunts, political statements and identities, leading
+        to one of the art world’s biggest unanswered questions- who is Banksy?
+
+        Thanks to his anonymity people have been able, for more than 25 years, to
+        claim his work, either legally or emotionally, and to fantasize about who
+        is hiding behind this name.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1013'
     path: acas-my-home
-    filmTitle: Acasă, mu kodu
-    filmTitleSec: Acasă, My Home
+    path_et: acas-mu-kodu
+    path_en: acas-my-home
+    filmTitle_et: Acasă, mu kodu
     filmTitleOriginal: Acasă
+    filmTitle_en: Acasă, My Home
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
     filmDop: ''
     filmComposer: ''
     filmProduction: HBO Europe / HBO Romania / Manifest Film
     filmCast: Corina Enache, Duca Enache, Georgiana Enache
-    filmLanguages: rumeenia, inglise
+    filmLanguages_et: rumeenia, inglise
+    filmLanguages_en: Romanian, English
     filmTrailer: https://www.youtube.com/watch?v=XOdUY_sL-ok
-    filmCountries: Rumeenia, Saksamaa, Soome
+    filmCountries_et: Rumeenia, Saksamaa, Soome
+    filmCountries_en: Romania, Germany, Finland
     filmYear: '2020'
     filmDuration: '1.26'
-    filmSynopsis: '9-lapseline roma perekond peab oma poolmetsiku eluviisiga hüvasti
+    filmSynopsis_et: '9-lapseline roma perekond peab oma poolmetsiku eluviisiga hüvasti
         jätma, kui nende elupaigast, Bukarestis laiuvast hiiglaslikust märgalast tehakse
         looduspark.
 
@@ -442,26 +581,35 @@
         ühiskonna vahekorra aspekte, käsitleda kultuurilise identiteedi, eluviisi
         ja väärikuse säilitamise võimalikkust ühtlustuvas maailmas. Mitmekihiline
         film on võitnud juba hulk auhindu mainekatelt festivalidelt.'
+    filmSynopsis_en: Radu Ciorniciuc’s heartbreaking debut is a thoughtful study of
+        gentrification, seen through the eyes of a family trying to adapt to the new
+        life they never asked for. Is it better to go back to their "paradise lost,”
+        with its life free yet harsh, or to become part of the society that offers
+        comforts but comes with pressures and conflict?
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1014'
     path: storm-boy
-    filmTitle: Tormipoiss
-    filmTitleSec: Storm Boy
+    path_et: tormipoiss
+    path_en: storm-boy
+    filmTitle_et: Tormipoiss
     filmTitleOriginal: ''
+    filmTitle_en: Storm Boy
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
     filmDop: Bruce Young
     filmComposer: Alan John
     filmProduction: Ambience Entertainment
     filmCast: Finn Little, Jai Courtney, Geoffrey Rush
-    filmLanguages: inglise
+    filmLanguages_et: inglise
+    filmLanguages_en: English
     filmTrailer: https://www.youtube.com/watch?v=jaUpQ2EkbL4
-    filmCountries: Austraalia
+    filmCountries_et: Austraalia
+    filmCountries_en: Australia
     filmYear: '2019'
     filmDuration: '1.39'
-    filmSynopsis: 'Eelmise aasta suurimaid perefilme on saanud paljudel mainekatel
+    filmSynopsis_et: 'Eelmise aasta suurimaid perefilme on saanud paljudel mainekatel
         festivalidel publiku sooja vastuvõtu osaliseks.
 
         Film põhineb samanimelisel Austraalia muinasjutul. Vanahärra Michael hakkab
@@ -471,26 +619,34 @@
         sõpra, kelleks ei olnud keegi muu kui härra Percival, täiesti harilik pelikan.
 
         Uskumatud ja ennekuulmatud seiklused võivad kinolinal alata!'
+    filmSynopsis_en: When Michael Kingley, a successful retired businessman starts
+        to see images from his past that he can't explain, he's forced to remember
+        his childhood and how, as a boy, he rescued and raised an extraordinary orphaned
+        pelican, Mr Percival.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1015'
     path: the-secret-lamb
-    filmTitle: Lammas all paremas nurgas
-    filmTitleSec: The Secret Lamb
+    path_et: lammas-all-paremas-nurgas
+    path_en: the-secret-lamb
+    filmTitle_et: Lammas all paremas nurgas
     filmTitleOriginal: ''
+    filmTitle_en: The Secret Lamb
     filmDirector: Lembit Ulfsak
     filmScreenwriter: Janno Põldma, Lembit Ulsak
     filmDop: Ago Ruus
     filmComposer: Tõnu Naissoo
     filmProduction: ''
     filmCast: Tõnu Kark, Margus Alver, Kaur Sinissaar, Dan Põldroos, Ain Lutsepp
-    filmLanguages: eesti
+    filmLanguages_et: eesti
+    filmLanguages_en: Estonian
     filmTrailer: ''
-    filmCountries: Eesti
+    filmCountries_et: Eesti
+    filmCountries_en: Estonia
     filmYear: '1992'
     filmDuration: ''
-    filmSynopsis: 'Teadushuvilise Tomi (Margus Alver) tutvus tulnukahuvilise Ahvenaga
+    filmSynopsis_et: 'Teadushuvilise Tomi (Margus Alver) tutvus tulnukahuvilise Ahvenaga
         (Tõnu Kark) algab siis, kui Tomi raketikatsetus jõe ääres on lõppenud paugu
         ja visinaga. Ahven teab rakettidest mõndagi, lisaks on ta veendunud, et tühja
         taarat ei tohi niisama ära visata. Jõest leitud vanaaegsed pudelid taarapealik
@@ -503,27 +659,34 @@
 
         Taasiseseisvusaja populaarsemaid koguperefilme taastati ja digitaliseeriti
         2013. aastal.'
+    filmSynopsis_en: The family film directed by Lembit Ulfsak tells the humorous
+        story about detective adventures that boys undertake during their summer holiday.
+        The film belongs to the classics of Estonian children's films.
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1016'
     path: marcel-duchamp-art-of-the-possible
-    filmTitle: Marcel Duchamp ja võimalikkuse kunst
-    filmTitleSec: 'Marcel Duchamp: Art of the Possible'
+    path_et: marcel-duchamp-ja-vimalikkuse-kunst
+    path_en: marcel-duchamp-art-of-the-possible
+    filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
     filmTitleOriginal: ''
+    filmTitle_en: 'Marcel Duchamp: Art of the Possible'
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
     filmDop: ''
     filmComposer: ''
     filmProduction: Electrolift Creative / ZDF/Arte
     filmCast: Marina Abramovic, William Anastasi, Michel Gondry
-    filmLanguages: inglise
+    filmLanguages_et: inglise
+    filmLanguages_en: English
     filmTrailer: https://www.youtube.com/watch?v=3D2Jt2DRjo4
-    filmCountries: USA, Saksamaa
+    filmCountries_et: USA, Saksamaa
+    filmCountries_en: USA, Germany
     filmYear: '2019'
     filmDuration: '1.26'
-    filmSynopsis: 'Pole kahtlustki, kes on 20. sajandi tähtsaim kunstnik. Marcel Duchamp
-        muidugi!
+    filmSynopsis_et: 'Pole kahtlustki, kes on 20. sajandi tähtsaim kunstnik. Marcel
+        Duchamp muidugi!
 
         Vähemalt ei kahtle selles filmi autor Matthew Taylor. See on enam kui põhjalik
         portree, mis ei tutvusta üksnes selle pissuaari ja lumelabida kunstisaali
@@ -539,26 +702,35 @@
 
         „Ma olen sundinud ennast kogu aeg enesele vastu rääkima, et vältida mugandumist,”
         armastas korrata Duchamp ise. Kohustuslik vaatamine kõigile kunstihuvilistele.'
+    filmSynopsis_en: 'Art Of The Possible is broken into three acts that follow the
+        arcs of Duchamp’s life. Each act functions to explain three ideas: who is
+        Marcel Duchamp; what are Duchamp’s most inﬂuential works and why are they
+        important; and what is Duchamp’s lasting legacy from his death to present
+        day and how does his work shape our future.'
 -   data:
         pictures: /film_pictures.yaml
-        screenings: screenings.et.yaml
+        screenings: screenings.yaml
     filmEventivalId: '1017'
     path: self-portrait
-    filmTitle: Autoportree
-    filmTitleSec: Self Portrait
+    path_et: autoportree
+    path_en: self-portrait
+    filmTitle_et: Autoportree
     filmTitleOriginal: Selvportrett
+    filmTitle_en: Self Portrait
     filmDirector: Katja Høgset, Margreth Olin, Espen Wallin
     filmScreenwriter: ''
     filmDop: ''
     filmComposer: ''
     filmProduction: ''
     filmCast: Geir Fossen, Lene Marie Fossen, Torill Fossen
-    filmLanguages: norra
+    filmLanguages_et: norra
+    filmLanguages_en: Norwegian
     filmTrailer: https://www.youtube.com/watch?v=EBCHRlop-hg
-    filmCountries: Norra
+    filmCountries_et: Norra
+    filmCountries_en: Norway
     filmYear: '2020'
     filmDuration: '1.20'
-    filmSynopsis: 'Kurbilus lugu tüdrukust, kes ei tahtnud suureks saada.
+    filmSynopsis_et: 'Kurbilus lugu tüdrukust, kes ei tahtnud suureks saada.
 
         Lene Marie Fossen oli 10-aastane, kui ta otsustas, et peatab aja. Ta hakkas
         järjest vähem sööma. See aitas ängi, kurbuse ja valu vastu – ta vihkas ennast.
@@ -573,3 +745,6 @@
         vaevatud meelt ja süstida lootust – anda oma elule tagasi mõte. Linateos on
         võitnud mitu publiku- ja kriitikute auhinda rahvusvahelistelt festivalidelt
         ja kandideerib ühtlasi aasta parima Norra filmi preemiale – koos mängufilmidega!'
+    filmSynopsis_en: Lene Marie Fossen is 32-years-old and a unique photographer with
+        an extraordinary talent. But she also suffers from severe anorexia and has
+        done so for ten years.
