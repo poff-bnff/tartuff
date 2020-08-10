@@ -36,33 +36,9 @@
     screeningDate: '2020-08-11'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-11T23:59:00+0300
-    screeningTown: Tartu
-    screeningCinema: Raekoja Plats
-    screeningHall: ''
-    screeningQa: '0'
--   screeningEventivalId: '2004'
-    filmEventivalId: '1004'
-    filmPath: the-goddess-of-fortune
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
-    screeningDate: '2020-08-12'
-    screeningTime: '22:00:00'
-    screeningDatetime: 2020-08-12T22:00:00+0300
-    screeningTown: Tartu
-    screeningCinema: Raekoja Plats
-    screeningHall: ''
-    screeningQa: '0'
--   screeningEventivalId: '2005'
-    filmEventivalId: '1005'
-    filmPath: schemers
-    screeningSubtitles_et: eesti
-    screeningSubtitles_en: Estonian
-    screeningDate: '2020-08-13'
-    screeningTime: 00:15:00
-    screeningDatetime: 2020-08-13T00:15:00+0300
-    screeningTown: Tartu
-    screeningCinema: Raekoja Plats
-    screeningHall: ''
+    screeningTown: ''
+    screeningCinema: Elisa Stage
+    screeningHall: Online
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
@@ -101,8 +77,8 @@
 -   screeningEventivalId: '2012'
     filmEventivalId: '1012'
     filmPath: banksy-most-wanted
-    screeningSubtitles_et: ''
-    screeningSubtitles_en: ''
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-12'
     screeningTime: '16:00:00'
     screeningDatetime: 2020-08-12T16:00:00+0300
@@ -116,8 +92,8 @@
 -   screeningEventivalId: '2025'
     filmEventivalId: '1012'
     filmPath: banksy-most-wanted
-    screeningSubtitles_et: ''
-    screeningSubtitles_en: ''
+    screeningSubtitles_et: inglise
+    screeningSubtitles_en: English
     screeningDate: '2020-08-12'
     screeningTime: '18:00:00'
     screeningDatetime: 2020-08-12T18:00:00+0300
@@ -170,41 +146,7 @@
     screeningQaGuests: ''
     screeningQaDuration: ''
     screeningTotalDuration: ''
-    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
--   screeningEventivalId: '2018'
-    filmEventivalId: '1001'
-    filmPath: invisible-life-of-eurdice-gusmo
-    screeningSubtitles_et: eesti, inglise, vene
-    screeningSubtitles_en: Estonian, English, Russian
-    screeningDate: '2020-08-11'
-    screeningTime: 00.45.00
-    screeningDatetime: 2020-08-11T00.45.00+0300
-    screeningTown: ''
-    screeningCinema: Elisa Stage
-    screeningHall: Online
-    screeningQa: '1'
-    screeningQaPresenter: Liisi Rohumäe
-    screeningQaGuests: Karim Ainouz
-    screeningQaDuration: '20'
-    screeningTotalDuration: ''
-    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/gOAm4onOZHX
--   screeningEventivalId: '2019'
-    filmEventivalId: '1002'
-    filmPath: flawless
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
-    screeningDate: '2020-08-11'
-    screeningTime: '23:59:00'
-    screeningDatetime: 2020-08-11T23:59:00+0300
-    screeningTown: ''
-    screeningCinema: Elisa Stage
-    screeningHall: Online
-    screeningQa: '1'
-    screeningQaPresenter: Liisi Rohumäe
-    screeningQaGuests: Tal Granit, Sharon Maymon
-    screeningQaDuration: '20'
-    screeningTotalDuration: ''
-    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/fqwmeUfVAY0
+    screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/Q-UvwJr_1Fy
 -   screeningEventivalId: '2020'
     filmEventivalId: '1004'
     filmPath: the-goddess-of-fortune
@@ -350,8 +292,8 @@
 -   screeningEventivalId: '2014'
     filmEventivalId: '1014'
     filmPath: storm-boy
-    screeningSubtitles_et: eesti
-    screeningSubtitles_en: Estonian
+    screeningSubtitles_et: eesti dublaaž
+    screeningSubtitles_en: in Estonian
     screeningDate: '2020-08-14'
     screeningTime: '16:00:00'
     screeningDatetime: 2020-08-14T16:00:00+0300
@@ -421,8 +363,8 @@
     screeningSubtitles_et: eesti, inglise
     screeningSubtitles_en: Estonian, English
     screeningDate: '2020-08-15'
-    screeningTime: 01:15:00
-    screeningDatetime: 2020-08-15T01:15:00+0300
+    screeningTime: 01:59:00
+    screeningDatetime: 2020-08-15T01:59:00+0300
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
