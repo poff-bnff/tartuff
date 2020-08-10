@@ -11,3 +11,8 @@ frontpageText: 'Tartuff is a unique outdoor film festival taking place in the he
 
 
     Welcome to Tartuff!'
+festivalDates: 'August 10th - 15th'
+festivalLocations:
+    outdoors: 'Town Hall Square'
+    indoors: 'Athena Center'
+    virtual: 'Elisa Stage'

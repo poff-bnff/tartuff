@@ -56,7 +56,7 @@ mixin calendarDate(dateString)
         {
             moment.locale('#{self.locale}');
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
-            var NowMoment1 = moment('#{dateString}').format('dddd, Do MMMM');
+            var NowMoment1 = moment('#{dateString}').format('lll');
             eDisplayMoment1.innerHTML = NowMoment1;
 
         })();
