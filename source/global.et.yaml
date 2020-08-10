@@ -74,7 +74,7 @@ label:
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
-        filmAudienceVote: Anna hääl filmile
+        filmAudienceVote: Anna filmile oma hääl
         covidRegister: Covid-19 - registeeri oma osalemine
     menu:
         mainNews: Uudised
