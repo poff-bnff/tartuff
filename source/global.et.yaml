@@ -36,6 +36,7 @@ label:
         filmTitle_en: Pealkiri inglise keeles
         filmTitle_ru: Pealkiri vene keeles
         filmTitle_et: Pealkiri
+        filmTitleSec: Pealkiri inglise keeles
         filmCountries: Riik
         filmLanguages: Keel
         filmYear: Aasta
@@ -76,6 +77,8 @@ label:
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
+        filmAudienceVote: Anna filmile oma hääl
+        covidRegister: Covid-19 - registeeri oma osalemine
     menu:
         mainNews: Uudised
         mainFilms: Filmid

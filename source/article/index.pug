@@ -45,13 +45,7 @@ block content
                 p.font_weight_600= self.articleLead
             //- p= self.articleContents_et
             if self.articleContents
-                - articleContents = self.articleContents
-                | !{ self.md(articleContents)}
+                +format(self.articleContents)
+
 
         section.article_extra
-
-
-
-
-
-
