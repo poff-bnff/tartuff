@@ -83,6 +83,7 @@ label:
         mainNews: Uudised
         mainFilms: Filmid
         mainInfo: Info
+        mainCovid: Covid
         mainFestival: Festival
 
 eFilmInfo: ' - filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage'
