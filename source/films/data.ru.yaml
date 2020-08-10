@@ -1,4 +1,0 @@
-path: films
-data:
-    films: /film/data.ru.yaml
-    pictures: /film_pictures.yaml

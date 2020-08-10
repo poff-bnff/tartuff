@@ -122,6 +122,11 @@ body
 .font_weight_700
     font-weight 700
 
+h4
+    font-size 1.5rem
+    font-family font_h
+    font-weight 500
+
 /* Header & Nav styles */
 
 header
@@ -289,40 +294,93 @@ nav
     padding 1rem
     padding-top 78px
 
-.footer_sponsors_1
+.footer_logos_1
     display grid
-    grid-template-columns repeat(auto-fit, minmax(200px, 1fr))
+    grid-template-columns repeat(auto-fit, minmax(24rem, 26rem))
     justify-content center
     justify-items center
     align-items center
     grid-gap 2rem
 
-.footer_sponsors_2
+.footer_logos_2
     display grid
-    grid-template-columns repeat(auto-fit, minmax(200px, .5fr))
+    grid-template-columns repeat(auto-fit, minmax(15rem, 20rem))
     justify-content center
     justify-items center
     align-items center
     grid-gap 5rem
     margin-bottom 3rem
 
-.footer_sponsors_3
+.footer_logos_3
     display grid
-    grid-template-columns repeat(auto-fit, minmax(150px, .3fr))
+    grid-template-columns repeat(auto-fit, minmax(10rem, 12rem))
     justify-content center
     justify-items center
     align-items center
     grid-gap 5rem
 
-.sponsor_item_1
+.festival
+    padding-top 98px
+
+
+.team
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(17rem, 1fr))
+    justify-content center
+    align-content start
+    justify-items center
+    align-items start
+    grid-gap 2rem
+    padding 2rem
+    // padding-top 78px
+
+.person
+    display flex
+    flex-direction column
+    // background-color bg_dark_3
+    // border solid .5px bg_dark_4
+    width 100%
+    // height auto
+    min-height min-content
+    max-height max-content
+    margin-bottom 1rem
+    margin-top 1rem
+
+.person_head
+    // background-color clr_primary
+    // color bg_dark_4
+    width: 100%
+    // height max-content
+    // height 2.5rem
+    // padding-left 1rem
+    // padding-right 1rem
+    // padding .7rem 1rem .7rem 1rem
+    // align-self flex-start
+
+.person_img
+    width: 100%
+
+.person_body
+    // background-color bg_dark_3
+    min-height min-content
+    max-height max-content
+    padding 1.618rem 1rem 1rem 1rem
+    // padding 1rem
+    // align-self flex-end
+    a
+        text-decoration none
+        color white_96
+        // font-weight 600
+
+.footer_logo_item_1
     // background-color bg_dark_3
     width 60%
     // padding 7rem
 
-.sponsor_item_2
+.footer_logo_item_2
     width 70%
 
-.sponsor_item_3
+.footer_logo_item_3
     width 80%
 
 header
@@ -488,7 +546,7 @@ p
   text-align center
   padding-left calc(1rem + 1vw)
   padding-right calc(1rem + 1vw)
-  margin-bottom -.7em
+  margin-bottom -.6em
 
 .section_headline_footer
   font-family font_h
@@ -500,7 +558,7 @@ p
   text-align center
   padding-left calc(1rem + 1vw)
   padding-right calc(1rem + 1vw)
-  margin-bottom -.3em
+  margin-bottom -.2em
 
 
 .main_menu_toggle
@@ -883,6 +941,15 @@ a.btn_popover
 .article_contents
     padding 1rem
 
+    ul
+        padding 0
+        margin 0
+        // list-style none
+    li
+        margin-top .5rem
+        margin-bottom .5rem
+        margin-left 1rem
+
 .article_lead
     font-family font_h
     color white_96
@@ -1073,6 +1140,15 @@ a.btn_popover
         grid-gap 1rem
         padding 1rem
 
+    .grid_covid
+        display grid
+        grid-template-columns 1fr 1fr
+        margin 0
+        grid-gap 2rem
+
+    .covid_rules
+        padding-left calc(1rem + 1vw)
+        padding-right calc(1rem + 1vw)
 
 
     .main_menu_toggle_label
