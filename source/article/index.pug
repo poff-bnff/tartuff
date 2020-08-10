@@ -49,7 +49,7 @@ block content
             //- p= self.articleContents_et
             if self[`articleContents_${self.locale}`]
                 - articleContents = self[`articleContents_${self.locale}`]
-                | !{ self.md(articleContents)}
+                +format(articleContents)
 
         section.article_extra
 
