@@ -9,8 +9,18 @@ parsed_yaml_file = yaml.load(yaml_file, Loader=yaml.FullLoader)
 
 #print(parsed_yaml_file)
 # print(parsed_yaml_file[0]["screeningEventivalId"])
-#parsed_yaml_file.sort()
-# bla = sorted(parsed_yaml_file, key = lambda i: i['screeningDate'])
 
+date=''
+calendarInfo=[]
+#films: list of dictionarys
+#ScreeningCinema: list
 for val in sorted(parsed_yaml_file, key = lambda i: i['screeningDate']):
-    print(val["screeningDate"])
+    if date != val["screeningDate"]:
+        date=(val["screeningDate"])
+        calendarInfo.append({'screeningDate' : date})
+
+print(calendarInfo)
+
+
+
+
