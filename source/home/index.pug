@@ -1,5 +1,4 @@
 extends /_templates/layout.pug
-include /_templates/mixins.pug
 
 block content
 
@@ -28,22 +27,92 @@ block content
 
 
     main.home
-        section.grid_hero
-            .home_1
-                .article_title_detailed.m_center_d_right
-                    span.article_title_detailed.clr_primary= self.festivalDates
+        if self.locale == 'et'
+            section.grid_hero
+                .home_1
+                    .article_title_detailed.m_center_d_right
+                        span.article_title_detailed.clr_primary 10. - 15. august
+                        br
+                        | Tartu Raekoja Plats
+                        br
+                        | Athena Keskus
+                        br
+                        a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
+                            | Elisa Stage
+                .home_2
+                    img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
+                .home_3
+                    .hero_p
+                        p Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
+                        p Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
+                        p Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide festivali.
+                        p Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta, virtuaalsetele seanssidele tuleb osta pilet.
+
+        if self.locale == 'en'
+            section.grid_hero
+                .home_1
+                    .article_title_detailed.m_center_d_right
+                        span.article_title_detailed.clr_primary August 10th - 15th
+                        br
+                        | Town Hall Square
+                        br
+                        | Athena Center
+                        br
+                        a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
+                            | Elisa Stage
+                .home_2
+                    img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
+                .home_3
+                    .hero_p
+                        p Tartuff is a unique outdoor film festival taking place in the heart of the beautiful Tartu Old Town, Estonia. The festival screens a diverse selection of genre and documentary films, focusing on the most important thing in the world – love.
+                        p Thirteen feature films and four documentaries will screen at the 15th Tartu Love Film Festival aka Tartuff from 10 to 15 August 2020. For the first time in the history of the festival organised by the team at the Tallinn Black Nights Film Festival most of the films will also be available online.
+                        p The screenings are accompanied by daily lectures and family friendly special events. With its cosy midsummer atmosphere and the biggest open air cinema in the Baltics, Tartuff has grown to be one of the most beloved summer festivals in Estonia.
+                        p Welcome to Tartuff!
+
+        section.grid_covid
+            .covid_rules
+                h1.article_title_detailed.clr_primary
+                    | Ohutusreeglid Tartuffil
+                ul
+                    li.hero_p
+                        | Kui tunned, et oled tõbine, siis vaata filme hoopis kodus Elisa Stage´il
+                    li.hero_p
+                        | Tartu Raekoja platsil järgi 2 + 2 reeglit ja hoia teiste vaatajatega distantsi.
+                    li.hero_p
+                        | Raekoja platsil on 500 istekohta varasema 1200 asemel. Istekohti ei reserveerita.
+                    li.hero_p
+                        | Kui oled kaasa võtnud oma tooli, siis palun järgi seda paigaldades 2 + 2 reeglit.
+                    li.hero_p
+                        | Kui istekohad on võetud, siis palun ära jää Raekoja platsile, vaid vaata filme hoopis Tartuffi kodulehel virtuaalses kinosaalis Elisa Stage´il.
+                    li.hero_p
+                        | Raekoja platsil tagab korda turvafirma USS.
+                    li.hero_p
+                        | Athena kinos ja teistes festivali siseruumides kehtib 50% täituvuse reegel. Hoia siseruumides piisavat distantsi teiste külastajatega.
+                    li.hero_p
+                        | Ühele seansile Athena kinos pääseb kuni 120 inimest, kes istuvad hajutatult kinosaali parteris ja rõdul.
+                    li.hero_p
+                        | Athena kinos jagatakse filmivaatajatele tasuta meditsiinilisi kaitsemaske (3ply). Kaitsemaski maksimaalne kandmise aeg on 4 tundi. Maski paigaldamisel ja äravõtmisel on oluline käte hügieen. Palun hoidke mask ees kuni kinost lahkumiseni.
+                    li.hero_p
+                        | Tartuffi vabatahtlikud puhastavad Athena kinos seansside vahel desinfitseerimisvahendiga ukselinke, trepikäsipuid ja toolide käetugesid. Samuti tuulutatakse seansside vahel kinosaali.
+                    li.hero_p
+                        | Festivalialadel on olemas desinfitseerimisvahendid.
+                    li.hero_p
+                        | Palume osalejatel festivalialadel mitte tihedalt koguneda ega järjekordades lähestikku üksteise selja taga seista – hoidke piisavat vahet teiste külastajatega.
+                    li.hero_p
+                        | Kui märkad haigustunnustega külastajat festivalil, siis palun informeeri sellest Tartuffi publikuteenindajaid.
+                    li.hero_p
+                        | Küsimuste ja probleemide korral palun pöördu festivali publikuteenindajate poole.
+                    li.hero_p
+                        | Hoia enda ja teiste tervist ning järgi palun ohutusreegleid!
+                p.hero_p
+                    | Tänulikult,
                     br
-                    | !{self.festivalLocations.outdoors}
-                    br
-                    | !{self.festivalLocations.indoors}
-                    br
-                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.festivalLocations.virtual
-            .home_2
-                img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
-            .home_3
-                .hero_p
-                    - var frontpageText = self.frontpageText
-                    | !{ self.md(frontpageText)}
+                    | Tartuffi meeskond
+            .covid_rules
+                section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
+                    iframe(width="560" height="315" src="https://www.youtube.com/embed/hnex6ImCk7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
 
 
         //- FILMS / SCREENINGS calendar
@@ -53,142 +122,135 @@ block content
 
         section.calendar
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-10')
+                .calendar_day_head Esmaspäev, 10. august
                 .calendar_day_body
-                    .clr_white_semi.caps= self.festivalLocations.outdoors
+                    .clr_white_semi.caps Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;Festivali avamine
                     br
                     | 22:45&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}invisible-life-of-eurdice-gusmo/`)
+                    a(href='https://tartuff.ee/invisible-life-of-eurdice-gusmo/')
                         | Nähtamatu elu
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
 
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-11')
+                .calendar_day_head Teisipäev, 11. august
                 .calendar_day_body
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}flawless/`)
+                    a(href='https://tartuff.ee/flawless/')
                         | Täiuslik
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     | 23:59&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}house-of-hummingbird/`)
+                    a(href='https://tartuff.ee/house-of-hummingbird/')
                         | Hüvasti
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-12')
+                .calendar_day_head Kolmapäev, 12. august
                 .calendar_day_body
 
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.indoors}
+                        | Athena Keskus
                     | 16:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}banksy-most-wanted`)
+                    a(href='https://tartuff.ee/banksy-most-wanted')
                         | Tagaotsitav, Banksy
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     | 20:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}acas-my-home`)
+                    a(href='https://tartuff.ee/acas-my-home')
                         | Acasa, mu kodu
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     br
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}the-goddess-of-fortune`)
+                    a(href='https://tartuff.ee/the-goddess-of-fortune')
                         | Õnnejumalanna
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     | 00:15&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}schemers`)
+                    a(href='https://tartuff.ee/schemers')
                         | Skeemitajad
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-13')
+                .calendar_day_head Neljapäev, 13. august
                 .calendar_day_body
 
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.indoors}
+                        | Athena Keskus
                     | 16:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}the-secret-lamb`)
+                    a(href='https://tartuff.ee/the-secret-lamb')
                         | Lammas all paremas nurgas
                     br
                     | 19:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}self-portrait`)
+                    a(href='https://tartuff.ee/self-portrait')
                         | Autoportree
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     br
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}champions`)
+                    a(href='https://tartuff.ee/champions')
                         | Tšempionid
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     | 23:59&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}yalda-a-night-for-forgiveness/`)
+                    a(href='https://tartuff.ee/yalda-a-night-for-forgiveness/')
                         | Yalda, andestuse öö
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-14')
+                .calendar_day_head Reede, 14. august
                 .calendar_day_body
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.indoors}
+                        | Athena Keskus
                     | 16:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}storm-boy/`)
+                    a(href='https://tartuff.ee/storm-boy/')
                         | Tormipoiss
                     br
                     | 19:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}marcel-duchamp-art-of-the-possible/`)
+                    a(href='https://tartuff.ee/marcel-duchamp-art-of-the-possible/')
                         | Marcel Duchamp ja võimalikkuse kunst
                     br
                     br
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}force-of-habit/`)
+                    a(href='https://tartuff.ee/force-of-habit/')
                         | Harjumuse jõud
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
                     br
                     | 23:45&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}acid/`)
+                    a(href='https://tartuff.ee/acid/')
                         | Hape
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head
-                    +calendarDate('2020-08-15')
-
+                .calendar_day_head Laupäev, 15. august
                 .calendar_day_body
-                    .clr_white_semi.caps= self.festivalLocations.outdoors
+                    .clr_white_semi.caps Raekoja plats
                     | 21:45&nbsp;&nbsp;&nbsp;Festivali lõpetamine
                     br
                     | 22:00&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}final-portrait/`)
+                    a(href='https://tartuff.ee/final-portrait/')
                         | Viimane portree
                     br
                     | 23:59&nbsp;&nbsp;&nbsp;
-                    a(href=`https://tartuff.ee/${lang_path}maudie/`)
+                    a(href='https://tartuff.ee/maudie/')
                         | Maudie
 
         section.calendar_e
             span.font_h.clr_elisa_stage e
-            span.clr_white_96=self.eFilmInfo
+            span.clr_white_96 &nbsp;-&nbsp;filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage
 
 
         //- EVENTS calendar
@@ -199,10 +261,10 @@ block content
         section.calendar
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-10')
+                    | Esmaspäev, 10. august
                 .calendar_day_body
                     .clr_white_semi.caps
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;
                     a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Festivali avamine ja Maarja Nuut & Ruum kontsert' data-content='\
 <p>Tervitussõnad:\
@@ -227,12 +289,14 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-11')
+                    | Teisipäev, 11. august
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
                     a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Stencibility esitleb: Stina Leeki tänavakunstiaktsioon' data-content='\
 <p>tARTuFFi raames toimub 11.-12. augustil tänavakunstifestivali Stencibility poolt kureeritud kunstiaktsioon avalikus ruumis, mille autor on Tartu lowbrow kunstnik Stina Leek. Stina Leek on noor ja vihane vabakutseline kunstnik, kunstirühmituse Ajuokse algataja ning maa-aluse kunstiringi eestvedaja. Tema tööd tunneb ära paksu lookleva joonegraafika ning rohkete silmamunade järgi.\
+</p>\
+<p>www.facebook.com/events/361362668211685\
 </p>\
 <p>Tutvu Stina loominguga Instagramis: www.instagram.com/stina.leek\
 </p>')
@@ -331,7 +395,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-12')
+                    | Kolmapäev, 12. august
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
@@ -436,15 +500,15 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-13')
+                    | Neljapäev, 13. august
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Sisevete saatkond
                     | 10:00&nbsp;&nbsp;&nbsp;
-                    a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Hommikupiknik ja lodjasõit koos filmirežissööride Jaan Tootseni ja Joosep Matjusega' data-content='\
+                    a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Hommikupiknik ja lodjasõit koos filmirežissöör Jaan Tootseniga' data-content='\
 <p>Sõidame südasuvisel Emajõel linnast välja, et nautida loodust ning mõtiskleda loodus- ja dokumentaalfilmide üle.\
 </p>\
-<p>Lodjasõidul vestleme filmirežissööri Jaan Tootseni ja Joosep Matjusega ennekõike filmist "Fred Jüssi. Olemise ilu", aga ka paljust muust ehk “Maast ja ilmast”.\
+<p>Lodjasõidul vestleme filmirežissöör Jaan Tootseniga ennekõike filmist "Fred Jüssi. Olemise ilu", aga ka paljust muust ehk “Maast ja ilmast”.\
 </p>\
 <p>Jaan Tootsen: "Aina kiirenevas maailmas oli koroona-aeg paljude jaoks esimene hetk kui sai olla iseendaga koos. Iseenda seltskond võib olla meeldiv, samas ka hirmutav. Kui igapäevasäbrusse tekib rahulik ajaauk, siis on võimalus et tekivad nö eksistentsiaalsed küsimused. Miks ma midagi teen ja just sellisel kombel? Parim "ravum" meeletuse vastu on minna loodusese meelevalda. Loodus on mõnus hingeravim. Skaala on küll erinev, aga tasakesi kivi- ja pilvemustreid uurides, tuleb varem või hiljem taipamishetk, et äkki on maailm üks tervik. Puulehtede ja laineloksu muusika on võimalus teistmoodi olemise kogemiseks. Kuidas näha harjumuspärast, värskelt, uue nurga alt. Vaatenurkade paljusus annab võimaluse vaimu virgumisele."\
 </p>\
@@ -456,7 +520,7 @@ block content
 </p>\
 <p>"Fred Jüssi. Olemise ilu" väljatoomist on toetanud Tartu Filmifond.\
 </p>')
-                        | Hommikupiknik ja lodjasõit koos filmirežissööride Jaan Tootseni ja Joosep Matjusega
+                        | Hommikupiknik ja lodjasõit koos filmirežissöör Jaan Tootseniga
                         svg.svg_icon_syn(viewbox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
                             line(x1='17' y1='10' x2='3' y2='10')
                             line(x1='21' y1='6' x2='3' y2='6')
@@ -572,7 +636,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-14')
+                    | Reede, 14. august
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu Kunstimuuseum
@@ -674,7 +738,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    +calendarDate('2020-08-15')
+                    | Laupäev, 15. august
                 .calendar_day_body
                     .clr_white_semi.caps
                         | ERM
@@ -730,10 +794,28 @@ block content
                             line(x1='17' y1='18' x2='3' y2='18')
                     br
                     | 15:00&nbsp;&nbsp;&nbsp;
-                    a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Eesti Dokumentalistide Gild esitleb: vestlus kujutavast kunstist eesti kaasaegses dokumentalistikas' data-content='\
-<p>Filmid kunstnike elust ja loomingust – hetkel töösolevatest eesti kunstnike dokumentaalfilmidest vestlevad rahvusvaheliselt hinnatud eesti dokumentalist, autor ja produtsent Marianna Kaat („Ülo Sooster. Mees, kes kuivatas rätikut tuule käes“, režissöör Lilija Vjugina, produtsent Marianna Kaat, Eesti-Vene 2020) ning kunstnik, kuraator ja dokumentalist Sandra Jõgeva („Kunst ja külm sõda“).\
+                    a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='Vestlusring kujutavast kunstist eesti kaasaegses dokumentalistikas kahe valmiva filmi näitel' data-content='\
+<p>Külalisteks on rahvusvaheliselt hinnatud dokumentalist Marianna Kaat ja tegevkunstniku ning kuraatoritaustaga Sandra Jõgeva, kes avavad oma peatselt ekraanivalgust nägevate filmide telgitaguseid ning arutlevad kunstiteemalise dokumentalistika valust ja võlust. Vestlust modereerib dokumentaalfilmide autor ja produtsent Karin Reinberg-Shestakov.\
 </p>\
-<p>Vestlust modereerib dokumentaalfilmide autor ja produtsent Karin Reinberg-Shestakov.\
+<p>Dokumentaalfilmid, millest juttu tuleb.\
+</p>\
+<p>"Ülo Sooster. Mees, kes kuivatas rätikut tuule käes"\
+</p>\
+<p>Režissöör Lilija Vjugina, produtsent Marianna Kaat, Eesti-Vene filmi planeeritud esilinastus sügis 2020)\
+</p>\
+<p>Vene reźissöör Liliya Vyugina film Ülo Soosterist on esimene täispikk dokumentaal 1924. aastal Hiiumaal sündinud Eesti legendaarsest kunstnikust, kes asus 1943. aastal Tartu Kõrgemasse Kunstikooli Pallas maalikunsti õppima. Peale kooli lõpetamist aastal 1949 mõisteti Ülo Sooster nõukogudevastase propaganda eest kümneks aastaks Karaganda Dolinka vangilaagrisse. Vabanenud 1956. aastal naasis Sooster esmalt Eestisse, ent kolis peagi abikaasa Lidiaga Moskvasse, kus temast sai vene avangardi teise laine tuntumaid esindajaid. ,Ülo Sooster suri 1970. aastal oma ateljees Moskvas vaid 46-aastasena. Ta elu oli lühike, dramaatiline, intensiivne, täis vastuolusid, kuid mõju eesti ja vene kunstielule, nendevahelise kultuurisilla loomisele, oli märkimisväärne ning tema kunstipärand intrigeeriv.\
+</p>\
+<p>Dokumentaal on omamoodi rännak ajas ja ruumis, mille teeb läbi kunstniku poeg Tenno, kes emigreerus ema Lidiaga 1990. aastate alguses Iisraeli. Filmivõtted toimusid neljas riigis: Venemaal, kus kunstnik töötas, Eestis, kus ta sündis ja kuhu on maetud tema põrm, Kasahstanis, kus ta oli vangilaagris, ja Iisraelis, kus elab praegu tema pere. Näeme haruldasi filmikaadreid ja intervjuusid Soosteri kaasaegsetega ning kommentaare ekspertidelt Kumu kunstimuuseumist, Tartu Kunstimuuseumist ja Tretjakovi galeriist.\
+</p>\
+<p>"Kunst ja külm sõda”\
+</p>\
+<p>Reźissöör Sandra Jõgeva, produtsent Anu Veermäe-Kaldra,  planeeritav esilinastus 2021\
+</p>\
+<p>"Kunst ja külm sõda” on lugu sõltumatu nõukogude kunsti ja Lääne suhetest. Ajast, mil kunst oli suurem ja tähtsam kui elu ise. Ka ajast, millesugust pole eesti kunstis enne olnud ja ilmselt enam ka ei tule.\
+</p>\
+<p>Ühel pool on sõltumatud nõukogude kunstnikud, kellel napib nii väljundit, kui ka materiaalseid võimalusi oma tööde realiseerimiseks. Teisel pool on ahvatlev lääs, mille (sõna otseses mõttes) saadikud tunnevad aktiivset huvi nõukogude underground\'i kunstituru vastu. Oma teoste müük läände on komplitseeritud äri, sest kahe teineteisest huvitatud leeri vahel seisab omakorda kõikvõimas KGB.\
+</p>\
+<p>Ometigi õnnestub peamiselt Eesti ja Moskva päritolu kunstnikel müüa ja lasta piiri taha viia hämmastav kogus kujutavat kunsti. See saab võimalikuks peamiselt tänu lääne diplomaatidele, kelle koordineeritud tegevuse tagant paistavad ei kellegi muu kui CIA kõrvad.\
 </p>')
                         | Eesti Dokumentalistide Gild esitleb: vestlus kujutavast kunstist eesti kaasaegses dokumentalistikas
                         svg.svg_icon_syn(viewbox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
@@ -744,7 +826,7 @@ block content
                     br
                     br
                     .clr_white_semi
-                        | !{self.festivalLocations.outdoors}
+                        | Raekoja Plats
                     | 21:45&nbsp;&nbsp;&nbsp;Festivali lõpetamine
                     br
                     br
