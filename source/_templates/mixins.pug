@@ -65,20 +65,3 @@ mixin tabname(currenttitle)
     script.
         document.title= '#{currenttitle}';
         //document.title= 'Tartuff 2020: ' + ('#{currenttitle}');
-
-
-mixin calendarDate(dateString)
-    - var dom_id = Math.random()
-    span(id = 'dt_' + dom_id)
-
-    script.
-        (function()
-        {
-            moment.locale('#{self.locale}');
-            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
-            var NowMoment1 = moment('#{dateString}').format('lll');
-            eDisplayMoment1.innerHTML = NowMoment1;
-
-        })();
-
-
