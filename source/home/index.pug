@@ -38,15 +38,6 @@ block content
                     | !{self.festivalLocations.indoors}
                     br
                     a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.festivalLocations.virtual
-
-                    //- span.article_title_detailed.clr_primary 10. - 15. august
-                    //- br
-                    //- | Tartu Raekoja Plats
-                    //- br
-                    //- | Athena Keskus
-                    //- br
-                    //- a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')
-                    //-     | Elisa Stage
             .home_2
                 img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
             .home_3
@@ -62,7 +53,8 @@ block content
 
         section.calendar
             .calendar_day
-                .calendar_day_head Esmaspäev, 10. august
+                .calendar_day_head
+                    +calendarDate('2020-08-10')
                 .calendar_day_body
                     .clr_white_semi.caps= self.festivalLocations.outdoors
                     | 22:00&nbsp;&nbsp;&nbsp;Festivali avamine
@@ -74,7 +66,8 @@ block content
                         | &nbsp; &nbsp;e
 
             .calendar_day
-                .calendar_day_head Teisipäev, 11. august
+                .calendar_day_head
+                    +calendarDate('2020-08-11')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | !{self.festivalLocations.outdoors}
@@ -88,7 +81,8 @@ block content
                     a(href=`https://tartuff.ee/${lang_path}house-of-hummingbird/`)
                         | Hüvasti
             .calendar_day
-                .calendar_day_head Kolmapäev, 12. august
+                .calendar_day_head
+                    +calendarDate('2020-08-12')
                 .calendar_day_body
 
                     .clr_white_semi.caps
@@ -120,7 +114,8 @@ block content
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head Neljapäev, 13. august
+                .calendar_day_head
+                    +calendarDate('2020-08-13')
                 .calendar_day_body
 
                     .clr_white_semi.caps
@@ -148,7 +143,8 @@ block content
                     a(href=`https://tartuff.ee/${lang_path}yalda-a-night-for-forgiveness/`)
                         | Yalda, andestuse öö
             .calendar_day
-                .calendar_day_head Reede, 14. august
+                .calendar_day_head
+                    +calendarDate('2020-08-14')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | !{self.festivalLocations.indoors}
@@ -175,7 +171,8 @@ block content
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head Laupäev, 15. august
+                .calendar_day_head
+                    +calendarDate('2020-08-15')
 
                 .calendar_day_body
                     .clr_white_semi.caps= self.festivalLocations.outdoors
@@ -202,7 +199,7 @@ block content
         section.calendar
             .calendar_day
                 .calendar_day_head
-                    | Esmaspäev, 10. august
+                    +calendarDate('2020-08-10')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | !{self.festivalLocations.outdoors}
@@ -230,7 +227,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Teisipäev, 11. august
+                    +calendarDate('2020-08-11')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
@@ -334,7 +331,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Kolmapäev, 12. august
+                    +calendarDate('2020-08-12')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
@@ -439,7 +436,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Neljapäev, 13. august
+                    +calendarDate('2020-08-13')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Sisevete saatkond
@@ -575,7 +572,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Reede, 14. august
+                    +calendarDate('2020-08-14')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu Kunstimuuseum
@@ -677,7 +674,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Laupäev, 15. august
+                    +calendarDate('2020-08-15')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | ERM

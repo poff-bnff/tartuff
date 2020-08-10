@@ -31,3 +31,8 @@ label:
         newsButton: Uudised
         filmsButton: Filmid
 eFilmInfo: ''
+festivalDates: ''
+festivalLocations:
+    outdoors: ''
+    indoors: ''
+    virtual: ''
