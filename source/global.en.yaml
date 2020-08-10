@@ -65,7 +65,6 @@ label:
         screeningTotalDuration: Screening duration
         screeningName: Screening
         screeningAdditionalInfo: Additional info
-
     selectLocale: Languages
     buttons:
         filmTicketBuy: Buy ticket
@@ -77,3 +76,5 @@ label:
         mainFilms: Films
         mainInfo: Info
         mainFestival: Festival
+
+eFilmInfo: ' - You can see the film also on Elisa Stage, a VOD platform by Elisa'
