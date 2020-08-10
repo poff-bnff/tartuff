@@ -16,14 +16,18 @@ for val in sorted(parsed_yaml_file, key = lambda i: i['screeningDate']):
     if date != val["screeningDate"]:
         date=(val["screeningDate"])
         calendarInfo.append({'screeningDate' : date})
-        cinema=''
+        calendarInfo.append({'screeningCinema' : { val["screeningCinema"], {}}})
+    else:
+
+
+"""       cinema=''
         for val in sorted(parsed_yaml_file, key = lambda i: i['screeningCinema']):
             if cinema != val["screeningCinema"]:
                 cinema=(val["screeningCinema"])
                 print(calendarInfo)
                 print(cinema)
-                calendarInfo["screeningCinema"] = cinema
-
+                calendarInfo["screeningCinema"] = { "tartu kino", "pärnu kino"}
+"""
 print(calendarInfo)
 
 
@@ -31,6 +35,14 @@ print(calendarInfo)
 #for val in sorted(parsed_yaml_file, key = lambda i: i['screeningCinema']):
 #    if cinema != val["screeningCinema"]:
 #        cinema=(val["screeningCinema"])
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = {"red", "blue"}
+print(thisdict)
 
 
 
