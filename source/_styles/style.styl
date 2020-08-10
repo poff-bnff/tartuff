@@ -46,6 +46,8 @@ clr_elisa_stage = #0019af
 clr_header_bg = #0E1417
 clr_tartuff_red = #c92c33
 clr_popover = #0E1417
+clr_covid = #bc06c6
+clr_vote = #00aeef
 
 
 breakpoint-lg = 992px
@@ -250,6 +252,7 @@ nav
                         "f_title_box"\
                         "f_synopsis_box"\
                         "f_runtime_box"\
+                        "f_interactive_box"\
                         "f_screenings_box"\
                         "f_cred_box"\
                         "f_dir_bio_box"\
@@ -359,6 +362,7 @@ nav
 
 .person_img
     width: 100%
+    border-radius 50%
 
 .person_body
     // background-color bg_dark_3
@@ -437,6 +441,24 @@ header
     padding-bottom calc(2rem + 2vw)
     padding-left 1rem
     padding-right 1rem
+
+.f_interactive_box
+    grid-area f_interactive_box
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(300px, 1fr))
+    grid-template-rows auto
+    grid-gap 1rem
+    padding 2rem
+    justify-content center
+    align-content center
+    justify-items center
+    align-items center
+
+.f_interactive_item
+    align center
+    text-align center
+
+
 
 .f_dir_bio_box
     grid-area f_dir_bio_box
@@ -801,6 +823,19 @@ a.btn_popover
   border-radius 0
   text-transform uppercase
 
+.btn_covid
+    background-color clr_covid
+    color white_96
+    text-transform uppercase
+    border-radius 0
+
+.btn_vote
+    background-color ghost_blue
+    color white_96
+    text-transform uppercase
+    border-radius 0
+
+
 .svg_icon
   height calc(1.5rem + 0.1vw)
   width calc(1.5rem + 0.1vw)
@@ -1087,6 +1122,7 @@ a.btn_popover
         grid-template-areas "f_img_slider_box  f_img_slider_box  f_title_box"\
                             "f_synopsis_box    f_synopsis_box    f_cred_box"\
                             "f_synopsis_box    f_synopsis_box    f_runtime_box"\
+                            "f_interactive_box    f_interactive_box    f_interactive_box"\
                             "f_screenings_box  f_screenings_box  f_screenings_box"\
                             "f_extra_box       f_extra_box       f_extra_box"\
                             "f_trailer_box     f_trailer_box     f_trailer_box"\
@@ -1253,6 +1289,7 @@ a.btn_popover
     .f_cred_box
     .f_runtime_box
     .f_screenings_box
+    .f_interactive_box
     .f_extra_box
         padding-top calc(2rem + 1vw)
         padding-bottom calc(2rem + 1vw)

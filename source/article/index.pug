@@ -6,23 +6,20 @@ include /_templates/mixins.pug
 
 block content
 
-    - my_path = self.path.split("/")[self.path.split("/").length-1]
+    - var articlePics = self.data.article_pictures.articles
+    - var articlePic = articlePics[self.path]
 
-    - articlePics = self.data.article_pictures.articles
-    - articlePic = articlePics[my_path]
-
-
-    +tabname(self[`articleTitle_${self.locale}`])
+    +tabname self.articleTitle
 
     section.grid_article
         section.article_hero_head
             if articlePic
-                img(src=`/assets/img/img_articles/${my_path}/${articlePic.heroImage}`).article_hero_image
+                img(src=`/assets/img/img_articles/${self.path}/${articlePic.heroImage}`).article_hero_image
             else
                 img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
-        if self[`articleTitle_${self.locale}`]
+        if self.articleTitle
             .article_hero_headline_box
-                .article_title_detailed= self[`articleTitle_${self.locale}`]
+                .article_title_detailed= self.articleTitle
 
     section.grid_article
         section.article_meta
@@ -44,17 +41,11 @@ block content
 
 
         section.article_contents
-            if self[`articleLead_${self.locale}`]
-                p.font_weight_600= self[`articleLead_${self.locale}`]
+            if self.articleLead
+                p.font_weight_600= self.articleLead
             //- p= self.articleContents_et
-            if self[`articleContents_${self.locale}`]
-                - articleContents = self[`articleContents_${self.locale}`]
-                | !{ self.md(articleContents)}
+            if self.articleContents
+                +format(self.articleContents)
+
 
         section.article_extra
-
-
-
-
-
-
