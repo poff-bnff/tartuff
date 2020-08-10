@@ -1,6 +1,7 @@
+from __future__ import print_function
+from datetime import datetime
 import yaml
 import os
-from datetime import datetime
 
 os.chdir(os.path.dirname(__file__))
 
@@ -20,10 +21,40 @@ for val in sorted(parsed_yaml_file, key = lambda i: i['screeningDate']):
         calendarInfo.append({'screeningDate' : date})
         screeningPlace=val["screeningCinema"]
         calendarInfo.append({'screeningCinema' : {screeningPlace}})
+        # calendarInfo[val["screeningCinema"]].append(val["screeningDate"])
 
 
+# print(calendarInfo)
 
-print(calendarInfo)
+testStuff = [{'screeningDate' : '20200202',
+                'screeningCinema' :
+                    [{'Raekoja plats' :
+                        [{'filmSlug' : 'whatever', 'filmName' : 'See on filmi nimi'},
+                        {'filmSlug' : 'whatever22', 'filmName' : 'See on filmi ni222mi'}]
+                    },
+                    {'Mingi plats' :
+                        [{'filmSlug' : 'whatever', 'filmName' : 'See on filmi nimi'},
+                        {'filmSlug' : 'whatever22', 'filmName' : 'See on filmi ni222mi'}]
+                    }]
+            },
+            {'screeningDate' : '20200205',
+                'screeningCinema' :
+                    [{'Raekoja plats' :
+                        [{'filmSlug' : 'whatever', 'filmName' : 'See on filmi nimi'},
+                        {'filmSlug' : 'whatever22', 'filmName' : 'See on filmi ni222mi'}]
+                    },
+                    {'Mingi plats' :
+                        [{'filmSlug' : 'whatever', 'filmName' : 'See on filmi nimi'},
+                        {'filmSlug' : 'whatever22', 'filmName' : 'See on filmi ni222mi'}]
+                    }]
+            }]
+
+# print(testStuff[])
+
+with open(r'testyaml.yaml', 'w', encoding='utf-8') as file:
+    yaml.dump(testStuff, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True)
+
+print(testStuff[1]["screeningCinema"][0])
 
 
 #     cinema=''

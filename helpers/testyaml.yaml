@@ -1,0 +1,24 @@
+-   screeningDate: '20200202'
+    screeningCinema:
+    -   Raekoja plats:
+        -   filmSlug: whatever
+            filmName: See on filmi nimi
+        -   filmSlug: whatever22
+            filmName: See on filmi ni222mi
+    -   Mingi plats:
+        -   filmSlug: whatever
+            filmName: See on filmi nimi
+        -   filmSlug: whatever22
+            filmName: See on filmi ni222mi
+-   screeningDate: '20200205'
+    screeningCinema:
+    -   Raekoja plats:
+        -   filmSlug: whatever
+            filmName: See on filmi nimi
+        -   filmSlug: whatever22
+            filmName: See on filmi ni222mi
+    -   Mingi plats:
+        -   filmSlug: whatever
+            filmName: See on filmi nimi
+        -   filmSlug: whatever22
+            filmName: See on filmi ni222mi
