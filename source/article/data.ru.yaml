@@ -2,7 +2,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '1'
     path: a1
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -22,7 +22,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '2'
     path: a2
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -42,7 +42,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '3'
     path: a3
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -62,7 +62,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '4'
     path: a4
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -82,7 +82,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '5'
     path: a5
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -91,10 +91,10 @@
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
-    kuupäev: ''
-    kell: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
     articlePublishStart: 2020-07-31T10:00:00+0300
-    articlePublishEnd: T+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: ''
     articleTtr: ''
     tagKeyword_et: '#armastus #kunst'
@@ -102,7 +102,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '6'
     path: a6
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -122,7 +122,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '7'
     path: a7
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
@@ -131,7 +131,7 @@
     articleImage: ''
     ArticleVideo: ''
     articleContents: ''
-    kuupäev: ''
-    kell: ''
-    articlePublishStart: T+0300
-    articlePublishEnd: T+0300
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-08-05T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
