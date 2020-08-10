@@ -390,6 +390,9 @@
     kell: ''
     articlePublishStart: 2020-07-31T10:00:00+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#armastus #kunst'
 -   data:
         article_pictures: /article_pictures.yaml
     articleId: '6'
@@ -403,43 +406,53 @@
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
-    articleContents: "Vähem kui nädala pärast Tartus algavat festivali saab esimest\
-        \ korda külastada ka virtuaalselt, Elisa veebiplatvormi Elisa Stage vahendusel.\
-        \ \n„Tartuff on loonud virtuaalse kinosaali selleks, et pakkuda huvilistele\
-        \ võimalust saada Tartuffi filmiprogrammist osa ka kodus, ilma Raekoja platsile\
-        \ või Athena keskusesse tulemata, et vähendada koroonaleviku ohtu. Ühtlasi\
-        \ on see hea võimalus näha meie filme ka neil, kes on Tartuffist kuulnud,\
-        \ aga pole kunagi saanud sellele tulla,” ütles festivali juht Kristiina Reidolv.\
-        \ \nKokku jõuab ekraanile kümme linateost – festivali paremik –, mida on võimalik\
-        \ vaadata üle terve Eesti. \nBrasiilia rohkelt auhinnatud troopilises melodraamas\
-        \ „Nähtamatu elu” (rež Karim Aïnouz) surub ühiskonna konservatiivsus alla\
-        \ kahe õe unistused. “Trainspottingu” vaimus Briti komöödia “Skeemitajad”\
-        \ (rež Dave McLean) viib muusikaäri pöörasesse maailma. Itaalia draamakomöödias\
-        \ „Õnnejumalanna” (rež Ferzan Özpetek) peavad kaks lastekauget meest kantseldama\
-        \ lapsi, kes neile hoida jäetakse. Hispaania film „Tšempionid” (rež Javier\
-        \ Fesser) on südamlik komöödia vaimupuudega inimestest, kes hakkavad korvpalli\
-        \ mängima. Soome film „Harjumuse jõud” (rež-d Reetta Aalto, Alli Haapasalo,\
-        \ Anna Paavilainen, Kirsikka Saari, Miia Tervo, Elli Toivoniemi ja Jenni Toivoniemi)\
-        \ tegeleb teemaga, millele me kõik oleme viimastel kuudel mõtelnud – seksuaalse\
-        \ ahistamisega. Iisraeli draamakomöödias „Täiuslik” (rež-d Tal Granit ja Sharon\
-        \ Maymon) otsustavad kolm sõpra müüa oma neeru, et täita oma unistusi. Vene\
-        \ filmi „Hape” (rež Aleksandr Gortšilin) võib nimetada ka äsja 20. eluaasta\
-        \ piiri ületanud vene noorte põlvkondlikuks manifestiks. \nDokumentaalfilmidest\
-        \ on kavas Prantsusmaal valminud „Tagaotsitav: Banksy!” (rež-d Aurélia Rouvier\
-        \ ja Seamus Haley), kus aetakse oma identiteeti varjava maailmakuulsa tänavakunstniku\
-        \ jälgi. Rumeenia filmis „Acasă, mu kodu” (rež Radu Ciorniciuc) on poolmetsiku\
-        \ eluviisiga romade pere sunnitud kolima linna tsivilisatsiooni rüppe. Norra\
-        \ film „Autoportree” (rež-d Katja Høgset, Margreth Olin ja Espen Wallin) elab\
-        \ kaasa anoreksiaga võitlevale naisele, kes jäädvustab oma närbuvat keha korraga\
-        \ šokeerivatel ja kaunitel fotodel. \nÜksikpilet maksab neli eurot, mitmekesi\
-        \ vaatamise pilet kaheksa eurot. Piletite kogus on piiratud. Filmi saab hakata\
-        \ vaatama kohe pärast selle Tartu seansi lõppu ja pilet kehtib kuni 16. augusti\
-        \ hilisõhtuni. Kõigil mängufilmidel on eestikeelsed subtiitrid. Osa filme\
-        \ täiendavad autorite intervjuud, mis on salvestatud spetsiaalselt Tartuffi\
-        \ jaoks. \n10.–15. augustini toimuv Tartuff on Baltimaade suurim vabaõhufilmifestival,\
-        \ mida korraldab Pimedate Ööde filmifestival koostöös Tartu linna, Tartu filmifondi\
-        \ ja Tartu loomemajanduskeskusega."
+    articleContents: 'Vähem kui nädala pärast Tartus algavat festivali saab esimest
+        korda külastada ka virtuaalselt, Elisa veebiplatvormi Elisa Stage vahendusel.
+
+        „Tartuff on loonud virtuaalse kinosaali selleks, et pakkuda huvilistele võimalust
+        saada Tartuffi filmiprogrammist osa ka kodus, ilma Raekoja platsile või Athena
+        keskusesse tulemata, et vähendada koroonaleviku ohtu. Ühtlasi on see hea võimalus
+        näha meie filme ka neil, kes on Tartuffist kuulnud, aga pole kunagi saanud
+        sellele tulla,” ütles festivali juht Kristiina Reidolv.
+
+        Kokku jõuab ekraanile kümme linateost – festivali paremik –, mida on võimalik
+        vaadata üle terve Eesti.
+
+        Brasiilia rohkelt auhinnatud troopilises melodraamas „Nähtamatu elu” (rež
+        Karim Aïnouz) surub ühiskonna konservatiivsus alla kahe õe unistused. “Trainspottingu”
+        vaimus Briti komöödia “Skeemitajad” (rež Dave McLean) viib muusikaäri pöörasesse
+        maailma. Itaalia draamakomöödias „Õnnejumalanna” (rež Ferzan Özpetek) peavad
+        kaks lastekauget meest kantseldama lapsi, kes neile hoida jäetakse. Hispaania
+        film „Tšempionid” (rež Javier Fesser) on südamlik komöödia vaimupuudega inimestest,
+        kes hakkavad korvpalli mängima. Soome film „Harjumuse jõud” (rež-d Reetta
+        Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari, Miia Tervo, Elli
+        Toivoniemi ja Jenni Toivoniemi) tegeleb teemaga, millele me kõik oleme viimastel
+        kuudel mõtelnud – seksuaalse ahistamisega. Iisraeli draamakomöödias „Täiuslik”
+        (rež-d Tal Granit ja Sharon Maymon) otsustavad kolm sõpra müüa oma neeru,
+        et täita oma unistusi. Vene filmi „Hape” (rež Aleksandr Gortšilin) võib nimetada
+        ka äsja 20. eluaasta piiri ületanud vene noorte põlvkondlikuks manifestiks.
+
+        Dokumentaalfilmidest on kavas Prantsusmaal valminud „Tagaotsitav: Banksy!”
+        (rež-d Aurélia Rouvier ja Seamus Haley), kus aetakse oma identiteeti varjava
+        maailmakuulsa tänavakunstniku jälgi. Rumeenia filmis „Acasă, mu kodu” (rež
+        Radu Ciorniciuc) on poolmetsiku eluviisiga romade pere sunnitud kolima linna
+        tsivilisatsiooni rüppe. Norra film „Autoportree” (rež-d Katja Høgset, Margreth
+        Olin ja Espen Wallin) elab kaasa anoreksiaga võitlevale naisele, kes jäädvustab
+        oma närbuvat keha korraga šokeerivatel ja kaunitel fotodel.
+
+        Üksikpilet maksab neli eurot, mitmekesi vaatamise pilet kaheksa eurot. Piletite
+        kogus on piiratud. Filmi saab hakata vaatama kohe pärast selle Tartu seansi
+        lõppu ja pilet kehtib kuni 16. augusti hilisõhtuni. Kõigil mängufilmidel on
+        eestikeelsed subtiitrid. Osa filme täiendavad autorite intervjuud, mis on
+        salvestatud spetsiaalselt Tartuffi jaoks.
+
+        10.–15. augustini toimuv Tartuff on Baltimaade suurim vabaõhufilmifestival,
+        mida korraldab Pimedate Ööde filmifestival koostöös Tartu linna, Tartu filmifondi
+        ja Tartu loomemajanduskeskusega.'
     kuupäev: ''
     kell: ''
-    articlePublishStart: T+0300
+    articlePublishStart: 2020-08-05T10:00:00+0300
     articlePublishEnd: T+0300
+    mitu minutit TTR?: ''
+    articleTtr: ''
+    tagKeyword: '#piletid'

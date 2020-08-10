@@ -5,6 +5,7 @@
     path: invisible-life-of-eurdice-gusmo
     filmTitleOriginal: A Vida Invisivel
     filmTitle: Invisible Life of Eurídice Gusmão
+    filmTitleSec: Nähtamatu elu
     filmDirector: Karim Aïnouz
     filmScreenwriter: Murilo Hauser, Inés Bortagaray, Karim Aïnouz
     filmDop: Hélène Louvart
@@ -30,6 +31,7 @@
     path: flawless
     filmTitleOriginal: HaNeshef
     filmTitle: Flawless
+    filmTitleSec: Täiuslik
     filmDirector: Tal Granit, Sharon Maymon
     filmScreenwriter: Tal Granit, Sharon Maymon
     filmDop: Giora Bejach
@@ -56,6 +58,7 @@
     path: house-of-hummingbird
     filmTitleOriginal: Beol-sae
     filmTitle: House of Hummingbird
+    filmTitleSec: Hüvasti!
     filmDirector: Bora Kim
     filmScreenwriter: Bora Kim
     filmDop: Guk-hyun Kang
@@ -83,6 +86,7 @@
     path: the-goddess-of-fortune
     filmTitleOriginal: La dea fortuna
     filmTitle: The Goddess of Fortune
+    filmTitleSec: Õnnejumalanna
     filmDirector: Ferzan Özpetek
     filmScreenwriter: Ferzan Özpetek, Silvia Ranfagni, Gianni Romoli
     filmDop: Gian Filippo Corticelli
@@ -106,6 +110,7 @@
     path: schemers
     filmTitleOriginal: ''
     filmTitle: Schemers
+    filmTitleSec: Skeemitajad
     filmDirector: Dave McLean
     filmScreenwriter: Dave McLean, Kyle Titterton
     filmDop: Alan C. McLaughlin
@@ -131,6 +136,7 @@
     path: champions
     filmTitleOriginal: Campeones
     filmTitle: Champions
+    filmTitleSec: Tšempionid
     filmDirector: Javier Fesser
     filmScreenwriter: David Marqués, Javier Fesser
     filmDop: Chechu Graf
@@ -156,6 +162,7 @@
     path: yalda-a-night-for-forgiveness
     filmTitleOriginal: Yalda
     filmTitle: Yalda, a Night for Forgiveness
+    filmTitleSec: Yalda, andestuse öö
     filmDirector: Massoud Bakhshi
     filmScreenwriter: Massoud Bakhshi
     filmDop: Julian Atanassov
@@ -179,6 +186,7 @@
     path: force-of-habit
     filmTitleOriginal: Tottumiskysymys
     filmTitle: Force of Habit
+    filmTitleSec: Harjumuse jõud
     filmDirector: Reetta Aalto, Alli Haapasalo, Anna Paavilainen, Kirsikka Saari,
         Miia Tervo, Elli Toivoniemi, Jenni Toivoniemi
     filmScreenwriter: ''
@@ -209,6 +217,7 @@
     path: acid
     filmTitleOriginal: Kislota
     filmTitle: Acid
+    filmTitleSec: Hape
     filmDirector: Aleksandr Gorchilin
     filmScreenwriter: Valery Pecheykin
     filmDop: Kseniya Sereda
@@ -236,6 +245,7 @@
     path: final-portrait
     filmTitleOriginal: ''
     filmTitle: Final Portrait
+    filmTitleSec: Viimane portree
     filmDirector: Stanley Tucci
     filmScreenwriter: Stanley Tucci
     filmDop: Danny Cohen
@@ -265,6 +275,7 @@
     path: maudie
     filmTitleOriginal: ''
     filmTitle: Maudie
+    filmTitleSec: Maudie
     filmDirector: Aisling Walsh
     filmScreenwriter: Sherry White
     filmDop: Guy Godfree
@@ -288,6 +299,7 @@
     path: banksy-most-wanted
     filmTitleOriginal: ''
     filmTitle: Banksy Most Wanted
+    filmTitleSec: 'Tagaotsitav: Banksy!'
     filmDirector: Aurélia Rouvier, Seamus Haley
     filmScreenwriter: ''
     filmDop: ''
@@ -313,6 +325,7 @@
     path: acas-my-home
     filmTitleOriginal: Acasă
     filmTitle: Acasă, My Home
+    filmTitleSec: Acasă, mu kodu
     filmDirector: Radu Ciorniciuc
     filmScreenwriter: ''
     filmDop: ''
@@ -336,6 +349,7 @@
     path: storm-boy
     filmTitleOriginal: ''
     filmTitle: Storm Boy
+    filmTitleSec: Tormipoiss
     filmDirector: Shawn Seet
     filmScreenwriter: Justin Monjo
     filmDop: Bruce Young
@@ -358,6 +372,7 @@
     path: the-secret-lamb
     filmTitleOriginal: ''
     filmTitle: The Secret Lamb
+    filmTitleSec: Lammas all paremas nurgas
     filmDirector: Lembit Ulfsak
     filmScreenwriter: Janno Põldma, Lembit Ulsak
     filmDop: Ago Ruus
@@ -379,6 +394,7 @@
     path: marcel-duchamp-art-of-the-possible
     filmTitleOriginal: ''
     filmTitle: 'Marcel Duchamp: Art of the Possible'
+    filmTitleSec: Marcel Duchamp ja võimalikkuse kunst
     filmDirector: Matthew Taylor
     filmScreenwriter: ''
     filmDop: ''
@@ -402,6 +418,7 @@
     path: self-portrait
     filmTitleOriginal: Selvportrett
     filmTitle: Self Portrait
+    filmTitleSec: Autoportree
     filmDirector: Katja Høgset, Margreth Olin, Espen Wallin
     filmScreenwriter: ''
     filmDop: ''

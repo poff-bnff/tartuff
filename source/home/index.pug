@@ -1,4 +1,5 @@
 extends /_templates/layout.pug
+include /_templates/mixins.pug
 
 block content
 
@@ -75,6 +76,46 @@ block content
         div
             h1.section_headline_footer= self.label.all.screeningsCalendar
                     //- | Seansside kalender
+
+
+        //- - var dateValue = ''
+        //- - var buffer = ''
+        //- - var screenings = []
+        //- - var screeningPlace =  ''
+        //- - var counter = 0
+        //- - var data = self.data.screenings
+        //- section.calendar
+        //-     each val in data.sort(function(a, b){ return (a.screeningDate > b.screeningDate) ? 1 : ((b.screeningDate > a.screeningDate) ? -1 : 0); })
+        //-         if dateValue != val.screeningDate
+        //-             if counter != 0
+        //-                 - buffer = buffer + '}]'
+        //-                 //- - screenings = `${screenings}<${buffer}\n>`
+        //-                 - screenings.push(buffer)
+        //-                 //- {screeningsInfo: `${buffer}`}
+        //-             - buffer = ''
+        //-             - screeningPlace = val.screeningCinema
+        //-             - buffer = buffer + `[{screeningDate: "${val.screeningDate}", screenings: {screeningCinema: "${val.screeningCinema}", filmPath: "${val.filmPath}"`
+        //-             - counter = counter + 1
+        //-         else
+        //-             if screeningPlace != val.screeningCinema
+        //-                 - screeningPlace = val.screeningCinema
+        //-                 - buffer = buffer + `, screeningCinema: "${val.screeningCinema}", filmPath: "${val.filmPath}"`
+
+        //-         //- p= 'testing ' + dateValue + ' == ' + val.screeningDate +  ' count ' + counter
+        //-         - var dateValue = val.screeningDate
+        //-     - var buffer = buffer + '}]'
+        //-     - screenings.push(buffer)
+        //-     //- {screeningsInfo: `${buffer}`}
+
+        //-     //- p= screenings[1].screeningsInfo
+        //-     p= screenings[2]
+        //-     p= screenings[3]
+
+
+
+
+
+
 
         section.calendar
             .calendar_day
