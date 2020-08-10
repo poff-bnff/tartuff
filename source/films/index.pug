@@ -3,27 +3,6 @@ extends /_templates/layout.pug
 block content
 
 
-    //- if self.films
-    //-     main.grid_filmid
-    //-         each val in self.films
-    //-             section.card_film
-    //-                 .container_frame_16_9
-    //-                     img.container_contents_16_9(src='https://inscaping.eu/img/F_2_Malpaso.jpg' alt='Malpaso / Second slide')
-    //-                 .card_film_title
-    //-                     h3.film_title_locale= val.filmTitleEt
-    //-                 if val.filmTitleEn
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmTitle_en
-    //-                         .str_info_value= val.filmTitleEn
-    //-                 if val.filmDirector
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmDirector
-    //-                         .str_info_value= val.filmDirector
-    //-                 if val.filmCast
-    //-                     .str_info_grid_3
-    //-                         .str_info_label= self.label.film.filmCast
-    //-                         .str_info_value= val.filmCast
-
 
     if self.data.films
         main.grid_films
@@ -38,14 +17,12 @@ block content
                         else
                             img.container_contents_16_9(src='/assets/img/global/placeholder_hd_1.jpg' alt = val[`filmTitle_${self.locale}`])
                     .card_film_title
-                        - var local_film_title = val[`filmTitle_${self.locale}`]
-                        - var foreign_lang = self.locale === 'et' ? 'en' : 'et'
-                        h3.film_title_locale= local_film_title
+                        h3.film_title_locale= val.filmTitle
                     .card_film_info
-                        if local_film_title
+                        if val.filmTitleSec
                             .str_info_grid_3
-                                .str_info_label= self.label.film[`filmTitle_${foreign_lang}`]
-                                .str_info_value= val[`filmTitle_${foreign_lang}`]
+                                .str_info_label= self.label.film.filmTitleSec
+                                .str_info_value= val.filmTitleSecs
                         if val.filmDirector
                             .str_info_grid_3
                                 .str_info_label= self.label.film.filmDirector
