@@ -122,7 +122,8 @@ block content
 
         section.calendar
             .calendar_day
-                .calendar_day_head Esmaspäev, 10. august
+                .calendar_day_head
+                    +calendarDate('2020-08-10')
                 .calendar_day_body
                     .clr_white_semi.caps Raekoja plats
                     | 22:00&nbsp;&nbsp;&nbsp;Festivali avamine
@@ -134,7 +135,8 @@ block content
                         | &nbsp; &nbsp;e
 
             .calendar_day
-                .calendar_day_head Teisipäev, 11. august
+                .calendar_day_head
+                    +calendarDate('2020-08-11')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Raekoja plats
@@ -148,7 +150,8 @@ block content
                     a(href='https://tartuff.ee/house-of-hummingbird/')
                         | Hüvasti
             .calendar_day
-                .calendar_day_head Kolmapäev, 12. august
+                .calendar_day_head
+                    +calendarDate('2020-08-13')
                 .calendar_day_body
 
                     .clr_white_semi.caps
@@ -180,7 +183,8 @@ block content
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head Neljapäev, 13. august
+                .calendar_day_head
+                    +calendarDate('2020-08-13')
                 .calendar_day_body
 
                     .clr_white_semi.caps
@@ -208,7 +212,8 @@ block content
                     a(href='https://tartuff.ee/yalda-a-night-for-forgiveness/')
                         | Yalda, andestuse öö
             .calendar_day
-                .calendar_day_head Reede, 14. august
+                .calendar_day_head
+                    +calendarDate('2020-08-14')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Athena Keskus
@@ -235,7 +240,8 @@ block content
                     span.clr_elisa_stage
                         | &nbsp; &nbsp;e
             .calendar_day
-                .calendar_day_head Laupäev, 15. august
+                .calendar_day_head
+                    +calendarDate('2020-08-15')
                 .calendar_day_body
                     .clr_white_semi.caps Raekoja plats
                     | 21:45&nbsp;&nbsp;&nbsp;Festivali lõpetamine
@@ -261,7 +267,7 @@ block content
         section.calendar
             .calendar_day
                 .calendar_day_head
-                    | Esmaspäev, 10. august
+                    +calendarDate('2020-08-10')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Raekoja plats
@@ -289,7 +295,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Teisipäev, 11. august
+                    +calendarDate('2020-08-11')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
@@ -395,7 +401,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Kolmapäev, 12. august
+                    +calendarDate('2020-08-12')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu linnaruum
@@ -500,7 +506,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Neljapäev, 13. august
+                    +calendarDate('2020-08-13')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Sisevete saatkond
@@ -636,7 +642,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Reede, 14. august
+                    +calendarDate('2020-08-14')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | Tartu Kunstimuuseum
@@ -738,7 +744,7 @@ block content
 
             .calendar_day
                 .calendar_day_head
-                    | Laupäev, 15. august
+                    +calendarDate('2020-08-15')
                 .calendar_day_body
                     .clr_white_semi.caps
                         | ERM
