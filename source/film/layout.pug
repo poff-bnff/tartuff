@@ -112,6 +112,12 @@ block content
                     .str_info_label= self.label.film.filmDuration
                     .str_info_value= self.filmDuration
 
+        section.f_interactive_box
+            div
+                a.btn.btn_vote.active(href='https://forms.gle/ew2vrQRTEb83BNxR7' role='button' target='_BLANK')= self.label.buttons.filmAudienceVote
+            div
+                a.btn.btn_covid.active(href='https://forms.gle/ew2vrQRTEb83BNxR7' role='button' target='_BLANK')= self.label.buttons.covidRegister
+
         section.f_screenings_box
             div
                 h1.section_headline_back= self.label.film.filmScreenings

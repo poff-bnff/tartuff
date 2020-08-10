@@ -72,6 +72,8 @@ label:
         filmTicketFree: Free
         newsButton: News
         filmsButton: Films
+        filmAudienceVote: Vote for the film
+        covidRegister: Covid-19 - register your participation
     menu:
         mainNews: News
         mainFilms: Films
