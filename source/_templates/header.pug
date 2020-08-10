@@ -12,7 +12,7 @@ header
             nav.main_menu
                 ul
                     li
-                        a(href=`/${lang_path}articles`)= self.label.buttons.newsButton
+                        a(href=`/${lang_path}articles`)= self.label.menu.mainNews
                     //- li.dropdown
                     //-     a(href='/films') Filmid
                     //-     if self.films
@@ -21,7 +21,11 @@ header
                     //-                 li: a(href= val.filmEventivalId)= val.filmTitle_et
 
                     li
-                        a(href=`/${lang_path}films`)= self.label.buttons.filmsButton
+                        a(href=`/${lang_path}films`)= self.label.menu.mainFilms
+                    li
+                        a(href=`/${lang_path}info`)= self.label.menu.mainInfo
+                    li
+                        a(href=`/${lang_path}festival`)= self.label.menu.mainFestival
                     //- li
                     //-     a(href='#') Piletid
                     //- li

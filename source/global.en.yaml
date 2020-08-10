@@ -21,7 +21,10 @@ label:
     all:
         selectLocale: Languages
         presenters: Presenters
-        thanksTo: Thanks to
+        sponsors: Sponsor
+        supporters: Supporters
+        officialPartners: Official partners
+        partners: Partners
         screeningsCalendar: Screenings calendar
         eventsCalendar: Events calendar
     film:
@@ -69,3 +72,8 @@ label:
         filmTicketFree: Free
         newsButton: News
         filmsButton: Films
+    menu:
+        mainNews: News
+        mainFilms: Films
+        mainInfo: Info
+        mainFestival: Festival

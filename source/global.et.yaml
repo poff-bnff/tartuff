@@ -21,6 +21,10 @@ label:
     all:
         selectLocale: Languages
         presenters: Esitlejad
+        sponsors: Sponsor
+        supporters: Toetajad
+        officialPartners: Ametlikud partnerid
+        partners: Partnerid
         thanksTo: Täname
         screeningsCalendar: Seansside kalender
         eventsCalendar: Ürituste kalender
@@ -70,3 +74,8 @@ label:
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
+    menu:
+        mainNews: Uudised
+        mainFilms: Filmid
+        mainInfo: Info
+        mainFestival: Festival
