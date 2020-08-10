@@ -2,7 +2,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '1'
     path: a1
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: Tartu armastusfilmide festival laieneb üle kogu Eesti
     articleSlug_et: tartu-armastusfilmide-festival-laieneb-le-kogu-eesti
@@ -14,7 +14,7 @@
         kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat
         filmi.
     articleLead_en: ''
-    articleLead_ru: '6'
+    articleLead_ru: '7'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -63,7 +63,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '2'
     path: a2
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: Tartuff on pühendatud kunstile
     articleSlug_et: tartuff-on-phendatud-kunstile
@@ -77,7 +77,7 @@
         on Banksy, Marchel Duchamp, Alberto Giacometti, Maud Lewis.
 
         The festival will be available online throughout Estonia'
-    articleLead_ru: '4'
+    articleLead_ru: '6'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -226,7 +226,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '3'
     path: a3
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: Tartu armastusfilmide festivali avab troopiline melodraama
     articleSlug_et: tartu-armastusfilmide-festivali-avab-troopiline-melodraama
@@ -238,7 +238,7 @@
         avafilmi, milleks on brasiillase Karim Aïnouzi rohkelt auhinnatud "Nähtamatu
         elu”.
     articleLead_en: ''
-    articleLead_ru: '3'
+    articleLead_ru: '4'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -290,7 +290,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '4'
     path: a4
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: Tartuffi esimene film on seksuaalsest ahistamisest
     articleSlug_et: tartuffi-esimene-film-on-seksuaalsest-ahistamisest
@@ -354,7 +354,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '5'
     path: a5
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: On, mida vaadata! Tartuff kuulutas välja filmikava
     articleSlug_et: on-mida-vaadata-tartuff-kuulutas-vlja-filmikava
@@ -366,7 +366,7 @@
         kehast kunstiteose, on viimane lisandus PÖFFi armastusfilmide festivali Tartuff
         programmi, mis on tänasest avalik.
     articleLead_en: ''
-    articleLead_ru: '2'
+    articleLead_ru: '3'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -494,7 +494,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '6'
     path: a6
-    articleType: Uudised
+    articleType: News
     articleActive: '1'
     articleTitle_et: Tänasest saab osta pileteid Tartuffi virtuaalsesse kinno
     articleSlug_et: tnasest-saab-osta-pileteid-tartuffi-virtuaalsesse-kinno
@@ -505,7 +505,7 @@
     articleLead_et: PÖFFi armastusfilmide festival Tartuff alustas piletite eelmüüki
         oma virtuaalsetele seanssidele.
     articleLead_en: ''
-    articleLead_ru: '1'
+    articleLead_ru: '2'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -562,3 +562,57 @@
     articleTtr: ''
     tagKeyword_et: '#piletid'
     tagKeyword_en: '#tickets'
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '7'
+    path: a7
+    articleType: News
+    articleActive: '1'
+    articleTitle_et: Mitte ainult filmid! Tartuff pakub ka põnevaid üritusi
+    articleSlug_et: mitte-ainult-filmid-tartuff-pakub-ka-pnevaid-ritusi
+    articleTitle_en: ''
+    articleSlug_en: ''
+    articleTitle_ru: ''
+    articleSlug_ru: ''
+    articleLead_et: Mida põnevat võib leida Eesti tänavakunstipealinna Tartu seintelt?
+        Kui levinud on naiste ahistamine Soomes? Milline võiks välja näha hommikupiknik
+        Emajõe lodjal?
+    articleLead_en: ''
+    articleLead_ru: '1'
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents_et: "Vastused leiate juba 10. augustil Tartus avataval PÖFFi armastusfilmide\
+        \ festivalil Tartuff, mis toob lisaks filmidele huviliste ette rikkaliku ürituste\
+        \ kava.\r\n\r\nMõned nopped:\r\n\r\n- duo Maarja Nuut & Ruum annab vabaõhukontserdi,\
+        \ millega festival avatakse;\r\n- Joosep Matjus ja Jaan Tootsen viivad lodjapiknikule\
+        \ mööda Emajõge;\r\n- kunstirühmituse Ajuokse asutaja Stina Leek korraldab\
+        \ tänavakunstiaktsiooni;\r\n- tänavakunstifestival Stencibility tutvustab\
+        \ jalgrattatuuridel uuemat ja vanemat tänavakunsti;\r\n- supilinlane Kadri\
+        \ Kosk avab oma värvilises majas aianäituse ja kodukohviku;\r\n- Voronja galerii\
+        \ sõidutab enda juurde, kus on avatud näitus „Kättemaks” ja toimub Robert\
+        \ ja Anti Jürjendali kontsert;\r\n- Loomingu Raamatukogu esitleb Milan Kundera\
+        \ raamatut „Veidrad armastuslood”;\r\n- Tartu Kunstimuuseum korraldab sümpoosioni\
+        \ „Fotograafia retušeerimata ajalugu”;\r\n- Eesti dokumentalistide gild tutvustab\
+        \ valmivaid kunstiteemalisi dokumentaalfilme.\r\n- Kokku on üritusi ligemale\
+        \ 30 üle terve Tartu.\r\n\r\nSuur osa neist leiab aset festivali klubis, mis\
+        \ kannab nime Pepe´s Bistro & Tartuff Social Club ja asub aadressil Ülikooli\
+        \ 7. Näiteks saab seal kuulata ansambleid Forrest Kämp ja Miré ning osaleda\
+        \ armastuse- ja filmiteemalistel mälumängudel. Samas toimub ka kohtumine festivali\
+        \ külalise, Soome näitleja Suvi Blickiga, kes mängib ahistamist käsitlevas\
+        \ filmis „Harjumuse jõud”.\r\n\r\nFestivaliklubi üritused on tasuta, nagu\
+        \ ka kõik Tartus toimuvad filmiseansid.\r\n\r\nÜrituste programm valmis koostöös\
+        \ Tartu kunstimuuseumi, Eesti Rahva Muuseumi, Voronja galerii, Tartu Ülikooli\
+        \ semiootika osakonna, Eesti dokumentalistide gildi, Emajõe lodjaseltsi, Loomingu\
+        \ Raamatukogu, Genialistide klubi, Pepe´s Bistro & Social Clubi, tänavakunstifestivaliga\
+        \ Stencibility, kõrgema kunstikooliga Pallas, kirjastusega Loovhoog ning Maarja\
+        \ Nuudi ja Ruumiga.\r\n\r\nPÖFFi armastusfilmide festival Tartuff toimub tänavu\
+        \ 10.-15. augustini samaaegselt Tartus ja veebiplatvormil Elisa Stage ning\
+        \ selle alateemaks on kunst.\r\n\r\nFestivali ürituste ja filmikava vaata\
+        \ lähemalt www.tartuff.ee."
+    articleContents_en: ''
+    articleContents_ru: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: T+0300
+    articlePublishEnd: T+0300
