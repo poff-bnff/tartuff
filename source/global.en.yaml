@@ -21,10 +21,7 @@ label:
     all:
         selectLocale: Languages
         presenters: Presenters
-        sponsors: Sponsor
-        supporters: Supporters
-        officialPartners: Official partners
-        partners: Partners
+        thanksTo: Thanks to
         screeningsCalendar: Screenings calendar
         eventsCalendar: Events calendar
     film:
@@ -32,6 +29,7 @@ label:
         filmTitle_en: Title in English
         filmTitle_ru: Title in Russian
         filmTitle_et: Local title
+        filmTitleSec: Local title
         filmCountries: Country
         filmLanguages: Language
         # filmYear2: keelevalik
@@ -72,8 +70,9 @@ label:
         filmTicketFree: Free
         newsButton: News
         filmsButton: Films
-    menu:
-        mainNews: News
-        mainFilms: Films
-        mainInfo: Info
-        mainFestival: Festival
+eFilmInfo: ' - You can see the film also on Elisa Stage, a VOD platform by Elisa'
+festivalDates: 'August 10th - 15th'
+festivalLocations:
+    outdoors: 'Town Hall Square'
+    indoors: 'Athena Center'
+    virtual: 'Elisa Stage'

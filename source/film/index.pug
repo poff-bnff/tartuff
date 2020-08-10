@@ -1,36 +1,28 @@
 extends layout.pug
 
-
-
 block film
     p= self.filmLocalTitle
+    +tabname(self.filmTitle)
 
-    +tabname(self[`filmTitle_${self.locale}`])
+
 
 block titleBox
     - var pathParts = self.path.split('/')
     - var filmPath = pathParts[pathParts.length - 1]
-    - var localtitle = `filmTitle_${self.locale}`
-    - var localfilmcountries = `filmCountries_${self.locale}`
-    - var localsubtitles = `screeningSubtitles_${self.locale}`
-    - var localfilmlanguages = `filmLanguages_${self.locale}`
     section.f_title_box
         //- .premiere_type= self.label.film.filmPremiereType
         .premiere_type &nbsp;
-        h1.film_title_detailed= self[localtitle]
+        h1.film_title_detailed= self.filmTitle
         .str_info_blokk_1
             .str_info_grid_3
                 //- .str_info_label= self.label.film.filmTitle_et
                 //- .str_info_label= self.label.film.filmLocalTitle
                 .str_info_value= self.filmLocalTitle
 
-            each url, loc in self.otherLocalePaths
-                - var foreignlabel = `filmTitle_${loc}`
-                - var foreigntitle = `filmTitle_${loc}`
-                if self[foreigntitle]
-                    .str_info_grid_3
-                        .str_info_label= self.label.film[foreignlabel]
-                        .str_info_value= self[foreigntitle]
+            if self.filmTitle
+                .str_info_grid_3
+                    .str_info_label= self.label.film.filmTitleSec
+                    .str_info_value= self.filmTitleSec
 
             if self.filmTitleOriginal
                 .str_info_grid_3
@@ -42,10 +34,10 @@ block titleBox
                     .str_info_label= self.label.film.filmDirector
                     .str_info_value.clr_primary= self.filmDirector
 
-            if self[localfilmcountries]
+            if self.filmCountries
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmCountries
-                    .str_info_value= self[localfilmcountries]
+                    .str_info_value= self.filmCountries
 
             if self.filmYear
                 .str_info_grid_3

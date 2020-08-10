@@ -5,10 +5,11 @@ block content
 
     if self.data.articles
         main.grid_articles
+
             each val in self.data.articles.sort(function(a, b){ return (a.articlePublishStart > b.articlePublishStart) ? -1 : ((b.articlePublishStart > a.articlePublishStart) ? 1 : 0); })
-                if val[`articleTitle_${self.locale}`]
-                    - article_slug = val.path
-                    - article_pictures = self.data.article_pictures.articles[article_slug]
+                if val.articleTitle
+                    - var article_slug = val.path
+                    - var article_pictures = self.data.article_pictures.articles[article_slug]
                     a(href= `/${lang_path}${article_slug}`).card_article
                         .container_frame_16_9
                             if article_pictures
@@ -19,17 +20,17 @@ block content
                         //- .container_frame_16_9
                         //-     img.container_contents_16_9(src='/assets/img/img_articles/'+val.path+'/'+self.data.article_pictures.articles[val.path].heroImage alt='Img alt text')
 
-                        if val[`articleTitle_${self.locale}`]
+                        if val.articleTitle
                             .card_article_title
                                 p.keywords_left=val.tagKeyword
-                                h3.article_title_locale=val[`articleTitle_${self.locale}`]
+                                h3.article_title_locale=val.articleTitle
 
                         .card_article_lead
-                            if val[`articleLead_${self.locale}`]
-                                .article_lead=val[`articleLead_${self.locale}`]
+                            if val.articleLead
+                                .article_lead=val.articleLead
                             else
-                                if val[`articleContents_${self.locale}`]
-                                    .article_lead=val[`articleContents_${self.locale}`]
+                                if val.articleContents
+                                    .article_lead=val.articleContents
 
                         .card_article_footer
                             if val.articleAuthor
