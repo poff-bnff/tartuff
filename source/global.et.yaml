@@ -21,6 +21,10 @@ label:
     all:
         selectLocale: Languages
         presenters: Esitlejad
+        sponsors: Sponsor
+        supporters: Toetajad
+        officialPartners: Ametlikud partnerid
+        partners: Partnerid
         thanksTo: Täname
         screeningsCalendar: Seansside kalender
         eventsCalendar: Ürituste kalender
@@ -71,10 +75,8 @@ label:
         filmTicketFree: Tasuta
         newsButton: Uudised
         filmsButton: Filmid
-eFilmInfo: ' - filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage'
-festivalDates: '10. - 15. august'
-festivalLocations:
-    outdoors: 'Tartu Raekoja Plats'
-    indoors: 'Athena Keskus'
-    virtual: 'Elisa Stage'
-
+    menu:
+        mainNews: Uudised
+        mainFilms: Filmid
+        mainInfo: Info
+        mainFestival: Festival
