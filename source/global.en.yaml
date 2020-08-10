@@ -78,6 +78,7 @@ label:
         mainNews: News
         mainFilms: Films
         mainInfo: Info
+        mainCovid: Covid
         mainFestival: Festival
 
 eFilmInfo: ' - You can see the film also on Elisa Stage, a VOD platform by Elisa'
