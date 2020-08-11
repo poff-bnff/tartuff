@@ -20,12 +20,12 @@ block content
                 .person_head
                     img.person_img(src= val.personPhoto alt= val.personName)
 
-                if val.personName
+                    //- if val.personName
                     .person_body
                         h4= val.personName
                         p= val.personOrganisation
                         +format(val.personJobTitle)
-                else
-                    .person_body
-                        h4= val.personOrganisation
+                //- else
+                //-     .person_body
+                //-         h4= val.personOrganisation
 
