@@ -9,6 +9,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
@@ -25,6 +28,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
@@ -41,6 +47,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
@@ -58,6 +67,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -74,6 +86,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
@@ -91,6 +106,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
@@ -107,6 +125,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
@@ -124,6 +145,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -140,6 +164,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -156,6 +183,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -173,6 +203,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -190,6 +223,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
@@ -206,6 +242,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
@@ -223,6 +262,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Dagmar Raudam
     screeningQaGuests: Margus Alver
@@ -239,6 +281,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -256,6 +301,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -273,6 +321,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -289,6 +340,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -306,6 +360,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Massoud Bakhshi
@@ -322,6 +379,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -338,6 +398,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -354,6 +417,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Suvi Blick
@@ -370,6 +436,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -386,6 +455,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Suvi Blick
@@ -403,6 +475,9 @@
     screeningTown: ''
     screeningCinema: Elisa Stage
     screeningHall: Online
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: ''
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -420,6 +495,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
@@ -436,6 +514,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
+    screeningIntro: ''
+    screeningIntroPresenter: ''
+    screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
     screeningQaGuests: ''
