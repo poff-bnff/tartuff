@@ -61,6 +61,21 @@ mixin calendarDate(dateString)
 
         })();
 
+mixin dur(mins)
+    - var dom_id = Math.random()
+    span(id = 'dt_' + dom_id)
+
+    script.
+        (function()
+        {
+            var mins = '#{mins}'
+            var minutes = mins % 60;
+            var hours = (mins - minutes) / 60;
+            var t = hours + 'h&nbsp;' + minutes + 'm'
+            var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
+            eDisplayMoment1.innerHTML = t;
+        })();
+
 mixin tabname(currenttitle)
     script.
         document.title= '#{currenttitle}';
@@ -68,3 +83,4 @@ mixin tabname(currenttitle)
 
 mixin format(text)
     | !{ self.md(text) }
+
