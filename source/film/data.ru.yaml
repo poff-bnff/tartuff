@@ -13,7 +13,7 @@
     filmCast: Julia Stockler, Carol Duarte, Flávia Gusmão
     filmTrailer: https://www.youtube.com/watch?v=NRF-Pba3QrE
     filmYear: '2019'
-    filmDuration: '2.19'
+    filmDuration: '139'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -28,7 +28,7 @@
     filmCast: Stav Strashko, Netsanet Mekonen, Noam Lugasy
     filmTrailer: https://www.youtube.com/watch?v=xfc4490kzo0
     filmYear: '2018'
-    filmDuration: '1.37'
+    filmDuration: '97'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -43,7 +43,7 @@
     filmCast: Ji-hu Park, Sae-byeok Kim, Seung-Yun Lee
     filmTrailer: https://www.youtube.com/watch?v=s6ZgBnq7Tt4
     filmYear: '2018'
-    filmDuration: '2.18'
+    filmDuration: '138'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -58,7 +58,7 @@
     filmCast: Stefano Accorsi, Jasmine Trinca, Edoardo Leo
     filmTrailer: https://www.youtube.com/watch?v=JTg4-5kdKvY
     filmYear: '2019'
-    filmDuration: '1.54'
+    filmDuration: '114'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -73,7 +73,7 @@
     filmCast: Conor Berry, Sean Connor, Grant Robert Keelan
     filmTrailer: https://www.youtube.com/watch?v=Mhkn3D4BVKk
     filmYear: '2019'
-    filmDuration: '1.31'
+    filmDuration: '91'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -89,7 +89,7 @@
     filmCast: Javier Gutiérrez, Athenea Mata, Juan Margallo
     filmTrailer: https://www.youtube.com/watch?v=qo_PDXou77c
     filmYear: '2018'
-    filmDuration: '2.04'
+    filmDuration: '124'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -104,7 +104,7 @@
     filmCast: Sadaf Asgari, Behnaz Jafari, Babak Karimi
     filmTrailer: https://www.youtube.com/watch?v=MIU7UPn5-I0
     filmYear: '2019'
-    filmDuration: '1.29'
+    filmDuration: '89'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -120,7 +120,7 @@
     filmCast: ''
     filmTrailer: https://www.youtube.com/watch?v=2fXQm4ZLlFg
     filmYear: '2019'
-    filmDuration: '1.15'
+    filmDuration: '75'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -135,7 +135,7 @@
     filmCast: Filipp Avdeev, Aleksandr Kuznetsov, Aleksandra Rebenok
     filmTrailer: https://www.youtube.com/watch?v=U3uVN-ZveCc
     filmYear: '2018'
-    filmDuration: '1.37'
+    filmDuration: '97'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -151,7 +151,7 @@
     filmCast: Geoffrey Rush, Armie Hammer, Tony Shalhoub
     filmTrailer: https://www.youtube.com/watch?v=sRsiW5c29Sk
     filmYear: '2017'
-    filmDuration: '1.3'
+    filmDuration: '90'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -168,7 +168,7 @@
     filmCast: Sally Hawkins, Ethan Hawke, Kari Matchett
     filmTrailer: https://www.youtube.com/watch?v=wCZ_guQTGNw
     filmYear: '2016'
-    filmDuration: '1.55'
+    filmDuration: '115'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -183,7 +183,7 @@
     filmCast: ''
     filmTrailer: https://www.youtube.com/watch?v=8PbqSnG7wcI
     filmYear: '2020'
-    filmDuration: '1.30'
+    filmDuration: '90'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -198,7 +198,7 @@
     filmCast: Corina Enache, Duca Enache, Georgiana Enache
     filmTrailer: https://www.youtube.com/watch?v=XOdUY_sL-ok
     filmYear: '2020'
-    filmDuration: '1.26'
+    filmDuration: '86'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -213,7 +213,7 @@
     filmCast: Finn Little, Jai Courtney, Geoffrey Rush
     filmTrailer: https://www.youtube.com/watch?v=jaUpQ2EkbL4
     filmYear: '2019'
-    filmDuration: '1.39'
+    filmDuration: '99'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -242,7 +242,7 @@
     filmCast: Marina Abramovic, William Anastasi, Michel Gondry
     filmTrailer: https://www.youtube.com/watch?v=3D2Jt2DRjo4
     filmYear: '2019'
-    filmDuration: '1.26'
+    filmDuration: '86'
 -   data:
         pictures: /film_pictures.yaml
         screenings: screenings.ru.yaml
@@ -257,4 +257,4 @@
     filmCast: Geir Fossen, Lene Marie Fossen, Torill Fossen
     filmTrailer: https://www.youtube.com/watch?v=EBCHRlop-hg
     filmYear: '2020'
-    filmDuration: '1.20'
+    filmDuration: '80'
