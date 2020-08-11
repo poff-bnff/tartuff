@@ -1,5 +1,5 @@
 from __future__ import print_function
-from datetime import datetime
+from datetime import datetime, timedelta
 import yaml
 import os
 
@@ -9,17 +9,20 @@ os.chdir(os.path.dirname(__file__))
 
 def compileScreeningsCalendar (source, output):
 
-    yaml_file = open("../source/film/"+source)
+    yaml_file = open("../source/film/"+source, encoding='utf-8')
     screeningsData = yaml.load(yaml_file, Loader=yaml.FullLoader)
 
     calendarData = {}
     for s in screeningsData:
+        hours = -4
+        print(datetime.strptime(s['screeningDatetime'], '%Y-%m-%dT%H:%M:%S%z') + timedelta(hours=hours))
+
         myDate = calendarData.get(s['screeningDate'], dict())
         myCinema = myDate.get(s['screeningCinema'], [])
         #screenings (ilma keele laiendita pidi olema s['filmTitle_et'])
         myCinema.append({'screeningDatetime': s['screeningDatetime'], 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
         #sorteerimisel -3h
-        print(s['screeningDatetime'])
+        # 2020-08-10T22:45:00+030
         myCinemaSorted = sorted(myCinema, key = lambda i: (i['screeningTime']))
         #sort kellaajajärgi
         myDate[s['screeningCinema']] = myCinemaSorted

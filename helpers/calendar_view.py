@@ -9,7 +9,7 @@ os.chdir(os.path.dirname(__file__))
 
 def compileScreeningsCalendar (source, output):
 
-    yaml_file = open("../source/film/"+source)
+    yaml_file = open("../source/film/"+source, encoding='utf-8')
     screeningsData = yaml.load(yaml_file, Loader=yaml.FullLoader)
 
     calendarData = {}
@@ -27,7 +27,7 @@ def compileScreeningsCalendar (source, output):
     with open(r'../source/film/'+output, 'w', encoding='utf-8') as file:
         yaml.dump(calendarData, file, default_flow_style=False, sort_keys=True, indent=4, allow_unicode=True)
 
-    print("compailing " + output)
+    print("compiling " + output)
 
 #compileScreeningsCalendar('screenings.yaml', 'screeningsCalendar.yaml')
 compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
