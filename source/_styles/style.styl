@@ -172,14 +172,19 @@ nav
         margin-top .5rem
         margin-bottom .5rem
         margin-left 1rem
-    a
-        color white_96
-        font-size 1rem
-        text-decoration none
-        text-transform uppercase
-        &:hover
-            color clr_primary
+        a
+            color white_96
+            font-size 1rem
             text-decoration none
+            text-transform uppercase
+            &:hover
+            &:focus
+                color clr_primary
+                // color ghost_blue
+                text-decoration none
+                opacity 0.99
+                transform scale(1.07, 1.07)
+
 
 .main_menu_toggle
     display none
@@ -1088,6 +1093,10 @@ a.btn_popover
     line-height: 1.681rem
     align-self center
 
+.covid_rules
+        padding-left calc(1rem + 1vw)
+        padding-right calc(1rem + 1vw)
+
 .calendar
     display grid
     grid-template-columns 1fr
@@ -1213,11 +1222,7 @@ a.btn_popover
         grid-template-columns 1fr 1fr
         margin 0
         grid-gap 2rem
-
-    .covid_rules
-        padding-left calc(1rem + 1vw)
-        padding-right calc(1rem + 1vw)
-
+        padding calc(2rem + 2vw)
 
     .main_menu_toggle_label
         display none
@@ -1229,7 +1234,10 @@ a.btn_popover
     footer
         grid-area footer
         border-top 1px solid rgba(255,255,255,.1)
-        padding 10vw
+        margin 0
+        padding 0
+        // padding 10vw
+        padding 3rem 5rem 3rem 5rem
 
     .grid_footer_contact
         display grid
@@ -1245,24 +1253,26 @@ a.btn_popover
             display flex
             justify-content flex-end
             align-items flex-end
-
-            li
-                height 100%
-                margin 0
-                padding-left 1.2rem
-                padding-right 1.2rem
-                padding-top 1rem
-                padding-bottom 1rem
-                border 1px solid rgba(255, 255, 255, 0)
-
-                &:hover
+        li
+            height 100%
+            margin 0
+            padding-left 1.2rem
+            padding-right 1.2rem
+            padding-top 1rem
+            padding-bottom 1rem
+            border 1px solid rgba(255, 255, 255, 0)
+            &:hover
+            &:focus
                 background-color bg_dark_3
                 border-top 1px solid clr_primary
+                // opacity 0.99
+                transform scale(1.07, 1.07)
 
-                a
-                color ghost_blue
-                &:hover
-                    color white_96
+            a
+            color ghost_blue
+            &:hover
+                color white_96
+
     // nav
     //     ul
     //         padding 0
