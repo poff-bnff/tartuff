@@ -58,10 +58,12 @@ label:
         filmOtherFestivals: Festivals
         filmAwards: Awards
         filmScreenings: Screenings
-        filmQaClip: Q&A
+        filmQaClip: Q&A with filmmaker
         languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
+        screeningIntroPresenter: Intro by
+        screeningIntroGuests: Intro guests
         screeningQaPresenter: Q&A presenter
         screeningQaGuests: Q&A guests
         screeningQaDuration: Q&A duration
