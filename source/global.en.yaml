@@ -62,6 +62,8 @@ label:
         languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
+        screeningIntroPresenter: Intro by
+        screeningIntroGuests: Intro guests
         screeningQaPresenter: Q&A presenter
         screeningQaGuests: Q&A guests
         screeningQaDuration: Q&A duration

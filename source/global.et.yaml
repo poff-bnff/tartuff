@@ -66,6 +66,8 @@ label:
         languageSelect: Keeled
     screening:
         screeningSubtitles: Subtiitrid
+        screeningIntroPresenter: Sissejuhataja
+        screeningIntroGuests: Sissejuhatuse külalised
         screeningQaPresenter: Q&A küsitleja
         screeningQaGuests: Q&A külalised
         screeningQaDuration: Q&A kestus
