@@ -19,7 +19,7 @@ os.chdir(os.path.dirname(__file__))
 
 
 def credsFunction():
-    print("running credsFunction")
+    print("\n\nrunning credsFunction")
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -39,14 +39,17 @@ def credsFunction():
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
 
-
     return creds
 
 
+def serviceFunction(creds):
+    print('Running serviceFunction')
+    service = build('sheets', 'v4', credentials=creds)
+    return service
+
+
+
 def fetchData(sheetName, location, dataSources):
-
-
-
 
     # If modifying these scopes, delete the file token.pickle.
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
@@ -60,10 +63,10 @@ def fetchData(sheetName, location, dataSources):
         Prints values from a sample spreadsheet.
         """
         creds = credsFunction()
+        service = serviceFunction(creds)
 
 
 
-        service = build('sheets', 'v4', credentials=creds)
 
         # Call the Sheets API
         sheet = service.spreadsheets()
