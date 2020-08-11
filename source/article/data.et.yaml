@@ -2,7 +2,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '1'
     path: a1
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Tartu armastusfilmide festival laieneb üle kogu Eesti
     articleSlug: tartu-armastusfilmide-festival-laieneb-le-kogu-eesti
@@ -61,7 +61,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '2'
     path: a2
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Tartuff on pühendatud kunstile
     articleSlug: tartuff-on-phendatud-kunstile
@@ -164,7 +164,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '3'
     path: a3
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Tartu armastusfilmide festivali avab troopiline melodraama
     articleSlug: tartu-armastusfilmide-festivali-avab-troopiline-melodraama
@@ -218,7 +218,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '4'
     path: a4
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Tartuffi esimene film on seksuaalsest ahistamisest
     articleSlug: tartuffi-esimene-film-on-seksuaalsest-ahistamisest
@@ -281,7 +281,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '5'
     path: a5
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: On, mida vaadata! Tartuff kuulutas välja filmikava
     articleSlug: on-mida-vaadata-tartuff-kuulutas-vlja-filmikava
@@ -401,10 +401,10 @@
 
         <p>15. PÖFFi armastusfilmide festivali Tartuff korraldab Pimedate Ööde filmifestival
         koostöös Tartu linna, Tartu filmifondi ja Tartu loomemajanduskeskusega.</p>'
-    kuupäev: ''
-    kell: ''
+    kuupäev: '44175'
+    kell: 0,9166666667
     articlePublishStart: 2020-07-31T10:00:00+0300
-    articlePublishEnd: T+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: ''
     articleTtr: ''
     tagKeyword: '#armastus #kunst'
@@ -412,7 +412,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '6'
     path: a6
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Tänasest saab osta pileteid Tartuffi virtuaalsesse kinno
     articleSlug: tnasest-saab-osta-pileteid-tartuffi-virtuaalsesse-kinno
@@ -480,7 +480,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '7'
     path: a7
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle: Mitte ainult filmid! Tartuff pakub ka põnevaid üritusi
     articleSlug: mitte-ainult-filmid-tartuff-pakub-ka-pnevaid-ritusi
@@ -518,7 +518,7 @@
         \ 10.-15. augustini samaaegselt Tartus ja veebiplatvormil Elisa Stage ning\
         \ selle alateemaks on kunst.\r\n\r\nFestivali ürituste ja filmikava vaata\
         \ lähemalt www.tartuff.ee."
-    kuupäev: ''
-    kell: ''
-    articlePublishStart: T+0300
-    articlePublishEnd: T+0300
+    kuupäev: '44175'
+    kell: 0,9166666667
+    articlePublishStart: 2020-08-05T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
