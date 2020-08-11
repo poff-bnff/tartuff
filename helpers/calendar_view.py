@@ -19,12 +19,14 @@ def compileScreeningsCalendar (source, output):
         #google sheets date formaat pythonile mõistetavaks kuupäevaks ja kellaajaks
         myBeforeDateTime = (datetime.strptime(s['screeningDatetime'], '%Y-%m-%dT%H:%M:%S%z') + timedelta(hours=hours))
         #eraldame kuupäevast ja kellaajast kuu ja päeva
-        myBeforeDate = (myBeforeDateTime.date())
-        #
+        myBeforeDate = "d"+ str(myBeforeDateTime.date())
+        print(myBeforeDate)
+
+
         myDate = calendarData.get(myBeforeDate, dict())
         myCinema = myDate.get(s['screeningCinema'], [])
-        myCinema.append({'screeningDatetime': s['screeningDatetime'], 'dateTimeForSorting': myBeforeDateTime, 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
-        #sorteerime myCinema sisu myBeforeDateTime alusel
+        myCinema.append({'screeningDatetime': s['screeningDatetime'],'dateTimeForSorting': myBeforeDateTime, 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
+
         myCinemaSorted = sorted(myCinema, key = lambda i: (i['dateTimeForSorting']))
         myDate[s['screeningCinema']] = myCinemaSorted
         calendarData[myBeforeDate] = myDate
@@ -32,9 +34,9 @@ def compileScreeningsCalendar (source, output):
     with open(r'../source/film/'+output, 'w', encoding='utf-8') as file:
         yaml.dump(calendarData, file, default_flow_style=False, sort_keys=True, indent=4, allow_unicode=True)
 
-    print("compailing " + output)
+    print("compiling " + output)
 
 #compileScreeningsCalendar('screenings.yaml', 'screeningsCalendar.yaml')
-compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
+#compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
 compileScreeningsCalendar('screenings.et.yaml', 'screeningsCalendar.et.yaml')
 

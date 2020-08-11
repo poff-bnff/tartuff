@@ -1,16 +1,17 @@
-2020-08-10:
-    Elisa Stage:
-    -   dateTimeForSorting: 2020-08-10 20:45:00+03:00
-        filmPath: invisible-life-of-eurdice-gusmo
-        filmTitle: Invisible Life of Eurídice Gusmão
-        screeningDatetime: 2020-08-11T00:45:00+0300
-        screeningTime: 00:45:00
-    Raekoja plats:
-    -   dateTimeForSorting: 2020-08-10 18:45:00+03:00
-        filmPath: invisible-life-of-eurdice-gusmo
-        filmTitle: Invisible Life of Eurídice Gusmão
-        screeningDatetime: 2020-08-10T22:45:00+0300
-        screeningTime: '22:45:00'
+- date: '2020-08-10':
+        cinemas:
+        - Elisa Stage
+            -   dateTimeForSorting: 2020-08-10 20:45:00+03:00
+                filmPath: invisible-life-of-eurdice-gusmo
+                filmTitle: Invisible Life of Eurídice Gusmão
+                screeningDatetime: 2020-08-11T00:45:00+0300
+                screeningTime: 00:45:00
+        - Raekoja plats
+            -   dateTimeForSorting: 2020-08-10 18:45:00+03:00
+                filmPath: invisible-life-of-eurdice-gusmo
+                filmTitle: Invisible Life of Eurídice Gusmão
+                screeningDatetime: 2020-08-10T22:45:00+0300
+                screeningTime: '22:45:00'
 2020-08-11:
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-11 19:59:00+03:00
