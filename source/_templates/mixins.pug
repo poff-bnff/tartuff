@@ -67,5 +67,4 @@ mixin tabname(currenttitle)
         //document.title= 'Tartuff 2020: ' + ('#{currenttitle}');
 
 mixin format(text)
-    - var text2 = self.md(text)
-    | !{ text2}
+    | !{ self.md(text) }

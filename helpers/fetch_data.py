@@ -125,3 +125,6 @@ fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 
 fetchData('seansid-et', 'film/screenings.et.yaml', {})
 fetchData('seansid-en', 'film/screenings.en.yaml', {})
 fetchData('seansid-ru', 'film/screenings.ru.yaml', {})
+
+fetchData('persons-et', 'festival/persons.et.yaml', {})
+fetchData('persons-en', 'festival/persons.en.yaml', {})

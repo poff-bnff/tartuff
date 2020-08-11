@@ -26,6 +26,7 @@ label:
         presenters: Esitlejad
         sponsors: Sponsor
         supporters: Toetajad
+        festivalTeam: Festivali meeskond
         officialPartners: Ametlikud partnerid
         partners: Partnerid
         thanksTo: Täname
@@ -60,6 +61,7 @@ label:
         filmOtherFestivals: Teised festivalid
         filmAwards: Auhinnad
         filmScreenings: Seansid
+        filmQaClip: Q&A ehk eestlus filmitegijaga
         filmKeelevalik: Keeled
         languageSelect: Keeled
     screening:

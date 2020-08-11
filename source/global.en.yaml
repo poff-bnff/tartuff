@@ -23,6 +23,7 @@ label:
         presenters: Presenters
         sponsors: Sponsor
         supporters: Supporters
+        festivalTeam: Festival team
         officialPartners: Official partners
         partners: Partners
         screeningsCalendar: Screenings calendar
@@ -57,6 +58,7 @@ label:
         filmOtherFestivals: Festivals
         filmAwards: Awards
         filmScreenings: Screenings
+        filmQaClip: Q&A with filmmaker
         languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
