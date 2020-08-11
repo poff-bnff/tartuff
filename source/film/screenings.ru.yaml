@@ -12,6 +12,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
     screeningQaDuration: '20'
+    screeningTotalDuration: '159'
 -   screeningEventivalId: '2002'
     filmEventivalId: '1002'
     filmTitle: Flawless
@@ -26,6 +27,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
     screeningQaDuration: '20'
+    screeningTotalDuration: '117'
 -   screeningEventivalId: '2019'
     filmEventivalId: '1002'
     filmTitle: Flawless
@@ -40,7 +42,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Tal Granit, Sharon Maymon
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '117'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/fqwmeUfVAY0
 -   screeningEventivalId: '2003'
     filmEventivalId: '1003'
@@ -53,6 +55,10 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '138'
 -   screeningEventivalId: '2018'
     filmEventivalId: '1001'
     filmTitle: Invisible Life of Eurídice Gusmão
@@ -67,7 +73,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Karim Ainouz
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '159'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/gOAm4onOZHX
 -   screeningEventivalId: '2012'
     filmEventivalId: '1012'
@@ -83,6 +89,7 @@
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
     screeningQaDuration: '20'
+    screeningTotalDuration: '110'
 -   screeningEventivalId: '2025'
     filmEventivalId: '1012'
     filmTitle: Banksy Most Wanted
@@ -97,7 +104,7 @@
     screeningQaPresenter: Kadri Lind
     screeningQaGuests: Aurelia Rouvier
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '110'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/tWA94wCNQHB
 -   screeningEventivalId: '2013'
     filmEventivalId: '1013'
@@ -110,6 +117,10 @@
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '86'
 -   screeningEventivalId: '2004'
     filmEventivalId: '1004'
     filmTitle: The Goddess of Fortune
@@ -121,6 +132,10 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '114'
 -   screeningEventivalId: '2026'
     filmEventivalId: '1013'
     filmTitle: Acasă, My Home
@@ -135,7 +150,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: ''
-    screeningTotalDuration: ''
+    screeningTotalDuration: '86'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/Q-UvwJr_1Fy
 -   screeningEventivalId: '2020'
     filmEventivalId: '1004'
@@ -151,7 +166,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: ''
-    screeningTotalDuration: ''
+    screeningTotalDuration: '114'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/p_RoahriYln
 -   screeningEventivalId: '2005'
     filmEventivalId: '1005'
@@ -167,6 +182,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
     screeningQaDuration: '20'
+    screeningTotalDuration: '111'
 -   screeningEventivalId: '2021'
     filmEventivalId: '1005'
     filmTitle: Schemers
@@ -181,7 +197,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Dave Mclean
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '111'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/3M85InEnwNo
 -   screeningEventivalId: '2015'
     filmEventivalId: '1015'
@@ -197,6 +213,7 @@
     screeningQaPresenter: Dagmar Raudam
     screeningQaGuests: Margus Alver
     screeningQaDuration: '20'
+    screeningTotalDuration: '20'
 -   screeningEventivalId: '2017'
     filmEventivalId: '1017'
     filmTitle: Self Portrait
@@ -211,7 +228,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: ''
-    screeningTotalDuration: ''
+    screeningTotalDuration: '80'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
 -   screeningEventivalId: '2027'
     filmEventivalId: '1017'
@@ -227,7 +244,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: ''
-    screeningTotalDuration: ''
+    screeningTotalDuration: '80'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
 -   screeningEventivalId: '2006'
     filmEventivalId: '1006'
@@ -240,6 +257,10 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '124'
 -   screeningEventivalId: '2022'
     filmEventivalId: '1006'
     filmTitle: Champions
@@ -254,7 +275,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: ''
-    screeningTotalDuration: ''
+    screeningTotalDuration: '124'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/CTlJW8MpJoO
 -   screeningEventivalId: '2007'
     filmEventivalId: '1007'
@@ -270,6 +291,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Massoud Bakhshi
     screeningQaDuration: '20'
+    screeningTotalDuration: '109'
 -   screeningEventivalId: '2014'
     filmEventivalId: '1014'
     filmTitle: Storm Boy
@@ -281,6 +303,10 @@
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '99'
 -   screeningEventivalId: '2016'
     filmEventivalId: '1016'
     filmTitle: 'Marcel Duchamp: Art of the Possible'
@@ -292,6 +318,10 @@
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '86'
 -   screeningEventivalId: '2008'
     filmEventivalId: '1008'
     filmTitle: Force of Habit
@@ -306,6 +336,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Suvi Blick
     screeningQaDuration: '20'
+    screeningTotalDuration: '95'
 -   screeningEventivalId: '2009'
     filmEventivalId: '1009'
     filmTitle: Acid
@@ -317,6 +348,10 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '97'
 -   screeningEventivalId: '2023'
     filmEventivalId: '1008'
     filmTitle: Force of Habit
@@ -331,7 +366,7 @@
     screeningQaPresenter: Liisi Rohumäe
     screeningQaGuests: Suvi Blick
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '95'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/6YlyCoW4ukl
 -   screeningEventivalId: '2024'
     filmEventivalId: '1009'
@@ -347,7 +382,7 @@
     screeningQaPresenter: ''
     screeningQaGuests: ''
     screeningQaDuration: '20'
-    screeningTotalDuration: ''
+    screeningTotalDuration: '117'
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/uM-V8MMllbR
 -   screeningEventivalId: '2010'
     filmEventivalId: '1010'
@@ -360,6 +395,10 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '90'
 -   screeningEventivalId: '2011'
     filmEventivalId: '1011'
     filmTitle: Maudie
@@ -371,3 +410,7 @@
     screeningCinema: Raekoja plats
     screeningHall: ''
     screeningQa: '0'
+    screeningQaPresenter: ''
+    screeningQaGuests: ''
+    screeningQaDuration: ''
+    screeningTotalDuration: '115'
