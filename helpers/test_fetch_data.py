@@ -5,12 +5,12 @@ class TestAdd(unittest.TestCase):
     """
     Test the add function from the mymath library
     """
-    def test_add_integers(self):
+    def test_credsFunction(self):
         """
-        Test that the addition of two integers returns the correct total
+        Test that creds exists
         """
-        result = fetch_data.credsFunction(3, 2)
-        self.assertEqual(result, 5)
+        result = fetch_data.credsFunction()
+        self.assertNotEqual(result, None)
 
 if __name__ == '__main__':
     unittest.main()
