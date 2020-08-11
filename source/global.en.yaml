@@ -57,6 +57,7 @@ label:
         filmOtherFestivals: Festivals
         filmAwards: Awards
         filmScreenings: Screenings
+        filmQaClip: Q&A
         languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
