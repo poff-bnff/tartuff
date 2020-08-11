@@ -17,7 +17,7 @@ def compileScreeningsCalendar (source, output):
         myDate = calendarData.get(s['screeningDate'], dict())
         myCinema = myDate.get(s['screeningCinema'], [])
         #screenings (ilma keele laiendita pidi olema s['filmTitle_et'])
-        myCinema.append({'screeningTime': s['screeningTime'], 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
+        myCinema.append({'screeningDatetime': s['screeningDatetime'], 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
         #sorteerimisel -3h
         myCinemaSorted = sorted(myCinema, key = lambda i: (i['screeningTime']))
         #sort kellaajajärgi
@@ -29,7 +29,4 @@ def compileScreeningsCalendar (source, output):
 
     print("compailing " + output)
 
-#compileScreeningsCalendar('screenings.yaml', 'screeningsCalendar.yaml')
-compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
-compileScreeningsCalendar('screenings.et.yaml', 'screeningsCalendar.et.yaml')
-
+compileScreeningsCalendar('screenings.et.yaml', 'screeningsTEST.yaml')

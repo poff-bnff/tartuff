@@ -1,0 +1,101 @@
+'2020-08-10':
+    Raekoja plats:
+    -   filmPath: invisible-life-of-eurdice-gusmo
+        filmTitle: Invisible Life of Eurídice Gusmão
+        screeningTime: '22:45:00'
+'2020-08-11':
+    Elisa Stage:
+    -   filmPath: invisible-life-of-eurdice-gusmo
+        filmTitle: Invisible Life of Eurídice Gusmão
+        screeningTime: 00:45:00
+    -   filmPath: flawless
+        filmTitle: Flawless
+        screeningTime: '23:59:00'
+    Raekoja plats:
+    -   filmPath: flawless
+        filmTitle: Flawless
+        screeningTime: '22:00:00'
+'2020-08-12':
+    Athena Keskus:
+    -   filmPath: banksy-most-wanted
+        filmTitle: Banksy Most Wanted
+        screeningTime: '16:00:00'
+    -   filmPath: acas-my-home
+        filmTitle: Acasă, My Home
+        screeningTime: '20:00:00'
+    Elisa Stage:
+    -   filmPath: banksy-most-wanted
+        filmTitle: Banksy Most Wanted
+        screeningTime: '18:00:00'
+    -   filmPath: acas-my-home
+        filmTitle: Acasă, My Home
+        screeningTime: '22:00:00'
+    -   filmPath: the-goddess-of-fortune
+        filmTitle: The Goddess of Fortune
+        screeningTime: '23:59:00'
+    Raekoja plats:
+    -   filmPath: house-of-hummingbird
+        filmTitle: House of Hummingbird
+        screeningTime: 00:10:00
+    -   filmPath: the-goddess-of-fortune
+        filmTitle: The Goddess of Fortune
+        screeningTime: '22:00:00'
+'2020-08-13':
+    Athena Keskus:
+    -   filmPath: the-secret-lamb
+        filmTitle: The Secret Lamb
+        screeningTime: '16:00:00'
+    -   filmPath: self-portrait
+        filmTitle: Self Portrait
+        screeningTime: '19:00:00'
+    Elisa Stage:
+    -   filmPath: schemers
+        filmTitle: Schemers
+        screeningTime: 02:15:00
+    -   filmPath: self-portrait
+        filmTitle: Self Portrait
+        screeningTime: '21:00:00'
+    -   filmPath: champions
+        filmTitle: Champions
+        screeningTime: '23:59:00'
+    Raekoja plats:
+    -   filmPath: schemers
+        filmTitle: Schemers
+        screeningTime: 00:15:00
+    -   filmPath: champions
+        filmTitle: Champions
+        screeningTime: '22:00:00'
+'2020-08-14':
+    Athena Keskus:
+    -   filmPath: storm-boy
+        filmTitle: Storm Boy
+        screeningTime: '16:00:00'
+    -   filmPath: marcel-duchamp-art-of-the-possible
+        filmTitle: 'Marcel Duchamp: Art of the Possible'
+        screeningTime: '19:00:00'
+    Elisa Stage:
+    -   filmPath: force-of-habit
+        filmTitle: Force of Habit
+        screeningTime: '23:59:00'
+    Raekoja plats:
+    -   filmPath: yalda-a-night-for-forgiveness
+        filmTitle: Yalda, a Night for Forgiveness
+        screeningTime: 00:10:00
+    -   filmPath: force-of-habit
+        filmTitle: Force of Habit
+        screeningTime: '22:00:00'
+    -   filmPath: acid
+        filmTitle: Acid
+        screeningTime: '23:59:00'
+'2020-08-15':
+    Elisa Stage:
+    -   filmPath: acid
+        filmTitle: Acid
+        screeningTime: 01:59:00
+    Raekoja plats:
+    -   filmPath: final-portrait
+        filmTitle: Final Portrait
+        screeningTime: '22:00:00'
+    -   filmPath: maudie
+        filmTitle: Maudie
+        screeningTime: '23:45:00'
