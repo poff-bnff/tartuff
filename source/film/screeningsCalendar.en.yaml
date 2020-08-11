@@ -1,18 +1,17 @@
-- date: '2020-08-10':
-        cinemas:
-        - Elisa Stage
-            -   dateTimeForSorting: 2020-08-10 20:45:00+03:00
-                filmPath: invisible-life-of-eurdice-gusmo
-                filmTitle: Invisible Life of Eurídice Gusmão
-                screeningDatetime: 2020-08-11T00:45:00+0300
-                screeningTime: 00:45:00
-        - Raekoja plats
-            -   dateTimeForSorting: 2020-08-10 18:45:00+03:00
-                filmPath: invisible-life-of-eurdice-gusmo
-                filmTitle: Invisible Life of Eurídice Gusmão
-                screeningDatetime: 2020-08-10T22:45:00+0300
-                screeningTime: '22:45:00'
-2020-08-11:
+d2020-08-10:
+    Elisa Stage:
+    -   dateTimeForSorting: 2020-08-10 20:45:00+03:00
+        filmPath: invisible-life-of-eurdice-gusmo
+        filmTitle: Invisible Life of Eurídice Gusmão
+        screeningDatetime: 2020-08-11T00:45:00+0300
+        screeningTime: 00:45:00
+    Raekoja plats:
+    -   dateTimeForSorting: 2020-08-10 18:45:00+03:00
+        filmPath: invisible-life-of-eurdice-gusmo
+        filmTitle: Invisible Life of Eurídice Gusmão
+        screeningDatetime: 2020-08-10T22:45:00+0300
+        screeningTime: '22:45:00'
+d2020-08-11:
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-11 19:59:00+03:00
         filmPath: flawless
@@ -30,7 +29,7 @@
         filmTitle: House of Hummingbird
         screeningDatetime: 2020-08-12T00:10:00+0300
         screeningTime: 00:10:00
-2020-08-12:
+d2020-08-12:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-12 12:00:00+03:00
         filmPath: banksy-most-wanted
@@ -74,7 +73,7 @@
         filmTitle: Schemers
         screeningDatetime: 2020-08-13T00:15:00+0300
         screeningTime: 00:15:00
-2020-08-13:
+d2020-08-13:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-13 12:00:00+03:00
         filmPath: the-secret-lamb
@@ -108,7 +107,7 @@
         filmTitle: Yalda, a Night for Forgiveness
         screeningDatetime: 2020-08-14T00:10:00+0300
         screeningTime: 00:10:00
-2020-08-14:
+d2020-08-14:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-14 12:00:00+03:00
         filmPath: storm-boy
@@ -142,7 +141,7 @@
         filmTitle: Acid
         screeningDatetime: 2020-08-14T23:59:00+0300
         screeningTime: '23:59:00'
-2020-08-15:
+d2020-08-15:
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-15 18:00:00+03:00
         filmPath: final-portrait

@@ -37,6 +37,6 @@ def compileScreeningsCalendar (source, output):
     print("compiling " + output)
 
 #compileScreeningsCalendar('screenings.yaml', 'screeningsCalendar.yaml')
-#compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
+compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
 compileScreeningsCalendar('screenings.et.yaml', 'screeningsCalendar.et.yaml')
 
