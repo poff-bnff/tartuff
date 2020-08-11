@@ -1,15 +1,12 @@
 -   screeningEventivalId: '2001'
     filmEventivalId: '1001'
-    filmTitle_et: Nähtamatu elu
-    filmTitle_en: Invisible Life of Eurídice Gusmão
     filmPath: invisible-life-of-eurdice-gusmo
-    screeningSubtitles_et: eesti, inglise, vene
-    screeningSubtitles_en: Estonian, English, Russian
+    screeningSubtitles: eesti, inglise, vene
     screeningDate: '2020-08-10'
     screeningTime: '22:45:00'
     screeningDatetime: 2020-08-10T22:45:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
@@ -17,16 +14,13 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2002'
     filmEventivalId: '1002'
-    filmTitle_et: Täiuslik
-    filmTitle_en: Flawless
     filmPath: flawless
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-11'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-11T22:00:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
@@ -34,11 +28,8 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2019'
     filmEventivalId: '1002'
-    filmTitle_et: Täiuslik
-    filmTitle_en: Flawless
     filmPath: flawless
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-11'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-11T23:59:00+0300
@@ -53,25 +44,19 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/fqwmeUfVAY0
 -   screeningEventivalId: '2003'
     filmEventivalId: '1003'
-    filmTitle_et: Hüvasti!
-    filmTitle_en: House of Hummingbird
     filmPath: house-of-hummingbird
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-12'
     screeningTime: 00:10:00
     screeningDatetime: 2020-08-12T00:10:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
 -   screeningEventivalId: '2018'
     filmEventivalId: '1001'
-    filmTitle_et: Nähtamatu elu
-    filmTitle_en: Invisible Life of Eurídice Gusmão
     filmPath: invisible-life-of-eurdice-gusmo
-    screeningSubtitles_et: eesti, inglise, vene
-    screeningSubtitles_en: Estonian, English, Russian
+    screeningSubtitles: eesti, inglise, vene
     screeningDate: '2020-08-11'
     screeningTime: 00:45:00
     screeningDatetime: 2020-08-11T00:45:00+0300
@@ -86,11 +71,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/gOAm4onOZHX
 -   screeningEventivalId: '2012'
     filmEventivalId: '1012'
-    filmTitle_et: 'Tagaotsitav: Banksy!'
-    filmTitle_en: Banksy Most Wanted
     filmPath: banksy-most-wanted
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '16:00:00'
     screeningDatetime: 2020-08-12T16:00:00+0300
@@ -103,11 +85,8 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2025'
     filmEventivalId: '1012'
-    filmTitle_et: 'Tagaotsitav: Banksy!'
-    filmTitle_en: Banksy Most Wanted
     filmPath: banksy-most-wanted
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '18:00:00'
     screeningDatetime: 2020-08-12T18:00:00+0300
@@ -122,11 +101,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/tWA94wCNQHB
 -   screeningEventivalId: '2013'
     filmEventivalId: '1013'
-    filmTitle_et: Acasă, mu kodu
-    filmTitle_en: Acasă, My Home
     filmPath: acas-my-home
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '20:00:00'
     screeningDatetime: 2020-08-12T20:00:00+0300
@@ -136,25 +112,19 @@
     screeningQa: '0'
 -   screeningEventivalId: '2004'
     filmEventivalId: '1004'
-    filmTitle_et: Õnnejumalanna
-    filmTitle_en: The Goddess of Fortune
     filmPath: the-goddess-of-fortune
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-12'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-12T22:00:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
 -   screeningEventivalId: '2026'
     filmEventivalId: '1013'
-    filmTitle_et: Acasă, mu kodu
-    filmTitle_en: Acasă, My Home
     filmPath: acas-my-home
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-12'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-12T22:00:00+0300
@@ -169,11 +139,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/Q-UvwJr_1Fy
 -   screeningEventivalId: '2020'
     filmEventivalId: '1004'
-    filmTitle_et: Õnnejumalanna
-    filmTitle_en: The Goddess of Fortune
     filmPath: the-goddess-of-fortune
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-12'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-12T23:59:00+0300
@@ -188,16 +155,13 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/p_RoahriYln
 -   screeningEventivalId: '2005'
     filmEventivalId: '1005'
-    filmTitle_et: Skeemitajad
-    filmTitle_en: Schemers
     filmPath: schemers
-    screeningSubtitles_et: eesti
-    screeningSubtitles_en: Estonian
+    screeningSubtitles: eesti
     screeningDate: '2020-08-13'
     screeningTime: 00:15:00
     screeningDatetime: 2020-08-13T00:15:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
@@ -205,11 +169,8 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2021'
     filmEventivalId: '1005'
-    filmTitle_et: Skeemitajad
-    filmTitle_en: Schemers
     filmPath: schemers
-    screeningSubtitles_et: eesti
-    screeningSubtitles_en: Estonian
+    screeningSubtitles: eesti
     screeningDate: '2020-08-13'
     screeningTime: 02:15:00
     screeningDatetime: 2020-08-13T02:15:00+0300
@@ -224,11 +185,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/3M85InEnwNo
 -   screeningEventivalId: '2015'
     filmEventivalId: '1015'
-    filmTitle_et: Lammas all paremas nurgas
-    filmTitle_en: The Secret Lamb
     filmPath: the-secret-lamb
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-13'
     screeningTime: '16:00:00'
     screeningDatetime: 2020-08-13T16:00:00+0300
@@ -241,11 +199,8 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2017'
     filmEventivalId: '1017'
-    filmTitle_et: Autoportree
-    filmTitle_en: Self Portrait
     filmPath: self-portrait
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-13'
     screeningTime: '19:00:00'
     screeningDatetime: 2020-08-13T19:00:00+0300
@@ -260,11 +215,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
 -   screeningEventivalId: '2027'
     filmEventivalId: '1017'
-    filmTitle_et: Autoportree
-    filmTitle_en: Self Portrait
     filmPath: self-portrait
-    screeningSubtitles_et: inglise
-    screeningSubtitles_en: English
+    screeningSubtitles: inglise
     screeningDate: '2020-08-13'
     screeningTime: '21:00:00'
     screeningDatetime: 2020-08-13T21:00:00+0300
@@ -279,25 +231,19 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/vhyNEvpWVEu
 -   screeningEventivalId: '2006'
     filmEventivalId: '1006'
-    filmTitle_et: Tšempionid
-    filmTitle_en: Champions
     filmPath: champions
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-13'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-13T22:00:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
 -   screeningEventivalId: '2022'
     filmEventivalId: '1006'
-    filmTitle_et: Tšempionid
-    filmTitle_en: Champions
     filmPath: champions
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-13'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-13T23:59:00+0300
@@ -312,16 +258,13 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/CTlJW8MpJoO
 -   screeningEventivalId: '2007'
     filmEventivalId: '1007'
-    filmTitle_et: Yalda, andestuse öö
-    filmTitle_en: Yalda, a Night for Forgiveness
     filmPath: yalda-a-night-for-forgiveness
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: 00:10:00
     screeningDatetime: 2020-08-14T00:10:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
@@ -329,11 +272,8 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2014'
     filmEventivalId: '1014'
-    filmTitle_et: Tormipoiss
-    filmTitle_en: Storm Boy
     filmPath: storm-boy
-    screeningSubtitles_et: eesti dublaaž
-    screeningSubtitles_en: in Estonian
+    screeningSubtitles: eesti dublaaž
     screeningDate: '2020-08-14'
     screeningTime: '16:00:00'
     screeningDatetime: 2020-08-14T16:00:00+0300
@@ -343,11 +283,8 @@
     screeningQa: '0'
 -   screeningEventivalId: '2016'
     filmEventivalId: '1016'
-    filmTitle_et: Marcel Duchamp ja võimalikkuse kunst
-    filmTitle_en: 'Marcel Duchamp: Art of the Possible'
     filmPath: marcel-duchamp-art-of-the-possible
-    screeningSubtitles_et: ''
-    screeningSubtitles_en: ''
+    screeningSubtitles: ''
     screeningDate: '2020-08-14'
     screeningTime: '19:00:00'
     screeningDatetime: 2020-08-14T19:00:00+0300
@@ -357,16 +294,13 @@
     screeningQa: '0'
 -   screeningEventivalId: '2008'
     filmEventivalId: '1008'
-    filmTitle_et: Harjumuse jõud
-    filmTitle_en: Force of Habit
     filmPath: force-of-habit
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-14T22:00:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '1'
     screeningQaPresenter: Liisi Rohumäe
@@ -374,25 +308,19 @@
     screeningQaDuration: '20'
 -   screeningEventivalId: '2009'
     filmEventivalId: '1009'
-    filmTitle_et: Hape
-    filmTitle_en: Acid
     filmPath: acid
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-14T23:59:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
 -   screeningEventivalId: '2023'
     filmEventivalId: '1008'
-    filmTitle_et: Harjumuse jõud
-    filmTitle_en: Force of Habit
     filmPath: force-of-habit
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-14'
     screeningTime: '23:59:00'
     screeningDatetime: 2020-08-14T23:59:00+0300
@@ -407,11 +335,8 @@
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/6YlyCoW4ukl
 -   screeningEventivalId: '2024'
     filmEventivalId: '1009'
-    filmTitle_et: Hape
-    filmTitle_en: Acid
     filmPath: acid
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-15'
     screeningTime: 01:59:00
     screeningDatetime: 2020-08-15T01:59:00+0300
@@ -420,35 +345,29 @@
     screeningHall: Online
     screeningQa: ''
     screeningQaPresenter: ''
-    screeningQaGuests: ''
+    screeningQaGuests: ´
     screeningQaDuration: '20'
     screeningTotalDuration: ''
     screeningOnlineUrl: https://tartuff.elisastage.ee/landing/bc/1itBCSEM-O/uM-V8MMllbR
 -   screeningEventivalId: '2010'
     filmEventivalId: '1010'
-    filmTitle_et: Viimane portree
-    filmTitle_en: Final Portrait
     filmPath: final-portrait
-    screeningSubtitles_et: eesti, inglise
-    screeningSubtitles_en: Estonian, English
+    screeningSubtitles: eesti, inglise
     screeningDate: '2020-08-15'
     screeningTime: '22:00:00'
     screeningDatetime: 2020-08-15T22:00:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
 -   screeningEventivalId: '2011'
     filmEventivalId: '1011'
-    filmTitle_et: Maudie
-    filmTitle_en: Maudie
     filmPath: maudie
-    screeningSubtitles_et: eesti
-    screeningSubtitles_en: ''
+    screeningSubtitles: eesti
     screeningDate: '2020-08-15'
     screeningTime: '23:45:00'
     screeningDatetime: 2020-08-15T23:45:00+0300
     screeningTown: Tartu
-    screeningCinema: Raekoja plats
+    screeningCinema: Raekoja Plats
     screeningHall: ''
     screeningQa: '0'
