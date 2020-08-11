@@ -65,15 +65,42 @@ def fetchDataFromSheet(service, sheetName):
     result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                                 range=SAMPLE_RANGE_NAME).execute()
     values = result.get('values', [])
-    print(values)
     return values
 
 
+def createYAML(values, dataSources, location):
+    # Check if any values found
+    if not values:
+        print('No data found.')
+    else:
+        print('Creating YAML')
+        # Counter
+        count = 0
+        dict_file = []
+        headers = []
+        for row in values:
+            if count == 0:
+                for x in row:
+                    headers.append(x)
+            else:
+                if row[0]:
+                    count2 = 0
+                    data = {}
+                    for x in row:
+                        #siin saab PyYAML aru, et dataSource on iga kord sama ja asendab selle ankruga
+                        if count2 == 0 and bool(dataSources) == True:
+                            data['data'] = dataSources
+                        data[headers[count2]] = row[count2].strip()
+                        count2 = count2 + 1
+                    dict_file = dict_file + [data]
+                    with open(r'../source/' + location, 'w', encoding='utf-8') as file:
+                        yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True, Dumper=NoAliasDumper)
+                        #print(yaml.safe_dump(interfaces))
+                        #print(yaml.dump(interfaces, Dumper=NoAliasDumper))
+            count = count + 1
+
+
 def fetchData(sheetName, location, dataSources):
-
-
-
-
 
     def main():
         """Shows basic usage of the Sheets API.
@@ -84,36 +111,8 @@ def fetchData(sheetName, location, dataSources):
         values = fetchDataFromSheet(service, sheetName)
 
 
+        createYAML(values, dataSources, location)
 
-        # Check if any values found
-        if not values:
-            print('No data found.')
-        else:
-            print('Fetching ' + sheetName)
-            # Counter
-            count = 0
-            dict_file = []
-            headers = []
-            for row in values:
-                if count == 0:
-                    for x in row:
-                        headers.append(x)
-                else:
-                    if row[0]:
-                        count2 = 0
-                        data = {}
-                        for x in row:
-                            #siin saab PyYAML aru, et dataSource on iga kord sama ja asendab selle ankruga
-                            if count2 == 0 and bool(dataSources) == True:
-                                data['data'] = dataSources
-                            data[headers[count2]] = row[count2].strip()
-                            count2 = count2 + 1
-                        dict_file = dict_file + [data]
-                        with open(r'../source/' + location, 'w', encoding='utf-8') as file:
-                            yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True, Dumper=NoAliasDumper)
-                            #print(yaml.safe_dump(interfaces))
-                            #print(yaml.dump(interfaces, Dumper=NoAliasDumper))
-                count = count + 1
     if __name__ == '__main__':
         main()
 
@@ -137,9 +136,9 @@ return True
 
 """
 #fetchData('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
-#fetchData('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
-fetchData('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
-#fetchData('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'})
+fetchData('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
+""" fetchData('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
+fetchData('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'}) """
 
 #fetchData('Events', 'events/data.yaml', {})
 """ fetchData('events-et', 'events/data.et.yaml', {})
@@ -147,8 +146,8 @@ fetchData('events-en', 'events/data.en.yaml', {})
 fetchData('events-ru', 'events/data.ru.yaml', {}) """
 
 #fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
-""" fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'}) """
-""" fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
+""" fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'})
+fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
 fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.ru.yaml'}) """
 
 #fetchData('Seansid', 'film/screenings.yaml', {})
