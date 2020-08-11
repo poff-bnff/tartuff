@@ -1,7 +1,11 @@
+# -*- coding: UTF-8 -*-
 from __future__ import print_function
 import yaml
 import pickle
 import os.path
+import inspect
+import json
+import jsonpickle
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -15,11 +19,12 @@ class NoAliasDumper(yaml.SafeDumper):
 os.chdir(os.path.dirname(__file__))
 
 
+def authenticate():
 
+    # If modifying these scopes, delete the file token.pickle.
+    SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-
-def credsFunction():
-    print("\n\nrunning credsFunction")
+    print("\n\nauthenticating")
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -42,37 +47,43 @@ def credsFunction():
     return creds
 
 
-def serviceFunction(creds):
-    print('Running serviceFunction')
+def connect(creds):
+    print('connecting')
     service = build('sheets', 'v4', credentials=creds)
     return service
 
 
-
-def fetchData(sheetName, location, dataSources):
-
-    # If modifying these scopes, delete the file token.pickle.
-    SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+def fetchDataFromSheet(service, sheetName):
+    print('fetching data from sheet ' + sheetName)
 
     # The ID and range of a sample spreadsheet.
     SAMPLE_SPREADSHEET_ID = '1J_cYJnZI41V8TGuOa8GVDjnHSD9qRmgKTJR3sd9Ff7Y'
     SAMPLE_RANGE_NAME = sheetName
 
+    # Call the Sheets API
+    sheet = service.spreadsheets()
+    result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+                                range=SAMPLE_RANGE_NAME).execute()
+    values = result.get('values', [])
+    print(values)
+    return values
+
+
+def fetchData(sheetName, location, dataSources):
+
+
+
+
+
     def main():
         """Shows basic usage of the Sheets API.
         Prints values from a sample spreadsheet.
         """
-        creds = credsFunction()
-        service = serviceFunction(creds)
+        creds = authenticate()
+        service = connect(creds)
+        values = fetchDataFromSheet(service, sheetName)
 
 
-
-
-        # Call the Sheets API
-        sheet = service.spreadsheets()
-        result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                    range=SAMPLE_RANGE_NAME).execute()
-        values = result.get('values', [])
 
         # Check if any values found
         if not values:
@@ -126,21 +137,21 @@ return True
 
 """
 #fetchData('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
-fetchData('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
+#fetchData('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
 fetchData('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
-fetchData('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'})
+#fetchData('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'})
 
 #fetchData('Events', 'events/data.yaml', {})
-fetchData('events-et', 'events/data.et.yaml', {})
+""" fetchData('events-et', 'events/data.et.yaml', {})
 fetchData('events-en', 'events/data.en.yaml', {})
-fetchData('events-ru', 'events/data.ru.yaml', {})
+fetchData('events-ru', 'events/data.ru.yaml', {}) """
 
 #fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
-fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'})
-fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
-fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.ru.yaml'})
+""" fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'}) """
+""" fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
+fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.ru.yaml'}) """
 
 #fetchData('Seansid', 'film/screenings.yaml', {})
-fetchData('seansid-et', 'film/screenings.et.yaml', {})
+""" fetchData('seansid-et', 'film/screenings.et.yaml', {})
 fetchData('seansid-en', 'film/screenings.en.yaml', {})
-fetchData('seansid-ru', 'film/screenings.ru.yaml', {})
+fetchData('seansid-ru', 'film/screenings.ru.yaml', {}) """
