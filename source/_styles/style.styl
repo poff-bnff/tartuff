@@ -257,6 +257,7 @@ nav
                         "f_cred_box"\
                         "f_dir_bio_box"\
                         "f_extra_box"\
+                        "f_qaclip_box"\
                         "f_trailer_box"\
                         "f_imgs_box"
 
@@ -491,6 +492,11 @@ header
 
 .f_trailer_box
     grid-area f_trailer_box
+    width 100%
+
+.f_qaclip_box
+    grid-area f_qaclip_box
+    width 100%
 
 .f_imgs_box
     grid-area f_imgs_box
@@ -558,6 +564,21 @@ p
 //     display block
 //     line-height 5rem
 
+.section_headline
+  font-family font_h
+  font-size calc(4rem + 5vw)
+  line-height 1
+  font-weight 700
+  color bg_dark_4
+  letter-spacing 0.04em
+  text-align center
+  margin 0
+  padding 0
+  padding-left calc(1rem + 1vw)
+  padding-right calc(1rem + 1vw)
+  margin-top .3em
+//   margin-bottom -.6em
+
 .section_headline_back
   font-family font_h
   font-size calc(4rem + 5vw)
@@ -571,16 +592,19 @@ p
   margin-bottom -.6em
 
 .section_headline_footer
-  font-family font_h
-  font-size calc(4rem + 5vw)
-  line-height 1
-  font-weight 700
-  color bg_dark_4
-  letter-spacing 0.04em
-  text-align center
-  padding-left calc(1rem + 1vw)
-  padding-right calc(1rem + 1vw)
-  margin-bottom -.2em
+    font-family font_h
+    font-size calc(4rem + 5vw)
+    line-height 1
+    font-weight 700
+    color bg_dark_4
+    letter-spacing 0.04em
+    text-align center
+    margin 0
+    padding 0
+    padding-left calc(1rem + 1vw)
+    padding-right calc(1rem + 1vw)
+    margin-top .6em
+//   margin-bottom -.2em
 
 
 .main_menu_toggle
@@ -746,12 +770,12 @@ a.btn_popover
   max-width 100%
   margin-left 0
   margin-right 0
-  margin-top calc(3rem + 1vw)
+//   margin-top calc(3rem + 1vw)
 
 .grid_container_screening_time
   display grid
   grid-template-columns 2fr 1fr
-  margin-top .6rem
+  padding-top .6rem
 
 .container_screening_location
   margin-top 1rem
@@ -833,6 +857,8 @@ a.btn_popover
     font-size calc(1.25rem + 0.1vw)
     align center
     margin 3rem
+    padding-left 1.618rem
+    padding-right 1.618rem
 
 .btn_vote
     background-color ghost_blue
@@ -1130,6 +1156,7 @@ a.btn_popover
                             "f_interactive_box    f_interactive_box    f_interactive_box"\
                             "f_screenings_box  f_screenings_box  f_screenings_box"\
                             "f_extra_box       f_extra_box       f_extra_box"\
+                            "f_qaclip_box      f_qaclip_box      f_qaclip_box"\
                             "f_trailer_box     f_trailer_box     f_trailer_box"\
                             "f_imgs_box        f_imgs_box        f_imgs_box"
         padding-top 78px

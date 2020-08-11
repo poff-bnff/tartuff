@@ -522,3 +522,40 @@
     kell: 0,9166666667
     articlePublishStart: 2020-08-05T10:00:00+0300
     articlePublishEnd: 2020-12-10T22:00:00+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '8'
+    path: a8
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: Tartus avatakse täna armastusfilmide festival
+    articleSlug: tartus-avatakse-tna-armastusfilmide-festival
+    articleLead: Täna õhtul avatakse Tartus PÖFFi armastusfilmide festival Tartuff,
+        mida saab esimest korda külastada ka virtuaalselt.
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: "Kell 22 Raekoja platsil algaval tseremoonial annavad kontserdi\
+        \ Maarja Nuut ja Hendrik Kaljujärv. Järgneb avafilm, Brasiilia režissööri\
+        \ Karim Aïnouzi auhinnatud melodraama „Nähtamatu elu”.\r\n\r\nKoroonaviirusega\
+        \ seoses tuleb tavapärase 1200 tooli asemel vabaõhukinoks muutuvale raeplatsile\
+        \ vaid 500 tooli, mis paigutatakse 2+2 reeglit arvestades. Athena keskuses\
+        \ toimuvatele dokumentaal- ja lastefilmide seanssidele lubatakse kuni 120\
+        \ inimest, seansside vahel desinfitseeritakse pindu ja tasuta on saadaval\
+        \ kaitsemaskid.\r\n\r\nKorraldajad paluvad külastajatel hoida distantsi ja\
+        \ istekohtade täitumisel vaadata filme Tartuffi virtuaalses kinosaalis, mis\
+        \ avab uksed veebiplatvormil Elisa Stage. Filmid on kättesaadavad üle terve\
+        \ Eesti.\r\n\r\nKokku on 15. augustini kestva festivali kavas 17 linateost,\
+        \ mis käsitlevad armastuse kõikvõimalikke variatsioone. Festivali alateemaks\
+        \ on tänavu kunst ja näha saab filme Banksyst, Marcel Duchampist, Alberto\
+        \ Giacomettist ja teistest kunstnikest. Mahukast kõrvalprogrammist leiab ligemale\
+        \ 30 üritust.\r\n\r\nKõik Tartus toimuvad seansid ja enamik üritusi on vaatajatele\
+        \ tasuta. Virtuaalse festivali piletid maksavad neli ja kaheksa eurot. Filmi\
+        \ saab hakata vaatama kohe pärast selle Tartu seansi lõppu ja pilet kehtib\
+        \ kuni festivali lõpuni.\r\n\r\nTartuff on Baltimaade suurim vabaõhufilmifestival,\
+        \ mis leiab aset juba 15. korda. Seda korraldab Pimedate Ööde filmifestival\
+        \ koostöös Tartu linna, Tartu filmifondi ja Tartu loomemajanduskeskusega."
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-10T12:00:00+0300
+    articlePublishEnd: T+0300
