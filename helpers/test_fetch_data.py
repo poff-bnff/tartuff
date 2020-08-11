@@ -9,8 +9,8 @@ class TestAdd(unittest.TestCase):
         """
         Test that the addition of two integers returns the correct total
         """
-        result = fetch_data.fetchData(1, 2)
-        self.assertEqual(result, 3)
+        result = fetch_data.credsFunction(3, 2)
+        self.assertEqual(result, 5)
 
 if __name__ == '__main__':
     unittest.main()
