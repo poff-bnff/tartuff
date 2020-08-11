@@ -1,5 +1,5 @@
 from __future__ import print_function
-from datetime import datetime
+from datetime import datetime, timedelta
 import yaml
 import os
 
@@ -14,20 +14,25 @@ def compileScreeningsCalendar (source, output):
 
     calendarData = {}
     for s in screeningsData:
-        myDate = calendarData.get(s['screeningDate'], dict())
+        #siin on määratud mitu tundi südaööst võib seansi algus üle olla, et arvestataks samasse päeva
+        hours = -4
+        #google sheets date formaat pythonile mõistetavaks kuupäevaks ja kellaajaks
+        myBeforeDateTime = (datetime.strptime(s['screeningDatetime'], '%Y-%m-%dT%H:%M:%S%z') + timedelta(hours=hours))
+        #eraldame kuupäevast ja kellaajast kuu ja päeva
+        myBeforeDate = (myBeforeDateTime.date())
+        #
+        myDate = calendarData.get(myBeforeDate, dict())
         myCinema = myDate.get(s['screeningCinema'], [])
-        #screenings (ilma keele laiendita pidi olema s['filmTitle_et'])
-        myCinema.append({'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
-        #sorteerimisel -3h
-        myCinemaSorted = sorted(myCinema, key = lambda i: (i['screeningTime']))
-        #sort kellaajajärgi
+        myCinema.append({'screeningDatetime': s['screeningDatetime'], 'dateTimeForSorting': myBeforeDateTime, 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
+        #sorteerime myCinema sisu myBeforeDateTime alusel
+        myCinemaSorted = sorted(myCinema, key = lambda i: (i['dateTimeForSorting']))
         myDate[s['screeningCinema']] = myCinemaSorted
-        calendarData[s['screeningDate']] = myDate
+        calendarData[myBeforeDate] = myDate
 
     with open(r'../source/film/'+output, 'w', encoding='utf-8') as file:
         yaml.dump(calendarData, file, default_flow_style=False, sort_keys=True, indent=4, allow_unicode=True)
 
-    print("compiling " + output)
+    print("compailing " + output)
 
 #compileScreeningsCalendar('screenings.yaml', 'screeningsCalendar.yaml')
 compileScreeningsCalendar('screenings.en.yaml', 'screeningsCalendar.en.yaml')
