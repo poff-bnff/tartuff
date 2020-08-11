@@ -110,7 +110,7 @@ block content
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
-                    .str_info_value= self.filmDuration
+                    .str_info_value= self.filmDuration + ' min'
 
         section.f_interactive_box
             div.f_interactive_item
@@ -189,8 +189,8 @@ block content
 
                                     if screening.screeningTotalDuration
                                         .str_info_grid_3
-                                            span.screening_info_label= self.label.screening.screeningTotalDuratiom
-                                            span.screening_info_value= screening.screeningTotalDuratiom
+                                            span.screening_info_label= self.label.screening.screeningTotalDuration
+                                            span.screening_info_value= screening.screeningTotalDuration + ' min'
 
                             .btn-group(role='group' aria-label='Buttons')
 
