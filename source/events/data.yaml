@@ -11,7 +11,7 @@
     eventSlug_en: ''
     eventTitle_ru: ''
     eventSlug_ru: ''
-    eventLead_et: '15. armastusfilmide festivali tARTuFFi avamine ja kontsert Tartu
+    eventLead_et: '15. armastusfilmide festivali tARTuFF avamine ja kontsert Tartu
         Raekoja platsil -
 
         Maarja Nuut & Ruum'
@@ -21,7 +21,7 @@
     eventImage: ''
     ArticleVideo: ''
     eventDescription_et: 'Tervitussõnad: Tartu linnapea Urmas Klaas, Pimedate Ööde
-        Filmifestivali juht Tiina Lokk, Tartu 2024 juht Priit Mikk, tARTuFFi juht
+        filmifestivali juht Tiina Lokk, Tartu 2024 juht Priit Mikk, tARTuFFi juht
         ning Tartu Filmifondi ja Tartu Loomemajanduskeskuse juht Kristiina Reidolv,
         tARTuFFi filmiprogrammi juht ja Pimedate Ööde filmifestivali filmiprogrammi
         koostaja Dagmar Raudam.
@@ -39,7 +39,7 @@
         Ruum on abstraktne elektroonik, kes pakub Nuudi meloodiatele tundmatusse tulevikku
         ulatuva raamistiku. Tema muusika struktuur võib pakkuda algul kindlustunnet,
         kuid sügaval helimaastike sees luuravad hoopis salapärasemad vaimud, kellest
-        on pärast väga raske vabaneda. Maarja Nuut & Ruum muusika ei suru end peale
+        on pärast väga raske vabaneda. Maarja Nuudi & Ruumi muusika ei suru end peale
         ega sunni end kuulama. Ta kutsub dialoogile, aga mitte otse kõnetades, vaid
         eest põgenedes ja enda järel meelitades. Helidest pillatud rada mööda eksib
         kuulaja järjest sügavamale müstilisse muusikalisse labürinti, kust on tagasiteed
@@ -47,8 +47,8 @@
         veelgi parem idee.
 
 
-        Maarja Nuut & Ruum esikplaat ‘Muunduja’ ilmus inglise plaadifirma 130701 alt
-        5. oktoobril 2018.'
+        Maarja Nuudi & Ruumi esikplaadi "Muunduja"’ andis 2018. aastal välja Briti
+        plaadifirma 130701.'
 -   eventId: '2'
     path: e2
     eventType: ''
@@ -56,7 +56,7 @@
     kuupäev: '2020-08-11'
     kell: '12:00:00'
     eventStartDt: 2020-08-11T12:00:00+0300
-    eventTitle_et: ERMI lasteprogramm
+    eventTitle_et: ERMi lasteprogramm
     eventSlug_et: ermi-lasteprogramm
     eventTitle_en: ''
     eventSlug_en: ''
@@ -78,7 +78,7 @@
     kuupäev: '2020-08-11'
     kell: '14:00:00'
     eventStartDt: 2020-08-11T14:00:00+0300
-    eventTitle_et: ERMI lasteprogramm
+    eventTitle_et: ERMi lasteprogramm
     eventSlug_et: ermi-lasteprogramm
     eventTitle_en: ''
     eventSlug_en: ''
@@ -90,7 +90,7 @@
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription_et: Näituse piletiga filmiprogramm tasuta
+    eventDescription_et: Näitusepiletiga filmiprogramm tasuta.
 -   eventId: '4'
     path: e4
     eventType: ''
@@ -112,8 +112,8 @@
     ArticleVideo: ''
     eventDescription_et: 'Mis nimi olevat muistsete eestlaste jaoks tähendanud “armastatut”?
 
-        Tule ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastuseteemalise
-        mälumänguga. Parimatele auhinnad.'
+        Tule ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastusteemalise mälumänguga.
+        Parimatele auhinnad.'
 -   eventId: '5'
     path: e5
     eventType: ''
@@ -128,7 +128,7 @@
     eventTitle_ru: ''
     eventSlug_ru: ''
     eventLead_et: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab
-        2h.
+        2 tundi.
 
         Piletid (5€) saadaval <a href="https://stencibility.ee/pood/tuur" target="_BLANK">Stencibility
         e-poes.'
@@ -161,7 +161,7 @@
     eventImage: ''
     ArticleVideo: ''
     eventDescription_et: Tartu ühes värvilisemas majas avab kunstnik Kadri Kosk tARTuFF
-        külalistele aianäituse ja kodukohviku „Naba“. Klaveril musitseerib Leila Röömel.
+        aianäituse ja kodukohviku „Naba“. Klaveril musitseerib Leila Röömel.
 -   eventId: '7'
     path: e7
     eventType: ''
@@ -181,7 +181,7 @@
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription_et: Kontsert on tasuta.
+    eventDescription_et: Tasuta.
 -   eventId: '8'
     path: e8
     eventType: ''
@@ -189,7 +189,7 @@
     kuupäev: '2020-08-12'
     kell: '12:00:00'
     eventStartDt: 2020-08-12T12:00:00+0300
-    eventTitle_et: ERMI lasteprogramm
+    eventTitle_et: ERMi lasteprogramm
     eventSlug_et: ermi-lasteprogramm
     eventTitle_en: ''
     eventSlug_en: ''
@@ -211,7 +211,7 @@
     kuupäev: '2020-08-12'
     kell: '14:00:00'
     eventStartDt: 2020-08-12T14:00:00+0300
-    eventTitle_et: ERMI lasteprogramm
+    eventTitle_et: ERMi lasteprogramm
     eventSlug_et: ermi-lasteprogramm
     eventTitle_en: ''
     eventSlug_en: ''
@@ -223,7 +223,7 @@
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription_et: Näituse piletiga filmiprogramm tasuta
+    eventDescription_et: Näitusepiletiga filmiprogramm tasuta.
 -   eventId: '10'
     path: e10
     eventType: ''
@@ -244,7 +244,7 @@
     eventImage: ''
     ArticleVideo: ''
     eventDescription_et: Kuidas avaldavad armastust meie lõunanaabrid lätlased? Tule
-        ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastuseteemalise mälumänguga.
+        ja veeda kirjastuse Loovhoog vedamisel 45 minutit armastusteemalise mälumänguga.
         Parimatele auhinnad.
 -   eventId: '11'
     path: e11
@@ -253,8 +253,8 @@
     kuupäev: '2020-08-12'
     kell: '15:00:00'
     eventStartDt: 2020-08-12T15:00:00+0300
-    eventTitle_et: Vestlus filmikunstniku Katrin Sipelgaga
-    eventSlug_et: vestlus-filmikunstniku-katrin-sipelgaga-
+    eventTitle_et: Vestlus filmikunstnik Katrin Sipelgaga
+    eventSlug_et: vestlus-filmikunstnik-katrin-sipelgaga-
     eventTitle_en: ''
     eventSlug_en: ''
     eventTitle_ru: ''
@@ -265,9 +265,9 @@
     eventAuthor: ''
     eventImage: ''
     ArticleVideo: ''
-    eventDescription_et: 'Katrin Sipelgas on vabakutseline filmikunstnik, kes on olnud
-        kunstnikuks eesti mängufilmidele “Must Alpinist”, “Sangarid”, “Jan Uuspõld
-        läheb Tartusse”, “Ükssarvik” jpt. Samuti on ta ERMi muinasjututeemalise näituse
+    eventDescription_et: 'Katrin Sipelgas on vabakutseline filmikunstnik, kes on töötanud
+        paljude mängufilmide, sh “Musta Alpinisti”, “Sangarite”, “Jan Uuspõld läheb
+        Tartusse” ja “Ükssarviku” juures. Samuti on ta ERMi muinasjututeemalise näituse
         “Elas kord…” idee autoriks ja kuraatoriks. Näituse sündi on panustanud mitmed
         loomeinimesed, sh filmilavastaja Jaak Kilmi, kirjanik Andrus Kivirähk, folkloristid
         Risto Järv ja Ülo Valk, animaator Priit Tender, ajaloolane David Vseviov jpt.
@@ -288,7 +288,7 @@
     eventTitle_ru: ''
     eventSlug_ru: ''
     eventLead_et: 'Tuur algab Kasekese eest (Lootuse ja Tähe tn nurgal) ning kestab
-        2h.
+        2 tundi.
 
         Piletid (5€) saadaval <a href="https://stencibility.ee/pood/tuur" target="_BLANK">Stencibility
         e-poes.'
@@ -323,7 +323,7 @@
     eventDescription_et: Forest Kämp on Tartu indie-folk ansambel, mis tegutseb alates
         2013. aastast. Bändi kuuluvad Jaan Sepp (vokaal), Kaarel Tammur (bass, taustahelid),
         Siim Valtna (trummid, muud löökpillid), Peeter Tammur (akustiline kitarr,
-        taustahelid) ja Mikk Valtna (elektrikitarr). Kontsert on tasuta.
+        taustahelid) ja Mikk Valtna (elektrikitarr). Tasuta.
 -   eventId: '14'
     path: e14
     eventType: ''

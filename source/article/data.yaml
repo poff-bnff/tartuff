@@ -2,7 +2,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '1'
     path: a1
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Tartu armastusfilmide festival laieneb üle kogu Eesti
     articleSlug_et: tartu-armastusfilmide-festival-laieneb-le-kogu-eesti
@@ -14,23 +14,27 @@
         kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat
         filmi.
     articleLead_en: ''
-    articleLead_ru: '7'
+    articleLead_ru: '8'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents_et: 'Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest
         korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
 
+
         Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi
         Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide
         festivali.
 
+
         Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta,
         virtuaalsetele seanssidele tuleb osta pilet.
+
 
         "Virtuaalne festival on mõeldud neile, kes platsile ei mahu või ei saa selleks
         ajaks Tartusse tulla. See annab võimaluse teha Tartuffi programmiga tutvust
         ka neil, kes pole siia kunagi sattunud," ütles Tartuffi juht Kristiina Reidolv.
+
 
         Koroonaviirusega seotud piirangute tõttu tuleb Raekoja platsile tuhat istekohta,
         tagatakse 2+2 reegli järgimine ja desinfitseerimisvahendite olemaolu. Athena
@@ -41,11 +45,14 @@
         kunst. Programmi kuulub ligemale 20 filmi, lisaks arvukalt eriüritusi, kuhu
         on kaasatud ka Tartu kunstimuuseum ja kõrgem kunstikool Pallas.
 
+
         Programmi avalikustab Tartuff juulis.
+
 
         Eelmisel aastal kogus festival 15 000 külastust. Populaarseimad linateosed
         olid Soome noortefilm "Rumal noor süda" ja Itaalia komöödia "Kui ema on ära",
         millest kumbki tõi raeplatsile 2300 vaatajat.
+
 
         Tartuffi korraldab Pimedate Ööde filmifestival koostöös Tartu linna, Tartu
         filmifondi ja Tartu loomemajanduskeskusega.'
@@ -63,7 +70,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '2'
     path: a2
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Tartuff on pühendatud kunstile
     articleSlug_et: tartuff-on-phendatud-kunstile
@@ -77,7 +84,7 @@
         on Banksy, Marchel Duchamp, Alberto Giacometti, Maud Lewis.
 
         The festival will be available online throughout Estonia'
-    articleLead_ru: '6'
+    articleLead_ru: '7'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -149,9 +156,9 @@
         Mullu oli Tartuffi keskmes muusika, tunamullu kirjandus.
 
 
-        15. PÖFFi armastusfilmide festival leiab aset 10.–15. augustini, kui Tartu
+        <p>15. PÖFFi armastusfilmide festival leiab aset 10.–15. augustini, kui Tartu
         Raekoja platsist saab taas Eesti suurim vabaõhukino. Dokumentaal- ja lastefilmid
-        linastuvad Athena keskuses. Kõik seansid on traditsiooniliselt tasuta.
+        linastuvad Athena keskuses. Kõik seansid on traditsiooniliselt tasuta.</p>
 
 
         Esimest korda avab Tartuff ka virtuaalse kinosaali, mida saab külastada üle
@@ -171,21 +178,25 @@
         available online throughout Estonia. The full programme of the 15th Tartu
         Love Film Festival will be announced on the 30th of July.
 
+
         According to the new head of the festival Kristiina Reidolv, the topic of
         art is not only relevant in the context of Tartu''s aspirations towards art
         as a city and due to the recent anniversaries – art school Pallas turned 100
         last year and Tartu Art Museum turns 80 this year – but in a wider context.
+
 
         "We want to raise art into the societal role as an instigator of social processes
         and as the philosophical trailblazer. Tartu is getting ready to become the
         European Capital of Culture (in 2024) and its banner "The Art of Survival"
         is socially and ecologically more relevant than ever before", she commented.
 
+
         The art programme will be opened by the fresh documentary Banksy: Most Wanted
         that has screened only at a handful of times globally after it world premiere
         at the online edition of Tribeca. Aurélia Rouvier''s and Seamus Haley''s film
         is seeking answers to why the world-famous artist won''t reveal his identity,
         creating an extremely engaging portrait of the artist / social warrior.
+
 
         In 1964, sculptor Alberto Giacometti (1901-1966) asked critic James Lord to
         pose for him for a portrait. It turned out to be an intense series of 18 meetings,
@@ -195,6 +206,7 @@
         the last finished artwork of the artist (played by Geoffrey Rush) who died
         two years later.
 
+
         Aisling Walsh''s Maudie is a first deeper introduction into the life of Canadian
         Naïve art painter Maude Lewis (1903-1970), who, despite having her body deformed
         by arthritis, painted, with astonishing enthusiasm flowers, animals and butterlies.
@@ -202,11 +214,13 @@
         her husband. Sally Hawkins, who''s made a unforgettable role as Maude, has
         received numerous awards for her role. Her husband is portrayed by Ethan Hawke.
 
+
         Marel Duchamp is without doubt one of the most influential modernists and
         artists of the 20th century. Matthew Taylor''s documentary Marcel Duchamp:
         Art of the Possible offers a thorough insight into his legacy and influence
         on the evolution of art, which has been commented on by creative minds such
         as Jeff Koons, Marina Abramović, David Bowie and many others.
+
 
         In addition to the film screenings, Tartuff will see a series of art-themed
         events, including exhibitions. performances, symposiums and excursions. The
@@ -226,7 +240,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '3'
     path: a3
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Tartu armastusfilmide festivali avab troopiline melodraama
     articleSlug_et: tartu-armastusfilmide-festivali-avab-troopiline-melodraama
@@ -238,7 +252,7 @@
         avafilmi, milleks on brasiillase Karim Aïnouzi rohkelt auhinnatud "Nähtamatu
         elu”.
     articleLead_en: ''
-    articleLead_ru: '4'
+    articleLead_ru: '5'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -290,7 +304,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '4'
     path: a4
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Tartuffi esimene film on seksuaalsest ahistamisest
     articleSlug_et: tartuffi-esimene-film-on-seksuaalsest-ahistamisest
@@ -301,7 +315,7 @@
     articleLead_et: PÖFFi armastusfilmide festival Tartuff kuulutas välja esimese
         linateose, mille teema on hetkel üliaktuaalne – seksuaalne ahistamine.
     articleLead_en: ''
-    articleLead_ru: '5'
+    articleLead_ru: '6'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -309,27 +323,34 @@
         kuuest absurdihuumoriga vürtsitatud loost, mis on inspireeritud igapäevastest
         naiste avaliku või varjatud diskrimineerimise viisidest.
 
+
         "Kui te ei ole veel aru saanud, mida taotleb #MeToo, vaadake seda filmi,"
         soovitab ajaleht Helsingin Sanomat, nimetades "Harjumuse jõudu" eelmise aasta
         olulisimaks Soome linateoseks.
 
+
         Ühiskonnas juurdunud patriarhaalseid käitumismustreid avav draamakomöödia
         põhineb populaarsel lühifilmide sarjal "Üksikjuhtum", mille osad on Soome
         veebi-TVs Yle Areena kogunud juba üle miljoni vaatamiskorra.
+
 
         Soome noorema ja keskmise põlve naisrežissööride jõudemonstratsiooniks nimetatava
         filmi on kirjutanud ja lavastanud Kirsikka Saari, Elli Toivoniemi, Anna Paavilainen,
         Alli Haapasalo, Reetta Aalto, Jenni Toivoniemi ja Miia Tervo. Mängivad Soome
         tippnäitlejad eesotsas Krista Kosoneni ja Johannes Holopaineniga.
 
+
         Autorite enda sõnul ei ole filmi ajendiks niivõrd seksuaalne ahistamine, kuivõrd
         see, et ühiskond seda normaalseks peab.
+
 
         Soome filmiauhinnale Jussi kandideerib "Harjumuse jõud" parima filmi, režii,
         stsenaariumi ja meeskõrvalosa kategoorias. Linateose rahvusvaheline esilinastus
         oli tänavusel Göteborgi filmifestivalil.
 
+
         Film jõuab Tartus ekraanile reedel, 14. augustil.
+
 
         15. Tartuff leiab aset 10.–15. augustini, kui Tartu Raekoja platsist saab
         taas Eesti suurim vabaõhukino. Athena keskuses linastuvad dokumentaal- ja
@@ -337,6 +358,7 @@
         virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
 
         Kogu programmi avalikustab festival juuli lõpus.
+
 
         Tartuffi korraldab Pimedate Ööde filmifestival koostöös Tartu linna, Tartu
         filmifondi ja Tartu loomemajanduskeskusega.'
@@ -354,7 +376,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '5'
     path: a5
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: On, mida vaadata! Tartuff kuulutas välja filmikava
     articleSlug_et: on-mida-vaadata-tartuff-kuulutas-vlja-filmikava
@@ -366,7 +388,7 @@
         kehast kunstiteose, on viimane lisandus PÖFFi armastusfilmide festivali Tartuff
         programmi, mis on tänasest avalik.
     articleLead_en: ''
-    articleLead_ru: '3'
+    articleLead_ru: '4'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -482,10 +504,10 @@
         koostöös Tartu linna, Tartu filmifondi ja Tartu loomemajanduskeskusega.</p>'
     articleContents_en: ''
     articleContents_ru: ''
-    kuupäev: ''
-    kell: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
     articlePublishStart: 2020-07-31T10:00:00+0300
-    articlePublishEnd: T+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
     mitu minutit TTR?: ''
     articleTtr: ''
     tagKeyword_et: '#armastus #kunst'
@@ -494,7 +516,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '6'
     path: a6
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Tänasest saab osta pileteid Tartuffi virtuaalsesse kinno
     articleSlug_et: tnasest-saab-osta-pileteid-tartuffi-virtuaalsesse-kinno
@@ -505,12 +527,13 @@
     articleLead_et: PÖFFi armastusfilmide festival Tartuff alustas piletite eelmüüki
         oma virtuaalsetele seanssidele.
     articleLead_en: ''
-    articleLead_ru: '2'
+    articleLead_ru: '3'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
     articleContents_et: 'Vähem kui nädala pärast Tartus algavat festivali saab esimest
         korda külastada ka virtuaalselt, Elisa veebiplatvormi Elisa Stage vahendusel.
+
 
         „Tartuff on loonud virtuaalse kinosaali selleks, et pakkuda huvilistele võimalust
         saada Tartuffi filmiprogrammist osa ka kodus, ilma Raekoja platsile või Athena
@@ -520,6 +543,7 @@
 
         Kokku jõuab ekraanile kümme linateost – festivali paremik –, mida on võimalik
         vaadata üle terve Eesti.
+
 
         Brasiilia rohkelt auhinnatud troopilises melodraamas „Nähtamatu elu” (rež
         Karim Aïnouz) surub ühiskonna konservatiivsus alla kahe õe unistused. “Trainspottingu”
@@ -535,6 +559,7 @@
         et täita oma unistusi. Vene filmi „Hape” (rež Aleksandr Gortšilin) võib nimetada
         ka äsja 20. eluaasta piiri ületanud vene noorte põlvkondlikuks manifestiks.
 
+
         Dokumentaalfilmidest on kavas Prantsusmaal valminud „Tagaotsitav: Banksy!”
         (rež-d Aurélia Rouvier ja Seamus Haley), kus aetakse oma identiteeti varjava
         maailmakuulsa tänavakunstniku jälgi. Rumeenia filmis „Acasă, mu kodu” (rež
@@ -543,11 +568,13 @@
         Olin ja Espen Wallin) elab kaasa anoreksiaga võitlevale naisele, kes jäädvustab
         oma närbuvat keha korraga šokeerivatel ja kaunitel fotodel.
 
+
         Üksikpilet maksab neli eurot, mitmekesi vaatamise pilet kaheksa eurot. Piletite
         kogus on piiratud. Filmi saab hakata vaatama kohe pärast selle Tartu seansi
         lõppu ja pilet kehtib kuni 16. augusti hilisõhtuni. Kõigil mängufilmidel on
         eestikeelsed subtiitrid. Osa filme täiendavad autorite intervjuud, mis on
         salvestatud spetsiaalselt Tartuffi jaoks.
+
 
         10.–15. augustini toimuv Tartuff on Baltimaade suurim vabaõhufilmifestival,
         mida korraldab Pimedate Ööde filmifestival koostöös Tartu linna, Tartu filmifondi
@@ -566,7 +593,7 @@
         article_pictures: /article_pictures.yaml
     articleId: '7'
     path: a7
-    articleType: News
+    articleType: Uudised
     articleActive: '1'
     articleTitle_et: Mitte ainult filmid! Tartuff pakub ka põnevaid üritusi
     articleSlug_et: mitte-ainult-filmid-tartuff-pakub-ka-pnevaid-ritusi
@@ -578,7 +605,7 @@
         Kui levinud on naiste ahistamine Soomes? Milline võiks välja näha hommikupiknik
         Emajõe lodjal?
     articleLead_en: ''
-    articleLead_ru: '1'
+    articleLead_ru: '2'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -612,7 +639,52 @@
         \ lähemalt www.tartuff.ee."
     articleContents_en: ''
     articleContents_ru: ''
+    kuupäev: '2020-12-10'
+    kell: '22:00:00'
+    articlePublishStart: 2020-08-05T10:00:00+0300
+    articlePublishEnd: 2020-12-10T22:00:00+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '8'
+    path: a8
+    articleType: Uudised
+    articleActive: ''
+    articleTitle_et: Tartus avatakse täna armastusfilmide festival
+    articleSlug_et: tartus-avatakse-tna-armastusfilmide-festival
+    articleTitle_en: ''
+    articleSlug_en: ''
+    articleTitle_ru: ''
+    articleSlug_ru: ''
+    articleLead_et: Täna õhtul avatakse Tartus PÖFFi armastusfilmide festival Tartuff,
+        mida saab esimest korda külastada ka virtuaalselt.
+    articleLead_en: ''
+    articleLead_ru: '1'
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents_et: "Kell 22 Raekoja platsil algaval tseremoonial annavad kontserdi\
+        \ Maarja Nuut ja Hendrik Kaljujärv. Järgneb avafilm, Brasiilia režissööri\
+        \ Karim Aïnouzi auhinnatud melodraama „Nähtamatu elu”.\r\n\r\nKoroonaviirusega\
+        \ seoses tuleb tavapärase 1200 tooli asemel vabaõhukinoks muutuvale raeplatsile\
+        \ vaid 500 tooli, mis paigutatakse 2+2 reeglit arvestades. Athena keskuses\
+        \ toimuvatele dokumentaal- ja lastefilmide seanssidele lubatakse kuni 120\
+        \ inimest, seansside vahel desinfitseeritakse pindu ja tasuta on saadaval\
+        \ kaitsemaskid.\r\n\r\nKorraldajad paluvad külastajatel hoida distantsi ja\
+        \ istekohtade täitumisel vaadata filme Tartuffi virtuaalses kinosaalis, mis\
+        \ avab uksed veebiplatvormil Elisa Stage. Filmid on kättesaadavad üle terve\
+        \ Eesti.\r\n\r\nKokku on 15. augustini kestva festivali kavas 17 linateost,\
+        \ mis käsitlevad armastuse kõikvõimalikke variatsioone. Festivali alateemaks\
+        \ on tänavu kunst ja näha saab filme Banksyst, Marcel Duchampist, Alberto\
+        \ Giacomettist ja teistest kunstnikest. Mahukast kõrvalprogrammist leiab ligemale\
+        \ 30 üritust.\r\n\r\nKõik Tartus toimuvad seansid ja enamik üritusi on vaatajatele\
+        \ tasuta. Virtuaalse festivali piletid maksavad neli ja kaheksa eurot. Filmi\
+        \ saab hakata vaatama kohe pärast selle Tartu seansi lõppu ja pilet kehtib\
+        \ kuni festivali lõpuni.\r\n\r\nTartuff on Baltimaade suurim vabaõhufilmifestival,\
+        \ mis leiab aset juba 15. korda. Seda korraldab Pimedate Ööde filmifestival\
+        \ koostöös Tartu linna, Tartu filmifondi ja Tartu loomemajanduskeskusega."
+    articleContents_en: ''
+    articleContents_ru: ''
     kuupäev: ''
     kell: ''
-    articlePublishStart: T+0300
+    articlePublishStart: 2020-08-10T12:00:00+0300
     articlePublishEnd: T+0300
