@@ -47,9 +47,6 @@ block content
                     polyline(points='9 18 15 12 9 6')
                 span.sr-only Next
 
-
-
-
         block titleBox
         section.f_synopsis_box
             .str_info_meta_gi
@@ -132,7 +129,6 @@ block content
 
                     if filmPath == screening.filmPath
 
-
                         .card.card_screening.rounded-0.border-0
                             .card-header.rounded-0.bg_dark_4
                                 .grid_container_screening_time
@@ -193,6 +189,7 @@ block content
                                             span.screening_info_label= self.label.screening.screeningTotalDuration
                                             span.screening_info_value
                                                 +dur(screening.screeningTotalDuration)
+
 
                             .btn-group(role='group' aria-label='Buttons')
 
