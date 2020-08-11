@@ -124,7 +124,7 @@ block content
 
         section.f_screenings_box
             div
-                h1.section_headline_back= self.label.film.filmScreenings
+                h1.section_headline= self.label.film.filmScreenings
 
             .card-deck.m-o.p-0
                 each screening in self.data.screenings
@@ -209,7 +209,7 @@ block content
         if self.filmQaClip
 
             section.f_qaclip_box
-                .section_headline_footer= self.label.film.filmQaClip
+                .section_headline= self.label.film.filmQaClip
                 .embed-responsive.embed-responsive-16by9.m-0.p-0
                     - youtubeVideoCode = self.filmQaClip.split("=")
                     +youtube(youtubeVideoCode[1])
@@ -217,7 +217,7 @@ block content
         if self.filmTrailer
 
             section.f_trailer_box
-                .section_headline_footer= self.label.film.filmTrailer
+                .section_headline= self.label.film.filmTrailer
                 .embed-responsive.embed-responsive-16by9.m-0.p-0
                     - youtubeVideoCode = self.filmTrailer.split("=")
                     +youtube(youtubeVideoCode[1])
