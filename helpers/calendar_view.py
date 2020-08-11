@@ -17,7 +17,7 @@ def compileScreeningsCalendar (source, output):
         myDate = calendarData.get(s['screeningDate'], dict())
         myCinema = myDate.get(s['screeningCinema'], [])
         #screenings (ilma keele laiendita pidi olema s['filmTitle_et'])
-        myCinema.append({'screeningTime': s['screeningTime'], 'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
+        myCinema.append({'screeningTime': s['screeningTime'], 'filmTitle': s['filmTitle'], 'filmPath': s['filmPath']})
         #sorteerimisel -3h
         myCinemaSorted = sorted(myCinema, key = lambda i: (i['screeningTime']))
         #sort kellaajajärgi
