@@ -26,6 +26,7 @@ label:
         presenters: Esitlejad
         sponsors: Sponsor
         supporters: Toetajad
+        festivalTeam: Festivali meeskond
         officialPartners: Ametlikud partnerid
         partners: Partnerid
         thanksTo: Täname
@@ -60,10 +61,13 @@ label:
         filmOtherFestivals: Teised festivalid
         filmAwards: Auhinnad
         filmScreenings: Seansid
+        filmQaClip: Q&A ehk vestlus filmitegijaga
         filmKeelevalik: Keeled
         languageSelect: Keeled
     screening:
         screeningSubtitles: Subtiitrid
+        screeningIntroPresenter: Sissejuhataja
+        screeningIntroGuests: Sissejuhatuse külalised
         screeningQaPresenter: Q&A küsitleja
         screeningQaGuests: Q&A külalised
         screeningQaDuration: Q&A kestus
@@ -88,11 +92,11 @@ label:
 
 eFilmInfo: ' - filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage'
 
-festivalDates: '10. - 15. august'
+festivalDates: '10.-15. august'
 
 festivalLocations:
     screenings:
-        outdoors: 'Tartu Raekoja Plats'
+        outdoors: 'Tartu Raekoja plats'
         indoors: 'Athena Keskus'
         virtual: 'Elisa Stage'
     events:

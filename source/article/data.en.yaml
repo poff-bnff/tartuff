@@ -193,3 +193,20 @@
     kell: '22:00:00'
     articlePublishStart: 2020-08-05T10:00:00+0300
     articlePublishEnd: 2020-12-10T22:00:00+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '8'
+    path: a8
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-10T12:00:00+0300
+    articlePublishEnd: T+0300

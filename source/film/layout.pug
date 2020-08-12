@@ -47,9 +47,6 @@ block content
                     polyline(points='9 18 15 12 9 6')
                 span.sr-only Next
 
-
-
-
         block titleBox
         section.f_synopsis_box
             .str_info_meta_gi
@@ -110,7 +107,8 @@ block content
             if self.filmDuration
                 .str_info_grid_3
                     .str_info_label= self.label.film.filmDuration
-                    .str_info_value= self.filmDuration
+                    .str_info_value
+                        +dur(self.filmDuration)
 
         section.f_interactive_box
             div.f_interactive_item
@@ -124,13 +122,12 @@ block content
 
         section.f_screenings_box
             div
-                h1.section_headline_back= self.label.film.filmScreenings
+                h1.section_headline= self.label.film.filmScreenings
 
             .card-deck.m-o.p-0
                 each screening in self.data.screenings
 
                     if filmPath == screening.filmPath
-
 
                         .card.card_screening.rounded-0.border-0
                             .card-header.rounded-0.bg_dark_4
@@ -178,6 +175,14 @@ block content
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningSubtitles
                                             span.screening_info_value= screening.screeningSubtitles
+                                    if screening.screeningIntroGuests
+                                        .str_info_grid_3
+                                            span.screening_info_label= self.label.screening.screeningIntroGuests
+                                            span.screening_info_value= screening.screeningIntroGuests
+                                    if screening.screeninIntroPresenter
+                                        .str_info_grid_3
+                                            span.screening_info_label= self.label.screening.screeningIntroPresenter
+                                            span.screening_info_value= screening.screeningIntroPresenter
                                     if screening.screeningQaGuests
                                         .str_info_grid_3
                                             span.screening_info_label= self.label.screening.screeningQaGuests
@@ -189,8 +194,10 @@ block content
 
                                     if screening.screeningTotalDuration
                                         .str_info_grid_3
-                                            span.screening_info_label= self.label.screening.screeningTotalDuratiom
-                                            span.screening_info_value= screening.screeningTotalDuratiom
+                                            span.screening_info_label= self.label.screening.screeningTotalDuration
+                                            span.screening_info_value
+                                                +dur(screening.screeningTotalDuration)
+
 
                             .btn-group(role='group' aria-label='Buttons')
 
@@ -206,10 +213,22 @@ block content
             section.f_extra_box
                     img.presenter_img(src=`/assets/img/img_films/${filmPath}/${self.data.pictures.filmslugs[filmPath].presenter}`)
 
+        if self.filmQaClip
+
+            section.f_qaclip_box
+                .section_headline= self.label.film.filmQaClip
+                .embed-responsive.embed-responsive-16by9.m-0.p-0
+                    - youtubeVideoCode = self.filmQaClip.split("=")
+                    +youtube(youtubeVideoCode[1])
+
         if self.filmTrailer
-            section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                - youtubeVideoCode = self.filmTrailer.split("=")
-                +youtube(youtubeVideoCode[1])
-            section.f_imgs_box
+
+            section.f_trailer_box
+                .section_headline= self.label.film.filmTrailer
+                .embed-responsive.embed-responsive-16by9.m-0.p-0
+                    - youtubeVideoCode = self.filmTrailer.split("=")
+                    +youtube(youtubeVideoCode[1])
+
+        section.f_imgs_box
 
     block film
