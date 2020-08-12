@@ -32,6 +32,7 @@ label:
         thanksTo: Täname
         screeningsCalendar: Seansside kalender
         eventsCalendar: Ürituste kalender
+        team: Festivali meeskond
     film:
         filmTitleOriginal: Pealkirja originaal
         filmTitle_en: Pealkiri inglise keeles

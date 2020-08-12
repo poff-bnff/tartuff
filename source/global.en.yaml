@@ -28,6 +28,7 @@ label:
         partners: Partners
         screeningsCalendar: Screenings calendar
         eventsCalendar: Events calendar
+        team: Festival team
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
