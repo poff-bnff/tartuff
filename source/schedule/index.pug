@@ -4,67 +4,7 @@ include /_templates/mixins.pug
 block content
 
 
-    main.home
-        section.grid_hero
-            .home_1
-                .article_title_detailed.m_center_d_right
-                    span.article_title_detailed.clr_primary= self.festivalDates
-                    br
-                    | !{self.festivalLocations.outdoors}
-                    br
-                    | !{self.festivalLocations.indoors}
-                    br
-                    a.article_title_detailed.clr_primary(href='https://tartuff.elisastage.ee')= self.festivalLocations.virtual
-            .home_2
-                img.home_hero_img(src='/assets/img/global/hunt_dark.png' alt='Tartuff 2020')
-            .home_3
-                .hero_p
-                    - var frontpageText = self.frontpageText
-                    | !{ self.md(frontpageText)}
-
-        section.grid_covid
-            .covid_rules
-                h1.article_title_detailed.clr_primary
-                    | Ohutusreeglid Tartuffil
-                ul
-                    li.hero_p
-                        | Kui tunned, et oled tõbine, siis vaata filme hoopis kodus Elisa Stage´il
-                    li.hero_p
-                        | Tartu Raekoja platsil järgi 2 + 2 reeglit ja hoia teiste vaatajatega distantsi.
-                    li.hero_p
-                        | Raekoja platsil on 500 istekohta varasema 1200 asemel. Istekohti ei reserveerita.
-                    li.hero_p
-                        | Kui oled kaasa võtnud oma tooli, siis palun järgi seda paigaldades 2 + 2 reeglit.
-                    li.hero_p
-                        | Kui istekohad on võetud, siis palun ära jää Raekoja platsile, vaid vaata filme hoopis Tartuffi kodulehel virtuaalses kinosaalis Elisa Stage´il.
-                    li.hero_p
-                        | Raekoja platsil tagab korda turvafirma USS.
-                    li.hero_p
-                        | Athena kinos ja teistes festivali siseruumides kehtib 50% täituvuse reegel. Hoia siseruumides piisavat distantsi teiste külastajatega.
-                    li.hero_p
-                        | Ühele seansile Athena kinos pääseb kuni 120 inimest, kes istuvad hajutatult kinosaali parteris ja rõdul.
-                    li.hero_p
-                        | Athena kinos jagatakse filmivaatajatele tasuta meditsiinilisi kaitsemaske (3ply). Kaitsemaski maksimaalne kandmise aeg on 4 tundi. Maski paigaldamisel ja äravõtmisel on oluline käte hügieen. Palun hoidke mask ees kuni kinost lahkumiseni.
-                    li.hero_p
-                        | Tartuffi vabatahtlikud puhastavad Athena kinos seansside vahel desinfitseerimisvahendiga ukselinke, trepikäsipuid ja toolide käetugesid. Samuti tuulutatakse seansside vahel kinosaali.
-                    li.hero_p
-                        | Festivalialadel on olemas desinfitseerimisvahendid.
-                    li.hero_p
-                        | Palume osalejatel festivalialadel mitte tihedalt koguneda ega järjekordades lähestikku üksteise selja taga seista – hoidke piisavat vahet teiste külastajatega.
-                    li.hero_p
-                        | Kui märkad haigustunnustega külastajat festivalil, siis palun informeeri sellest Tartuffi publikuteenindajaid.
-                    li.hero_p
-                        | Küsimuste ja probleemide korral palun pöördu festivali publikuteenindajate poole.
-                    li.hero_p
-                        | Hoia enda ja teiste tervist ning järgi palun ohutusreegleid!
-                p.hero_p
-                    | Tänulikult,
-                    br
-                    | Tartuffi meeskond
-            .covid_rules
-                section.f_trailer_box.embed-responsive.embed-responsive-16by9.m-0.p-0
-                    iframe(width="560" height="315" src="https://www.youtube.com/embed/hnex6ImCk7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    main.schedule
         //- FILMS / SCREENINGS calendar
         div
             h1.section_headline= self.label.all.screeningsCalendar
@@ -815,40 +755,16 @@ block content
                             line(x1='17' y1='18' x2='3' y2='18')
 
 
-        //-                     a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='TITLE' data-content='\
-        //- <p>SISU\
-        //- </p>\
-        //- <p>SISU\
-        //- </p>\
-        //- <p>SISU\
-        //- </p>')
-        //-                         | EVENT NAME
-        //-                         svg.svg_icon_syn(viewbox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
-        //-                             line(x1='17' y1='10' x2='3' y2='10')
-        //-                             line(x1='21' y1='6' x2='3' y2='6')
-        //-                             line(x1='21' y1='14' x2='3' y2='14')
-        //-                             line(x1='17' y1='18' x2='3' y2='18')
-
-
-        div
-            h1.section_headline= self.label.all.eventsGalleries
-
-        section.grid_flickr
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715462728137" title="Q&amp;A Aurelia Rouvier 12.08.2020 Tartuff"><img src="https://live.staticflickr.com/65535/50218860231_0a0ed8b75e_z.jpg" width="640" height="480" alt="Q&amp;A Aurelia Rouvier 12.08.2020 Tartuff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715460812216" title="Stina Leek tänavakunstiaktsioon 12.08.2020"><img src="https://live.staticflickr.com/65535/50218816446_8a9f75e567_z.jpg" width="640" height="480" alt="Stina Leek tänavakunstiaktsioon 12.08.2020"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715460388183" title="Vestlus filmikunstniku Katrin Sipelgaga 12.08.2020 Tartuff"><img src="https://live.staticflickr.com/65535/50218638367_19c10e46fb_z.jpg" width="640" height="480" alt="Vestlus filmikunstniku Katrin Sipelgaga 12.08.2020 Tartuff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715457344548" title="Mängufilm “Täiuslik” Tartuff 11.08.2020"><img src="https://live.staticflickr.com/65535/50217598901_8c18d2e540_z.jpg" width="640" height="480" alt="Mängufilm “Täiuslik” Tartuff 11.08.2020"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715457244288" title="Muinasjutunäituse giidituur Tartuff 11.08.2020"><img src="https://live.staticflickr.com/65535/50216914863_8e45df8b57_z.jpg" width="640" height="480" alt="Muinasjutunäituse giidituur Tartuff 11.08.2020"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715456059346" title="Mire live @Pepe&#x27;s Bistro&amp;Social Club 11.08.2020 Tartuff"><img src="https://live.staticflickr.com/65535/50216907573_53605b57a2_z.jpg" width="640" height="480" alt="Mire live @Pepe&#x27;s Bistro&amp;Social Club 11.08.2020 Tartuff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715456016651" title="Stencibility jalgrattatuur 11.08.20 Tartuff"><img src="https://live.staticflickr.com/65535/50217774277_65298e6605_z.jpg" width="640" height="480" alt="Stencibility jalgrattatuur 11.08.20 Tartuff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715456970243" title="Tartuff Armastuse Mälumäng @Pepe&#x27;s Bistro&amp;Social Club 11.08.2020"><img src="https://live.staticflickr.com/65535/50217723697_dbe6efd077_z.jpg" alt="Tartuff Armastuse Mälumäng @Pepe&#x27;s Bistro&amp;Social Club 11.08.2020"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            .flickr_gallery
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/poffihunt/albums/72157715456917008" title="Tartuff 2020 avapäev 10.08"><img src="https://live.staticflickr.com/65535/50216833223_465cb5a488_z.jpg" alt="Tartuff 2020 avapäev 10.08"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+//-                     a.btn_popover(tabindex='0' role='button' data-container='body' data-toggle='popover' data-trigger='focus' data-placement='left' data-html='true' title='TITLE' data-content='\
+//- <p>SISU\
+//- </p>\
+//- <p>SISU\
+//- </p>\
+//- <p>SISU\
+//- </p>')
+//-                         | EVENT NAME
+//-                         svg.svg_icon_syn(viewbox='0 0 24 24' width='24' height='24' stroke='white' stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round')
+//-                             line(x1='17' y1='10' x2='3' y2='10')
+//-                             line(x1='21' y1='6' x2='3' y2='6')
+//-                             line(x1='21' y1='14' x2='3' y2='14')
+//-                             line(x1='17' y1='18' x2='3' y2='18')

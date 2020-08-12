@@ -32,6 +32,7 @@ label:
         thanksTo: Täname
         screeningsCalendar: Seansside kalender
         eventsCalendar: Ürituste kalender
+        eventsGalleries: Mis juhtus?
         team: Festivali meeskond
     film:
         filmTitleOriginal: Pealkirja originaal
@@ -90,6 +91,7 @@ label:
         mainInfo: Info
         mainCovid: Covid
         mainFestival: Festival
+        mainSchedule: Ajakava
 
 eFilmInfo: ' - filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage'
 
