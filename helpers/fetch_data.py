@@ -19,6 +19,7 @@ class NoAliasDumper(yaml.SafeDumper):
 os.chdir(os.path.dirname(__file__))
 
 
+
 def authenticate():
 
     # If modifying these scopes, delete the file token.pickle.
@@ -98,23 +99,17 @@ def createYAML(values, dataSources, location):
                         #print(yaml.safe_dump(interfaces))
                         #print(yaml.dump(interfaces, Dumper=NoAliasDumper))
             count = count + 1
+            
 
 
-def fetchData(sheetName, location, dataSources):
-
-    def main():
-        """Shows basic usage of the Sheets API.
-        Prints values from a sample spreadsheet.
-        """
+def main(sheetName, location, dataSources):
+    if __name__ == '__main__':
         creds = authenticate()
         service = connect(creds)
         values = fetchDataFromSheet(service, sheetName)
-
-
         createYAML(values, dataSources, location)
 
-    if __name__ == '__main__':
-        main()
+
 
 
 """ siin kutsun välja üleval defineeritud funtiooni andes kaasa parameetritena:
@@ -135,25 +130,25 @@ return True
 
 
 """
-#fetchData('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
-fetchData('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
-""" fetchData('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
-fetchData('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'}) """
+#main('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
+main('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
+main('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
+main('art-ru', 'article/data.ru.yaml', {'article_pictures': '/article_pictures.yaml'})
 
-#fetchData('Events', 'events/data.yaml', {})
-""" fetchData('events-et', 'events/data.et.yaml', {})
-fetchData('events-en', 'events/data.en.yaml', {})
-fetchData('events-ru', 'events/data.ru.yaml', {}) """
+#main('Events', 'events/data.yaml', {})
+main('events-et', 'events/data.et.yaml', {})
+main('events-en', 'events/data.en.yaml', {})
+main('events-ru', 'events/data.ru.yaml', {})
 
-#fetchData('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
-""" fetchData('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'})
-fetchData('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
-fetchData('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.ru.yaml'}) """
+#main('Filmid', 'film/data.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.yaml'})
+main('filmid-et', 'film/data.et.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.et.yaml'})
+main('filmid-en', 'film/data.en.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.en.yaml'})
+main('filmid-ru', 'film/data.ru.yaml', {'pictures': '/film_pictures.yaml', 'screenings': 'screenings.ru.yaml'})
 
-#fetchData('Seansid', 'film/screenings.yaml', {})
-""" fetchData('seansid-et', 'film/screenings.et.yaml', {})
-fetchData('seansid-en', 'film/screenings.en.yaml', {})
-fetchData('seansid-ru', 'film/screenings.ru.yaml', {})
+#main('Seansid', 'film/screenings.yaml', {})
+main('seansid-et', 'film/screenings.et.yaml', {})
+main('seansid-en', 'film/screenings.en.yaml', {})
+main('seansid-ru', 'film/screenings.ru.yaml', {})
 
-fetchData('persons-et', 'festival/persons.et.yaml', {})
-fetchData('persons-en', 'festival/persons.en.yaml', {})
+main('persons-et', 'festival/persons.et.yaml', {})
+main('persons-en', 'festival/persons.en.yaml', {})
