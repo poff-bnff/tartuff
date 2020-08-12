@@ -106,8 +106,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Filmi juhatab sisse tänavakunstifestivali Stencibility
+        korraldaja Kadri Lind.
     screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Kadri Lind
@@ -145,8 +146,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Filmi juhatab sisse sotsiaalteadlane ja lõimumisvaldkonna
+        ekspert Kristina Kallas.
     screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
@@ -262,8 +264,8 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Publikuga kohtub näitleja Margus Alver.
     screeningIntroGuests: ''
     screeningQa: '1'
     screeningQaPresenter: Dagmar Raudam
@@ -379,8 +381,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Filmi juhatab sisse PÖFFi laste- ja noortefilmide festivali
+        Just Film juht Mikk Granström.
     screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
@@ -398,8 +401,9 @@
     screeningTown: Tartu
     screeningCinema: Athena Keskus
     screeningHall: Kinosaal
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Filmi juhatab sisse interdistsiplinaarne kunstnik ja
+        Marcel Duchampi ekspert Kiwa.
     screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
@@ -514,8 +518,9 @@
     screeningTown: Tartu
     screeningCinema: Raekoja plats
     screeningHall: ''
-    screeningIntro: ''
-    screeningIntroPresenter: ''
+    screeningIntro: '1'
+    screeningIntroPresenter: Filmi juhatab sisse Kanada saatkonna Tallinna esinduse
+        juht Kairi-Liis Ustav
     screeningIntroGuests: ''
     screeningQa: '0'
     screeningQaPresenter: ''
