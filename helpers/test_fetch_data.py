@@ -40,5 +40,13 @@ class TestAdd(unittest.TestCase):
         result = fetch_data.fetchDataFromSheet(service, sheetName)
         self.assertNotEqual(result,None)
 
+    def test_report(self):
+        """
+        Test that intended amount of sheets are fetched
+        """
+
+        result = fetch_data.report()
+        self.assertEqual(result,14)
+
 if __name__ == '__main__':
     unittest.main()

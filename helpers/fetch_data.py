@@ -15,6 +15,8 @@ class NoAliasDumper(yaml.SafeDumper):
     def ignore_aliases(self, data):
         return True
 
+totalcount = 0
+sheets = []
 
 os.chdir(os.path.dirname(__file__))
 
@@ -99,7 +101,8 @@ def createYAML(values, dataSources, location):
                         #print(yaml.safe_dump(interfaces))
                         #print(yaml.dump(interfaces, Dumper=NoAliasDumper))
             count = count + 1
-            
+
+
 
 
 def main(sheetName, location, dataSources):
@@ -109,6 +112,18 @@ def main(sheetName, location, dataSources):
         values = fetchDataFromSheet(service, sheetName)
         createYAML(values, dataSources, location)
 
+        global totalcount
+        totalcount = totalcount + 1
+        sheets.append(sheetName)
+
+
+def report():
+    print('\nFetched ' + str(totalcount) + ' sheets:')
+
+    for x in sheets:
+        print(x)
+
+    return len(sheets)
 
 
 
@@ -152,3 +167,7 @@ main('seansid-ru', 'film/screenings.ru.yaml', {})
 
 main('persons-et', 'festival/persons.et.yaml', {})
 main('persons-en', 'festival/persons.en.yaml', {})
+
+x = report()
+
+
