@@ -16,7 +16,7 @@ fs.readdirSync(testFolder).forEach(folder => {
     }
 
     fs.readdirSync(testFolder + '/' + folder).forEach(file => {
-        if (file.substring(0, 4) == 'A_1_') {
+        if (file.substring(0, 4) === 'A_1_') {
             article.heroImage = file
 
         }else{
