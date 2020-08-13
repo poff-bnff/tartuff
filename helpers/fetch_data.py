@@ -57,7 +57,7 @@ def connect(creds):
 
 
 def fetchDataFromSheet(service, sheetName):
-    print('\nfetching data from sheet ' + sheetName)
+    print('\nfetching data from sheet: ' + sheetName)
 
     # The ID and range of a sample spreadsheet.
     SAMPLE_SPREADSHEET_ID = '1J_cYJnZI41V8TGuOa8GVDjnHSD9qRmgKTJR3sd9Ff7Y'
