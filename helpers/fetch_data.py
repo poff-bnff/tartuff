@@ -27,7 +27,7 @@ def authenticate():
     # If modifying these scopes, delete the file token.pickle.
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
-    print("\n\nauthenticating")
+    print("authenticating")
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -57,7 +57,7 @@ def connect(creds):
 
 
 def fetchDataFromSheet(service, sheetName):
-    print('fetching data from sheet ' + sheetName)
+    print('\nfetching data from sheet ' + sheetName)
 
     # The ID and range of a sample spreadsheet.
     SAMPLE_SPREADSHEET_ID = '1J_cYJnZI41V8TGuOa8GVDjnHSD9qRmgKTJR3sd9Ff7Y'
@@ -107,14 +107,20 @@ def createYAML(values, dataSources, location):
 
 def main(sheetName, location, dataSources):
     if __name__ == '__main__':
-        creds = authenticate()
-        service = connect(creds)
+
         values = fetchDataFromSheet(service, sheetName)
         createYAML(values, dataSources, location)
 
         global totalcount
         totalcount = totalcount + 1
         sheets.append(sheetName)
+
+
+def authconnect():
+    creds = authenticate()
+    service = connect(creds)
+    return service
+
 
 
 def report():
@@ -144,7 +150,11 @@ def ignore_aliases(self, _data):
 return True
 
 
+
 """
+
+service = authconnect()
+
 #main('Artiklid', 'article/data.yaml', {'article_pictures': '/article_pictures.yaml'})
 main('art-et', 'article/data.et.yaml', {'article_pictures': '/article_pictures.yaml'})
 main('art-en', 'article/data.en.yaml', {'article_pictures': '/article_pictures.yaml'})
