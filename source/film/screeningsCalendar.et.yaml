@@ -4,152 +4,125 @@ d2020-08-10:
         filmPath: invisible-life-of-eurdice-gusmo
         filmTitle: Nähtamatu elu
         screeningDatetime: 2020-08-11T00:45:00+0300
-        screeningTime: 00:45:00
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-10 18:45:00+03:00
         filmPath: invisible-life-of-eurdice-gusmo
         filmTitle: Nähtamatu elu
         screeningDatetime: 2020-08-10T22:45:00+0300
-        screeningTime: '22:45:00'
 d2020-08-11:
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-11 19:59:00+03:00
         filmPath: flawless
         filmTitle: Täiuslik
         screeningDatetime: 2020-08-11T23:59:00+0300
-        screeningTime: '23:59:00'
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-11 18:00:00+03:00
         filmPath: flawless
         filmTitle: Täiuslik
         screeningDatetime: 2020-08-11T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-11 20:10:00+03:00
         filmPath: house-of-hummingbird
         filmTitle: Hüvasti!
         screeningDatetime: 2020-08-12T00:10:00+0300
-        screeningTime: 00:10:00
 d2020-08-12:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-12 12:00:00+03:00
         filmPath: banksy-most-wanted
         filmTitle: 'Tagaotsitav: Banksy!'
         screeningDatetime: 2020-08-12T16:00:00+0300
-        screeningTime: '16:00:00'
     -   dateTimeForSorting: 2020-08-12 16:00:00+03:00
         filmPath: acas-my-home
         filmTitle: Acasă, mu kodu
         screeningDatetime: 2020-08-12T20:00:00+0300
-        screeningTime: '20:00:00'
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-12 14:00:00+03:00
         filmPath: banksy-most-wanted
         filmTitle: 'Tagaotsitav: Banksy!'
         screeningDatetime: 2020-08-12T18:00:00+0300
-        screeningTime: '18:00:00'
     -   dateTimeForSorting: 2020-08-12 18:00:00+03:00
         filmPath: acas-my-home
         filmTitle: Acasă, mu kodu
         screeningDatetime: 2020-08-12T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-12 19:59:00+03:00
         filmPath: the-goddess-of-fortune
         filmTitle: Õnnejumalanna
         screeningDatetime: 2020-08-12T23:59:00+0300
-        screeningTime: '23:59:00'
     -   dateTimeForSorting: 2020-08-12 22:15:00+03:00
         filmPath: schemers
         filmTitle: Skeemitajad
         screeningDatetime: 2020-08-13T02:15:00+0300
-        screeningTime: 02:15:00
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-12 18:00:00+03:00
         filmPath: the-goddess-of-fortune
         filmTitle: Õnnejumalanna
         screeningDatetime: 2020-08-12T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-12 20:15:00+03:00
         filmPath: schemers
         filmTitle: Skeemitajad
         screeningDatetime: 2020-08-13T00:15:00+0300
-        screeningTime: 00:15:00
 d2020-08-13:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-13 12:00:00+03:00
         filmPath: the-secret-lamb
         filmTitle: Lammas all paremas nurgas
         screeningDatetime: 2020-08-13T16:00:00+0300
-        screeningTime: '16:00:00'
     -   dateTimeForSorting: 2020-08-13 15:00:00+03:00
         filmPath: self-portrait
         filmTitle: Autoportree
         screeningDatetime: 2020-08-13T19:00:00+0300
-        screeningTime: '19:00:00'
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-13 17:00:00+03:00
         filmPath: self-portrait
         filmTitle: Autoportree
         screeningDatetime: 2020-08-13T21:00:00+0300
-        screeningTime: '21:00:00'
     -   dateTimeForSorting: 2020-08-13 19:59:00+03:00
         filmPath: champions
         filmTitle: Tšempionid
         screeningDatetime: 2020-08-13T23:59:00+0300
-        screeningTime: '23:59:00'
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-13 18:00:00+03:00
         filmPath: champions
         filmTitle: Tšempionid
         screeningDatetime: 2020-08-13T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-13 20:10:00+03:00
         filmPath: yalda-a-night-for-forgiveness
         filmTitle: Yalda, andestuse öö
         screeningDatetime: 2020-08-14T00:10:00+0300
-        screeningTime: 00:10:00
 d2020-08-14:
     Athena Keskus:
     -   dateTimeForSorting: 2020-08-14 12:00:00+03:00
         filmPath: storm-boy
         filmTitle: Tormipoiss
         screeningDatetime: 2020-08-14T16:00:00+0300
-        screeningTime: '16:00:00'
     -   dateTimeForSorting: 2020-08-14 15:00:00+03:00
         filmPath: marcel-duchamp-art-of-the-possible
         filmTitle: Marcel Duchamp ja võimalikkuse kunst
         screeningDatetime: 2020-08-14T19:00:00+0300
-        screeningTime: '19:00:00'
     Elisa Stage:
     -   dateTimeForSorting: 2020-08-14 19:59:00+03:00
         filmPath: force-of-habit
         filmTitle: Harjumuse jõud
         screeningDatetime: 2020-08-14T23:59:00+0300
-        screeningTime: '23:59:00'
     -   dateTimeForSorting: 2020-08-14 21:59:00+03:00
         filmPath: acid
         filmTitle: Hape
         screeningDatetime: 2020-08-15T01:59:00+0300
-        screeningTime: 01:59:00
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-14 18:00:00+03:00
         filmPath: force-of-habit
         filmTitle: Harjumuse jõud
         screeningDatetime: 2020-08-14T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-14 19:59:00+03:00
         filmPath: acid
         filmTitle: Hape
         screeningDatetime: 2020-08-14T23:59:00+0300
-        screeningTime: '23:59:00'
 d2020-08-15:
     Raekoja plats:
     -   dateTimeForSorting: 2020-08-15 18:00:00+03:00
         filmPath: final-portrait
         filmTitle: Viimane portree
         screeningDatetime: 2020-08-15T22:00:00+0300
-        screeningTime: '22:00:00'
     -   dateTimeForSorting: 2020-08-15 19:45:00+03:00
         filmPath: maudie
         filmTitle: Maudie
         screeningDatetime: 2020-08-15T23:45:00+0300
-        screeningTime: '23:45:00'

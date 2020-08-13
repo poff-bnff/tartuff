@@ -7,17 +7,14 @@
     personName: Mikk Granström
     personJobTitle: 'PÖFFi tegevjuht
 
-
         Filmiprogrammi koostaja'
     personOrganisation: ''
     personPhoto: https://poff.ee/2019WP/wp-content/themes/yootheme/cache/MikkGranstrom-9d91bcda.jpeg
 -   personId: '1003'
     personName: Kristiina Reidolv
-    personJobTitle: 'Festivali juht
-
+    personJobTitle: 'Tartuffi juht
 
         Üritused
-
 
         Majutus'
     personOrganisation: ''
@@ -26,14 +23,12 @@
     personName: Dagmar Raudam
     personJobTitle: 'Filmiprogrammi juht
 
-
         Külalised'
     personOrganisation: ''
     personPhoto: https://poff.ee/2019WP/wp-content/themes/yootheme/cache/DagmarRaudam-e050387d.jpeg
 -   personId: '1005'
     personName: Tiit Tuumalu
     personJobTitle: 'Filmiprogrammi koostaja
-
 
         Kommunikatsioon'
     personOrganisation: ''
@@ -124,21 +119,11 @@
     personPhoto: /assets/img/img_persons/hunt_person.png
 -   personId: '1022'
     personName: ''
-    personJobTitle: ''
+    personJobTitle: Videoprojektsioon
     personOrganisation: Drive In Cinema
     personPhoto: /assets/img/img_persons/hunt_person.png
 -   personId: '1023'
     personName: ''
-    personJobTitle: ''
+    personJobTitle: Videoprojektsioon
     personOrganisation: Tartu Elektriteater
     personPhoto: /assets/img/img_persons/hunt_person.png
--   personId: '1024'
--   personId: '1025'
--   personId: '1026'
--   personId: '1027'
--   personId: '1028'
--   personId: '1029'
--   personId: '1030'
--   personId: '1031'
--   personId: '1032'
--   personId: '1033'
