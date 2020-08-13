@@ -107,6 +107,18 @@ block content
 
 
 
+        each val in self.data.screeningsCalendar
+            p
+                +calendarDate(val.calendarDate)
+            each val2 in val.cinemas
+                p= val2.cinema
+                each val3 in val2.cinema
+                    p
+                        +screeningTime(val3.screeningTime)
+                        |   - #{val3.filmTitle}
+
+
+
 
         section.calendar
             .calendar_day
