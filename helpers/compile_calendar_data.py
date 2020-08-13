@@ -55,7 +55,7 @@ def compileCalData(input, output):
     for screening in screeningsData:
         [day] = [d for d in calendarDays if d['calendarDate'] == formatedDate(screening['calendarDateTime'])]
         [cinema] = [c for c in day['cinemas'] if c['cinema'] == screening['screeningCinema']]
-        cinema['screenings'].append({'filmTitle': screening['filmTitle'], 'screeningTime' : screening['screeningTime'], 'filmPath': screening['filmPath'] })
+        cinema['screenings'].append({'filmTitle': screening['filmTitle'], 'screeningTime' : screening['screeningTime'], 'filmPath': screening['filmPath'], 'screeningDatetime': screening['screeningDatetime'] })
 
     with open(r'../source/'+output, 'w', encoding='utf-8') as file:
         yaml.dump(calendarDays, file, default_flow_style=False, sort_keys=True, indent=4, allow_unicode=True, Dumper=NoAliasDumper)
