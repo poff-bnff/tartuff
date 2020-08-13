@@ -1,44 +1,137 @@
 -   calendarDate: '2020-08-10'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: invisible-life-of-eurdice-gusmo
+            filmTitle: Nähtamatu elu
+            screeningTime: '22:45:00'
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: invisible-life-of-eurdice-gusmo
+            filmTitle: Nähtamatu elu
+            screeningTime: 00:45:00
 -   calendarDate: '2020-08-11'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: flawless
+            filmTitle: Täiuslik
+            screeningTime: '22:00:00'
+        -   filmPath: house-of-hummingbird
+            filmTitle: Hüvasti!
+            screeningTime: 00:10:00
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: flawless
+            filmTitle: Täiuslik
+            screeningTime: '23:59:00'
 -   calendarDate: '2020-08-12'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: the-goddess-of-fortune
+            filmTitle: Õnnejumalanna
+            screeningTime: '22:00:00'
+        -   filmPath: schemers
+            filmTitle: Skeemitajad
+            screeningTime: 00:15:00
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: banksy-most-wanted
+            filmTitle: 'Tagaotsitav: Banksy!'
+            screeningTime: '18:00:00'
+        -   filmPath: acas-my-home
+            filmTitle: Acasă, mu kodu
+            screeningTime: '22:00:00'
+        -   filmPath: the-goddess-of-fortune
+            filmTitle: Õnnejumalanna
+            screeningTime: '23:59:00'
+        -   filmPath: schemers
+            filmTitle: Skeemitajad
+            screeningTime: 02:15:00
     -   cinema: Athena Keskus
-        screenings: []
+        screenings:
+        -   filmPath: banksy-most-wanted
+            filmTitle: 'Tagaotsitav: Banksy!'
+            screeningTime: '16:00:00'
+        -   filmPath: acas-my-home
+            filmTitle: Acasă, mu kodu
+            screeningTime: '20:00:00'
 -   calendarDate: '2020-08-13'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: champions
+            filmTitle: Tšempionid
+            screeningTime: '22:00:00'
+        -   filmPath: yalda-a-night-for-forgiveness
+            filmTitle: Yalda, andestuse öö
+            screeningTime: 00:10:00
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: self-portrait
+            filmTitle: Autoportree
+            screeningTime: '21:00:00'
+        -   filmPath: champions
+            filmTitle: Tšempionid
+            screeningTime: '23:59:00'
     -   cinema: Athena Keskus
-        screenings: []
+        screenings:
+        -   filmPath: the-secret-lamb
+            filmTitle: Lammas all paremas nurgas
+            screeningTime: '16:00:00'
+        -   filmPath: self-portrait
+            filmTitle: Autoportree
+            screeningTime: '19:00:00'
 -   calendarDate: '2020-08-14'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: force-of-habit
+            filmTitle: Harjumuse jõud
+            screeningTime: '22:00:00'
+        -   filmPath: acid
+            filmTitle: Hape
+            screeningTime: '23:59:00'
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: force-of-habit
+            filmTitle: Harjumuse jõud
+            screeningTime: '23:59:00'
+        -   filmPath: acid
+            filmTitle: Hape
+            screeningTime: 01:59:00
     -   cinema: Athena Keskus
-        screenings: []
+        screenings:
+        -   filmPath: storm-boy
+            filmTitle: Tormipoiss
+            screeningTime: '16:00:00'
+        -   filmPath: marcel-duchamp-art-of-the-possible
+            filmTitle: Marcel Duchamp ja võimalikkuse kunst
+            screeningTime: '19:00:00'
 -   calendarDate: '2020-08-15'
     cinemas:
     -   cinema: Raekoja plats
-        screenings: []
+        screenings:
+        -   filmPath: final-portrait
+            filmTitle: Viimane portree
+            screeningTime: '22:00:00'
+        -   filmPath: maudie
+            filmTitle: Maudie
+            screeningTime: '23:45:00'
     -   cinema: Elisa Stage
-        screenings: []
+        screenings:
+        -   filmPath: force-of-habit
+            filmTitle: Harjumuse jõud
+            screeningTime: '23:59:00'
+        -   filmPath: acid
+            filmTitle: Hape
+            screeningTime: 01:59:00
     -   cinema: Athena Keskus
-        screenings: []
+        screenings:
+        -   filmPath: storm-boy
+            filmTitle: Tormipoiss
+            screeningTime: '16:00:00'
+        -   filmPath: marcel-duchamp-art-of-the-possible
+            filmTitle: Marcel Duchamp ja võimalikkuse kunst
+            screeningTime: '19:00:00'

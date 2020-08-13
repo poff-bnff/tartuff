@@ -50,13 +50,82 @@ for day in calendarDays:
             # print("in screeningsData: " + formatedDate(screening['calendarDateTime']))
             # print(screening['screeningCinema'])
     day['cinemas']=list({v['cinema']:v for v in cinemas}.values())
+
 #screeningEventivalId
 
-for day in calendarDays:
-    print(day['cinemas'])
-    #for screening in screeningsData:
-        # if day['calendarDate'] == formatedDate(screening['calendarDateTime']) and s['screeningCinema'] == c['cinema']:
-        #     print('heureka')
+
+
+# #käin läbi kõik päevad calendarDays loendis
+# for day in calendarDays:
+#     screenings =[]
+#     #print('calendarDate in calendarDays: ' + day['calendarDate'])
+#     #print(day['cinemas']
+# #KALENDAR DAY TULEB SCREENINGU JÄRGI
+
+#käin läbi kõik screeningud screenings.yaml failis
+for screening in screeningsData:
+    #print('calendarDate in screenings: '+ formatedDate(screening['calendarDateTime']))
+    #print(screening)
+    [day] = [d for d in calendarDays if d['calendarDate'] == formatedDate(screening['calendarDateTime'])]
+    print(day)
+    [cinema] = [c for c in day['cinemas'] if c['cinema'] == screening['screeningCinema']]
+    #c_ix = day['cinemas'].index(cinema) indexit ei ole vaja sest panen tagasi juba referentsiga
+    cinema['screenings'].append({'filmTitle': screening['filmTitle'], 'screeningTime' : screening['screeningTime'], 'filmPath': screening['filmPath'] })
+    print (cinema)
+    #day['cinemas'][c_ix] = cinema
+    print(day)
+
+
+    # for c in day['cinemas']:
+    #     if c['cinema'] == screening['screeningCinema']:
+    #         print(c['cinema'] + " on " + screening['screeningCinema'])
+    #         screenings.append(screening['filmTitle'])
+    #         print(screenings)
+    #         c['screenings'] = screenings
+    #kui kuupäev on sama, siis pean võrdlema calendarDays loendis oleva cinemas loendi väärtuseid screening.yaml screeningCinema väärtusega
+    # if day['calendarDate'] == formatedDate(screening['calendarDateTime']):
+    #     print(day['calendarDate'] + ' on sama mis ' + formatedDate(screening['calendarDateTime']) )
+    #     for c in day['cinemas']:
+    #         if c['cinema'] == screening['screeningCinema']:
+    #             print(c['cinema'] + " on " + screening['screeningCinema'])
+    #             screenings.append(screening['filmTitle'])
+    #             print(screenings)
+    #             c['screenings'] = screenings
+
+        #print(screenings)
+        #print('selle külge panen seansid ' + c['cinema'])
+
+    # for c in day['cinemas']:
+    #     #print('cinema in calendarDays: ' + c['cinema'])
+    #     for screening in screeningsData:
+    #         ##print('calendarDate in screenings: '+ formatedDate(screening['calendarDateTime']))
+    #         #print('cinema in screeningsData: ' + screening['screeningCinema'])
+    #         if day['calendarDate'] == formatedDate(screening['calendarDateTime']) and c['cinema'] == screening['screeningCinema']:
+    #             print('ühe päeva, ühe kino filmid on: ')
+    #             screenings.append(screening['filmTitle'])
+    #     print(screenings)
+    #         #c['screenings'] = screenings
+    #             #print()
+    #             #print('cinema in calendarDays: ' + c['cinema'])
+    #             #print('cinema in screeningsData: ' + screening['screeningCinema'])
+
+# screenings =[]
+# for day in calendarDays:
+#     ##print('calendarDate in calendarDays: ' + day['calendarDate'])
+#     #print(day['cinemas'])
+#     for c in day['cinemas']:
+#         #print('cinema in calendarDays: ' + c['cinema'])
+#         for screening in screeningsData:
+#             #print('cinema in screeningsData: ' + screening['screeningCinema'])
+#             ##print('calendarDate in screenings: '+ formatedDate(screening['calendarDateTime']))
+#             if day['calendarDate'] == formatedDate(screening['calendarDateTime']) and c['cinema'] == screening['screeningCinema']:
+#                 print('ühe päeva, ühe kino filmid on: ')
+#                 screenings.append(screening['filmTitle'])
+#         print(screenings)
+#             #c['screenings'] = screenings
+#                 #print()
+#                 #print('cinema in calendarDays: ' + c['cinema'])
+#                 #print('cinema in screeningsData: ' + screening['screeningCinema'])
 
 
 # screenings =[]
