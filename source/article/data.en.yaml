@@ -175,3 +175,37 @@
     kell: ''
     articlePublishStart: 2020-08-10T12:00:00+0300
     articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '9'
+    path: a9
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-11T12:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '10'
+    path: a10
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-13T12:00:00+0300
+    articlePublishEnd: T+0300
