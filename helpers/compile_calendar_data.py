@@ -17,9 +17,16 @@ def formatDateTime(dateTime):
 def formatedDate(dateTime):
     return str((datetime.strptime(dateTime, '%Y-%m-%dT%H:%M:%S%z')).date())
 
+def etSort(c):
+        sortOrder={"Athena Keskus":0, "Raekoja plats":1, "Elisa Stage":2}
+        return sortOrder[c['cinema']]
+def enSort(c):
+        sortOrder={"Athena Center":0, "Town Hall Square":1, "Elisa Stage":2}
+        return sortOrder[c['cinema']]
 
 
-def compileCalData(input, output):
+
+def compileCalData(input, output, sortKey):
     yaml_file = open("../source/film/"+input, encoding='utf-8')
     screeningsData = yaml.load(yaml_file, Loader=yaml.FullLoader)
 
@@ -38,10 +45,6 @@ def compileCalData(input, output):
 
     #otsin screeningCinemad kuupäeva kaupa välja ja panen objekti sisse
     cinemas = []
-    #see funktsioon, mis määrab, mis järjekorras sorteerime
-    def keyForSortingCinemas(c):
-        sortOrder={"Athena Keskus":0, "Raekoja plats":1, "Elisa Stage":2}
-        return sortOrder[c['cinema']]
 
     for day in calendarDays:
         for screening in screeningsData:
@@ -49,7 +52,7 @@ def compileCalData(input, output):
                 cinemas.append({'cinema': screening['screeningCinema'], 'screenings': []})
     #siin eemaldan cinemas listist duplikaadid, sorteerin ja  panen cinemas listi day objekti sisse õigesse kohta
         uniqueCinemas = list({v['cinema']:v for v in cinemas}.values())
-        day['cinemas']=sorted(uniqueCinemas, key = keyForSortingCinemas )
+        day['cinemas']=sorted(uniqueCinemas, key = sortKey)
 
     #käin läbi kõik screeningud screenings.yaml failis
     for screening in screeningsData:
@@ -63,8 +66,8 @@ def compileCalData(input, output):
 
 
 ## KUTSUN VÄLJA FUNKTSIOONI
-compileCalData('screenings.et.yaml','film/screeningsCalendar.et.yaml')
-compileCalData('screenings.en.yaml','film/screeningsCalendar.en.yaml')
+compileCalData('screenings.et.yaml','film/screeningsCalendar.et.yaml', etSort)
+compileCalData('screenings.en.yaml','film/screeningsCalendar.en.yaml', enSort)
 
 
 

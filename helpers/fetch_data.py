@@ -97,7 +97,8 @@ def createYAML(values, dataSources, location):
                         count2 = count2 + 1
                     dict_file = dict_file + [data]
                     with open(r'../source/' + location, 'w', encoding='utf-8') as file:
-                        yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True, Dumper=NoAliasDumper)
+                        yaml.dump(dict_file, file, default_flow_style=False, sort_keys=False, indent=4, allow_unicode=True, Dumper=NoAliasDumper, width=9999999)
+                        #width=9999999 == pika teksti rida ei pakita lühemaks
                         #print(yaml.safe_dump(interfaces))
                         #print(yaml.dump(interfaces, Dumper=NoAliasDumper))
             count = count + 1

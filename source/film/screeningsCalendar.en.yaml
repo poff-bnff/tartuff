@@ -1,6 +1,6 @@
 -   calendarDate: '2020-08-10'
     cinemas:
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: invisible-life-of-eurdice-gusmo
             filmTitle: Invisible Life of Eurídice Gusmão
@@ -14,7 +14,7 @@
             screeningTime: 00:45:00
 -   calendarDate: '2020-08-11'
     cinemas:
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: flawless
             filmTitle: Flawless
@@ -32,7 +32,7 @@
             screeningTime: '23:59:00'
 -   calendarDate: '2020-08-12'
     cinemas:
-    -   cinema: Athena Keskus
+    -   cinema: Athena Center
         screenings:
         -   filmPath: banksy-most-wanted
             filmTitle: Banksy Most Wanted
@@ -42,7 +42,7 @@
             filmTitle: Acasă, My Home
             screeningDatetime: 2020-08-12T20:00:00+0300
             screeningTime: '20:00:00'
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: the-goddess-of-fortune
             filmTitle: The Goddess of Fortune
@@ -72,7 +72,7 @@
             screeningTime: 02:15:00
 -   calendarDate: '2020-08-13'
     cinemas:
-    -   cinema: Athena Keskus
+    -   cinema: Athena Center
         screenings:
         -   filmPath: the-secret-lamb
             filmTitle: The Secret Lamb
@@ -82,7 +82,7 @@
             filmTitle: Self Portrait
             screeningDatetime: 2020-08-13T19:00:00+0300
             screeningTime: '19:00:00'
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: champions
             filmTitle: Champions
@@ -104,7 +104,7 @@
             screeningTime: '23:59:00'
 -   calendarDate: '2020-08-14'
     cinemas:
-    -   cinema: Athena Keskus
+    -   cinema: Athena Center
         screenings:
         -   filmPath: storm-boy
             filmTitle: Storm Boy
@@ -114,7 +114,7 @@
             filmTitle: 'Marcel Duchamp: Art of the Possible'
             screeningDatetime: 2020-08-14T19:00:00+0300
             screeningTime: '19:00:00'
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: force-of-habit
             filmTitle: Force of Habit
@@ -136,7 +136,7 @@
             screeningTime: 01:59:00
 -   calendarDate: '2020-08-15'
     cinemas:
-    -   cinema: Athena Keskus
+    -   cinema: Athena Center
         screenings:
         -   filmPath: storm-boy
             filmTitle: Storm Boy
@@ -146,7 +146,7 @@
             filmTitle: 'Marcel Duchamp: Art of the Possible'
             screeningDatetime: 2020-08-14T19:00:00+0300
             screeningTime: '19:00:00'
-    -   cinema: Raekoja plats
+    -   cinema: Town Hall Square
         screenings:
         -   filmPath: final-portrait
             filmTitle: Final Portrait
