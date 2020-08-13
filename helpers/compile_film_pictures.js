@@ -8,7 +8,7 @@ let data = new Object();
 data.filmslugs = new Object()
 
 fs.readdirSync(testFolder).forEach(folder => {
-    if (folder != '.DS_Store') {
+    if (folder !== '.DS_Store') {
 
         console.log(folder);
 
@@ -19,15 +19,15 @@ fs.readdirSync(testFolder).forEach(folder => {
         }
 
         fs.readdirSync(testFolder + '/' + folder).forEach(file => {
-            if (folder != '.DS_Store') {
+            if (folder !== '.DS_Store') {
 
-                if (file.substring(0, 4) == 'F_1_') {
+                if (file.substring(0, 4) === 'F_1_') {
                     filmSlug.poster = file
                     //filmSlug.pics.push(file)
-                } else if (file.substring(0, 4) == 'E_1_') {
+                } else if (file.substring(0, 4) === 'E_1_') {
                     filmSlug.presenter = file
                 } else {
-                    if (file.substring(0, 4) != 'E_1_') {
+                    if (file.substring(0, 4) !== 'E_1_') {
                         filmSlug.pics.push(file)
                     }
                 }
