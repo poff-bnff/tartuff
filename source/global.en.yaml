@@ -28,6 +28,8 @@ label:
         partners: Partners
         screeningsCalendar: Screenings calendar
         eventsCalendar: Events calendar
+        eventsGalleries: What happened?
+        team: Festival team
     film:
         filmTitleOriginal: Original title
         filmTitle_en: Title in English
@@ -62,6 +64,8 @@ label:
         languageSelect: Languages
     screening:
         screeningSubtitles: Subtitles
+        screeningIntroPresenter: Intro by
+        screeningIntroGuests: Intro guests
         screeningQaPresenter: Q&A presenter
         screeningQaGuests: Q&A guests
         screeningQaDuration: Q&A duration
@@ -82,5 +86,6 @@ label:
         mainInfo: Info
         mainCovid: Covid
         mainFestival: Festival
+        mainSchedule: Schedule
 
 eFilmInfo: ' - You can see the film also on Elisa Stage, a VOD platform by Elisa'

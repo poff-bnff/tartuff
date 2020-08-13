@@ -172,14 +172,19 @@ nav
         margin-top .5rem
         margin-bottom .5rem
         margin-left 1rem
-    a
-        color white_96
-        font-size 1rem
-        text-decoration none
-        text-transform uppercase
-        &:hover
-            color clr_primary
+        a
+            color white_96
+            font-size 1rem
             text-decoration none
+            text-transform uppercase
+            &:hover
+            &:focus
+                color clr_primary
+                // color ghost_blue
+                text-decoration none
+                opacity 0.99
+                transform scale(1.07, 1.07)
+
 
 .main_menu_toggle
     display none
@@ -291,6 +296,31 @@ nav
     grid-template-rows: auto
     padding-top 78px
 
+.grid_flickr
+    display grid
+    grid-template-columns repeat(auto-fit, minmax(450px, 1fr))
+    // repeat(auto-fit, minmax(450px, 1fr))
+    grid-template-rows auto
+    margin 0
+    padding 0
+    grid-gap 1em
+    justify-content center
+    justify-items center
+    align-items center
+    justify-items center
+    // padding-top 78px
+    padding-bottom 78px
+    padding-left 1rem
+    padding-right 1rem
+    // background-color bg_dark_3
+
+.flickr_gallery
+    width 100%
+    // background-color bg_dark_4
+    img
+        width 100%
+        height auto
+
 .grid_hero
     display grid
     grid-template-columns 1fr
@@ -376,6 +406,9 @@ nav
         text-decoration none
         color white_96
         // font-weight 600
+
+.schedule
+    padding-top 78px
 
 .footer_logo_item_1
     // background-color bg_dark_3
@@ -566,7 +599,7 @@ p
 
 .section_headline
   font-family font_h
-  font-size calc(4rem + 5vw)
+  font-size calc(2rem + 5vw)
   line-height 1
   font-weight 700
   color bg_dark_4
@@ -576,7 +609,7 @@ p
   padding 0
   padding-left calc(1rem + 1vw)
   padding-right calc(1rem + 1vw)
-  margin-top .3em
+  margin-top .6em
 //   margin-bottom -.6em
 
 .section_headline_back
@@ -584,7 +617,7 @@ p
   font-size calc(4rem + 5vw)
   line-height 1
   font-weight 700
-  color bg_dark_3
+  color bg_dark_4
   letter-spacing 0.04em
   text-align center
   padding-left calc(1rem + 1vw)
@@ -593,7 +626,7 @@ p
 
 .section_headline_footer
     font-family font_h
-    font-size calc(4rem + 5vw)
+    font-size calc(2rem + 5vw)
     line-height 1
     font-weight 700
     color bg_dark_4
@@ -604,7 +637,7 @@ p
     padding-left calc(1rem + 1vw)
     padding-right calc(1rem + 1vw)
     margin-top .6em
-//   margin-bottom -.2em
+    margin-bottom .2em
 
 
 .main_menu_toggle
@@ -1088,6 +1121,10 @@ a.btn_popover
     line-height: 1.681rem
     align-self center
 
+.covid_rules
+        padding-left calc(1rem + 1vw)
+        padding-right calc(1rem + 1vw)
+
 .calendar
     display grid
     grid-template-columns 1fr
@@ -1103,7 +1140,7 @@ a.btn_popover
     width 100%
     height auto
     margin-bottom 1rem
-    margin-top 1rem
+    // margin-top 1rem
 
 .calendar_day_head
     background-color clr_primary
@@ -1206,18 +1243,15 @@ a.btn_popover
         grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr
         grid-template-rows auto
         grid-gap 1rem
-        padding 1rem
+        padding-left 1rem
+        padding-right 1rem
 
     .grid_covid
         display grid
         grid-template-columns 1fr 1fr
         margin 0
         grid-gap 2rem
-
-    .covid_rules
-        padding-left calc(1rem + 1vw)
-        padding-right calc(1rem + 1vw)
-
+        padding calc(2rem + 2vw)
 
     .main_menu_toggle_label
         display none
@@ -1229,7 +1263,10 @@ a.btn_popover
     footer
         grid-area footer
         border-top 1px solid rgba(255,255,255,.1)
-        padding 10vw
+        margin 0
+        padding 0
+        // padding 10vw
+        padding 3rem 5rem 3rem 5rem
 
     .grid_footer_contact
         display grid
@@ -1245,20 +1282,64 @@ a.btn_popover
             display flex
             justify-content flex-end
             align-items flex-end
-            li
-                height 100%
-                margin 0
-                padding-left 1.2rem
-                padding-right 1.2rem
-                padding-top 1rem
-                padding-bottom 1rem
-                border 1px solid rgba(255, 255, 255, 0)
-                &:hover
-                background-color bg_dark_2
+        li
+            height 100%
+            margin 0
+            padding-left 1.2rem
+            padding-right 1.2rem
+            padding-top 1rem
+            padding-bottom 1rem
+            border 1px solid rgba(255, 255, 255, 0)
+            &:hover
+            &:focus
+                background-color bg_dark_3
                 border-top 1px solid clr_primary
-                a
+                // opacity 0.99
+                transform scale(1.02, 1.02)
+
+            a
+                // color ghost_blue
                 &:hover
                     color white_96
+
+    // nav
+    //     ul
+    //         padding 0
+    //         margin 0
+    //         list-style none
+    //     li
+    //         margin-top .5rem
+    //         margin-bottom .5rem
+    //         margin-left 1rem
+    //     a
+    //         color white_96
+    //         font-size 1rem
+    //         text-decoration none
+    //         text-transform uppercase
+    //         &:hover
+    //             color clr_primary
+    //             text-decoration none
+
+    // nav
+    //         ul
+    //             display flex
+    //             justify-content flex-end
+    //             align-items flex-end
+    //             li
+    //                 height 100%
+    //                 margin 0
+    //                 padding-left 1.2rem
+    //                 padding-right 1.2rem
+    //                 padding-top 1rem
+    //                 padding-bottom 1rem
+    //                 border 1px solid rgba(255, 255, 255, 0)
+    //                 &:hover
+    //                 background-color bg_dark_2
+    //                 border-top 1px solid clr_primary
+    //                 a
+    //                 &:hover
+    //                     color white_96
+
 
     .main_menu
         grid-column 2 / 3
@@ -1398,6 +1479,9 @@ a.btn_popover
 
 .text_right
   text-align right
+
+.text_center
+    text-align center
 
 .caps
     text-transform uppercase
