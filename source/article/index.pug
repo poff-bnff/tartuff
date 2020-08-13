@@ -7,14 +7,15 @@ include /_templates/mixins.pug
 block content
 
     - var articlePics = self.data.article_pictures.articles
-    - var articlePic = articlePics[self.path]
+    - var splitSelfPath = self.path.split("/")[self.path.split("/").length-1]
+    - var articlePic = articlePics[splitSelfPath]
 
     +tabname self.articleTitle
 
     section.grid_article
         section.article_hero_head
             if articlePic
-                img(src=`/assets/img/img_articles/${self.path}/${articlePic.heroImage}`).article_hero_image
+                img(src=`/assets/img/img_articles/${splitSelfPath}/${articlePic.heroImage}`).article_hero_image
             else
                 img(src='/assets/img/global/placeholder_hd_1.jpg').article_hero_image
         if self.articleTitle

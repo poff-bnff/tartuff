@@ -1,7 +1,11 @@
+//- lisab õige youtube video treileriks, kasutab film.layout.pug
 mixin youtube(videoId)
     iframe(width='560' height='315' src=`https://www.youtube.com/embed/${videoId}`
         frameborder='0' allow='accelerometer' autoplay;='' encrypted-media;=''
         gyroscope;='' picture-in-picture”='' allowfullscreen='')
+
+//- tekitab formaadis (nt E 21.08.2020 12:00) kohaliku kuupäeva. kasutuses article.index.pug
+//- sisend kujul (2020-08-10T22:45:00+0300)
 
 mixin localdatetime(dateString)
     - var dom_id = Math.random()
@@ -18,6 +22,8 @@ mixin localdatetime(dateString)
 
         })();
 
+//- tekitab formaadis (nt 15. nov) kohaliku kuupäeva, kasutuses film.layout.pug (section.f_screenings_box)
+//- sisend kujul ('2020-08-10')
 mixin screeningDate(dateString)
     - var dom_id = Math.random()
     span(id = 'dt_' + dom_id)
@@ -33,6 +39,8 @@ mixin screeningDate(dateString)
 
         })();
 
+//- tekitab formaadis (nt 12:00) kohaliku kellaaja, kasutuses film.layout.pug (section.f_screenings_box)
+//- sisend kujul (2020-08-10T22:45:00+0300)
 mixin screeningTime(dateString)
     - var dom_id = Math.random()
     span(id = 'dt_' + dom_id)
@@ -47,6 +55,8 @@ mixin screeningTime(dateString)
 
         })();
 
+//- tekitab formaadis (nt esmaspaev, 10 august) kohaliku kuupäeva, kasutuses home.layout.pug (section.calendar)
+//- sisend kujul ('2020-08-10')
 mixin calendarDate(dateString)
     - var dom_id = Math.random()
     span(id = 'dt_' + dom_id)
@@ -61,6 +71,8 @@ mixin calendarDate(dateString)
 
         })();
 
+//- tekitab formaadis (nt 2h 19m) kohaliku kestvuse, kasutuses festival.index.pug (section.team)
+//- sisend kujul ('139') minutid
 mixin dur(mins)
     - var dom_id = Math.random()
     span(id = 'dt_' + dom_id)
@@ -76,11 +88,13 @@ mixin dur(mins)
             eDisplayMoment1.innerHTML = t;
         })();
 
+//- otsib dokumendist pealkirja, õige filmi kuvamiseks
 mixin tabname(currenttitle)
     script.
         document.title= '#{currenttitle}';
         //document.title= 'Tartuff 2020: ' + ('#{currenttitle}');
 
+//- kuvab teksti õiges formaadis, reavahed
 mixin format(text)
     | !{ self.md(text) }
 

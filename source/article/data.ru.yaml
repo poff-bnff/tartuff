@@ -6,7 +6,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '8'
+    articleLead: '10'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -46,7 +46,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '5'
+    articleLead: '6'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -66,7 +66,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '6'
+    articleLead: '9'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -86,7 +86,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '4'
+    articleLead: '5'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -106,7 +106,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '3'
+    articleLead: '5'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -126,7 +126,7 @@
     articleActive: '1'
     articleTitle: ''
     articleSlug: ''
-    articleLead: '2'
+    articleLead: '4'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -143,7 +143,7 @@
     articleActive: ''
     articleTitle: ''
     articleSlug: ''
-    articleLead: '1'
+    articleLead: '3'
     articleAuthor: Tartuff
     articleImage: ''
     ArticleVideo: ''
@@ -151,4 +151,38 @@
     kuupäev: ''
     kell: ''
     articlePublishStart: 2020-08-10T12:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '9'
+    path: a9
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '2'
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-11T12:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '10'
+    path: a10
+    articleType: Uudised
+    articleActive: ''
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: '1'
+    articleAuthor: Tartuff
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-13T12:00:00+0300
     articlePublishEnd: T+0300
