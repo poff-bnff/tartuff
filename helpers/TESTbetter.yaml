@@ -27,6 +27,14 @@
             screeningTime: '23:59:00'
 -   calendarDate: '2020-08-12'
     cinemas:
+    -   cinema: Athena Keskus
+        screenings:
+        -   filmPath: banksy-most-wanted
+            filmTitle: 'Tagaotsitav: Banksy!'
+            screeningTime: '16:00:00'
+        -   filmPath: acas-my-home
+            filmTitle: Acasă, mu kodu
+            screeningTime: '20:00:00'
     -   cinema: Raekoja plats
         screenings:
         -   filmPath: the-goddess-of-fortune
@@ -49,16 +57,16 @@
         -   filmPath: schemers
             filmTitle: Skeemitajad
             screeningTime: 02:15:00
-    -   cinema: Athena Keskus
-        screenings:
-        -   filmPath: banksy-most-wanted
-            filmTitle: 'Tagaotsitav: Banksy!'
-            screeningTime: '16:00:00'
-        -   filmPath: acas-my-home
-            filmTitle: Acasă, mu kodu
-            screeningTime: '20:00:00'
 -   calendarDate: '2020-08-13'
     cinemas:
+    -   cinema: Athena Keskus
+        screenings:
+        -   filmPath: the-secret-lamb
+            filmTitle: Lammas all paremas nurgas
+            screeningTime: '16:00:00'
+        -   filmPath: self-portrait
+            filmTitle: Autoportree
+            screeningTime: '19:00:00'
     -   cinema: Raekoja plats
         screenings:
         -   filmPath: champions
@@ -75,16 +83,16 @@
         -   filmPath: champions
             filmTitle: Tšempionid
             screeningTime: '23:59:00'
-    -   cinema: Athena Keskus
-        screenings:
-        -   filmPath: the-secret-lamb
-            filmTitle: Lammas all paremas nurgas
-            screeningTime: '16:00:00'
-        -   filmPath: self-portrait
-            filmTitle: Autoportree
-            screeningTime: '19:00:00'
 -   calendarDate: '2020-08-14'
     cinemas:
+    -   cinema: Athena Keskus
+        screenings:
+        -   filmPath: storm-boy
+            filmTitle: Tormipoiss
+            screeningTime: '16:00:00'
+        -   filmPath: marcel-duchamp-art-of-the-possible
+            filmTitle: Marcel Duchamp ja võimalikkuse kunst
+            screeningTime: '19:00:00'
     -   cinema: Raekoja plats
         screenings:
         -   filmPath: force-of-habit
@@ -101,6 +109,8 @@
         -   filmPath: acid
             filmTitle: Hape
             screeningTime: 01:59:00
+-   calendarDate: '2020-08-15'
+    cinemas:
     -   cinema: Athena Keskus
         screenings:
         -   filmPath: storm-boy
@@ -109,8 +119,6 @@
         -   filmPath: marcel-duchamp-art-of-the-possible
             filmTitle: Marcel Duchamp ja võimalikkuse kunst
             screeningTime: '19:00:00'
--   calendarDate: '2020-08-15'
-    cinemas:
     -   cinema: Raekoja plats
         screenings:
         -   filmPath: final-portrait
@@ -127,11 +135,3 @@
         -   filmPath: acid
             filmTitle: Hape
             screeningTime: 01:59:00
-    -   cinema: Athena Keskus
-        screenings:
-        -   filmPath: storm-boy
-            filmTitle: Tormipoiss
-            screeningTime: '16:00:00'
-        -   filmPath: marcel-duchamp-art-of-the-possible
-            filmTitle: Marcel Duchamp ja võimalikkuse kunst
-            screeningTime: '19:00:00'
