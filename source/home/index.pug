@@ -106,20 +106,20 @@ block content
 
         section.calendar
 
-                each screeningDay in self.data.screeningsCalendar
-                    .calendar_day
-                        .calendar_day_head
-                            +calendarDate(screeningDay.calendarDate)
-                        .calendar_day_body
-                            each cinema in screeningDay.cinemas
-                                .clr_white_semi.caps= cinema.cinema
-                                each screening in cinema.screenings
-                                    span.screeningTime
-                                        +screeningTime(screening.screeningDatetime)
-                                    a(href=`https://tartuff.ee/${screening.filmPath}`)
-                                        span.filmTitle= screening.filmTitle
-                                    br
+            each screeningDay in self.data.screeningsCalendar
+                .calendar_day
+                    .calendar_day_head
+                        +calendarDate(screeningDay.calendarDate)
+                    .calendar_day_body
+                        each cinema in screeningDay.cinemas
+                            .clr_white_semi.caps= cinema.cinema
+                            each screening in cinema.screenings
+                                span.screeningTime
+                                    +screeningTime(screening.screeningDatetime)
+                                a(href=`https://tartuff.ee/${screening.filmPath}`)
+                                    span.filmTitle= screening.filmTitle
                                 br
+                            br
 
 
         //- section.calendar
