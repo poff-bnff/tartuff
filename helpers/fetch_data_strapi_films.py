@@ -9,7 +9,7 @@ import json
 import jsonpickle
 import requests
 import pprint
-pp = pprint.PrettyPrinter(indent=4)
+pp = pprint.PrettyPrinter(indent=4).pprint
 
 
 from googleapiclient.discovery import build
@@ -80,7 +80,7 @@ def fetchDataFromSheet(service, sheetName):
 def readJson(fileName):
     with open(r''+ fileName, encoding='utf-8') as f:
         data = json.load(f)
-    pp.pprint(data)
+    return data
 
 readJson('strapiFilms.json')
 
@@ -101,11 +101,11 @@ def splitCompany(txt):
 def splitCountriesLang(txt):
     countries = txt.split(', ')
     country = ''
-    countryFromISOcountries =
+    countryFromISOcountries = readJson('strapiFilms.json')
     for name in countries:
         for value in countryFromISOcountries:
-            if name == countryFromStrapi
-                country == .code
+            if name == value['Value_en']
+                country == value['Code']
     return country
 
 def createJSON(rows, location):
@@ -154,7 +154,7 @@ def createJSON(rows, location):
 
     with open(r'../source/' + location, 'w', encoding='utf-8') as file:
         json.dump(filmList, file, indent=4)
-    # pp.pprint(filmList)
+    # pp(filmList)
     return filmList
 
 
