@@ -48,6 +48,33 @@ mixin screeningTime(dateString)
     script.
         (function()
         {
+
+            moment.lang('en', {
+                longDateFormat : {
+                    LT: "hh:mm A",
+                    L: "MM/DD/YYYY",
+                    l: "M/D/YYYY",
+                    LL: "MMMM Do YYYY",
+                    ll: "MMM D YYYY",
+                    LLL: "MMMM Do YYYY LT",
+                    lll: "MMM D YYYY LT",
+                    LLLL: "dddd, MMMM Do YYYY LT",
+                    llll: "ddd, MMM D YYYY LT"
+                }
+            });
+
+            moment.lang('et', {
+                longDateFormat: {
+                    LT: 'hh:mm',
+                    LTS: 'H:mm:ss',
+                    L: 'DD.MM.YYYY',
+                    LL: 'D. MMMM YYYY',
+                    LLL: 'D. MMMM YYYY H:mm',
+                    LLLL: 'dddd, D. MMMM YYYY H:mm'
+                }
+            });
+
+
             moment.locale('#{self.locale}');
             var eDisplayMoment1 = document.getElementById('dt_' + '#{dom_id}').parentElement;
             var NowMoment1 = moment('#{dateString}').format('LT');
