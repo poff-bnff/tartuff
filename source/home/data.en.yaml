@@ -1,6 +1,7 @@
 path: ''
 data:
     pictures: /film_pictures.yaml
+    screeningsCalendar: /film/screeningsCalendar.en.yaml
 frontpageText: 'Tartuff is a unique outdoor film festival taking place in the heart of the beautiful Tartu Old Town, Estonia. The festival screens a diverse selection of genre and documentary films, focusing on the most important thing in the world – love.
 
 

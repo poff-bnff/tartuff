@@ -1,6 +1,7 @@
 path: ''
 data:
     pictures: /film_pictures.yaml
+    screeningsCalendar: /film/screeningsCalendar.et.yaml
 frontpageText: 'Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
 
 
