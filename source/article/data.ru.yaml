@@ -140,7 +140,7 @@
     articleId: '8'
     path: a8
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: ''
     articleSlug: ''
     articleLead: '3'
@@ -157,7 +157,7 @@
     articleId: '9'
     path: a9
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: ''
     articleSlug: ''
     articleLead: '2'
@@ -174,7 +174,7 @@
     articleId: '10'
     path: a10
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: ''
     articleSlug: ''
     articleLead: '1'
@@ -185,4 +185,21 @@
     kuupäev: ''
     kell: ''
     articlePublishStart: 2020-08-13T12:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '11'
+    path: a11
+    articleType: Interview
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Anna Lillioja
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-14T14:00:00+0300
     articlePublishEnd: T+0300

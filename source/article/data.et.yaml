@@ -317,7 +317,7 @@
     articleId: '8'
     path: a8
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: Tartus avatakse täna armastusfilmide festival
     articleSlug: tartus-avatakse-tna-armastusfilmide-festival
     articleLead: Täna õhtul avatakse Tartus PÖFFi armastusfilmide festival Tartuff, mida saab esimest korda külastada ka virtuaalselt.
@@ -334,7 +334,7 @@
     articleId: '9'
     path: a9
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: Maarja Nuut mängis Tartuffi avatuks. Fotogalerii
     articleSlug: maarja-nuut-mngis-tartuffi-avatuks-fotogalerii
     articleLead: Maarja Nuudi ja Ruumi kontserdiga avati avati eile õhtul Tartus 15. PÖFFi armastusfilmide festival Tartuff.
@@ -351,7 +351,7 @@
     articleId: '10'
     path: a10
     articleType: Uudised
-    articleActive: ''
+    articleActive: '1'
     articleTitle: Tartuffi filmid jõuavad ekraanile ka Tallinnas
     articleSlug: tartuffi-filmid-juavad-ekraanile-ka-tallinnas
     articleLead: Tartus jätkuva PÖFFi armastusfilmide festivali Tartuff filme saab vaadata ka järgmisel nädalal Tallinnas, kui Filmimuuseum näitab festivali valikkava.
@@ -362,4 +362,21 @@
     kuupäev: ''
     kell: ''
     articlePublishStart: 2020-08-13T12:00:00+0300
+    articlePublishEnd: T+0300
+-   data:
+        article_pictures: /article_pictures.yaml
+    articleId: '11'
+    path: a11
+    articleType: Interview
+    articleActive: '1'
+    articleTitle: ''
+    articleSlug: ''
+    articleLead: ''
+    articleAuthor: Anna Lillioja
+    articleImage: ''
+    ArticleVideo: ''
+    articleContents: ''
+    kuupäev: ''
+    kell: ''
+    articlePublishStart: 2020-08-14T14:00:00+0300
     articlePublishEnd: T+0300
