@@ -99,14 +99,20 @@ def splitCompany(txt):
     return cast
 
 def splitCountriesLang(txt):
-    countries = txt.split(', ')
-    country = ''
-    countryFromISOcountries = readJson('strapiFilms.json')
-    for name in countries:
+    countryNames = txt.split(', ')
+    countryCodes = []
+    countryFromISOcountries = readJson('strapiCountries.json')
+    # pp(countryFromISOcountries[0]['Value_en'])
+    for name in countryNames:
+        found = name + ' not found'
         for value in countryFromISOcountries:
-            if name == value['Value_en']
-                country == value['Code']
-    return country
+            if name == value['Value_en']:
+                found = value['Code']
+        countryCodes.append(found)
+
+    pp(countryCodes)
+    return countryCodes
+
 
 def createJSON(rows, location):
     filmList = []
@@ -121,7 +127,7 @@ def createJSON(rows, location):
                         'Title_en': row[header.index('filmTitle_en')],
                         'Title_ru': '',
                         'TitleOriginal': row[header.index('filmTitleOriginal')],
-                        # 'Countries': splitCountriesLang(row[header.index('filmCountries_en')])
+                        'Countries': splitCountriesLang(row[header.index('filmCountries_en')]),
                         'Year': row[header.index('filmYear')],
                         'Runtime': row[header.index('filmDuration')],
                         'Credentials': [{'Director': splitCast(row[header.index('filmCast')]),
@@ -154,7 +160,7 @@ def createJSON(rows, location):
 
     with open(r'../source/' + location, 'w', encoding='utf-8') as file:
         json.dump(filmList, file, indent=4)
-    # pp(filmList)
+    # pp(row[header.index('filmCountries_en')])
     return filmList
 
 

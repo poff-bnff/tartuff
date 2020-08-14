@@ -5,6 +5,10 @@
         "Title_en": "Invisible Life of Eur\u00eddice Gusm\u00e3o",
         "Title_ru": "",
         "TitleOriginal": "A Vida Invisivel",
+        "Countries": [
+            "BR",
+            "DE"
+        ],
         "Year": "2019",
         "Runtime": "139",
         "Credentials": [
@@ -152,6 +156,10 @@
         "Title_en": "Flawless",
         "Title_ru": "",
         "TitleOriginal": "HaNeshef",
+        "Countries": [
+            "IL",
+            "DE"
+        ],
         "Year": "2018",
         "Runtime": "97",
         "Credentials": [
@@ -284,6 +292,9 @@
         "Title_en": "House of Hummingbird",
         "Title_ru": "",
         "TitleOriginal": "Beol-sae",
+        "Countries": [
+            "KR"
+        ],
         "Year": "2018",
         "Runtime": "138",
         "Credentials": [
@@ -411,6 +422,9 @@
         "Title_en": "The Goddess of Fortune",
         "Title_ru": "",
         "TitleOriginal": "La dea fortuna",
+        "Countries": [
+            "IT"
+        ],
         "Year": "2019",
         "Runtime": "114",
         "Credentials": [
@@ -553,6 +567,9 @@
         "Title_en": "Schemers",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "GB"
+        ],
         "Year": "2019",
         "Runtime": "91",
         "Credentials": [
@@ -680,6 +697,9 @@
         "Title_en": "Champions",
         "Title_ru": "",
         "TitleOriginal": "Campeones",
+        "Countries": [
+            "ES"
+        ],
         "Year": "2018",
         "Runtime": "124",
         "Credentials": [
@@ -847,6 +867,14 @@
         "Title_en": "Yalda, a Night for Forgiveness",
         "Title_ru": "",
         "TitleOriginal": "Yalda",
+        "Countries": [
+            "IR",
+            "FR",
+            "DE",
+            "CH",
+            "LU",
+            "LB"
+        ],
         "Year": "2019",
         "Runtime": "89",
         "Credentials": [
@@ -969,6 +997,9 @@
         "Title_en": "Force of Habit",
         "Title_ru": "",
         "TitleOriginal": "Tottumiskysymys",
+        "Countries": [
+            "FI"
+        ],
         "Year": "2019",
         "Runtime": "75",
         "Credentials": [
@@ -1081,6 +1112,9 @@
         "Title_en": "Acid",
         "Title_ru": "",
         "TitleOriginal": "Kislota",
+        "Countries": [
+            "RU"
+        ],
         "Year": "2018",
         "Runtime": "97",
         "Credentials": [
@@ -1208,6 +1242,9 @@
         "Title_en": "Final Portrait",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "GB"
+        ],
         "Year": "2017",
         "Runtime": "90",
         "Credentials": [
@@ -1345,6 +1382,10 @@
         "Title_en": "Maudie",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "CA",
+            "IE"
+        ],
         "Year": "2016",
         "Runtime": "115",
         "Credentials": [
@@ -1502,6 +1543,10 @@
         "Title_en": "Banksy Most Wanted",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "FR",
+            "US"
+        ],
         "Year": "2020",
         "Runtime": "90",
         "Credentials": [
@@ -1604,6 +1649,11 @@
         "Title_en": "Acas\u0103, My Home",
         "Title_ru": "",
         "TitleOriginal": "Acas\u0103",
+        "Countries": [
+            "RO",
+            "DE",
+            "FI"
+        ],
         "Year": "2020",
         "Runtime": "86",
         "Credentials": [
@@ -1736,6 +1786,9 @@
         "Title_en": "Storm Boy",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "AU"
+        ],
         "Year": "2019",
         "Runtime": "99",
         "Credentials": [
@@ -1858,6 +1911,9 @@
         "Title_en": "The Secret Lamb",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "EE"
+        ],
         "Year": "1992",
         "Runtime": "",
         "Credentials": [
@@ -2005,6 +2061,10 @@
         "Title_en": "Marcel Duchamp: Art of the Possible",
         "Title_ru": "",
         "TitleOriginal": "",
+        "Countries": [
+            "US",
+            "DE"
+        ],
         "Year": "2019",
         "Runtime": "86",
         "Credentials": [
@@ -2132,6 +2192,9 @@
         "Title_en": "Self Portrait",
         "Title_ru": "",
         "TitleOriginal": "Selvportrett",
+        "Countries": [
+            "NO"
+        ],
         "Year": "2020",
         "Runtime": "80",
         "Credentials": [
