@@ -77,6 +77,12 @@ def fetchDataFromSheet(service, sheetName):
 
     return values
 
+def readJson(fileName):
+    with open(r''+ fileName, encoding='utf-8') as f:
+        data = json.load(f)
+    pp.pprint(data)
+
+readJson('strapiFilms.json')
 
 def splitCast(txt):
     names = txt.split(', ')

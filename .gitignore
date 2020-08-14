@@ -7,3 +7,4 @@ source/article_pictures.yaml
 # sanity
 *.pickle
 helpers/credentials.json
+helpers/test.py
