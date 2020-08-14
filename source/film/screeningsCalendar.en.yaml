@@ -136,16 +136,6 @@
             screeningTime: 01:59:00
 -   calendarDate: '2020-08-15'
     cinemas:
-    -   cinema: Athena Center
-        screenings:
-        -   filmPath: storm-boy
-            filmTitle: Storm Boy
-            screeningDatetime: 2020-08-14T16:00:00+0300
-            screeningTime: '16:00:00'
-        -   filmPath: marcel-duchamp-art-of-the-possible
-            filmTitle: 'Marcel Duchamp: Art of the Possible'
-            screeningDatetime: 2020-08-14T19:00:00+0300
-            screeningTime: '19:00:00'
     -   cinema: Town Hall Square
         screenings:
         -   filmPath: final-portrait
@@ -156,13 +146,3 @@
             filmTitle: Maudie
             screeningDatetime: 2020-08-15T23:45:00+0300
             screeningTime: '23:45:00'
-    -   cinema: Elisa Stage
-        screenings:
-        -   filmPath: force-of-habit
-            filmTitle: Force of Habit
-            screeningDatetime: 2020-08-14T23:59:00+0300
-            screeningTime: '23:59:00'
-        -   filmPath: acid
-            filmTitle: Acid
-            screeningDatetime: 2020-08-15T01:59:00+0300
-            screeningTime: 01:59:00

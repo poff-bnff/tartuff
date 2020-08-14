@@ -2,6 +2,8 @@ from __future__ import print_function
 from datetime import datetime, timedelta
 import yaml
 import os
+import pprint
+pp=pprint.PrettyPrinter(indent=4).pprint
 
 #lülitan välja automaatse YAML ankrute genereerimise
 class NoAliasDumper(yaml.SafeDumper):
@@ -44,9 +46,8 @@ def compileCalData(input, output, sortKey):
     ##KAS CALENDARDAY-s PEAKS SORTEERIMA??
 
     #otsin screeningCinemad kuupäeva kaupa välja ja panen objekti sisse
-    cinemas = []
-
     for day in calendarDays:
+        cinemas = []
         for screening in screeningsData:
             if day['calendarDate'] == formatedDate(screening['calendarDateTime']):
                 cinemas.append({'cinema': screening['screeningCinema'], 'screenings': []})
@@ -59,10 +60,9 @@ def compileCalData(input, output, sortKey):
         [day] = [d for d in calendarDays if d['calendarDate'] == formatedDate(screening['calendarDateTime'])]
         [cinema] = [c for c in day['cinemas'] if c['cinema'] == screening['screeningCinema']]
         cinema['screenings'].append({'filmTitle': screening['filmTitle'], 'screeningTime' : screening['screeningTime'], 'filmPath': screening['filmPath'], 'screeningDatetime': screening['screeningDatetime'] })
-
     with open(r'../source/'+output, 'w', encoding='utf-8') as file:
         yaml.dump(calendarDays, file, default_flow_style=False, sort_keys=True, indent=4, allow_unicode=True, Dumper=NoAliasDumper)
-    print('compiling ' + output)
+    pp('compiling ' + output)
 
 
 ## KUTSUN VÄLJA FUNKTSIOONI
