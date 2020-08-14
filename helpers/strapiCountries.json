@@ -1,26 +1,1508 @@
 [
     {
+        "Code": "AD",
+        "Value_et": "Andorra",
+        "Value_en": "Andorra",
+        "Value_ru": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430"
+    },
+    {
+        "Code": "AE",
+        "Value_et": "Araabia \u00dchendemiraadid",
+        "Value_en": "United Arab Emirates",
+        "Value_ru": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0435 \u042d\u043c\u0438\u0440\u0430\u0442\u044b"
+    },
+    {
+        "Code": "AF",
+        "Value_et": "Afganistaan",
+        "Value_en": "Afghanistan",
+        "Value_ru": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "AG",
+        "Value_et": "Antigua and Barbuda",
+        "Value_en": "Antigua and Barbuda",
+        "Value_ru": "\u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430"
+    },
+    {
+        "Code": "AI",
+        "Value_et": "Anguilla",
+        "Value_en": "Anguilla",
+        "Value_ru": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f"
+    },
+    {
+        "Code": "AL",
+        "Value_et": "Albaania",
+        "Value_en": "Albania",
+        "Value_ru": "\u0410\u043b\u0431\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "AM",
+        "Value_et": "Armeenia",
+        "Value_en": "Armenia",
+        "Value_ru": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f"
+    },
+    {
+        "Code": "AO",
+        "Value_et": "Angoola",
+        "Value_en": "Angola",
+        "Value_ru": "\u0410\u043d\u0433\u043e\u043b\u0430"
+    },
+    {
+        "Code": "AQ",
+        "Value_et": "Antarktika",
+        "Value_en": "Antarctica",
+        "Value_ru": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u043a\u0435"
+    },
+    {
+        "Code": "AR",
+        "Value_et": "Argentiina",
+        "Value_en": "Argentina",
+        "Value_ru": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430"
+    },
+    {
+        "Code": "AS",
+        "Value_et": "Ameerika Samoa",
+        "Value_en": "American Samoa",
+        "Value_ru": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u0421\u0430\u043c\u043e\u0430"
+    },
+    {
+        "Code": "AZ",
+        "Value_et": "Aserbaid\u017eaan",
+        "Value_en": "Azerbaijan",
+        "Value_ru": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d"
+    },
+    {
+        "Code": "AT",
+        "Value_et": "Austria",
+        "Value_en": "Austria",
+        "Value_ru": "\u0410\u0432\u0441\u0442\u0440\u0438\u044f"
+    },
+    {
+        "Code": "AU",
+        "Value_et": "Austraalia",
+        "Value_en": "Australia",
+        "Value_ru": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f"
+    },
+    {
+        "Code": "AW",
+        "Value_et": "Aruba",
+        "Value_en": "Aruba",
+        "Value_ru": "\u0410\u0440\u0443\u0431\u0430"
+    },
+    {
+        "Code": "AX",
+        "Value_et": "Ahvenamaa",
+        "Value_en": "\u00c5land Islands",
+        "Value_ru": "\u0410\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "BA",
+        "Value_et": "Bosnia ja Hertsegoviina",
+        "Value_en": "Bosnia and Herzegovina",
+        "Value_ru": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    },
+    {
+        "Code": "BB",
+        "Value_et": "Barbados",
+        "Value_en": "Barbados",
+        "Value_ru": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441"
+    },
+    {
+        "Code": "BD",
+        "Value_et": "Bangladesh",
+        "Value_en": "Bangladesh",
+        "Value_ru": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448"
+    },
+    {
+        "Code": "BE",
+        "Value_et": "Belgia",
+        "Value_en": "Belgium",
+        "Value_ru": "\u0411\u0435\u043b\u044c\u0433\u0438\u044f"
+    },
+    {
+        "Code": "BF",
+        "Value_et": "Burkina Faso",
+        "Value_en": "Burkina Faso",
+        "Value_ru": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430-\u0424\u0430\u0441\u043e"
+    },
+    {
+        "Code": "BG",
+        "Value_et": "Bulgaaria",
+        "Value_en": "Bulgaria",
+        "Value_ru": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f"
+    },
+    {
+        "Code": "BH",
+        "Value_et": "Bahrain",
+        "Value_en": "Bahrain",
+        "Value_ru": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d"
+    },
+    {
+        "Code": "BI",
+        "Value_et": "Burundi",
+        "Value_en": "Burundi",
+        "Value_ru": "\u0411\u0443\u0440\u0443\u043d\u0434\u0438"
+    },
+    {
+        "Code": "BJ",
+        "Value_et": "Benin",
+        "Value_en": "Benin",
+        "Value_ru": "\u0411\u0435\u043d\u0438\u043d"
+    },
+    {
+        "Code": "BL",
+        "Value_et": "Saint Barth\u00e9lemy",
+        "Value_en": "Saint Barth\u00e9lemy",
+        "Value_ru": "\u0421\u0432\u044f\u0442\u043e\u0439 \u0412\u0430\u0440\u0444\u043e\u043b\u043e\u043c\u0435\u0439"
+    },
+    {
+        "Code": "BM",
+        "Value_et": "Bermuuda",
+        "Value_en": "Bermuda",
+        "Value_ru": "\u0411\u0435\u0440\u043c\u0443\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "BN",
+        "Value_et": "Brunei Darussalam",
+        "Value_en": "Brunei Darussalam",
+        "Value_ru": "\u0411\u0440\u0443\u043d\u0435\u0439-\u0414\u0430\u0440\u0443\u0441\u0441\u0430\u043b\u0430\u043c"
+    },
+    {
+        "Code": "BO",
+        "Value_et": "Boliivia",
+        "Value_en": "Bolivia",
+        "Value_ru": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f"
+    },
+    {
+        "Code": "BQ",
+        "Value_et": "Bonaire, Sint Eustatius and Saba",
+        "Value_en": "Bonaire, Sint Eustatius and Saba",
+        "Value_ru": "\u0411\u043e\u043d\u0430\u0439\u0440\u0435, \u0421\u0430\u0431\u0430 \u0438 \u0421\u0438\u043d\u0442-\u042d\u0441\u0442\u0430\u0442\u0438\u0443\u0441"
+    },
+    {
+        "Code": "BR",
+        "Value_et": "Brasiilia",
+        "Value_en": "Brazil",
+        "Value_ru": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f"
+    },
+    {
+        "Code": "BS",
+        "Value_et": "Bahaama",
+        "Value_en": "Bahamas",
+        "Value_ru": "\u0411\u0430\u0433\u0430\u043c\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "BZ",
+        "Value_et": "Belize",
+        "Value_en": "Belize",
+        "Value_ru": "\u0411\u0435\u043b\u0438\u0437"
+    },
+    {
+        "Code": "BT",
+        "Value_et": "Butaan",
+        "Value_en": "Bhutan",
+        "Value_ru": "\u0411\u0443\u0442\u0430\u043d"
+    },
+    {
+        "Code": "BV",
+        "Value_et": "Bouvet Island",
+        "Value_en": "Bouvet Island",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0411\u0443\u0432\u0435"
+    },
+    {
+        "Code": "BW",
+        "Value_et": "Botswana",
+        "Value_en": "Botswana",
+        "Value_ru": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430"
+    },
+    {
+        "Code": "BY",
+        "Value_et": "Valgevene",
+        "Value_en": "Belarus",
+        "Value_ru": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+    },
+    {
+        "Code": "CA",
+        "Value_et": "Kanada",
+        "Value_en": "Canada",
+        "Value_ru": "\u041a\u0430\u043d\u0430\u0434\u0430"
+    },
+    {
+        "Code": "CC",
+        "Value_et": "Cocos (Keeling) Islands",
+        "Value_en": "Cocos (Keeling) Islands",
+        "Value_ru": "\u041a\u043e\u043a\u043e\u0441\u043e\u0432\u044b\u0445 (\u041a\u0438\u043b\u0438\u043d\u0433) \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432"
+    },
+    {
+        "Code": "CD",
+        "Value_et": "Democratic Republic of the Congo",
+        "Value_en": "Democratic Republic of the Congo",
+        "Value_ru": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e"
+    },
+    {
+        "Code": "CF",
+        "Value_et": "Central African Republic",
+        "Value_en": "Central African Republic",
+        "Value_ru": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+    },
+    {
+        "Code": "CG",
+        "Value_et": "Congo",
+        "Value_en": "Congo",
+        "Value_ru": "\u041a\u043e\u043d\u0433\u043e"
+    },
+    {
+        "Code": "CH",
+        "Value_et": "\u0160veits",
+        "Value_en": "Switzerland",
+        "Value_ru": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044f"
+    },
+    {
+        "Code": "CI",
+        "Value_et": "C\u00f4te d'Ivoire",
+        "Value_en": "C\u00f4te d'Ivoire",
+        "Value_ru": "\u041a\u043e\u0442-\u0434'\u0418\u0432\u0443\u0430\u0440"
+    },
+    {
+        "Code": "CK",
+        "Value_et": "Cook Islands",
+        "Value_en": "Cook Islands",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041a\u0443\u043a\u0430"
+    },
+    {
+        "Code": "CL",
+        "Value_et": "T\u0161iili",
+        "Value_en": "Chile",
+        "Value_ru": "\u0427\u0438\u043b\u0438"
+    },
+    {
+        "Code": "CM",
+        "Value_et": "Cameroon",
+        "Value_en": "Cameroon",
+        "Value_ru": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d"
+    },
+    {
+        "Code": "CN",
+        "Value_et": "Hiina",
+        "Value_en": "China",
+        "Value_ru": "\u041a\u0438\u0442\u0430\u0439"
+    },
+    {
+        "Code": "CO",
+        "Value_et": "Colombia",
+        "Value_en": "Colombia",
+        "Value_ru": "\u041a\u043e\u043b\u0443\u043c\u0431\u0438\u044f"
+    },
+    {
+        "Code": "CR",
+        "Value_et": "Costa Rica",
+        "Value_en": "Costa Rica",
+        "Value_ru": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430"
+    },
+    {
+        "Code": "CS",
+        "Value_et": "NULL",
+        "Value_en": "NULL",
+        "Value_ru": "NULL"
+    },
+    {
+        "Code": "CZ",
+        "Value_et": "T\u0161ehhi",
+        "Value_en": "Czechia",
+        "Value_ru": "\u0427\u0435\u0445\u0438\u044f"
+    },
+    {
+        "Code": "CU",
+        "Value_et": "Kuuba",
+        "Value_en": "Cuba",
+        "Value_ru": "\u041a\u0443\u0431\u0430"
+    },
+    {
+        "Code": "CV",
+        "Value_et": "Cabo Verde",
+        "Value_en": "Cabo Verde",
+        "Value_ru": "\u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435"
+    },
+    {
+        "Code": "CW",
+        "Value_et": "Cura\u00e7ao",
+        "Value_en": "Cura\u00e7ao",
+        "Value_ru": "\u041a\u044e\u0440\u0430\u0441\u0430\u043e"
+    },
+    {
+        "Code": "CX",
+        "Value_et": "Christmas Island",
+        "Value_en": "Christmas Island",
+        "Value_ru": "\u043e\u0441\u0442\u0440\u043e\u0432 \u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0430"
+    },
+    {
+        "Code": "CY",
+        "Value_et": "K\u00fcpros",
+        "Value_en": "Cyprus",
+        "Value_ru": "\u041a\u0438\u043f\u0440"
+    },
+    {
+        "Code": "DE",
+        "Value_et": "Saksamaa",
+        "Value_en": "Germany",
+        "Value_ru": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "DJ",
+        "Value_et": "Djibouti",
+        "Value_en": "Djibouti",
+        "Value_ru": "\u0414\u0436\u0438\u0431\u0443\u0442\u0438"
+    },
+    {
+        "Code": "DK",
+        "Value_et": "Taani",
+        "Value_en": "Denmark",
+        "Value_ru": "\u0414\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "DM",
+        "Value_et": "Dominica \u00dchendus",
+        "Value_en": "Dominica",
+        "Value_ru": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430"
+    },
+    {
+        "Code": "DO",
+        "Value_et": "Dominikaani Vabariik",
+        "Value_en": "Dominican Republic",
+        "Value_ru": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+    },
+    {
+        "Code": "DZ",
+        "Value_et": "Al\u017eeeria",
+        "Value_en": "Algeria",
+        "Value_ru": "\u0410\u043b\u0436\u0438\u0440"
+    },
+    {
+        "Code": "EC",
+        "Value_et": "Ecuador",
+        "Value_en": "Ecuador",
+        "Value_ru": "\u042d\u043a\u0432\u0430\u0434\u043e\u0440"
+    },
+    {
+        "Code": "EE",
+        "Value_et": "Eesti",
+        "Value_en": "Estonia",
+        "Value_ru": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f"
+    },
+    {
+        "Code": "EG",
+        "Value_et": "Egiptus",
+        "Value_en": "Egypt",
+        "Value_ru": "\u0415\u0433\u0438\u043f\u0435\u0442"
+    },
+    {
+        "Code": "EH",
+        "Value_et": "L\u00e4\u00e4ne-Sahara",
+        "Value_en": "Western Sahara",
+        "Value_ru": "\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f \u0421\u0430\u0445\u0430\u0440\u0430"
+    },
+    {
+        "Code": "ER",
+        "Value_et": "Eritrea",
+        "Value_en": "Eritrea",
+        "Value_ru": "\u042d\u0440\u0438\u0442\u0440\u0435\u044f"
+    },
+    {
+        "Code": "ES",
+        "Value_et": "Hispaania",
+        "Value_en": "Spain",
+        "Value_ru": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "ET",
+        "Value_et": "Etioopia",
+        "Value_en": "Ethiopia",
+        "Value_ru": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f"
+    },
+    {
+        "Code": "FI",
+        "Value_et": "Soome",
+        "Value_en": "Finland",
+        "Value_ru": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "FJ",
+        "Value_et": "Fid\u017ei",
+        "Value_en": "Fiji",
+        "Value_ru": "\u0424\u0438\u0434\u0436\u0438"
+    },
+    {
+        "Code": "FK",
+        "Value_et": "Falklandi Saared",
+        "Value_en": "Falkland Islands (Malvinas)",
+        "Value_ru": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 (\u041c\u0430\u043b\u044c\u0432\u0438\u043d\u0441\u043a\u0438\u0435) \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "FM",
+        "Value_et": "Mikroneesia Liiduriigid",
+        "Value_en": "Micronesia (Federated States of)",
+        "Value_ru": "\u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u044f (\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b)"
+    },
+    {
+        "Code": "FO",
+        "Value_et": "F\u00e4\u00e4ri Saared",
+        "Value_en": "Faroe Islands",
+        "Value_ru": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "FR",
+        "Value_et": "Prantsusmaa",
+        "Value_en": "France",
+        "Value_ru": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f"
+    },
+    {
+        "Code": "GA",
+        "Value_et": "Gabon",
+        "Value_en": "Gabon",
+        "Value_ru": "\u0413\u0430\u0431\u043e\u043d"
+    },
+    {
+        "Code": "GB",
+        "Value_et": "Suurbritannia",
+        "Value_en": "Great Britain",
+        "Value_ru": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "GD",
+        "Value_et": "Grenada",
+        "Value_en": "Grenada",
+        "Value_ru": "\u0413\u0440\u0435\u043d\u0430\u0434\u0430"
+    },
+    {
+        "Code": "GE",
+        "Value_et": "Gruusia",
+        "Value_en": "Georgia",
+        "Value_ru": "\u0413\u0440\u0443\u0437\u0438\u044f"
+    },
+    {
+        "Code": "GF",
+        "Value_et": "French Guiana",
+        "Value_en": "French Guiana",
+        "Value_ru": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u0413\u0432\u0438\u0430\u043d\u0430"
+    },
+    {
+        "Code": "GG",
+        "Value_et": "Guernsey",
+        "Value_en": "Guernsey",
+        "Value_ru": "\u0413\u0435\u0440\u043d\u0441\u0438"
+    },
+    {
+        "Code": "GH",
+        "Value_et": "Ghana",
+        "Value_en": "Ghana",
+        "Value_ru": "\u0413\u0430\u043d\u0430"
+    },
+    {
+        "Code": "GI",
+        "Value_et": "Gibraltar",
+        "Value_en": "Gibraltar",
+        "Value_ru": "\u0413\u0438\u0431\u0440\u0430\u043b\u0442\u0430\u0440"
+    },
+    {
+        "Code": "GL",
+        "Value_et": "Greenland",
+        "Value_en": "Greenland",
+        "Value_ru": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "GM",
+        "Value_et": "Gambia",
+        "Value_en": "Gambia",
+        "Value_ru": "\u0413\u0430\u043c\u0431\u0438\u044f"
+    },
+    {
+        "Code": "GN",
+        "Value_et": "Guinea",
+        "Value_en": "Guinea",
+        "Value_ru": "\u0413\u0432\u0438\u043d\u0435\u044f"
+    },
+    {
+        "Code": "GP",
+        "Value_et": "Guadeloupe",
+        "Value_en": "Guadeloupe",
+        "Value_ru": "\u0413\u0432\u0430\u0434\u0435\u043b\u0443\u043f\u0430"
+    },
+    {
+        "Code": "GQ",
+        "Value_et": "Equatorial Guinea",
+        "Value_en": "Equatorial Guinea",
+        "Value_ru": "\u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+    },
+    {
+        "Code": "GR",
+        "Value_et": "Kreeka",
+        "Value_en": "Greece",
+        "Value_ru": "\u0413\u0440\u0435\u0446\u0438\u044f"
+    },
+    {
+        "Code": "GS",
+        "Value_et": "South Georgia and the South Sandwich Islands",
+        "Value_en": "South Georgia and the South Sandwich Islands",
+        "Value_ru": "\u042e\u0436\u043d\u0430\u044f \u0414\u0436\u043e\u0440\u0434\u0436\u0438\u044f \u0438 \u042e\u0436\u043d\u044b\u0435 \u0421\u0430\u043d\u0434\u0432\u0438\u0447\u0435\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "GT",
+        "Value_et": "Guatemala",
+        "Value_en": "Guatemala",
+        "Value_ru": "\u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0430"
+    },
+    {
+        "Code": "GU",
+        "Value_et": "Guam",
+        "Value_en": "Guam",
+        "Value_ru": "\u0413\u0443\u0430\u043c"
+    },
+    {
+        "Code": "GW",
+        "Value_et": "Guinea-Bissau",
+        "Value_en": "Guinea-Bissau",
+        "Value_ru": "\u0413\u0432\u0438\u043d\u0435\u044f-\u0411\u0438\u0441\u0430\u0443"
+    },
+    {
+        "Code": "GY",
+        "Value_et": "Guyana",
+        "Value_en": "Guyana",
+        "Value_ru": "\u0413\u0430\u0439\u0430\u043d\u0430"
+    },
+    {
+        "Code": "HK",
+        "Value_et": "Hong Kong",
+        "Value_en": "Hong Kong",
+        "Value_ru": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433"
+    },
+    {
+        "Code": "HM",
+        "Value_et": "Heard Island and McDonald Islands",
+        "Value_en": "Heard Island and McDonald Islands",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0425\u0435\u0440\u0434 \u0438 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434"
+    },
+    {
+        "Code": "HN",
+        "Value_et": "Honduras",
+        "Value_en": "Honduras",
+        "Value_ru": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441"
+    },
+    {
+        "Code": "HR",
+        "Value_et": "Horvaatia",
+        "Value_en": "Croatia",
+        "Value_ru": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f"
+    },
+    {
+        "Code": "HT",
+        "Value_et": "Haiti",
+        "Value_en": "Haiti",
+        "Value_ru": "\u0413\u0430\u0438\u0442\u0438"
+    },
+    {
+        "Code": "HU",
+        "Value_et": "Ungari",
+        "Value_en": "Hungary",
+        "Value_ru": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f"
+    },
+    {
+        "Code": "ID",
+        "Value_et": "Indonesia",
+        "Value_en": "Indonesia",
+        "Value_ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f"
+    },
+    {
+        "Code": "IE",
+        "Value_et": "Iirimaa",
+        "Value_en": "Ireland",
+        "Value_ru": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "IL",
+        "Value_et": "Iisrael",
+        "Value_en": "Israel",
+        "Value_ru": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c"
+    },
+    {
+        "Code": "IM",
+        "Value_et": "Isle of Man",
+        "Value_en": "Isle of Man",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u044d\u043d"
+    },
+    {
+        "Code": "IN",
+        "Value_et": "India",
+        "Value_en": "India",
+        "Value_ru": "\u0418\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "IO",
+        "Value_et": "British Indian Ocean Territory",
+        "Value_en": "British Indian Ocean Territory",
+        "Value_ru": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0432 \u0418\u043d\u0434\u0438\u0439\u0441\u043a\u043e\u043c \u043e\u043a\u0435\u0430\u043d\u0435"
+    },
+    {
+        "Code": "IQ",
+        "Value_et": "Iraak",
+        "Value_en": "Iraq",
+        "Value_ru": "\u0418\u0440\u0430\u043a"
+    },
+    {
+        "Code": "IR",
+        "Value_et": "Iraan",
+        "Value_en": "Iran",
+        "Value_ru": "\u0418\u0440\u0430\u043d"
+    },
+    {
+        "Code": "IS",
+        "Value_et": "Island",
+        "Value_en": "Iceland",
+        "Value_ru": "\u0418\u0441\u043b\u0430\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "IT",
+        "Value_et": "Itaalia",
+        "Value_en": "Italy",
+        "Value_ru": "\u0418\u0442\u0430\u043b\u0438\u044f"
+    },
+    {
+        "Code": "JE",
+        "Value_et": "Jersey",
+        "Value_en": "Jersey",
+        "Value_ru": "\u0414\u0436\u0435\u0440\u0441\u0438"
+    },
+    {
+        "Code": "JM",
+        "Value_et": "Jamaica",
+        "Value_en": "Jamaica",
+        "Value_ru": "\u042f\u043c\u0430\u0439\u043a\u0430"
+    },
+    {
+        "Code": "JO",
+        "Value_et": "Jordaania",
+        "Value_en": "Jordan",
+        "Value_ru": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "JP",
+        "Value_et": "Jaapan",
+        "Value_en": "Japan",
+        "Value_ru": "\u042f\u043f\u043e\u043d\u0438\u044f"
+    },
+    {
+        "Code": "KE",
+        "Value_et": "Keenia",
+        "Value_en": "Kenya",
+        "Value_ru": "\u041a\u0435\u043d\u0438\u044f"
+    },
+    {
+        "Code": "KG",
+        "Value_et": "Kyrgyzstan",
+        "Value_en": "Kyrgyzstan",
+        "Value_ru": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "KH",
+        "Value_et": "Kambod\u017ea",
+        "Value_en": "Cambodia",
+        "Value_ru": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430"
+    },
+    {
+        "Code": "KI",
+        "Value_et": "Kiribati",
+        "Value_en": "Kiribati",
+        "Value_ru": "\u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438"
+    },
+    {
+        "Code": "KM",
+        "Value_et": "Comoros",
+        "Value_en": "Comoros",
+        "Value_ru": "\u041a\u043e\u043c\u043e\u0440\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "KN",
+        "Value_et": "Saint Kitts and Nevis",
+        "Value_en": "Saint Kitts and Nevis",
+        "Value_ru": "\u0421\u0435\u043d\u0442-\u041a\u0438\u0442\u0441 \u0438 \u041d\u0435\u0432\u0438\u0441"
+    },
+    {
+        "Code": "KP",
+        "Value_et": "Democratic People's Republic of Korea",
+        "Value_en": "Democratic People's Republic of Korea",
+        "Value_ru": "\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+    },
+    {
+        "Code": "KR",
+        "Value_et": "L\u00f5una-Korea",
+        "Value_en": "South Korea",
+        "Value_ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f"
+    },
+    {
+        "Code": "KZ",
+        "Value_et": "Ksahstan",
+        "Value_en": "Kazakhstan",
+        "Value_ru": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "KW",
+        "Value_et": "Kuwait",
+        "Value_en": "Kuwait",
+        "Value_ru": "\u041a\u0443\u0432\u0435\u0439\u0442"
+    },
+    {
+        "Code": "KY",
+        "Value_et": "Cayman Islands",
+        "Value_en": "Cayman Islands",
+        "Value_ru": "\u041a\u0430\u0439\u043c\u0430\u043d \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "LA",
+        "Value_et": "Lao People's Democratic Republic",
+        "Value_en": "Lao People's Democratic Republic",
+        "Value_ru": "\u041b\u0430\u043e\u0441\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+    },
+    {
+        "Code": "LB",
+        "Value_et": "Liibanon",
+        "Value_en": "Lebanon",
+        "Value_ru": "\u041b\u0438\u0432\u0430\u043d"
+    },
+    {
+        "Code": "LC",
+        "Value_et": "Saint Lucia",
+        "Value_en": "Saint Lucia",
+        "Value_ru": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f"
+    },
+    {
+        "Code": "LI",
+        "Value_et": "Liechtenstein",
+        "Value_en": "Liechtenstein",
+        "Value_ru": "\u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d"
+    },
+    {
+        "Code": "LK",
+        "Value_et": "Sri Lanka",
+        "Value_en": "Sri Lanka",
+        "Value_ru": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430"
+    },
+    {
+        "Code": "LR",
+        "Value_et": "Liberia",
+        "Value_en": "Liberia",
+        "Value_ru": "\u041b\u0438\u0431\u0435\u0440\u0438\u044f"
+    },
+    {
+        "Code": "LS",
+        "Value_et": "Lesotho",
+        "Value_en": "Lesotho",
+        "Value_ru": "\u041b\u0435\u0441\u043e\u0442\u043e"
+    },
+    {
+        "Code": "LT",
+        "Value_et": "Leedu",
+        "Value_en": "Lithuania",
+        "Value_ru": "\u041b\u0438\u0442\u0432\u0430"
+    },
+    {
+        "Code": "LU",
+        "Value_et": "Luksemburg",
+        "Value_en": "Luxembourg",
+        "Value_ru": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433"
+    },
+    {
+        "Code": "LV",
+        "Value_et": "L\u00e4ti",
+        "Value_en": "Latvia",
+        "Value_ru": "\u041b\u0430\u0442\u0432\u0438\u044f"
+    },
+    {
+        "Code": "LY",
+        "Value_et": "Libya",
+        "Value_en": "Libya",
+        "Value_ru": "\u041b\u0438\u0432\u0438\u044f"
+    },
+    {
+        "Code": "MA",
+        "Value_et": "Maroko",
+        "Value_en": "Morocco",
+        "Value_ru": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e"
+    },
+    {
+        "Code": "MC",
+        "Value_et": "Monaco",
+        "Value_en": "Monaco",
+        "Value_ru": "\u041c\u043e\u043d\u0430\u043a\u043e"
+    },
+    {
+        "Code": "MD",
+        "Value_et": "Republic of Moldova",
+        "Value_en": "Republic of Moldova",
+        "Value_ru": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u043e\u043b\u0434\u043e\u0432\u0430"
+    },
+    {
+        "Code": "ME",
+        "Value_et": "Montenegro",
+        "Value_en": "Montenegro",
+        "Value_ru": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f"
+    },
+    {
+        "Code": "MF",
+        "Value_et": "Saint Martin (French Part)",
+        "Value_en": "Saint Martin (French Part)",
+        "Value_ru": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"
+    },
+    {
+        "Code": "MG",
+        "Value_et": "Madagascar",
+        "Value_en": "Madagascar",
+        "Value_ru": "\u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440"
+    },
+    {
+        "Code": "MH",
+        "Value_et": "Marshall Islands",
+        "Value_en": "Marshall Islands",
+        "Value_ru": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "MK",
+        "Value_et": "P\u00f5hja-Makedoonia",
+        "Value_en": "North-Macedonia",
+        "Value_ru": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u044f"
+    },
+    {
+        "Code": "ML",
+        "Value_et": "Mali",
+        "Value_en": "Mali",
+        "Value_ru": "\u041c\u0430\u043b\u0438"
+    },
+    {
+        "Code": "MM",
+        "Value_et": "Myanmar",
+        "Value_en": "Myanmar",
+        "Value_ru": "\u041c\u044c\u044f\u043d\u043c\u0430"
+    },
+    {
+        "Code": "MN",
+        "Value_et": "Mongolia",
+        "Value_en": "Mongolia",
+        "Value_ru": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f"
+    },
+    {
+        "Code": "MO",
+        "Value_et": "China, Macao Special Administrative Region",
+        "Value_en": "China, Macao Special Administrative Region",
+        "Value_ru": "\u041a\u0438\u0442\u0430\u0439, \u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d \u041c\u0430\u043a\u0430\u043e"
+    },
+    {
+        "Code": "MP",
+        "Value_et": "Northern Mariana Islands",
+        "Value_en": "Northern Mariana Islands",
+        "Value_ru": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "MQ",
+        "Value_et": "Martinique",
+        "Value_en": "Martinique",
+        "Value_ru": "\u041c\u0430\u0440\u0442\u0438\u043d\u0438\u043a\u0430"
+    },
+    {
+        "Code": "MR",
+        "Value_et": "Mauritania",
+        "Value_en": "Mauritania",
+        "Value_ru": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f"
+    },
+    {
+        "Code": "MS",
+        "Value_et": "Montserrat",
+        "Value_en": "Montserrat",
+        "Value_ru": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442"
+    },
+    {
+        "Code": "MZ",
+        "Value_et": "Mozambique",
+        "Value_en": "Mozambique",
+        "Value_ru": "\u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a"
+    },
+    {
+        "Code": "MT",
+        "Value_et": "Malta",
+        "Value_en": "Malta",
+        "Value_ru": "\u041c\u0430\u043b\u044c\u0442\u0430"
+    },
+    {
+        "Code": "MU",
+        "Value_et": "Mauritius",
+        "Value_en": "Mauritius",
+        "Value_ru": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439"
+    },
+    {
+        "Code": "MV",
+        "Value_et": "Maldives",
+        "Value_en": "Maldives",
+        "Value_ru": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "MW",
+        "Value_et": "Malawi",
+        "Value_en": "Malawi",
+        "Value_ru": "\u041c\u0430\u043b\u0430\u0432\u0438"
+    },
+    {
+        "Code": "MX",
+        "Value_et": "Mehhiko",
+        "Value_en": "Mexico",
+        "Value_ru": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430"
+    },
+    {
+        "Code": "MY",
+        "Value_et": "Malaisia",
+        "Value_en": "Malaysia",
+        "Value_ru": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f"
+    },
+    {
+        "Code": "NA",
+        "Value_et": "Namibia",
+        "Value_en": "Namibia",
+        "Value_ru": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f"
+    },
+    {
+        "Code": "NC",
+        "Value_et": "New Caledonia",
+        "Value_en": "New Caledonia",
+        "Value_ru": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f"
+    },
+    {
+        "Code": "NE",
+        "Value_et": "Niger",
+        "Value_en": "Niger",
+        "Value_ru": "\u041d\u0438\u0433\u0435\u0440"
+    },
+    {
+        "Code": "NF",
+        "Value_et": "Norfolk Island",
+        "Value_en": "Norfolk Island",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u041d\u043e\u0440\u0444\u043e\u043b\u043a"
+    },
+    {
+        "Code": "NG",
+        "Value_et": "Nigeria",
+        "Value_en": "Nigeria",
+        "Value_ru": "\u041d\u0438\u0433\u0435\u0440\u0438\u044f"
+    },
+    {
+        "Code": "NI",
+        "Value_et": "Nicaragua",
+        "Value_en": "Nicaragua",
+        "Value_ru": "\u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430"
+    },
+    {
+        "Code": "NL",
+        "Value_et": "Holland",
+        "Value_en": "Netherlands",
+        "Value_ru": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b"
+    },
+    {
+        "Code": "NO",
+        "Value_et": "Norra",
+        "Value_en": "Norway",
+        "Value_ru": "\u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f"
+    },
+    {
+        "Code": "NP",
+        "Value_et": "Nepal",
+        "Value_en": "Nepal",
+        "Value_ru": "\u041d\u0435\u043f\u0430\u043b"
+    },
+    {
+        "Code": "NR",
+        "Value_et": "Nauru",
+        "Value_en": "Nauru",
+        "Value_ru": "\u041d\u0430\u0443\u0440\u0443"
+    },
+    {
+        "Code": "NZ",
+        "Value_et": "Uus-Meremaa",
+        "Value_en": "New Zealand",
+        "Value_ru": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f"
+    },
+    {
+        "Code": "NU",
+        "Value_et": "Niue",
+        "Value_en": "Niue",
+        "Value_ru": "\u041d\u0438\u0443\u044d"
+    },
+    {
+        "Code": "OM",
+        "Value_et": "Oman",
+        "Value_en": "Oman",
+        "Value_ru": "\u041e\u043c\u0430\u043d"
+    },
+    {
+        "Code": "PA",
+        "Value_et": "Panama",
+        "Value_en": "Panama",
+        "Value_ru": "\u041f\u0430\u043d\u0430\u043c\u0430"
+    },
+    {
+        "Code": "PE",
+        "Value_et": "Peru",
+        "Value_en": "Peru",
+        "Value_ru": "\u041f\u0435\u0440\u0443"
+    },
+    {
+        "Code": "PF",
+        "Value_et": "French Polynesia",
+        "Value_en": "French Polynesia",
+        "Value_ru": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f"
+    },
+    {
+        "Code": "PG",
+        "Value_et": "Papua New Guinea",
+        "Value_en": "Papua New Guinea",
+        "Value_ru": "\u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+    },
+    {
+        "Code": "PH",
+        "Value_et": "Filipiinid",
+        "Value_en": "Philippines",
+        "Value_ru": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b"
+    },
+    {
+        "Code": "PK",
+        "Value_et": "Pakistan",
+        "Value_en": "Pakistan",
+        "Value_ru": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "PL",
+        "Value_et": "Poola",
+        "Value_en": "Poland",
+        "Value_ru": "\u041f\u043e\u043b\u044c\u0448\u0430"
+    },
+    {
+        "Code": "PM",
+        "Value_et": "Saint Pierre and Miquelon",
+        "Value_en": "Saint Pierre and Miquelon",
+        "Value_ru": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d"
+    },
+    {
+        "Code": "PN",
+        "Value_et": "Pitcairn",
+        "Value_en": "Pitcairn",
+        "Value_ru": "\u041f\u0438\u0442\u043a\u044d\u0440\u043d"
+    },
+    {
+        "Code": "PR",
+        "Value_et": "Puerto Rico",
+        "Value_en": "Puerto Rico",
+        "Value_ru": "\u041f\u0443\u044d\u0440\u0442\u043e-\u0420\u0438\u043a\u043e"
+    },
+    {
+        "Code": "PS",
+        "Value_et": "State of Palestine",
+        "Value_en": "State of Palestine",
+        "Value_ru": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u041f\u0430\u043b\u0435\u0441\u0442\u0438\u043d\u0430"
+    },
+    {
+        "Code": "PT",
+        "Value_et": "Portugal",
+        "Value_en": "Portugal",
+        "Value_ru": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f"
+    },
+    {
+        "Code": "PW",
+        "Value_et": "Palau",
+        "Value_en": "Palau",
+        "Value_ru": "\u041f\u0430\u043b\u0430\u0443"
+    },
+    {
+        "Code": "PY",
+        "Value_et": "Paraguay",
+        "Value_en": "Paraguay",
+        "Value_ru": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439"
+    },
+    {
+        "Code": "QA",
+        "Value_et": "Katar",
+        "Value_en": "Qatar",
+        "Value_ru": "\u041a\u0430\u0442\u0430\u0440"
+    },
+    {
+        "Code": "RE",
+        "Value_et": "R\u00e9union",
+        "Value_en": "R\u00e9union",
+        "Value_ru": "\u0420\u0435\u044e\u043d\u044c\u043e\u043d"
+    },
+    {
+        "Code": "RO",
+        "Value_et": "Rumeenia",
+        "Value_en": "Romania",
+        "Value_ru": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f"
+    },
+    {
+        "Code": "RS",
+        "Value_et": "Serbia",
+        "Value_en": "Serbia",
+        "Value_ru": "\u0421\u0435\u0440\u0431\u0438\u044f"
+    },
+    {
+        "Code": "RU",
+        "Value_et": "Venemaa",
+        "Value_en": "Russian Federation",
+        "Value_ru": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f"
+    },
+    {
+        "Code": "RW",
+        "Value_et": "Rwanda",
+        "Value_en": "Rwanda",
+        "Value_ru": "\u0420\u0443\u0430\u043d\u0434\u0430"
+    },
+    {
+        "Code": "SA",
+        "Value_et": "Saudi Arabia",
+        "Value_en": "Saudi Arabia",
+        "Value_ru": "\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f"
+    },
+    {
+        "Code": "SB",
+        "Value_et": "Solomon Islands",
+        "Value_en": "Solomon Islands",
+        "Value_ru": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "SC",
+        "Value_et": "Seychelles",
+        "Value_en": "Seychelles",
+        "Value_ru": "\u0421\u0435\u0439\u0448\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "SD",
+        "Value_et": "Sudaan",
+        "Value_en": "Sudan",
+        "Value_ru": "\u0421\u0443\u0434\u0430\u043d"
+    },
+    {
+        "Code": "SE",
+        "Value_et": "Rootsi",
+        "Value_en": "Sweden",
+        "Value_ru": "\u0428\u0432\u0435\u0446\u0438\u044f"
+    },
+    {
+        "Code": "SG",
+        "Value_et": "Singapur",
+        "Value_en": "Singapore",
+        "Value_ru": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440"
+    },
+    {
+        "Code": "SH",
+        "Value_et": "Saint Helena",
+        "Value_en": "Saint Helena",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b"
+    },
+    {
+        "Code": "SI",
+        "Value_et": "Sloveenia",
+        "Value_en": "Slovenia",
+        "Value_ru": "\u0421\u043b\u043e\u0432\u0435\u043d\u0438\u044f"
+    },
+    {
+        "Code": "SJ",
+        "Value_et": "Svalbard and Jan Mayen Islands",
+        "Value_en": "Svalbard and Jan Mayen Islands",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u0430\u043b\u044c\u0431\u0430\u0440\u0434 \u0438 \u042f\u043d-\u041c\u0430\u0439\u0435\u043d"
+    },
+    {
+        "Code": "SK",
+        "Value_et": "Slovakkia",
+        "Value_en": "Slovakia",
+        "Value_ru": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f"
+    },
+    {
+        "Code": "SL",
+        "Value_et": "Sierra Leone",
+        "Value_en": "Sierra Leone",
+        "Value_ru": "\u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435"
+    },
+    {
+        "Code": "SM",
+        "Value_et": "San Marino",
+        "Value_en": "San Marino",
+        "Value_ru": "\u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e"
+    },
+    {
+        "Code": "SN",
+        "Value_et": "Senegal",
+        "Value_en": "Senegal",
+        "Value_ru": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b"
+    },
+    {
+        "Code": "SO",
+        "Value_et": "Somaalia",
+        "Value_en": "Somalia",
+        "Value_ru": "\u0421\u043e\u043c\u0430\u043b\u0438"
+    },
+    {
+        "Code": "SR",
+        "Value_et": "Surinami",
+        "Value_en": "Suriname",
+        "Value_ru": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c"
+    },
+    {
+        "Code": "SS",
+        "Value_et": "South Sudan",
+        "Value_en": "South Sudan",
+        "Value_ru": "\u042e\u0436\u043d\u044b\u0439 \u0421\u0443\u0434\u0430\u043d"
+    },
+    {
+        "Code": "SZ",
+        "Value_et": "Svaasimaa",
+        "Value_en": "Swaziland",
+        "Value_ru": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434"
+    },
+    {
+        "Code": "ST",
+        "Value_et": "Sao Tome and Principe",
+        "Value_en": "Sao Tome and Principe",
+        "Value_ru": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438"
+    },
+    {
+        "Code": "SV",
+        "Value_et": "El Salvador",
+        "Value_en": "El Salvador",
+        "Value_ru": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440"
+    },
+    {
+        "Code": "SX",
+        "Value_et": "Sint Maarten (Dutch part)",
+        "Value_en": "Sint Maarten (Dutch part)",
+        "Value_ru": "\u0421\u0438\u043d\u0442-\u041c\u0430\u0440\u0442\u0435\u043d"
+    },
+    {
+        "Code": "SY",
+        "Value_et": "S\u00fc\u00fcria",
+        "Value_en": "Syria",
+        "Value_ru": "\u0421\u0438\u0440\u0438\u044f"
+    },
+    {
+        "Code": "ZA",
+        "Value_et": "L\u00f5una-Aafrika",
+        "Value_en": "South Africa",
+        "Value_ru": "\u042e\u0436\u043d\u0430\u044f \u0410\u0444\u0440\u0438\u043a\u0430"
+    },
+    {
+        "Code": "ZM",
+        "Value_et": "Zambia",
+        "Value_en": "Zambia",
+        "Value_ru": "\u0417\u0430\u043c\u0431\u0438\u044f"
+    },
+    {
+        "Code": "ZW",
+        "Value_et": "Zimbabwe",
+        "Value_en": "Zimbabwe",
+        "Value_ru": "\u0417\u0438\u043c\u0431\u0430\u0431\u0432\u0435"
+    },
+    {
+        "Code": "TC",
+        "Value_et": "Turks and Caicos Islands",
+        "Value_en": "Turks and Caicos Islands",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0422\u0451\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441"
+    },
+    {
+        "Code": "TD",
+        "Value_et": "T\u0161aad",
+        "Value_en": "Chad",
+        "Value_ru": "\u0427\u0430\u0434"
+    },
+    {
+        "Code": "TF",
+        "Value_et": "French Southern Territories",
+        "Value_en": "French Southern Territories",
+        "Value_ru": "\u042e\u0436\u043d\u044b\u0435 \u0437\u0435\u043c\u043b\u0438 (\u0444\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u0437\u0430\u043c\u043e\u0440\u0441\u043a\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f)"
+    },
+    {
+        "Code": "TG",
+        "Value_et": "Togo",
+        "Value_en": "Togo",
+        "Value_ru": "\u0422\u043e\u0433\u043e"
+    },
+    {
+        "Code": "TH",
+        "Value_et": "Taimaa",
+        "Value_en": "Thailand",
+        "Value_ru": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434"
+    },
+    {
+        "Code": "TJ",
+        "Value_et": "Tajikistan",
+        "Value_en": "Tajikistan",
+        "Value_ru": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "TK",
+        "Value_et": "Tokelau",
+        "Value_en": "Tokelau",
+        "Value_ru": "\u0422\u043e\u043a\u0435\u043b\u0430\u0443"
+    },
+    {
+        "Code": "TL",
+        "Value_et": "Timor-Leste",
+        "Value_en": "Timor-Leste",
+        "Value_ru": "\u0422\u0438\u043c\u043e\u0440-\u041b\u0435\u0448\u0442\u0438"
+    },
+    {
+        "Code": "TM",
+        "Value_et": "Turkmenistan",
+        "Value_en": "Turkmenistan",
+        "Value_ru": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "TN",
+        "Value_et": "Tuneesia",
+        "Value_en": "Tunisia",
+        "Value_ru": "\u0422\u0443\u043d\u0438\u0441"
+    },
+    {
+        "Code": "TO",
+        "Value_et": "Tonga",
+        "Value_en": "Tonga",
+        "Value_ru": "\u0422\u043e\u043d\u0433\u0430"
+    },
+    {
+        "Code": "TR",
+        "Value_et": "T\u00fcrgi",
+        "Value_en": "Turkey",
+        "Value_ru": "\u0422\u0443\u0440\u0446\u0438\u044f"
+    },
+    {
+        "Code": "TZ",
+        "Value_et": "United Republic of Tanzania",
+        "Value_en": "United Republic of Tanzania",
+        "Value_ru": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f"
+    },
+    {
         "Code": "TT",
-        "Name": {
-            "et": "Trinidad and Tobago",
-            "en": "Trinidad and Tobago",
-            "ru": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e"
-        }
+        "Value_et": "Trinidad and Tobago",
+        "Value_en": "Trinidad and Tobago",
+        "Value_ru": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e"
     },
     {
         "Code": "TV",
-        "Name": {
-            "et": "Tuvalu",
-            "en": "Tuvalu",
-            "ru": "\u0422\u0443\u0432\u0430\u043b\u0443"
-        }
+        "Value_et": "Tuvalu",
+        "Value_en": "Tuvalu",
+        "Value_ru": "\u0422\u0443\u0432\u0430\u043b\u0443"
     },
     {
         "Code": "TW",
-        "Name": {
-            "et": "",
-            "en": "",
-            "ru": ""
-        }
+        "Value_et": "",
+        "Value_en": "",
+        "Value_ru": ""
+    },
+    {
+        "Code": "UA",
+        "Value_et": "Ukraina",
+        "Value_en": "Ukraine",
+        "Value_ru": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430"
+    },
+    {
+        "Code": "UG",
+        "Value_et": "Uganda",
+        "Value_en": "Uganda",
+        "Value_ru": "\u0423\u0433\u0430\u043d\u0434\u0430"
+    },
+    {
+        "Code": "UM",
+        "Value_et": "United States Minor Outlying Islands",
+        "Value_en": "United States Minor Outlying Islands",
+        "Value_ru": "\u0412\u043d\u0435\u0448\u043d\u0438\u0435 \u043c\u0430\u043b\u044b\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 Coe\u0434\u0438\u043de\u043d\u043d\u044bx \u0428\u0442a\u0442o\u0432"
+    },
+    {
+        "Code": "UNK",
+        "Value_et": "Kosovo",
+        "Value_en": "Kosovo",
+        "Value_ru": "\u041a\u043e\u0441\u043e\u0432\u043e"
+    },
+    {
+        "Code": "US",
+        "Value_et": "USA",
+        "Value_en": "USA",
+        "Value_ru": "\u0421\u0428\u0410"
+    },
+    {
+        "Code": "UZ",
+        "Value_et": "Uzbekistan",
+        "Value_en": "Uzbekistan",
+        "Value_ru": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d"
+    },
+    {
+        "Code": "UY",
+        "Value_et": "Uruguai",
+        "Value_en": "Uruguay",
+        "Value_ru": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
+    },
+    {
+        "Code": "VA",
+        "Value_et": "Holy See",
+        "Value_en": "Holy See",
+        "Value_ru": "\u0421\u0432\u044f\u0442\u043e\u0439 \u041f\u0440\u0435\u0441\u0442\u043e\u043b"
+    },
+    {
+        "Code": "VC",
+        "Value_et": "Saint Vincent and the Grenadines",
+        "Value_en": "Saint Vincent and the Grenadines",
+        "Value_ru": "\u0421\u0435\u043d\u0442-\u0412\u0438\u043d\u0441\u0435\u043d\u0442 \u0438 \u0413\u0440\u0435\u043d\u0430\u0434\u0438\u043d\u044b"
+    },
+    {
+        "Code": "VE",
+        "Value_et": "Venezuela (Bolivarian Republic of)",
+        "Value_en": "Venezuela (Bolivarian Republic of)",
+        "Value_ru": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430 (\u0411\u043e\u043b\u0438\u0432\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430)"
+    },
+    {
+        "Code": "VG",
+        "Value_et": "British Virgin Islands",
+        "Value_en": "British Virgin Islands",
+        "Value_ru": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0435 \u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+    },
+    {
+        "Code": "VI",
+        "Value_et": "United States Virgin Islands",
+        "Value_en": "United States Virgin Islands",
+        "Value_ru": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 o\u0441\u0442\u0440\u043e\u0432\u0430 Coe\u0434\u0438\u043de\u043d\u043d\u044bx \u0428\u0442a\u0442o\u0432"
+    },
+    {
+        "Code": "VN",
+        "Value_et": "Vietnam",
+        "Value_en": "Viet Nam",
+        "Value_ru": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+    },
+    {
+        "Code": "VU",
+        "Value_et": "Vanuatu",
+        "Value_en": "Vanuatu",
+        "Value_ru": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443"
+    },
+    {
+        "Code": "WF",
+        "Value_et": "Wallis and Futuna Islands",
+        "Value_en": "Wallis and Futuna Islands",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430"
+    },
+    {
+        "Code": "WS",
+        "Value_et": "Samoa",
+        "Value_en": "Samoa",
+        "Value_ru": "\u0421\u0430\u043c\u043e\u0430"
+    },
+    {
+        "Code": "YE",
+        "Value_et": "Yemen",
+        "Value_en": "Yemen",
+        "Value_ru": "\u0419\u0435\u043c\u0435\u043d"
+    },
+    {
+        "Code": "YT",
+        "Value_et": "Mayotte",
+        "Value_en": "Mayotte",
+        "Value_ru": "\u041e\u0441\u0442\u0440\u043e\u0432\u0435 \u041c\u0430\u0439\u043e\u0442\u0442\u0430"
     }
 ]

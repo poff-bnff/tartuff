@@ -1,1482 +1,1112 @@
 [
     {
         "Code": "aa",
-        "Name": {
-            "et": "Afar",
-            "en": "Afar",
-            "ru": "\u0410\u0444\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Afar",
+        "Value_en": "Afar",
+        "Value_ru": "\u0410\u0444\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ab",
-        "Name": {
-            "et": "Abkhazian",
-            "en": "Abkhazian",
-            "ru": "\u0410\u0431\u0445\u0430\u0437\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Abkhazian",
+        "Value_en": "Abkhazian",
+        "Value_ru": "\u0410\u0431\u0445\u0430\u0437\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ae",
-        "Name": {
-            "et": "Avestan",
-            "en": "Avestan",
-            "ru": "\u0410\u0432\u0435\u0441\u0442\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Avestan",
+        "Value_en": "Avestan",
+        "Value_ru": "\u0410\u0432\u0435\u0441\u0442\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "af",
-        "Name": {
-            "et": "Afrikaani",
-            "en": "Afrikaans",
-            "ru": "\u0410\u0444\u0440\u0438\u043a\u0430\u0430\u043d\u0441"
-        }
+        "Value_et": "Afrikaani",
+        "Value_en": "Afrikaans",
+        "Value_ru": "\u0410\u0444\u0440\u0438\u043a\u0430\u0430\u043d\u0441"
     },
     {
         "Code": "ak",
-        "Name": {
-            "et": "Akan",
-            "en": "Akan",
-            "ru": "\u0410\u043a\u0430\u043d"
-        }
+        "Value_et": "Akan",
+        "Value_en": "Akan",
+        "Value_ru": "\u0410\u043a\u0430\u043d"
     },
     {
         "Code": "am",
-        "Name": {
-            "et": "Amharic",
-            "en": "Amharic",
-            "ru": "\u0410\u043c\u0445\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Amharic",
+        "Value_en": "Amharic",
+        "Value_ru": "\u0410\u043c\u0445\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "an",
-        "Name": {
-            "et": "Aragonese",
-            "en": "Aragonese",
-            "ru": "\u0410\u0440\u0430\u0433\u043e\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Aragonese",
+        "Value_en": "Aragonese",
+        "Value_ru": "\u0410\u0440\u0430\u0433\u043e\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ar",
-        "Name": {
-            "et": "Araabia",
-            "en": "Arabic",
-            "ru": "\u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Araabia",
+        "Value_en": "Arabic",
+        "Value_ru": "\u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "as",
-        "Name": {
-            "et": "Assamese",
-            "en": "Assamese",
-            "ru": "\u0410\u0441\u0441\u0430\u043c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Assamese",
+        "Value_en": "Assamese",
+        "Value_ru": "\u0410\u0441\u0441\u0430\u043c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "az",
-        "Name": {
-            "et": "Azerbaijani",
-            "en": "Azerbaijani",
-            "ru": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Azerbaijani",
+        "Value_en": "Azerbaijani",
+        "Value_ru": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "av",
-        "Name": {
-            "et": "Avaric",
-            "en": "Avaric",
-            "ru": "\u0410\u0432\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Avaric",
+        "Value_en": "Avaric",
+        "Value_ru": "\u0410\u0432\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ay",
-        "Name": {
-            "et": "Aymara",
-            "en": "Aymara",
-            "ru": "\u0410\u0439\u043c\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Aymara",
+        "Value_en": "Aymara",
+        "Value_ru": "\u0410\u0439\u043c\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ba",
-        "Name": {
-            "et": "Bashkir",
-            "en": "Bashkir",
-            "ru": "\u0411\u0430\u0448\u043a\u0438\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Bashkir",
+        "Value_en": "Bashkir",
+        "Value_ru": "\u0411\u0430\u0448\u043a\u0438\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "be",
-        "Name": {
-            "et": "Belarusian",
-            "en": "Belarusian",
-            "ru": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Belarusian",
+        "Value_en": "Belarusian",
+        "Value_ru": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "bg",
-        "Name": {
-            "et": "Bulgaaria",
-            "en": "Bulgarian",
-            "ru": "\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Bulgaaria",
+        "Value_en": "Bulgarian",
+        "Value_ru": "\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "bh",
-        "Name": {
-            "et": "Bihari languages",
-            "en": "Bihari languages",
-            "ru": "\u0411\u0438\u0445\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Bihari languages",
+        "Value_en": "Bihari languages",
+        "Value_ru": "\u0411\u0438\u0445\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "bi",
-        "Name": {
-            "et": "Bislama",
-            "en": "Bislama",
-            "ru": "\u0411\u0438\u0441\u043b\u0430\u043c\u0430"
-        }
+        "Value_et": "Bislama",
+        "Value_en": "Bislama",
+        "Value_ru": "\u0411\u0438\u0441\u043b\u0430\u043c\u0430"
     },
     {
         "Code": "bn",
-        "Name": {
-            "et": "Bengali",
-            "en": "Bengali",
-            "ru": "\u0411\u0435\u043d\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Bengali",
+        "Value_en": "Bengali",
+        "Value_ru": "\u0411\u0435\u043d\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "bo",
-        "Name": {
-            "et": "Tibetan",
-            "en": "Tibetan",
-            "ru": "\u0422\u0438\u0431\u0435\u0442\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tibetan",
+        "Value_en": "Tibetan",
+        "Value_ru": "\u0422\u0438\u0431\u0435\u0442\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "br",
-        "Name": {
-            "et": "Breton",
-            "en": "Breton",
-            "ru": "\u0411\u0440\u0435\u0442\u043e\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Breton",
+        "Value_en": "Breton",
+        "Value_ru": "\u0411\u0440\u0435\u0442\u043e\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ca",
-        "Name": {
-            "et": "Catalan; Valencian",
-            "en": "Catalan; Valencian",
-            "ru": "\u041a\u0430\u0442\u0430\u043b\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Catalan; Valencian",
+        "Value_en": "Catalan; Valencian",
+        "Value_ru": "\u041a\u0430\u0442\u0430\u043b\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ce",
-        "Name": {
-            "et": "T\u0161et\u0161eeni",
-            "en": "Chechen",
-            "ru": "\u0427\u0435\u0447\u0435\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "T\u0161et\u0161eeni",
+        "Value_en": "Chechen",
+        "Value_ru": "\u0427\u0435\u0447\u0435\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ch",
-        "Name": {
-            "et": "Chamorro",
-            "en": "Chamorro",
-            "ru": "\u0427\u0430\u043c\u043e\u0440\u0440\u043e"
-        }
+        "Value_et": "Chamorro",
+        "Value_en": "Chamorro",
+        "Value_ru": "\u0427\u0430\u043c\u043e\u0440\u0440\u043e"
     },
     {
         "Code": "co",
-        "Name": {
-            "et": "Corsican",
-            "en": "Corsican",
-            "ru": "\u041a\u043e\u0440\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Corsican",
+        "Value_en": "Corsican",
+        "Value_ru": "\u041a\u043e\u0440\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "cs",
-        "Name": {
-            "et": "T\u0161ehhi",
-            "en": "Czech",
-            "ru": "\u0427\u0435\u0448\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "T\u0161ehhi",
+        "Value_en": "Czech",
+        "Value_ru": "\u0427\u0435\u0448\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "cu",
-        "Name": {
-            "et": "Church Slavic",
-            "en": "Church Slavic",
-            "ru": "\u0426\u0435\u0440\u043a\u043e\u0432\u043d\u043e\u0441\u043b\u0430\u0432\u044f\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Church Slavic",
+        "Value_en": "Church Slavic",
+        "Value_ru": "\u0426\u0435\u0440\u043a\u043e\u0432\u043d\u043e\u0441\u043b\u0430\u0432\u044f\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "cv",
-        "Name": {
-            "et": "Chuvash",
-            "en": "Chuvash",
-            "ru": "\u0427\u0443\u0432\u0430\u0448\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Chuvash",
+        "Value_en": "Chuvash",
+        "Value_ru": "\u0427\u0443\u0432\u0430\u0448\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "cy",
-        "Name": {
-            "et": "Welsh",
-            "en": "Welsh",
-            "ru": "\u0412\u0430\u043b\u043b\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Welsh",
+        "Value_en": "Welsh",
+        "Value_ru": "\u0412\u0430\u043b\u043b\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "da",
-        "Name": {
-            "et": "Taani",
-            "en": "Danish",
-            "ru": "\u0414\u0430\u0442\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Taani",
+        "Value_en": "Danish",
+        "Value_ru": "\u0414\u0430\u0442\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "de",
-        "Name": {
-            "et": "Saksa",
-            "en": "German",
-            "ru": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439"
-        }
+        "Value_et": "Saksa",
+        "Value_en": "German",
+        "Value_ru": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439"
     },
     {
         "Code": "dz",
-        "Name": {
-            "et": "Dzongkha",
-            "en": "Dzongkha",
-            "ru": "\u0414\u0437\u043e\u043d\u0433-\u043a\u044d"
-        }
+        "Value_et": "Dzongkha",
+        "Value_en": "Dzongkha",
+        "Value_ru": "\u0414\u0437\u043e\u043d\u0433-\u043a\u044d"
     },
     {
         "Code": "dv",
-        "Name": {
-            "et": "Divehi; Dhivehi; Maldivian",
-            "en": "Divehi; Dhivehi; Maldivian",
-            "ru": "\u0414\u0438\u0432\u0435\u0445\u0438 (\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u0441\u043a\u0438\u0439)"
-        }
+        "Value_et": "Divehi; Dhivehi; Maldivian",
+        "Value_en": "Divehi; Dhivehi; Maldivian",
+        "Value_ru": "\u0414\u0438\u0432\u0435\u0445\u0438 (\u043c\u0430\u043b\u044c\u0434\u0438\u0432\u0441\u043a\u0438\u0439)"
     },
     {
         "Code": "ee",
-        "Name": {
-            "et": "Ewe",
-            "en": "Ewe",
-            "ru": "\u042d\u0432\u0435"
-        }
+        "Value_et": "Ewe",
+        "Value_en": "Ewe",
+        "Value_ru": "\u042d\u0432\u0435"
     },
     {
         "Code": "el",
-        "Name": {
-            "et": "Kreeka",
-            "en": "Greek",
-            "ru": "\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Kreeka",
+        "Value_en": "Greek",
+        "Value_ru": "\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "en",
-        "Name": {
-            "et": "Inglise",
-            "en": "English",
-            "ru": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Inglise",
+        "Value_en": "English",
+        "Value_ru": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "eo",
-        "Name": {
-            "et": "Esperanto",
-            "en": "Esperanto",
-            "ru": "\u042d\u0441\u043f\u0435\u0440\u0430\u043d\u0442\u043e"
-        }
+        "Value_et": "Esperanto",
+        "Value_en": "Esperanto",
+        "Value_ru": "\u042d\u0441\u043f\u0435\u0440\u0430\u043d\u0442\u043e"
     },
     {
         "Code": "es",
-        "Name": {
-            "et": "Hispaania",
-            "en": "Spanish",
-            "ru": "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Hispaania",
+        "Value_en": "Spanish",
+        "Value_ru": "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "et",
-        "Name": {
-            "et": "Eesti",
-            "en": "Estonian",
-            "ru": "\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Eesti",
+        "Value_en": "Estonian",
+        "Value_ru": "\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "eu",
-        "Name": {
-            "et": "Basque",
-            "en": "Basque",
-            "ru": "\u0411\u0430\u0441\u043a\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Basque",
+        "Value_en": "Basque",
+        "Value_ru": "\u0411\u0430\u0441\u043a\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "fa",
-        "Name": {
-            "et": "P\u00e4rsia",
-            "en": "Persian",
-            "ru": "\u041f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "P\u00e4rsia",
+        "Value_en": "Persian",
+        "Value_ru": "\u041f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ff",
-        "Name": {
-            "et": "Fulah",
-            "en": "Fulah",
-            "ru": "\u0424\u0443\u043b\u0430\u0445"
-        }
+        "Value_et": "Fulah",
+        "Value_en": "Fulah",
+        "Value_ru": "\u0424\u0443\u043b\u0430\u0445"
     },
     {
         "Code": "fi",
-        "Name": {
-            "et": "Soome",
-            "en": "Finnish",
-            "ru": "\u0424\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Soome",
+        "Value_en": "Finnish",
+        "Value_ru": "\u0424\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "fj",
-        "Name": {
-            "et": "Fid\u017ei",
-            "en": "Fijian",
-            "ru": "\u0424\u0438\u0434\u0436\u0438"
-        }
+        "Value_et": "Fid\u017ei",
+        "Value_en": "Fijian",
+        "Value_ru": "\u0424\u0438\u0434\u0436\u0438"
     },
     {
         "Code": "fo",
-        "Name": {
-            "et": "Faroese",
-            "en": "Faroese",
-            "ru": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Faroese",
+        "Value_en": "Faroese",
+        "Value_ru": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "fr",
-        "Name": {
-            "et": "Prantsuse",
-            "en": "French",
-            "ru": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Prantsuse",
+        "Value_en": "French",
+        "Value_ru": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "fy",
-        "Name": {
-            "et": "Western Frisian",
-            "en": "Western Frisian",
-            "ru": "\u0424\u0440\u0438\u0437\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Western Frisian",
+        "Value_en": "Western Frisian",
+        "Value_ru": "\u0424\u0440\u0438\u0437\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ga",
-        "Name": {
-            "et": "Iiri",
-            "en": "Irish",
-            "ru": "\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Iiri",
+        "Value_en": "Irish",
+        "Value_ru": "\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "gd",
-        "Name": {
-            "et": "Gaelic; Scottish Gaelic",
-            "en": "Gaelic; Scottish Gaelic",
-            "ru": "\u0413\u0430\u044d\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Gaelic; Scottish Gaelic",
+        "Value_en": "Gaelic; Scottish Gaelic",
+        "Value_ru": "\u0413\u0430\u044d\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "gl",
-        "Name": {
-            "et": "Galician",
-            "en": "Galician",
-            "ru": "\u0413\u0430\u043b\u0438\u0441\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Galician",
+        "Value_en": "Galician",
+        "Value_ru": "\u0413\u0430\u043b\u0438\u0441\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "gn",
-        "Name": {
-            "et": "Guarani",
-            "en": "Guarani",
-            "ru": "\u0413\u0443\u0430\u0440\u0430\u043d\u0438"
-        }
+        "Value_et": "Guarani",
+        "Value_en": "Guarani",
+        "Value_ru": "\u0413\u0443\u0430\u0440\u0430\u043d\u0438"
     },
     {
         "Code": "gu",
-        "Name": {
-            "et": "Gujarati",
-            "en": "Gujarati",
-            "ru": "\u0413\u0443\u0434\u0436\u0430\u0440\u0430\u0442\u0438"
-        }
+        "Value_et": "Gujarati",
+        "Value_en": "Gujarati",
+        "Value_ru": "\u0413\u0443\u0434\u0436\u0430\u0440\u0430\u0442\u0438"
     },
     {
         "Code": "gv",
-        "Name": {
-            "et": "Manx",
-            "en": "Manx",
-            "ru": "\u0413\u044d\u043b\u044c\u0441\u043a\u0438\u0439 (\u044f\u0437\u044b\u043a \u0436\u0438\u0442\u0435\u043b\u0435\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u044d\u043d)"
-        }
+        "Value_et": "Manx",
+        "Value_en": "Manx",
+        "Value_ru": "\u0413\u044d\u043b\u044c\u0441\u043a\u0438\u0439 (\u044f\u0437\u044b\u043a \u0436\u0438\u0442\u0435\u043b\u0435\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u044d\u043d)"
     },
     {
         "Code": "ha",
-        "Name": {
-            "et": "Hausa",
-            "en": "Hausa",
-            "ru": "\u0425\u0430\u0443\u0441\u0430"
-        }
+        "Value_et": "Hausa",
+        "Value_en": "Hausa",
+        "Value_ru": "\u0425\u0430\u0443\u0441\u0430"
     },
     {
         "Code": "he",
-        "Name": {
-            "et": "Heebrea",
-            "en": "Hebrew",
-            "ru": "\u0418\u0432\u0440\u0438\u0442"
-        }
+        "Value_et": "Heebrea",
+        "Value_en": "Hebrew",
+        "Value_ru": "\u0418\u0432\u0440\u0438\u0442"
     },
     {
         "Code": "hi",
-        "Name": {
-            "et": "Hindi",
-            "en": "Hindi",
-            "ru": "\u0425\u0438\u043d\u0434\u0438"
-        }
+        "Value_et": "Hindi",
+        "Value_en": "Hindi",
+        "Value_ru": "\u0425\u0438\u043d\u0434\u0438"
     },
     {
         "Code": "ho",
-        "Name": {
-            "et": "Hiri Motu",
-            "en": "Hiri Motu",
-            "ru": "\u0425\u0438\u0440\u0438\u043c\u043e\u0442\u0443"
-        }
+        "Value_et": "Hiri Motu",
+        "Value_en": "Hiri Motu",
+        "Value_ru": "\u0425\u0438\u0440\u0438\u043c\u043e\u0442\u0443"
     },
     {
         "Code": "hr",
-        "Name": {
-            "et": "Horvaatia",
-            "en": "Croatian",
-            "ru": "\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Horvaatia",
+        "Value_en": "Croatian",
+        "Value_ru": "\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "hz",
-        "Name": {
-            "et": "Herero",
-            "en": "Herero",
-            "ru": "\u0413\u0435\u0440\u0435\u0440\u043e"
-        }
+        "Value_et": "Herero",
+        "Value_en": "Herero",
+        "Value_ru": "\u0413\u0435\u0440\u0435\u0440\u043e"
     },
     {
         "Code": "ht",
-        "Name": {
-            "et": "Haitian; Haitian Creole",
-            "en": "Haitian; Haitian Creole",
-            "ru": "\u0413\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439 \u041a\u0440\u0435\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Haitian; Haitian Creole",
+        "Value_en": "Haitian; Haitian Creole",
+        "Value_ru": "\u0413\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439 \u041a\u0440\u0435\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "hu",
-        "Name": {
-            "et": "Ungari",
-            "en": "Hungarian",
-            "ru": "\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Ungari",
+        "Value_en": "Hungarian",
+        "Value_ru": "\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "hy",
-        "Name": {
-            "et": "Armenian",
-            "en": "Armenian",
-            "ru": "\u0410\u0440\u043c\u044f\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Armenian",
+        "Value_en": "Armenian",
+        "Value_ru": "\u0410\u0440\u043c\u044f\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ia",
-        "Name": {
-            "et": "Interlingua",
-            "en": "Interlingua",
-            "ru": "\u0418\u043d\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u0432\u0430"
-        }
+        "Value_et": "Interlingua",
+        "Value_en": "Interlingua",
+        "Value_ru": "\u0418\u043d\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u0432\u0430"
     },
     {
         "Code": "id",
-        "Name": {
-            "et": "Indonesian",
-            "en": "Indonesian",
-            "ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Indonesian",
+        "Value_en": "Indonesian",
+        "Value_ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ie",
-        "Name": {
-            "et": "Interlingue",
-            "en": "Interlingue",
-            "ru": "\u0418\u043d\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u0432\u0430"
-        }
+        "Value_et": "Interlingue",
+        "Value_en": "Interlingue",
+        "Value_ru": "\u0418\u043d\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u0432\u0430"
     },
     {
         "Code": "ig",
-        "Name": {
-            "et": "Igbo",
-            "en": "Igbo",
-            "ru": "\u0418\u0433\u0431\u043e"
-        }
+        "Value_et": "Igbo",
+        "Value_en": "Igbo",
+        "Value_ru": "\u0418\u0433\u0431\u043e"
     },
     {
         "Code": "ii",
-        "Name": {
-            "et": "Sichuan Yi; Nuosu",
-            "en": "Sichuan Yi; Nuosu",
-            "ru": "\u0421\u044b\u0447\u0443\u0430\u043d\u044c \u0418"
-        }
+        "Value_et": "Sichuan Yi; Nuosu",
+        "Value_en": "Sichuan Yi; Nuosu",
+        "Value_ru": "\u0421\u044b\u0447\u0443\u0430\u043d\u044c \u0418"
     },
     {
         "Code": "ik",
-        "Name": {
-            "et": "Inupiaq",
-            "en": "Inupiaq",
-            "ru": "\u0418\u043d\u0443\u043f\u0438\u0430\u043a"
-        }
+        "Value_et": "Inupiaq",
+        "Value_en": "Inupiaq",
+        "Value_ru": "\u0418\u043d\u0443\u043f\u0438\u0430\u043a"
     },
     {
         "Code": "in",
-        "Name": {
-            "et": "Inupiaq",
-            "en": "Inupiaq",
-            "ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Inupiaq",
+        "Value_en": "Inupiaq",
+        "Value_ru": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "io",
-        "Name": {
-            "et": "Ido",
-            "en": "Ido",
-            "ru": "\u0418\u0434\u043e"
-        }
+        "Value_et": "Ido",
+        "Value_en": "Ido",
+        "Value_ru": "\u0418\u0434\u043e"
     },
     {
         "Code": "is",
-        "Name": {
-            "et": "Islandi",
-            "en": "Icelandic",
-            "ru": "\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Islandi",
+        "Value_en": "Icelandic",
+        "Value_ru": "\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "it",
-        "Name": {
-            "et": "Itaalia",
-            "en": "Italian",
-            "ru": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Itaalia",
+        "Value_en": "Italian",
+        "Value_ru": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "iu",
-        "Name": {
-            "et": "Inuktitut",
-            "en": "Inuktitut",
-            "ru": "\u0418\u043d\u0443\u043a\u0442\u0438\u0442\u0443\u0442"
-        }
+        "Value_et": "Inuktitut",
+        "Value_en": "Inuktitut",
+        "Value_ru": "\u0418\u043d\u0443\u043a\u0442\u0438\u0442\u0443\u0442"
     },
     {
         "Code": "iw",
-        "Name": {
-            "et": "Inuktitut",
-            "en": "Inuktitut",
-            "ru": "\u0415\u0432\u0440\u0435\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Inuktitut",
+        "Value_en": "Inuktitut",
+        "Value_ru": "\u0415\u0432\u0440\u0435\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ja",
-        "Name": {
-            "et": "Jaapani",
-            "en": "Japanese",
-            "ru": "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Jaapani",
+        "Value_en": "Japanese",
+        "Value_ru": "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ji",
-        "Name": {
-            "et": "Japanese",
-            "en": "Japanese",
-            "ru": "\u0418\u0434\u0438\u0448"
-        }
+        "Value_et": "Japanese",
+        "Value_en": "Japanese",
+        "Value_ru": "\u0418\u0434\u0438\u0448"
     },
     {
         "Code": "jv",
-        "Name": {
-            "et": "Javanese",
-            "en": "Javanese",
-            "ru": "\u042f\u0432\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Javanese",
+        "Value_en": "Javanese",
+        "Value_ru": "\u042f\u0432\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ka",
-        "Name": {
-            "et": "Georgian",
-            "en": "Georgian",
-            "ru": "\u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Georgian",
+        "Value_en": "Georgian",
+        "Value_ru": "\u0413\u0440\u0443\u0437\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "kg",
-        "Name": {
-            "et": "Kongo",
-            "en": "Kongo",
-            "ru": "\u041a\u043e\u043d\u0433\u043e"
-        }
+        "Value_et": "Kongo",
+        "Value_en": "Kongo",
+        "Value_ru": "\u041a\u043e\u043d\u0433\u043e"
     },
     {
         "Code": "ki",
-        "Name": {
-            "et": "Kikuyu; Gikuyu",
-            "en": "Kikuyu; Gikuyu",
-            "ru": "\u041a\u0438\u043a\u0443\u0439\u044e"
-        }
+        "Value_et": "Kikuyu; Gikuyu",
+        "Value_en": "Kikuyu; Gikuyu",
+        "Value_ru": "\u041a\u0438\u043a\u0443\u0439\u044e"
     },
     {
         "Code": "kj",
-        "Name": {
-            "et": "Kuanyama",
-            "en": "Kuanyama",
-            "ru": "\u041a\u0438\u043d\u044c\u044f\u043c\u0430"
-        }
+        "Value_et": "Kuanyama",
+        "Value_en": "Kuanyama",
+        "Value_ru": "\u041a\u0438\u043d\u044c\u044f\u043c\u0430"
     },
     {
         "Code": "kk",
-        "Name": {
-            "et": "Kazakh",
-            "en": "Kazakh",
-            "ru": "\u041a\u0430\u0437\u0430\u0445\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Kazakh",
+        "Value_en": "Kazakh",
+        "Value_ru": "\u041a\u0430\u0437\u0430\u0445\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "kl",
-        "Name": {
-            "et": "Kalaallisut; Greenlandic",
-            "en": "Kalaallisut; Greenlandic",
-            "ru": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Kalaallisut; Greenlandic",
+        "Value_en": "Kalaallisut; Greenlandic",
+        "Value_ru": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "km",
-        "Name": {
-            "et": "Central Khmer",
-            "en": "Central Khmer",
-            "ru": "\u041a\u0445\u043c\u0435\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Central Khmer",
+        "Value_en": "Central Khmer",
+        "Value_ru": "\u041a\u0445\u043c\u0435\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "kn",
-        "Name": {
-            "et": "Kannada",
-            "en": "Kannada",
-            "ru": "\u041a\u0430\u043d\u043d\u0430\u0434\u0430"
-        }
+        "Value_et": "Kannada",
+        "Value_en": "Kannada",
+        "Value_ru": "\u041a\u0430\u043d\u043d\u0430\u0434\u0430"
     },
     {
         "Code": "ko",
-        "Name": {
-            "et": "Korea",
-            "en": "Korean",
-            "ru": "\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Korea",
+        "Value_en": "Korean",
+        "Value_ru": "\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "kr",
-        "Name": {
-            "et": "Kanuri",
-            "en": "Kanuri",
-            "ru": "\u041a\u0430\u043d\u0443\u0440\u0438"
-        }
+        "Value_et": "Kanuri",
+        "Value_en": "Kanuri",
+        "Value_ru": "\u041a\u0430\u043d\u0443\u0440\u0438"
     },
     {
         "Code": "ks",
-        "Name": {
-            "et": "Kashmiri",
-            "en": "Kashmiri",
-            "ru": "\u041a\u0430\u0448\u043c\u0438\u0440\u0438"
-        }
+        "Value_et": "Kashmiri",
+        "Value_en": "Kashmiri",
+        "Value_ru": "\u041a\u0430\u0448\u043c\u0438\u0440\u0438"
     },
     {
         "Code": "ku",
-        "Name": {
-            "et": "Kurdish",
-            "en": "Kurdish",
-            "ru": "\u041a\u0443\u0440\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Kurdish",
+        "Value_en": "Kurdish",
+        "Value_ru": "\u041a\u0443\u0440\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "kv",
-        "Name": {
-            "et": "Komi",
-            "en": "Komi",
-            "ru": "\u041a\u043e\u043c\u0438"
-        }
+        "Value_et": "Komi",
+        "Value_en": "Komi",
+        "Value_ru": "\u041a\u043e\u043c\u0438"
     },
     {
         "Code": "kw",
-        "Name": {
-            "et": "Cornish",
-            "en": "Cornish",
-            "ru": "\u041a\u043e\u0440\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Cornish",
+        "Value_en": "Cornish",
+        "Value_ru": "\u041a\u043e\u0440\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ky",
-        "Name": {
-            "et": "Kyrgyz",
-            "en": "Kyrgyz",
-            "ru": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Kyrgyz",
+        "Value_en": "Kyrgyz",
+        "Value_ru": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "la",
-        "Name": {
-            "et": "Latin",
-            "en": "Latin",
-            "ru": "\u041b\u0430\u0442\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Latin",
+        "Value_en": "Latin",
+        "Value_ru": "\u041b\u0430\u0442\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "lb",
-        "Name": {
-            "et": "Luxembourgish",
-            "en": "Luxembourgish",
-            "ru": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Luxembourgish",
+        "Value_en": "Luxembourgish",
+        "Value_ru": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "lg",
-        "Name": {
-            "et": "Ganda",
-            "en": "Ganda",
-            "ru": "\u0413\u0430\u043d\u0434\u0430"
-        }
+        "Value_et": "Ganda",
+        "Value_en": "Ganda",
+        "Value_ru": "\u0413\u0430\u043d\u0434\u0430"
     },
     {
         "Code": "li",
-        "Name": {
-            "et": "Limburgan",
-            "en": "Limburgan",
-            "ru": "\u041b\u0438\u043c\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439 (\u041b\u0438\u043c\u0431\u0443\u0440\u0433\u0435\u0440)"
-        }
+        "Value_et": "Limburgan",
+        "Value_en": "Limburgan",
+        "Value_ru": "\u041b\u0438\u043c\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439 (\u041b\u0438\u043c\u0431\u0443\u0440\u0433\u0435\u0440)"
     },
     {
         "Code": "ln",
-        "Name": {
-            "et": "Lingala",
-            "en": "Lingala",
-            "ru": "\u041b\u0438\u043d\u0433\u0430\u043b\u0430"
-        }
+        "Value_et": "Lingala",
+        "Value_en": "Lingala",
+        "Value_ru": "\u041b\u0438\u043d\u0433\u0430\u043b\u0430"
     },
     {
         "Code": "lo",
-        "Name": {
-            "et": "Lao",
-            "en": "Lao",
-            "ru": "\u041b\u0430\u043e\u0441\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Lao",
+        "Value_en": "Lao",
+        "Value_ru": "\u041b\u0430\u043e\u0441\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "lt",
-        "Name": {
-            "et": "Leedu",
-            "en": "Lithuanian",
-            "ru": "\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Leedu",
+        "Value_en": "Lithuanian",
+        "Value_ru": "\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "lu",
-        "Name": {
-            "et": "Luba-Katanga",
-            "en": "Luba-Katanga",
-            "ru": "\u041b\u0443\u0431\u0430-\u043a\u0430\u0442\u0430\u043d\u0433\u0430"
-        }
+        "Value_et": "Luba-Katanga",
+        "Value_en": "Luba-Katanga",
+        "Value_ru": "\u041b\u0443\u0431\u0430-\u043a\u0430\u0442\u0430\u043d\u0433\u0430"
     },
     {
         "Code": "lv",
-        "Name": {
-            "et": "L\u00e4ti",
-            "en": "Latvian",
-            "ru": "\u041b\u0430\u0442\u044b\u0448\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "L\u00e4ti",
+        "Value_en": "Latvian",
+        "Value_ru": "\u041b\u0430\u0442\u044b\u0448\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "me",
-        "Name": {
-            "et": "Latvian",
-            "en": "Latvian",
-            "ru": "\u041c\u0435\u0440\u044f\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Latvian",
+        "Value_en": "Latvian",
+        "Value_ru": "\u041c\u0435\u0440\u044f\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mg",
-        "Name": {
-            "et": "Malagasy",
-            "en": "Malagasy",
-            "ru": "\u041c\u0430\u043b\u0430\u0433\u0430\u0441\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Malagasy",
+        "Value_en": "Malagasy",
+        "Value_ru": "\u041c\u0430\u043b\u0430\u0433\u0430\u0441\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mh",
-        "Name": {
-            "et": "Marshallese",
-            "en": "Marshallese",
-            "ru": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Marshallese",
+        "Value_en": "Marshallese",
+        "Value_ru": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mi",
-        "Name": {
-            "et": "Maori",
-            "en": "Maori",
-            "ru": "\u041c\u0430\u043e\u0440\u0438"
-        }
+        "Value_et": "Maori",
+        "Value_en": "Maori",
+        "Value_ru": "\u041c\u0430\u043e\u0440\u0438"
     },
     {
         "Code": "mk",
-        "Name": {
-            "et": "Makedoonia",
-            "en": "Macedonian",
-            "ru": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Makedoonia",
+        "Value_en": "Macedonian",
+        "Value_ru": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ml",
-        "Name": {
-            "et": "Malayalam",
-            "en": "Malayalam",
-            "ru": "\u041c\u0430\u043b\u0430\u044f\u043b\u0430\u043c"
-        }
+        "Value_et": "Malayalam",
+        "Value_en": "Malayalam",
+        "Value_ru": "\u041c\u0430\u043b\u0430\u044f\u043b\u0430\u043c"
     },
     {
         "Code": "mn",
-        "Name": {
-            "et": "Mongolian",
-            "en": "Mongolian",
-            "ru": "\u041c\u043e\u043d\u0433\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Mongolian",
+        "Value_en": "Mongolian",
+        "Value_ru": "\u041c\u043e\u043d\u0433\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mo",
-        "Name": {
-            "et": "Mongolian",
-            "en": "Mongolian",
-            "ru": "\u041c\u043e\u043b\u0434\u0430\u0432\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Mongolian",
+        "Value_en": "Mongolian",
+        "Value_ru": "\u041c\u043e\u043b\u0434\u0430\u0432\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mr",
-        "Name": {
-            "et": "Marathi",
-            "en": "Marathi",
-            "ru": "\u041c\u0430\u0440\u0430\u0442\u0445\u0438"
-        }
+        "Value_et": "Marathi",
+        "Value_en": "Marathi",
+        "Value_ru": "\u041c\u0430\u0440\u0430\u0442\u0445\u0438"
     },
     {
         "Code": "ms",
-        "Name": {
-            "et": "Malay",
-            "en": "Malay",
-            "ru": "\u041c\u0430\u043b\u0430\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Malay",
+        "Value_en": "Malay",
+        "Value_ru": "\u041c\u0430\u043b\u0430\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "mt",
-        "Name": {
-            "et": "Maltese",
-            "en": "Maltese",
-            "ru": "\u041c\u0430\u043b\u044c\u0442\u0438\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Maltese",
+        "Value_en": "Maltese",
+        "Value_ru": "\u041c\u0430\u043b\u044c\u0442\u0438\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "my",
-        "Name": {
-            "et": "Birma",
-            "en": "Burmese",
-            "ru": "\u0411\u0438\u0440\u043c\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Birma",
+        "Value_en": "Burmese",
+        "Value_ru": "\u0411\u0438\u0440\u043c\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "na",
-        "Name": {
-            "et": "Nauru",
-            "en": "Nauru",
-            "ru": "\u041d\u0430\u0443\u0440\u0443"
-        }
+        "Value_et": "Nauru",
+        "Value_en": "Nauru",
+        "Value_ru": "\u041d\u0430\u0443\u0440\u0443"
     },
     {
         "Code": "nd",
-        "Name": {
-            "et": "",
-            "en": "\"Ndebele",
-            "ru": "\u041d\u0434\u0435\u0431\u0435\u043b\u0435 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0439"
-        }
+        "Value_et": "",
+        "Value_en": "\"Ndebele",
+        "Value_ru": "\u041d\u0434\u0435\u0431\u0435\u043b\u0435 \u0441\u0435\u0432\u0435\u0440\u043d\u044b\u0439"
     },
     {
         "Code": "ne",
-        "Name": {
-            "et": "Nepali",
-            "en": "Nepali",
-            "ru": "\u041d\u0435\u043f\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Nepali",
+        "Value_en": "Nepali",
+        "Value_ru": "\u041d\u0435\u043f\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ng",
-        "Name": {
-            "et": "Ndonga",
-            "en": "Ndonga",
-            "ru": "\u041d\u0434\u0443\u043d\u0433\u0430"
-        }
+        "Value_et": "Ndonga",
+        "Value_en": "Ndonga",
+        "Value_ru": "\u041d\u0434\u0443\u043d\u0433\u0430"
     },
     {
         "Code": "nl",
-        "Name": {
-            "et": "Hollandi",
-            "en": "Dutch",
-            "ru": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Hollandi",
+        "Value_en": "Dutch",
+        "Value_ru": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "nn",
-        "Name": {
-            "et": "Norwegian",
-            "en": "Norwegian",
-            "ru": "\u041d\u044e\u043d\u043e\u0440\u0441\u043a (\u043d\u043e\u0432\u043e\u043d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439)"
-        }
+        "Value_et": "Norwegian",
+        "Value_en": "Norwegian",
+        "Value_ru": "\u041d\u044e\u043d\u043e\u0440\u0441\u043a (\u043d\u043e\u0432\u043e\u043d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439)"
     },
     {
         "Code": "no",
-        "Name": {
-            "et": "Norra",
-            "en": "Norwegian",
-            "ru": "\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Norra",
+        "Value_en": "Norwegian",
+        "Value_ru": "\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "nr",
-        "Name": {
-            "et": "",
-            "en": "\"Ndebele",
-            "ru": "\u041d\u0434\u0435\u0431\u0435\u043b\u0435 \u044e\u0436\u043d\u044b\u0439"
-        }
+        "Value_et": "",
+        "Value_en": "\"Ndebele",
+        "Value_ru": "\u041d\u0434\u0435\u0431\u0435\u043b\u0435 \u044e\u0436\u043d\u044b\u0439"
     },
     {
         "Code": "nv",
-        "Name": {
-            "et": "Navajo",
-            "en": "Navajo",
-            "ru": "\u041d\u0430\u0432\u0430\u0445\u043e"
-        }
+        "Value_et": "Navajo",
+        "Value_en": "Navajo",
+        "Value_ru": "\u041d\u0430\u0432\u0430\u0445\u043e"
     },
     {
         "Code": "ny",
-        "Name": {
-            "et": "Chichewa; Chewa; Nyanja",
-            "en": "Chichewa; Chewa; Nyanja",
-            "ru": "\u041d\u044c\u044f\u043d\u0434\u0436\u0430"
-        }
+        "Value_et": "Chichewa; Chewa; Nyanja",
+        "Value_en": "Chichewa; Chewa; Nyanja",
+        "Value_ru": "\u041d\u044c\u044f\u043d\u0434\u0436\u0430"
     },
     {
         "Code": "oc",
-        "Name": {
-            "et": "Occitan",
-            "en": "Occitan",
-            "ru": "\u041e\u043a\u0441\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Occitan",
+        "Value_en": "Occitan",
+        "Value_ru": "\u041e\u043a\u0441\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "oj",
-        "Name": {
-            "et": "Ojibwa",
-            "en": "Ojibwa",
-            "ru": "\u041e\u0434\u0436\u0438\u0431\u0432\u0435"
-        }
+        "Value_et": "Ojibwa",
+        "Value_en": "Ojibwa",
+        "Value_ru": "\u041e\u0434\u0436\u0438\u0431\u0432\u0435"
     },
     {
         "Code": "om",
-        "Name": {
-            "et": "Oromo",
-            "en": "Oromo",
-            "ru": "\u041e\u0440\u043e\u043c\u043e"
-        }
+        "Value_et": "Oromo",
+        "Value_en": "Oromo",
+        "Value_ru": "\u041e\u0440\u043e\u043c\u043e"
     },
     {
         "Code": "or",
-        "Name": {
-            "et": "Oriya",
-            "en": "Oriya",
-            "ru": "\u041e\u0440\u0438\u044f"
-        }
+        "Value_et": "Oriya",
+        "Value_en": "Oriya",
+        "Value_ru": "\u041e\u0440\u0438\u044f"
     },
     {
         "Code": "os",
-        "Name": {
-            "et": "Ossetian",
-            "en": "Ossetian",
-            "ru": "\u041e\u0441\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Ossetian",
+        "Value_en": "Ossetian",
+        "Value_ru": "\u041e\u0441\u0435\u0442\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "pa",
-        "Name": {
-            "et": "Panjabi",
-            "en": "Panjabi",
-            "ru": "\u041f\u0435\u043d\u0434\u0436\u0430\u0431\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Panjabi",
+        "Value_en": "Panjabi",
+        "Value_ru": "\u041f\u0435\u043d\u0434\u0436\u0430\u0431\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "pi",
-        "Name": {
-            "et": "Pali",
-            "en": "Pali",
-            "ru": "\u041f\u0430\u043b\u0438"
-        }
+        "Value_et": "Pali",
+        "Value_en": "Pali",
+        "Value_ru": "\u041f\u0430\u043b\u0438"
     },
     {
         "Code": "pl",
-        "Name": {
-            "et": "Poola",
-            "en": "Polish",
-            "ru": "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Poola",
+        "Value_en": "Polish",
+        "Value_ru": "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ps",
-        "Name": {
-            "et": "Pushto",
-            "en": "Pushto",
-            "ru": "\u041f\u0443\u0448\u0442\u0443"
-        }
+        "Value_et": "Pushto",
+        "Value_en": "Pushto",
+        "Value_ru": "\u041f\u0443\u0448\u0442\u0443"
     },
     {
         "Code": "pt",
-        "Name": {
-            "et": "Portugali",
-            "en": "Portuguese",
-            "ru": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Portugali",
+        "Value_en": "Portuguese",
+        "Value_ru": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "qu",
-        "Name": {
-            "et": "Quechua",
-            "en": "Quechua",
-            "ru": "\u041a\u0435\u0447\u0443\u0430"
-        }
+        "Value_et": "Quechua",
+        "Value_en": "Quechua",
+        "Value_ru": "\u041a\u0435\u0447\u0443\u0430"
     },
     {
         "Code": "rm",
-        "Name": {
-            "et": "Romansh",
-            "en": "Romansh",
-            "ru": "\u0420\u0435\u0442\u043e\u0440\u043e\u043c\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Romansh",
+        "Value_en": "Romansh",
+        "Value_ru": "\u0420\u0435\u0442\u043e\u0440\u043e\u043c\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "rn",
-        "Name": {
-            "et": "Rundi",
-            "en": "Rundi",
-            "ru": "\u0420\u0443\u043d\u0434\u0438"
-        }
+        "Value_et": "Rundi",
+        "Value_en": "Rundi",
+        "Value_ru": "\u0420\u0443\u043d\u0434\u0438"
     },
     {
         "Code": "ro",
-        "Name": {
-            "et": "Romanian; Moldavian",
-            "en": "Romanian; Moldavian",
-            "ru": "\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Romanian; Moldavian",
+        "Value_en": "Romanian; Moldavian",
+        "Value_ru": "\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ru",
-        "Name": {
-            "et": "Vene",
-            "en": "Russian",
-            "ru": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Vene",
+        "Value_en": "Russian",
+        "Value_ru": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "rw",
-        "Name": {
-            "et": "Kinyarwanda",
-            "en": "Kinyarwanda",
-            "ru": "\u0420\u0443\u0430\u043d\u0434\u0430"
-        }
+        "Value_et": "Kinyarwanda",
+        "Value_en": "Kinyarwanda",
+        "Value_ru": "\u0420\u0443\u0430\u043d\u0434\u0430"
     },
     {
         "Code": "sa",
-        "Name": {
-            "et": "Sanskrit",
-            "en": "Sanskrit",
-            "ru": "\u0421\u0430\u043d\u0441\u043a\u0440\u0438\u0442\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sanskrit",
+        "Value_en": "Sanskrit",
+        "Value_ru": "\u0421\u0430\u043d\u0441\u043a\u0440\u0438\u0442\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sc",
-        "Name": {
-            "et": "Sardinian",
-            "en": "Sardinian",
-            "ru": "\u0421\u0430\u0440\u0434\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sardinian",
+        "Value_en": "Sardinian",
+        "Value_ru": "\u0421\u0430\u0440\u0434\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sd",
-        "Name": {
-            "et": "Sindhi",
-            "en": "Sindhi",
-            "ru": "\u0421\u0438\u043d\u0434\u0445\u0438"
-        }
+        "Value_et": "Sindhi",
+        "Value_en": "Sindhi",
+        "Value_ru": "\u0421\u0438\u043d\u0434\u0445\u0438"
     },
     {
         "Code": "sg",
-        "Name": {
-            "et": "Sango",
-            "en": "Sango",
-            "ru": "\u0421\u0430\u043d\u0433\u043e"
-        }
+        "Value_et": "Sango",
+        "Value_en": "Sango",
+        "Value_ru": "\u0421\u0430\u043d\u0433\u043e"
     },
     {
         "Code": "sh",
-        "Name": {
-            "et": "Sango",
-            "en": "Sango",
-            "ru": "\u0421\u0435\u0440\u0431\u043e-\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sango",
+        "Value_en": "Sango",
+        "Value_ru": "\u0421\u0435\u0440\u0431\u043e-\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "si",
-        "Name": {
-            "et": "Sinhala",
-            "en": "Sinhala",
-            "ru": "\u0421\u0438\u043d\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sinhala",
+        "Value_en": "Sinhala",
+        "Value_ru": "\u0421\u0438\u043d\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sk",
-        "Name": {
-            "et": "Slovaki",
-            "en": "Slovak",
-            "ru": "\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0438\u0439"
-        }
+        "Value_et": "Slovaki",
+        "Value_en": "Slovak",
+        "Value_ru": "\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0438\u0439"
     },
     {
         "Code": "sl",
-        "Name": {
-            "et": "Sloveeni",
-            "en": "Slovenian",
-            "ru": "\u0421\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sloveeni",
+        "Value_en": "Slovenian",
+        "Value_ru": "\u0421\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sm",
-        "Name": {
-            "et": "Samoan",
-            "en": "Samoan",
-            "ru": "\u0421\u0430\u043c\u043e\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Samoan",
+        "Value_en": "Samoan",
+        "Value_ru": "\u0421\u0430\u043c\u043e\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sn",
-        "Name": {
-            "et": "Shona",
-            "en": "Shona",
-            "ru": "\u0428\u043e\u043d\u0430"
-        }
+        "Value_et": "Shona",
+        "Value_en": "Shona",
+        "Value_ru": "\u0428\u043e\u043d\u0430"
     },
     {
         "Code": "so",
-        "Name": {
-            "et": "Somali",
-            "en": "Somali",
-            "ru": "\u0421\u043e\u043c\u0430\u043b\u0438"
-        }
+        "Value_et": "Somali",
+        "Value_en": "Somali",
+        "Value_ru": "\u0421\u043e\u043c\u0430\u043b\u0438"
     },
     {
         "Code": "sq",
-        "Name": {
-            "et": "Albaania",
-            "en": "Albanian",
-            "ru": "\u0410\u043b\u0431\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Albaania",
+        "Value_en": "Albanian",
+        "Value_ru": "\u0410\u043b\u0431\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sr",
-        "Name": {
-            "et": "Serbian",
-            "en": "Serbian",
-            "ru": "\u0421\u0435\u0440\u0431\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Serbian",
+        "Value_en": "Serbian",
+        "Value_ru": "\u0421\u0435\u0440\u0431\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ss",
-        "Name": {
-            "et": "Swati",
-            "en": "Swati",
-            "ru": "\u0421\u0432\u0430\u0437\u0438"
-        }
+        "Value_et": "Swati",
+        "Value_en": "Swati",
+        "Value_ru": "\u0421\u0432\u0430\u0437\u0438"
     },
     {
         "Code": "st",
-        "Name": {
-            "et": "Sotho",
-            "en": "Sotho",
-            "ru": "\u0421\u043e\u0442\u043e"
-        }
+        "Value_et": "Sotho",
+        "Value_en": "Sotho",
+        "Value_ru": "\u0421\u043e\u0442\u043e"
     },
     {
         "Code": "su",
-        "Name": {
-            "et": "Sundanese",
-            "en": "Sundanese",
-            "ru": "\u0421\u0443\u043d\u0434\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Sundanese",
+        "Value_en": "Sundanese",
+        "Value_ru": "\u0421\u0443\u043d\u0434\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sv",
-        "Name": {
-            "et": "Rootsi",
-            "en": "Swedish",
-            "ru": "\u0428\u0432\u0435\u0434\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Rootsi",
+        "Value_en": "Swedish",
+        "Value_ru": "\u0428\u0432\u0435\u0434\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "sw",
-        "Name": {
-            "et": "Suahiili",
-            "en": "Swahili",
-            "ru": "\u0421\u0443\u0430\u0445\u0438\u043b\u0438"
-        }
+        "Value_et": "Suahiili",
+        "Value_en": "Swahili",
+        "Value_ru": "\u0421\u0443\u0430\u0445\u0438\u043b\u0438"
     },
     {
         "Code": "za",
-        "Name": {
-            "et": "Zhuang",
-            "en": "Zhuang",
-            "ru": "\u0427\u0436\u0443\u0430\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Zhuang",
+        "Value_en": "Zhuang",
+        "Value_ru": "\u0427\u0436\u0443\u0430\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "zh",
-        "Name": {
-            "et": "Hiina",
-            "en": "Chinese",
-            "ru": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Hiina",
+        "Value_en": "Chinese",
+        "Value_ru": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "zu",
-        "Name": {
-            "et": "Zulu",
-            "en": "Zulu",
-            "ru": "\u0417\u0443\u043b\u0443"
-        }
+        "Value_et": "Zulu",
+        "Value_en": "Zulu",
+        "Value_ru": "\u0417\u0443\u043b\u0443"
     },
     {
         "Code": "ta",
-        "Name": {
-            "et": "Tamil",
-            "en": "Tamil",
-            "ru": "\u0422\u0430\u043c\u0438\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tamil",
+        "Value_en": "Tamil",
+        "Value_ru": "\u0422\u0430\u043c\u0438\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "te",
-        "Name": {
-            "et": "Telugu",
-            "en": "Telugu",
-            "ru": "\u0422\u0435\u043b\u0443\u0433\u0443"
-        }
+        "Value_et": "Telugu",
+        "Value_en": "Telugu",
+        "Value_ru": "\u0422\u0435\u043b\u0443\u0433\u0443"
     },
     {
         "Code": "tg",
-        "Name": {
-            "et": "Tajik",
-            "en": "Tajik",
-            "ru": "\u0422\u0430\u0434\u0436\u0438\u043a\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tajik",
+        "Value_en": "Tajik",
+        "Value_ru": "\u0422\u0430\u0434\u0436\u0438\u043a\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "th",
-        "Name": {
-            "et": "Thai",
-            "en": "Thai",
-            "ru": "\u0422\u0430\u0439\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Thai",
+        "Value_en": "Thai",
+        "Value_ru": "\u0422\u0430\u0439\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ti",
-        "Name": {
-            "et": "Tigrinya",
-            "en": "Tigrinya",
-            "ru": "\u0422\u0438\u0433\u0440\u0438\u043d\u044c\u044f"
-        }
+        "Value_et": "Tigrinya",
+        "Value_en": "Tigrinya",
+        "Value_ru": "\u0422\u0438\u0433\u0440\u0438\u043d\u044c\u044f"
     },
     {
         "Code": "tk",
-        "Name": {
-            "et": "Turkmeeni",
-            "en": "Turkmen",
-            "ru": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Turkmeeni",
+        "Value_en": "Turkmen",
+        "Value_ru": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "tl",
-        "Name": {
-            "et": "Tagalogi",
-            "en": "Tagalog",
-            "ru": "\u0422\u0430\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tagalogi",
+        "Value_en": "Tagalog",
+        "Value_ru": "\u0422\u0430\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "tn",
-        "Name": {
-            "et": "Tswana",
-            "en": "Tswana",
-            "ru": "\u0422\u0441\u0432\u0430\u043d\u0430"
-        }
+        "Value_et": "Tswana",
+        "Value_en": "Tswana",
+        "Value_ru": "\u0422\u0441\u0432\u0430\u043d\u0430"
     },
     {
         "Code": "to",
-        "Name": {
-            "et": "Tonga (Tonga Islands)",
-            "en": "Tonga (Tonga Islands)",
-            "ru": "\u0422\u043e\u043d\u0433\u0430"
-        }
+        "Value_et": "Tonga (Tonga Islands)",
+        "Value_en": "Tonga (Tonga Islands)",
+        "Value_ru": "\u0422\u043e\u043d\u0433\u0430"
     },
     {
         "Code": "tr",
-        "Name": {
-            "et": "T\u00fcrgi",
-            "en": "Turkish",
-            "ru": "\u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439"
-        }
+        "Value_et": "T\u00fcrgi",
+        "Value_en": "Turkish",
+        "Value_ru": "\u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439"
     },
     {
         "Code": "ts",
-        "Name": {
-            "et": "Tsonga",
-            "en": "Tsonga",
-            "ru": "\u0422\u0441\u043e\u043d\u0433\u0430"
-        }
+        "Value_et": "Tsonga",
+        "Value_en": "Tsonga",
+        "Value_ru": "\u0422\u0441\u043e\u043d\u0433\u0430"
     },
     {
         "Code": "tt",
-        "Name": {
-            "et": "Tatar",
-            "en": "Tatar",
-            "ru": "\u0422\u0430\u0442\u0430\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tatar",
+        "Value_en": "Tatar",
+        "Value_ru": "\u0422\u0430\u0442\u0430\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "tw",
-        "Name": {
-            "et": "Twi",
-            "en": "Twi",
-            "ru": "\u0422\u0432\u0438"
-        }
+        "Value_et": "Twi",
+        "Value_en": "Twi",
+        "Value_ru": "\u0422\u0432\u0438"
     },
     {
         "Code": "ty",
-        "Name": {
-            "et": "Tahitian",
-            "en": "Tahitian",
-            "ru": "\u0422\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Tahitian",
+        "Value_en": "Tahitian",
+        "Value_ru": "\u0422\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ug",
-        "Name": {
-            "et": "Uiguuri",
-            "en": "Uighur; Uyghur",
-            "ru": "\u0423\u0439\u0433\u0443\u0440\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Uiguuri",
+        "Value_en": "Uighur; Uyghur",
+        "Value_ru": "\u0423\u0439\u0433\u0443\u0440\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "uk",
-        "Name": {
-            "et": "Ukraina",
-            "en": "Ukrainian",
-            "ru": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Ukraina",
+        "Value_en": "Ukrainian",
+        "Value_ru": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ur",
-        "Name": {
-            "et": "Urdu",
-            "en": "Urdu",
-            "ru": "\u0423\u0440\u0434\u0443"
-        }
+        "Value_et": "Urdu",
+        "Value_en": "Urdu",
+        "Value_ru": "\u0423\u0440\u0434\u0443"
     },
     {
         "Code": "uz",
-        "Name": {
-            "et": "Uzbek",
-            "en": "Uzbek",
-            "ru": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Uzbek",
+        "Value_en": "Uzbek",
+        "Value_ru": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "ve",
-        "Name": {
-            "et": "Venda",
-            "en": "Venda",
-            "ru": "\u0412\u0435\u043d\u0434\u0430"
-        }
+        "Value_et": "Venda",
+        "Value_en": "Venda",
+        "Value_ru": "\u0412\u0435\u043d\u0434\u0430"
     },
     {
         "Code": "vi",
-        "Name": {
-            "et": "Vietnami",
-            "en": "Vietnamese",
-            "ru": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0439"
-        }
+        "Value_et": "Vietnami",
+        "Value_en": "Vietnamese",
+        "Value_ru": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0439"
     },
     {
         "Code": "vo",
-        "Name": {
-            "et": "Volap\u00c3\u00bck",
-            "en": "Volap\u00c3\u00bck",
-            "ru": "\u0412\u043e\u043b\u0430\u043f\u044e\u043a"
-        }
+        "Value_et": "Volap\u00c3\u00bck",
+        "Value_en": "Volap\u00c3\u00bck",
+        "Value_ru": "\u0412\u043e\u043b\u0430\u043f\u044e\u043a"
     },
     {
         "Code": "wa",
-        "Name": {
-            "et": "Walloon",
-            "en": "Walloon",
-            "ru": "\u0412\u0430\u043b\u043b\u043e\u043d"
-        }
+        "Value_et": "Walloon",
+        "Value_en": "Walloon",
+        "Value_ru": "\u0412\u0430\u043b\u043b\u043e\u043d"
     },
     {
         "Code": "wo",
-        "Name": {
-            "et": "Wolof",
-            "en": "Wolof",
-            "ru": "\u0412\u043e\u043b\u043e\u0444"
-        }
+        "Value_et": "Wolof",
+        "Value_en": "Wolof",
+        "Value_ru": "\u0412\u043e\u043b\u043e\u0444"
     },
     {
         "Code": "xh",
-        "Name": {
-            "et": "Xhosa",
-            "en": "Xhosa",
-            "ru": "\u041a\u043e\u0441\u0430"
-        }
+        "Value_et": "Xhosa",
+        "Value_en": "Xhosa",
+        "Value_ru": "\u041a\u043e\u0441\u0430"
     },
     {
         "Code": "yi",
-        "Name": {
-            "et": "Yiddish",
-            "en": "Yiddish",
-            "ru": "\u0418\u0434\u0438\u0448"
-        }
+        "Value_et": "Yiddish",
+        "Value_en": "Yiddish",
+        "Value_ru": "\u0418\u0434\u0438\u0448"
     },
     {
         "Code": "yo",
-        "Name": {
-            "et": "Yoruba",
-            "en": "Yoruba",
-            "ru": "\u0419\u043e\u0440\u0443\u0431\u0430"
-        }
+        "Value_et": "Yoruba",
+        "Value_en": "Yoruba",
+        "Value_ru": "\u0419\u043e\u0440\u0443\u0431\u0430"
     }
 ]

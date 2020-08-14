@@ -1,0 +1,2251 @@
+[
+    {
+        "FilmId": "1001",
+        "Title_et": "N\u00e4htamatu elu",
+        "Title_en": "Invisible Life of Eur\u00eddice Gusm\u00e3o",
+        "Title_ru": "",
+        "TitleOriginal": "A Vida Invisivel",
+        "Year": "2019",
+        "Runtime": "139",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Julia Stockler",
+                        "en": "Julia Stockler",
+                        "ru": "Julia Stockler"
+                    },
+                    {
+                        "et": "Carol Duarte",
+                        "en": "Carol Duarte",
+                        "ru": "Carol Duarte"
+                    },
+                    {
+                        "et": "Fl\u00e1via Gusm\u00e3o",
+                        "en": "Fl\u00e1via Gusm\u00e3o",
+                        "ru": "Fl\u00e1via Gusm\u00e3o"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Murilo Hauser",
+                        "en": "Murilo Hauser",
+                        "ru": "Murilo Hauser"
+                    },
+                    {
+                        "et": "In\u00e9s Bortagaray",
+                        "en": "In\u00e9s Bortagaray",
+                        "ru": "In\u00e9s Bortagaray"
+                    },
+                    {
+                        "et": "Karim A\u00efnouz",
+                        "en": "Karim A\u00efnouz",
+                        "ru": "Karim A\u00efnouz"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "H\u00e9l\u00e8ne Louvart",
+                        "en": "H\u00e9l\u00e8ne Louvart",
+                        "ru": "H\u00e9l\u00e8ne Louvart"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Julia Stockler",
+                        "en": "Julia Stockler",
+                        "ru": "Julia Stockler"
+                    },
+                    {
+                        "et": "Carol Duarte",
+                        "en": "Carol Duarte",
+                        "ru": "Carol Duarte"
+                    },
+                    {
+                        "et": "Fl\u00e1via Gusm\u00e3o",
+                        "en": "Fl\u00e1via Gusm\u00e3o",
+                        "ru": "Fl\u00e1via Gusm\u00e3o"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Benedikt Schiefer",
+                        "en": "Benedikt Schiefer",
+                        "ru": "Benedikt Schiefer"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Canal Brasil",
+                        "en": "Canal Brasil",
+                        "ru": "Canal Brasil"
+                    },
+                    {
+                        "et": "Pola Pandora Filmproduktions",
+                        "en": "Pola Pandora Filmproduktions",
+                        "ru": "Pola Pandora Filmproduktions"
+                    },
+                    {
+                        "et": "RT Features",
+                        "en": "RT Features",
+                        "ru": "RT Features"
+                    },
+                    {
+                        "et": "Sony Pictures Releasing",
+                        "en": "Sony Pictures Releasing",
+                        "ru": "Sony Pictures Releasing"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Filmi tegevus toimub 1950. aastatel Rio de Janeiros. Gusm\u00e3ode perekonnas sirgub kaks erineva iseloomuga \u00f5de: Guida naudib kogu hingest elu, Eur\u00eddice on p\u00fchendunud klaverim\u00e4ngule. \u00dchel heal p\u00e4eval armub Guida kreeka meremehesse ja lahkub koos temaga omavoliliselt kodust. Abielu ei l\u00e4he aga roosiliselt ja ta on sunnitud tagasi p\u00f6\u00f6rduma. Paraku on noorte naiste isa nagu kogu \u00fchiskondki konservatiivne ja et perekonnale mitte h\u00e4bi teha, suleb ta Guida ees ukse. Kui Guida k\u00fcsib oma \u00f5e j\u00e4rele, valetab isa, et ta \u00f5pib v\u00e4lismaal. Guida ja Eur\u00eddice kaotavad kontakti, kuid ei j\u00e4ta lootust j\u00e4lle kohtuda. Nad elavad, nagu oskavad ja v\u00f5tavad vastu selle, mida saatus neile pakub. Lugu p\u00f5hineb Martha Batalha romaanil \"Eur\u00eddice Gusm\u00e3o n\u00e4htamatu elu\". Film linastus 2019. aastal mainekal Cannes\u2019i filmifestivalil programmis \"Un Certain Regard\" ja v\u00f5itis seal peaauhinna.",
+                "en": "Rio de Janeiro, 1950. Eur\u00eddice, 18, and Guida, 20, are two inseparable sisters living at home with their conservative parents. Although immersed in a traditional life, each one nourishes a dream: Eur\u00eddice of becoming a renowned pianist, Guida of finding true love. In a dramatic turn, they are separated by their father and forced to live apart. They take control of their separate destinies, while never giving up hope of finding each other.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=NRF-Pba3QrE",
+        "QaClip": "https://www.youtube.com/watch?v=rCztl76AmrQ",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "nhtamatu-elu",
+        "Slug_en": "invisible-life-of-eurdice-gusmo",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1002",
+        "Title_et": "T\u00e4iuslik",
+        "Title_en": "Flawless",
+        "Title_ru": "",
+        "TitleOriginal": "HaNeshef",
+        "Year": "2018",
+        "Runtime": "97",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Stav Strashko",
+                        "en": "Stav Strashko",
+                        "ru": "Stav Strashko"
+                    },
+                    {
+                        "et": "Netsanet Mekonen",
+                        "en": "Netsanet Mekonen",
+                        "ru": "Netsanet Mekonen"
+                    },
+                    {
+                        "et": "Noam Lugasy",
+                        "en": "Noam Lugasy",
+                        "ru": "Noam Lugasy"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Tal Granit",
+                        "en": "Tal Granit",
+                        "ru": "Tal Granit"
+                    },
+                    {
+                        "et": "Sharon Maymon",
+                        "en": "Sharon Maymon",
+                        "ru": "Sharon Maymon"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Giora Bejach",
+                        "en": "Giora Bejach",
+                        "ru": "Giora Bejach"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Stav Strashko",
+                        "en": "Stav Strashko",
+                        "ru": "Stav Strashko"
+                    },
+                    {
+                        "et": "Netsanet Mekonen",
+                        "en": "Netsanet Mekonen",
+                        "ru": "Netsanet Mekonen"
+                    },
+                    {
+                        "et": "Noam Lugasy",
+                        "en": "Noam Lugasy",
+                        "ru": "Noam Lugasy"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Ivri Lider",
+                        "en": "Ivri Lider",
+                        "ru": "Ivri Lider"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Pie Films",
+                        "en": "Pie Films",
+                        "ru": "Pie Films"
+                    },
+                    {
+                        "et": "United King Films",
+                        "en": "United King Films",
+                        "ru": "United King Films"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Kas sina loovutaksid kellelegi oma neeru? Aga mis siis, kui sa saaksid selle eest vastutasuks kopsaka summa raha? Ja teeksid teoks oma k\u00f5ige suurema unistuse?\n17-aastane Eden (Stav Strashko) avastab, et just seda plaanivadki tema kaks parimat s\u00f5pra. T\u00fcdrukutele on see v\u00e4ike ohverdus, et saada endale rinnakam b\u00fcst ja uus uhke keskkooli l\u00f5pupeo kleit. Edenile tehakse samuti ettepanek osaleda illegaalses doonorluses. T\u00fcdrukud ei tea, et Eden on transsooline ja talle t\u00e4hendaks operatsioon midagi hoopis olulisemat.\nVeneetsias, Karlovy Varys ja mitmetel teistel festivalidel auhinnatud re\u017eiss\u00f6\u00f6rid Sharon Maymon ja Tal Granit toovad meieni inimliku ja liigutava loo s\u00f5prusest, aktsepteerimisest ja iseendale otsa vaatamisest.",
+                "en": "Eden a 17-year-old high school student discovers that her two best friends are planning to sell their kidneys to pay for cosmetic surgery and a dress for prom. Eden, who is secretly a trans woman, realizes that this may be the answer to her prayers. She joins the others on their journey to Kiev to exchange their kidneys for the flawless body of their dreams. Their trip does not go as planned and when Eden\u2019s secret is exposed, all three of them need to come to terms with the prejudices they have and redefine who they really want to be in this world.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=xfc4490kzo0",
+        "QaClip": "https://www.youtube.com/watch?v=9hfSWMMK5kY",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "tiuslik",
+        "Slug_en": "flawless",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1003",
+        "Title_et": "H\u00fcvasti!",
+        "Title_en": "House of Hummingbird",
+        "Title_ru": "",
+        "TitleOriginal": "Beol-sae",
+        "Year": "2018",
+        "Runtime": "138",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Ji-hu Park",
+                        "en": "Ji-hu Park",
+                        "ru": "Ji-hu Park"
+                    },
+                    {
+                        "et": "Sae-byeok Kim",
+                        "en": "Sae-byeok Kim",
+                        "ru": "Sae-byeok Kim"
+                    },
+                    {
+                        "et": "Seung-Yun Lee",
+                        "en": "Seung-Yun Lee",
+                        "ru": "Seung-Yun Lee"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Bora Kim",
+                        "en": "Bora Kim",
+                        "ru": "Bora Kim"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Guk-hyun Kang",
+                        "en": "Guk-hyun Kang",
+                        "ru": "Guk-hyun Kang"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Ji-hu Park",
+                        "en": "Ji-hu Park",
+                        "ru": "Ji-hu Park"
+                    },
+                    {
+                        "et": "Sae-byeok Kim",
+                        "en": "Sae-byeok Kim",
+                        "ru": "Sae-byeok Kim"
+                    },
+                    {
+                        "et": "Seung-Yun Lee",
+                        "en": "Seung-Yun Lee",
+                        "ru": "Seung-Yun Lee"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Matija Strnisa",
+                        "en": "Matija Strnisa",
+                        "ru": "Matija Strnisa"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Epiphany",
+                        "en": "Epiphany",
+                        "ru": "Epiphany"
+                    },
+                    {
+                        "et": "Mass Ornament Films",
+                        "en": "Mass Ornament Films",
+                        "ru": "Mass Ornament Films"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Seouli 8-klassi \u00f5pilase Eun-hee isiklikud l\u00e4bielamised, esimene armastus ja tulevikuv\u00e4ljavaated ristuvad selles auhinnatud tippdraamas L\u00f5una-Korea \u00fchiskonnas aset leidvate s\u00fcndmustega, mis kulmineeruvad Seongsu silla kokkuvarisemisega 1994. aasta s\u00fcgisel.\nNagu kogu \u00fclej\u00e4\u00e4nud maailm elavad ka l\u00f5unakorealased palavalt kaasa 1994. aasta jalgpalli maailmameistriv\u00f5istlustele ja ootavad uudiseid p\u00f5hjanaabrite juurest, kus on \u00e4sja surnud \u201eSuur Juht\u201c Kim Il-sung. T\u00e4iskasvanute maailm ja selle tegemised, isegi kool ja kaas\u00f5pilased j\u00e4tavad aga Eun-hee k\u00fclmaks. Tema vanemad n\u00e4rivad p\u00e4evast p\u00e4eva \u00fcksteise k\u00f5ri kallal. Ka esimene armastus ei sisenda erilist usku paremasse tulevikku. Kui uudistesse j\u00f5uavad \u00e4revad teated Seongsu silla kokkuvarisemisest ja inimohvritest, saab Eun-hee aru, et m\u00f6\u00f6dunud suvi ja algav s\u00fcgis toovad tema ellu p\u00f6\u00f6rde, mida kutsutakse t\u00e4iskasvanuks saamiseks.\n\n",
+                "en": "Korea, 1994. The South is in the grips of FIFA World Cup fever, while the North mourns its newly deceased dictator. Eun-hee registers all of this only in passing. Drifting through her days in Seoul, the eighth-grader feels like an outsider everywhere: at school, where her classmates bore her even more than the schoolwork, and at home, where her parents are always at each other's throats and her brother beats her.\n\nWith visual precision, Kim Bo-ra weaves a dense narrative around a regular summer that leaves nothing unchanged.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=s6ZgBnq7Tt4",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "hvasti",
+        "Slug_en": "house-of-hummingbird",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1004",
+        "Title_et": "\u00d5nnejumalanna",
+        "Title_en": "The Goddess of Fortune",
+        "Title_ru": "",
+        "TitleOriginal": "La dea fortuna",
+        "Year": "2019",
+        "Runtime": "114",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Stefano Accorsi",
+                        "en": "Stefano Accorsi",
+                        "ru": "Stefano Accorsi"
+                    },
+                    {
+                        "et": "Jasmine Trinca",
+                        "en": "Jasmine Trinca",
+                        "ru": "Jasmine Trinca"
+                    },
+                    {
+                        "et": "Edoardo Leo",
+                        "en": "Edoardo Leo",
+                        "ru": "Edoardo Leo"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Ferzan \u00d6zpetek",
+                        "en": "Ferzan \u00d6zpetek",
+                        "ru": "Ferzan \u00d6zpetek"
+                    },
+                    {
+                        "et": "Silvia Ranfagni",
+                        "en": "Silvia Ranfagni",
+                        "ru": "Silvia Ranfagni"
+                    },
+                    {
+                        "et": "Gianni Romoli",
+                        "en": "Gianni Romoli",
+                        "ru": "Gianni Romoli"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Gian Filippo Corticelli",
+                        "en": "Gian Filippo Corticelli",
+                        "ru": "Gian Filippo Corticelli"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Stefano Accorsi",
+                        "en": "Stefano Accorsi",
+                        "ru": "Stefano Accorsi"
+                    },
+                    {
+                        "et": "Jasmine Trinca",
+                        "en": "Jasmine Trinca",
+                        "ru": "Jasmine Trinca"
+                    },
+                    {
+                        "et": "Edoardo Leo",
+                        "en": "Edoardo Leo",
+                        "ru": "Edoardo Leo"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Pasquale Catalano",
+                        "en": "Pasquale Catalano",
+                        "ru": "Pasquale Catalano"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "R&C Produzioni",
+                        "en": "R&C Produzioni",
+                        "ru": "R&C Produzioni"
+                    },
+                    {
+                        "et": "Faros Film",
+                        "en": "Faros Film",
+                        "ru": "Faros Film"
+                    },
+                    {
+                        "et": "Warner Bros.",
+                        "en": "Warner Bros.",
+                        "ru": "Warner Bros."
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Ferzan \u00d6zpeteki filmid kannavad n\u00fc\u00fcdisaegse itaalia filmi pitserit: tempokad, s\u00fcdamlikud, satiirilised, pisarateni liigutavad. Nii ka seekord.\n\"\u00d5nnejumalanna\" on film kolmest lapsep\u00f5lves\u00f5brast Arturost, Annamariast ja Alessandrost, kes k\u00f5ik kordam\u00f6\u00f6da ja vaheldumisi on olnud \u00fcksteisesse armunud. N\u00fc\u00fcd, varajasse keskikka j\u00f5udnuna, k\u00fclastab Annamaria oma noorusp\u00f5lve s\u00f5pru, et usaldada nende k\u00e4tte k\u00f5ige kallim, mis tal siin elus on.\nS\u00f5brad, kelle suhted on just j\u00f5udnud kriitilisse punkti, on sunnitud oma elu revideerima ja v\u00f5tma vastutuse, milleks nad veel valmis pole. Viieteistaastase kooselu v\u00e4ltel tekkinud rutiin ja pettumused vajuvad tagaplaanile, uus situatsioon toob nende ellu aga v\u00e4heke maagiat, ettearvamatust ja irratsionaalsust, mis silmad uuesti s\u00e4rama panevad.",
+                "en": "Alessandro and Arturo have been together for over 15 years and, despite the feeling they still have for each other, their relationship is now at crisis. When Alessandro\u2019s best friend, out of the blue, asks them to take care of her two kids for a few days, something changes in their daily routine and love will drive them to a crazy and unexpected turn in their life.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=JTg4-5kdKvY",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "nnejumalanna",
+        "Slug_en": "the-goddess-of-fortune",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1005",
+        "Title_et": "Skeemitajad",
+        "Title_en": "Schemers",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2019",
+        "Runtime": "91",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Conor Berry",
+                        "en": "Conor Berry",
+                        "ru": "Conor Berry"
+                    },
+                    {
+                        "et": "Sean Connor",
+                        "en": "Sean Connor",
+                        "ru": "Sean Connor"
+                    },
+                    {
+                        "et": "Grant Robert Keelan",
+                        "en": "Grant Robert Keelan",
+                        "ru": "Grant Robert Keelan"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Dave McLean",
+                        "en": "Dave McLean",
+                        "ru": "Dave McLean"
+                    },
+                    {
+                        "et": "Kyle Titterton\r",
+                        "en": "Kyle Titterton\r",
+                        "ru": "Kyle Titterton\r"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Alan C. McLaughlin",
+                        "en": "Alan C. McLaughlin",
+                        "ru": "Alan C. McLaughlin"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Conor Berry",
+                        "en": "Conor Berry",
+                        "ru": "Conor Berry"
+                    },
+                    {
+                        "et": "Sean Connor",
+                        "en": "Sean Connor",
+                        "ru": "Sean Connor"
+                    },
+                    {
+                        "et": "Grant Robert Keelan",
+                        "en": "Grant Robert Keelan",
+                        "ru": "Grant Robert Keelan"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Schemers Film",
+                        "en": "Schemers Film",
+                        "ru": "Schemers Film"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Kultusfilmi \"Trainspotting\" vaibiga kom\u00f6\u00f6dia re\u017eiss\u00f6\u00f6r Dave McLeani noorp\u00f5lveajast, mis viib vaataja varajastesse kaheksak\u00fcmnendatesse, kui Dundee-nimelises v\u00e4ikelinnas kusagil Ida-\u0160otimaa p\u00e4rap\u00f5rgus ehk kohas, millest keegi polnud suures muusika\u00e4ris midagi kuulnud, otsustasid kolm elujanulist noormeest hakata t\u00f5usvate Briti b\u00e4ndide produtsentideks.\nP\u00e4rast jalgpallikarj\u00e4\u00e4rist loobumist hakkab Davie (Conor Berry) koos kahe semuga m\u00f5tlema noorte ja vihaste b\u00e4ndide esindamisele, tuues neid Dundee \u00f6\u00f6klubidesse esinema. Kuigi nende karj\u00e4\u00e4r ei t\u00f5ota tulla just paljulubav, sest muusika\u00e4rist tahavad ampsu saada k\u00f5ik, ka gangsterid, terendavad peagi noormeeste silme ees suur raha, glamuur ja hiilgav tulevik. Ei m\u00f6\u00f6dugi palju aega, kui nende uksele koputab oma esimesel tuuril olev hilisem heviroki lipulaev Iron Maiden\u2026\nFilmi re\u017eiss\u00f6\u00f6r Dave McLean on t\u00e4naseks \u00fcks edukamaid Inglise promootoreid, t\u00e4nu kellele said britid osa t\u00f5usvate Ameerika grunge-ansamblite Smashing Pumpkins, Green Day ja muidugi Nirvana t\u00e4helennust. McLean seisab ka 1990. aastate \u00fche edukama Briti b\u00e4ndi Placebo edu taga.",
+                "en": "Set in Dundee c. 1979, Schemers is based on writer-producer Dave McLean\u2019s early years in the music business. A fledgling promoter, he ambitiously booked bands with his friends John and Scot, all of them from the Dundee schemes. Young Davie (Conor Berry) is determined not to get a \u2018real\u2019 job. He starts out running discos and, after a run in with a local gangster, raises his ambitions to booking major bands such as Iron Maiden. Shot in and around Dundee using local talent, Schemers celebrates youthful ambition.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=Mhkn3D4BVKk",
+        "QaClip": "https://www.youtube.com/watch?v=fiDH3wiK5cA",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "skeemitajad",
+        "Slug_en": "schemers",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1006",
+        "Title_et": "T\u0161empionid",
+        "Title_en": "Champions",
+        "Title_ru": "",
+        "TitleOriginal": "Campeones",
+        "Year": "2018",
+        "Runtime": "124",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Javier Guti\u00e9rrez",
+                        "en": "Javier Guti\u00e9rrez",
+                        "ru": "Javier Guti\u00e9rrez"
+                    },
+                    {
+                        "et": "Athenea Mata",
+                        "en": "Athenea Mata",
+                        "ru": "Athenea Mata"
+                    },
+                    {
+                        "et": "Juan Margallo\r",
+                        "en": "Juan Margallo\r",
+                        "ru": "Juan Margallo\r"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "David Marqu\u00e9s",
+                        "en": "David Marqu\u00e9s",
+                        "ru": "David Marqu\u00e9s"
+                    },
+                    {
+                        "et": "Javier Fesser",
+                        "en": "Javier Fesser",
+                        "ru": "Javier Fesser"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Chechu Graf",
+                        "en": "Chechu Graf",
+                        "ru": "Chechu Graf"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Javier Guti\u00e9rrez",
+                        "en": "Javier Guti\u00e9rrez",
+                        "ru": "Javier Guti\u00e9rrez"
+                    },
+                    {
+                        "et": "Athenea Mata",
+                        "en": "Athenea Mata",
+                        "ru": "Athenea Mata"
+                    },
+                    {
+                        "et": "Juan Margallo\r",
+                        "en": "Juan Margallo\r",
+                        "ru": "Juan Margallo\r"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Rafael Arnau",
+                        "en": "Rafael Arnau",
+                        "ru": "Rafael Arnau"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "ICO",
+                        "en": "ICO",
+                        "ru": "ICO"
+                    },
+                    {
+                        "et": "ICAA",
+                        "en": "ICAA",
+                        "ru": "ICAA"
+                    },
+                    {
+                        "et": "Marenostrum Producciones",
+                        "en": "Marenostrum Producciones",
+                        "ru": "Marenostrum Producciones"
+                    },
+                    {
+                        "et": "Morena Films",
+                        "en": "Morena Films",
+                        "ru": "Morena Films"
+                    },
+                    {
+                        "et": "Movistar+",
+                        "en": "Movistar+",
+                        "ru": "Movistar+"
+                    },
+                    {
+                        "et": "Pel\u00edculas Pendelton",
+                        "en": "Pel\u00edculas Pendelton",
+                        "ru": "Pel\u00edculas Pendelton"
+                    },
+                    {
+                        "et": "RTVE",
+                        "en": "RTVE",
+                        "ru": "RTVE"
+                    },
+                    {
+                        "et": "Rey de Babia",
+                        "en": "Rey de Babia",
+                        "ru": "Rey de Babia"
+                    },
+                    {
+                        "et": "Triodos Bank\r",
+                        "en": "Triodos Bank\r",
+                        "ru": "Triodos Bank\r"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Hispaania re\u017eiss\u00f6\u00f6r Javier Fesser on ka oma varasemates filmides k\u00e4sitlenud t\u00f5siseid teemasid l\u00e4bi kergendustunnet tekitava huumoriprisma, mis vaataja meelt \u00fchest k\u00fcljest l\u00f5bustab, teisalt elus mitte just loterii peav\u00f5itu t\u00f5mmanud inimestele kaasa elama paneb.\nEndine nimekas korvpallitreener saadetakse purjusp\u00e4i autojuhtimise eest \u00fchiskondlikult kasulikule t\u00f6\u00f6le, mille k\u00e4igus on tema \u00fclesandeks treenida kergete puuetega innukad sportlased v\u00f5istlusvalmis meeskonnaks. Protsessi k\u00e4igus \u00f5pitakse vastakuti nii elust, spordist kui iseendast. Elukogemuste ja reaalsuse tajumise erinevused loovad ridamisi hirmnaljakaid, kuid ka s\u00fcdamlikke situatsioone. Vaatajale on oluline teada, et film p\u00f5hineb paljuski t\u00f5estis\u00fcndinud lool ning \"meeskonna\u201d moodustavad n\u00e4itlejad, kellele see on esimene \u00fclesastumine kinolinal.",
+                "en": "The assistant trainer of a professional league side, Marco, is given community service in the form of coaching a very special basketball team of people with intellectual disabilities. Surprisingly even for Marco himself, he\u2019ll be the one to learn a real lesson from the adventure alongside a team where a desire to live and placing importance on the things that matter are what really counts.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=qo_PDXou77c",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "tempionid",
+        "Slug_en": "champions",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1007",
+        "Title_et": "Yalda, andestuse \u00f6\u00f6",
+        "Title_en": "Yalda, a Night for Forgiveness",
+        "Title_ru": "",
+        "TitleOriginal": "Yalda",
+        "Year": "2019",
+        "Runtime": "89",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Sadaf Asgari",
+                        "en": "Sadaf Asgari",
+                        "ru": "Sadaf Asgari"
+                    },
+                    {
+                        "et": "Behnaz Jafari",
+                        "en": "Behnaz Jafari",
+                        "ru": "Behnaz Jafari"
+                    },
+                    {
+                        "et": "Babak Karimi\r",
+                        "en": "Babak Karimi\r",
+                        "ru": "Babak Karimi\r"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Massoud Bakhshi",
+                        "en": "Massoud Bakhshi",
+                        "ru": "Massoud Bakhshi"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Julian Atanassov",
+                        "en": "Julian Atanassov",
+                        "ru": "Julian Atanassov"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Sadaf Asgari",
+                        "en": "Sadaf Asgari",
+                        "ru": "Sadaf Asgari"
+                    },
+                    {
+                        "et": "Behnaz Jafari",
+                        "en": "Behnaz Jafari",
+                        "ru": "Behnaz Jafari"
+                    },
+                    {
+                        "et": "Babak Karimi\r",
+                        "en": "Babak Karimi\r",
+                        "ru": "Babak Karimi\r"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "JBA Production",
+                        "en": "JBA Production",
+                        "ru": "JBA Production"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Kas te kujutaksite ette teles\u00f5ud, kus otsustatakse inimese elu ja surma \u00fcle? Iraanis on see v\u00f5imalik.\n22-aastane Maryam tapab t\u00fcli k\u00e4igus kogemata oma 65-aastase abikaasa Nasseri, kellega ta on ajutises abielus. (Lepinguline kooseluvorm, mis v\u00f5ib kesta m\u00f5nest p\u00e4evast aastateni.) Ta m\u00f5istetakse surma. Ainus, kes ta \u0161ariaadi j\u00e4rgi p\u00e4\u00e4sta v\u00f5ib, on Mona, Nasseri t\u00fctar p\u00e4risabielust. Selleks peab ta Maryamile andestama. (Ja saama vereraha.) Andestada pole aga niisama lihtne, seda enam, et teha tuleb seda populaarse teles\u00f5u otse-eetris, mis leiab aset \u00fcldrahvalikul Yalda \u00f5htul, kui Iraani kodudes t\u00e4histatakse aasta k\u00f5ige pikemat \u00f6\u00f6d.\nT\u00f5sielust t\u00f5ukuv \u00fcllatuslik melodraama k\u00e4sitleb kaasahaaravalt Iraani \u00fchiskonnas aktuaalseid teemasid naiste allasurutusest sotsiaalse ebav\u00f5rdsuseni. See on harvan\u00e4htav sissevaade maailma, millest enamikul meist aimugi ei ole.\nLinateos v\u00f5itis mainekal Sundance\u00b4i festivalil maailmafilmi v\u00f5istlusprogrammi peaauhinna.",
+                "en": "In Iran today: Maryam (22) accidentally kills her husband Nasser (65) and is sentenced to death. The only person who can save her is Mona (37), Nasser's daughter. All Mona has to do is appear on a popular live TV show and forgive Maryam. But forgiveness proves difficult when they are forced to relive the past.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=MIU7UPn5-I0",
+        "QaClip": "https://www.youtube.com/watch?v=a5YUwDSiyFk",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "yalda-andestuse-",
+        "Slug_en": "yalda-a-night-for-forgiveness",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1008",
+        "Title_et": "Harjumuse j\u00f5ud",
+        "Title_en": "Force of Habit",
+        "Title_ru": "",
+        "TitleOriginal": "Tottumiskysymys",
+        "Year": "2019",
+        "Runtime": "75",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Kerttu Hakkarainen",
+                        "en": "Kerttu Hakkarainen",
+                        "ru": "Kerttu Hakkarainen"
+                    },
+                    {
+                        "et": "P\u00e4ivi Kettunen",
+                        "en": "P\u00e4ivi Kettunen",
+                        "ru": "P\u00e4ivi Kettunen"
+                    },
+                    {
+                        "et": "Jarmo Kiuru",
+                        "en": "Jarmo Kiuru",
+                        "ru": "Jarmo Kiuru"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Joona Jaakkola",
+                        "en": "Joona Jaakkola",
+                        "ru": "Joona Jaakkola"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Tuffi Film",
+                        "en": "Tuffi Film",
+                        "ru": "Tuffi Film"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Viimastel aastatel on aina enam j\u00f5udnud avalikkuseni #MeToo juhtumeid. Vaprad naised r\u00e4\u00e4givad oma loo sellest, kuidas neid on t\u00f6\u00f6l, peol, avalikus ja privaatses ruumis ahistatud. Ometi on see ainult j\u00e4\u00e4m\u00e4e tipp. Kas tegu on vaid meeste \"harjumuse j\u00f5uga\u201d v\u00f5i \u00fchiskonnas juurdunud normiga, mida naised ise soodustavad?\n\nVastus on vaataja silmis, sest \"Harjumuse j\u00f5ud\u201d toob teieni kuue naise lood: romantiline puhkus kaaslasega, igap\u00e4evane koolitee, korteri- ja kontoripidu, noore n\u00e4itleja katsumused meeste maailmas ja pikk \u00f5igluse otsimine p\u00e4rast v\u00e4gistamisjuhtumit. Enamik neist \u00fcpris tavap\u00e4rased olukorrad, mis n\u00e4itavad naiste igap\u00e4evaelu uues valguses. Film ise on t\u00e4is soomlastele iseloomulikku ja ka eestlastele s\u00fcdamel\u00e4hedast absurdihuumorit, kus korraga naerad ja siis vangutad pead ning paratamatult tekib k\u00fcsimus, kas see k\u00f5ik toimub meie \u00fcmber p\u00e4riselt.\n\nFilm p\u00f5hineb kuuel l\u00fchifilmil erakordselt populaarsest sarjast \"Yksitt\u00e4istapaus\u201d, mille on lavastanud Soome parimad naisre\u017eiss\u00f6\u00f6rid.",
+                "en": "Force of Habit follows the lives of various women throughout one day. Hilla is having a romantic vacation, Emmi is throwing a house party, and Milja is on her way to school when they're approached by a stranger and things take an unexpected turn. At the same time, Emppu, a young actress, is conflicted as she rehearses for the biggest role of her life. Elsewhere, Aleksi, an inexperienced prosecutor, is preparing for his first court case in haste; Niina, the victim of the crime, has been waiting years to see her case tried. Miia throws a company party, and the mood dramatically changes when her colleague Katja opens up about their boss coming on to her. Miia and a couple of her closest colleagues try to resolve the situation, but how do the others react?",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=2fXQm4ZLlFg",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "harjumuse-jud",
+        "Slug_en": "force-of-habit",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1009",
+        "Title_et": "Hape",
+        "Title_en": "Acid",
+        "Title_ru": "",
+        "TitleOriginal": "Kislota",
+        "Year": "2018",
+        "Runtime": "97",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Filipp Avdeev",
+                        "en": "Filipp Avdeev",
+                        "ru": "Filipp Avdeev"
+                    },
+                    {
+                        "et": "Aleksandr Kuznetsov",
+                        "en": "Aleksandr Kuznetsov",
+                        "ru": "Aleksandr Kuznetsov"
+                    },
+                    {
+                        "et": "Aleksandra Rebenok",
+                        "en": "Aleksandra Rebenok",
+                        "ru": "Aleksandra Rebenok"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Valery Pecheykin",
+                        "en": "Valery Pecheykin",
+                        "ru": "Valery Pecheykin"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Kseniya Sereda",
+                        "en": "Kseniya Sereda",
+                        "ru": "Kseniya Sereda"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Filipp Avdeev",
+                        "en": "Filipp Avdeev",
+                        "ru": "Filipp Avdeev"
+                    },
+                    {
+                        "et": "Aleksandr Kuznetsov",
+                        "en": "Aleksandr Kuznetsov",
+                        "ru": "Aleksandr Kuznetsov"
+                    },
+                    {
+                        "et": "Aleksandra Rebenok",
+                        "en": "Aleksandra Rebenok",
+                        "ru": "Aleksandra Rebenok"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Studio Slon",
+                        "en": "Studio Slon",
+                        "ru": "Studio Slon"
+                    },
+                    {
+                        "et": "Truemen Pictures",
+                        "en": "Truemen Pictures",
+                        "ru": "Truemen Pictures"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Noore vene n\u00e4itleja Aleksandr Gort\u0161ilini re\u017eiideb\u00fc\u00fcti \"Hape\" kirjeldab lavastaja ise kui vaikivat manifesti. See r\u00e4\u00e4gib 21-aastaste vene noorte t\u00fchjusetundest \u00fchiskonnas, mis on h\u00fcljanud p\u00f5hilised alustalad, millele noor inimene v\u00f5iks toetuda: perekond, armastus, s\u00f5brad ja v\u00f5imalused. Nad h\u00e4vitavad iseennast ja \u00fcksteist nagu hape, mis s\u00f6\u00f6vitab maailma nende \u00fcmber. Gort\u0161ilinile on oluline, et inimesed kuuleks, mitte kuulaks, n\u00e4eks, mitte vaataks - ja leiaks oma tee.\nT\u00e4nase p\u00e4eva andekad ja tuntud vene n\u00e4tlejad Aleksandr Kuznetsov ja Filipp Avdejev sooritavad oma rollid kompromissitu ehedusega ning ei ole kahtlust, et probleemid, millega elluastujad filmis silmitsi seisavad, ei ole v\u00f5\u00f5rad ka meie noorele vaatajale.",
+                "en": "\"Acid\u201d is an ode to youth, a film about today\u2019s 20-year-olds who are entering the real world for the first time, and becoming conscious of their role within it.  The film is a portrait of a generation for whom ambition is devoid of meaning.  They lament the fact that everything has already been invented before their appearance, already done for them.  The main characters justify their irresponsibility and infantile behaviour by the lack of communication with their parents.   But their principal agony is that they grew up without fathers, and now the time is ripe for them to do things and achieve the status of adult males.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=U3uVN-ZveCc",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "hape",
+        "Slug_en": "acid",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1010",
+        "Title_et": "Viimane portree",
+        "Title_en": "Final Portrait",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2017",
+        "Runtime": "90",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Geoffrey Rush",
+                        "en": "Geoffrey Rush",
+                        "ru": "Geoffrey Rush"
+                    },
+                    {
+                        "et": "Armie Hammer",
+                        "en": "Armie Hammer",
+                        "ru": "Armie Hammer"
+                    },
+                    {
+                        "et": "Tony Shalhoub",
+                        "en": "Tony Shalhoub",
+                        "ru": "Tony Shalhoub"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Stanley Tucci",
+                        "en": "Stanley Tucci",
+                        "ru": "Stanley Tucci"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Danny Cohen",
+                        "en": "Danny Cohen",
+                        "ru": "Danny Cohen"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Geoffrey Rush",
+                        "en": "Geoffrey Rush",
+                        "ru": "Geoffrey Rush"
+                    },
+                    {
+                        "et": "Armie Hammer",
+                        "en": "Armie Hammer",
+                        "ru": "Armie Hammer"
+                    },
+                    {
+                        "et": "Tony Shalhoub",
+                        "en": "Tony Shalhoub",
+                        "ru": "Tony Shalhoub"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Evan Lurie",
+                        "en": "Evan Lurie",
+                        "ru": "Evan Lurie"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Potboiler Productions",
+                        "en": "Potboiler Productions",
+                        "ru": "Potboiler Productions"
+                    },
+                    {
+                        "et": "Riverstone Pictures",
+                        "en": "Riverstone Pictures",
+                        "ru": "Riverstone Pictures"
+                    },
+                    {
+                        "et": "Olive Productions",
+                        "en": "Olive Productions",
+                        "ru": "Olive Productions"
+                    },
+                    {
+                        "et": "Lowsun Productions",
+                        "en": "Lowsun Productions",
+                        "ru": "Lowsun Productions"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Rohkem n\u00e4itlejana tuntud Stanley Tucci viies film re\u017eiss\u00f6\u00f6rina kujutab maailmakuulsa \u0161veitsi skulptori Alberto Giacometti ja j\u00f5uka kunstiarmastajast kirjaniku James Lordi eriskummalist kunstniku ja modelli suhet. Film p\u00f5hineb Lordi m\u00e4lestusteraamatul \"Giacometti portree\" ning nii nagu Stanley Tucci eelnevateski t\u00f6\u00f6des huvitab re\u017eiss\u00f6\u00f6ri k\u00f5ige enam loomisprotsess, selle kulg, inspiratsiooniallikad ja kunstniku valmisolek oma t\u00f6\u00f6d l\u00f5plikuks nimetada.\nPeaosas n\u00e4eme Geoffrey Rushi, kellele geeniuste m\u00e4ngimine on juba \u00fcsna rutiinne tegevus. Re\u017eiss\u00f6\u00f6ri s\u00f5nul ei olnud aga v\u00f5imalik kedagi teist valida, sest Rush sarnaneb Giacomettiga nagu kaks tilka vett. James Lordi rollis \u00fcles astuv, v\u00e4liselt Rushile vastanduv sile ja n\u00e4gus Arnie Hammer moodustab oma ekraanipartneriga huvitava koosluse, mille osapooli k\u00f5igile erinevustele vaatamata siiski \u00fcksteise poole kisub.\nFilm nagu l\u00f5uend, mis tasapisi v\u00e4rvidega kattub.",
+                "en": "In 1964, while on a short trip to Paris, the American writer and art-lover James Lord is asked by his friend, the world-renowned artist Alberto Giacometti, to sit for a portrait. The process, Giacometti assures Lord, will take only a few days. Flattered and intrigued, Lord agrees.\n\"Final Portrait\u201d is a bewitching portrait of a genius, and of a friendship between two men who are utterly different, yet increasingly bonded through a single, ever-evolving act of creativity. It is a film which shines a light on the artistic process itself, by turns exhilarating, exasperating and bewildering, questioning whether the gift of a great artist is a blessing or a curse.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=sRsiW5c29Sk",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "viimane-portree",
+        "Slug_en": "final-portrait",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1011",
+        "Title_et": "Maudie",
+        "Title_en": "Maudie",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2016",
+        "Runtime": "115",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Sally Hawkins",
+                        "en": "Sally Hawkins",
+                        "ru": "Sally Hawkins"
+                    },
+                    {
+                        "et": "Ethan Hawke",
+                        "en": "Ethan Hawke",
+                        "ru": "Ethan Hawke"
+                    },
+                    {
+                        "et": "Kari Matchett",
+                        "en": "Kari Matchett",
+                        "ru": "Kari Matchett"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Sherry White",
+                        "en": "Sherry White",
+                        "ru": "Sherry White"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Guy Godfree",
+                        "en": "Guy Godfree",
+                        "ru": "Guy Godfree"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Sally Hawkins",
+                        "en": "Sally Hawkins",
+                        "ru": "Sally Hawkins"
+                    },
+                    {
+                        "et": "Ethan Hawke",
+                        "en": "Ethan Hawke",
+                        "ru": "Ethan Hawke"
+                    },
+                    {
+                        "et": "Kari Matchett",
+                        "en": "Kari Matchett",
+                        "ru": "Kari Matchett"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Michael Timmins",
+                        "en": "Michael Timmins",
+                        "ru": "Michael Timmins"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "H Is 4 Productions",
+                        "en": "H Is 4 Productions",
+                        "ru": "H Is 4 Productions"
+                    },
+                    {
+                        "et": "Painted House Films",
+                        "en": "Painted House Films",
+                        "ru": "Painted House Films"
+                    },
+                    {
+                        "et": "Parallel Film Productions",
+                        "en": "Parallel Film Productions",
+                        "ru": "Parallel Film Productions"
+                    },
+                    {
+                        "et": "Rink Rat Productions",
+                        "en": "Rink Rat Productions",
+                        "ru": "Rink Rat Productions"
+                    },
+                    {
+                        "et": "Screen Door",
+                        "en": "Screen Door",
+                        "ru": "Screen Door"
+                    },
+                    {
+                        "et": "Small Shack Productions",
+                        "en": "Small Shack Productions",
+                        "ru": "Small Shack Productions"
+                    },
+                    {
+                        "et": "Solo Productions",
+                        "en": "Solo Productions",
+                        "ru": "Solo Productions"
+                    },
+                    {
+                        "et": "Storyscape Entertainment",
+                        "en": "Storyscape Entertainment",
+                        "ru": "Storyscape Entertainment"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "\"Maudie\" on erakordne lugu artriidihaigest \u00fchiskonnaheidikust, kes leiab ennast kunsti kaudu, j\u00e4\u00e4des meeleheitlikule olukorrale vaatamata alati heatahtlikuks, usaldavaks ja optimistlikuks. Film on saanud inspiratsiooni Nova Scotia (Kanada) naivistliku kunstniku Maud Lewise eluloost. Tema hingej\u00f5ud leidis v\u00e4ljenduse lihtsates v\u00e4rvikates piltides, mis kujunesid vaatamata tehnilistele puuduj\u00e4\u00e4kidele paljude lemmikuteks. Ta alustas t\u00e4ppide maalimisest oma viletsa h\u00fcti akendele ja hiljem juba l\u00f5uenditele, mida tuldi ostma \u00fcle kogu Kanada. Maudie on naivistliku kunstniku ehe n\u00e4ide, kelle peaaegu s\u00f5nakuulmatud k\u00e4ed l\u00f5id teoseid, mis j\u00f5uavad siirusega otse vaataja hinge.\n\nSally Hawkins on v\u00f5itnud selle tundliku rolli eest auhindu paljudelt festivalidelt, nagu ka Ethan Hawke Maudie\u00b4 r\u00e4medav\u00f5itu ja asotsiaalse elukaaslase Everettina.",
+                "en": "\"Maudie\", is based on the true story of folk artist Maud Lewis (Sally Hawkins) and the unlikely romance between Maud and a hardened reclusive bachelor, Everett Lewis (Ethan Hawke).",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=wCZ_guQTGNw",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "maudie",
+        "Slug_en": "maudie",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1012",
+        "Title_et": "Tagaotsitav: Banksy!",
+        "Title_en": "Banksy Most Wanted",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2020",
+        "Runtime": "90",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Tribeca Film Festival",
+                        "en": "Tribeca Film Festival",
+                        "ru": "Tribeca Film Festival"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Kunstimaailma tagaotsituim mees tegutseb nagu moodne Robin Hood.\n\nAastal 2014 kogunesid Bristoli noortekeskuse kohale murepilved. Huviharidust ei rahastatud enam endises mahus. \u00c4kki ilmus keskuse ette seinale maaling, mille autoris ei olnud kahtlust \u2013 Banksy! J\u00e4rgnes kiri: \"Tere, mina olen Banksy. See t\u00f6\u00f6 kuulub teile. V\u00f5ite sellega teha, mis iganes.\u201d Noortekeskus m\u00fc\u00fcs t\u00f6\u00f6 maha ja j\u00e4tkab tegevust siiani. T\u00e4nu Banksyle.\n\nSee pole ainus n\u00e4ide, mis annab tunnistust selle maailmakuulsa t\u00e4navakunstniku vastutustundlikust tegevusest. Tema kunst edastab aktuaalseid sotsiaalseid ja poliitilisi s\u00f5numeid. Iga Banksy teose ilmumine avalikku ruumi tekitab k\u00f5neainet \u00fcle terve maailma. Kes aga peidab ennast selle nime taga? Aur\u00e9lia Rouvieri ja Seamus Haley linateos uurib, kes on Banksy ja miks ta ei taha paljastada oma identiteeti, kui kogu maailm muutub \u00fcha egotsentrilisemaks.\nTeravmeelne film kunstnikust, kes usub, et t\u00e4nap\u00e4eval tuleb kanda maski, kui sa tahad, et sind kuulataks.",
+                "en": "Banksy is a household name, but behind this name hides a multitude of stories, artworks, stunts, political statements and identities, leading to one of the art world\u2019s biggest unanswered questions- who is Banksy?\nThanks to his anonymity people have been able, for more than 25 years, to claim his work, either legally or emotionally, and to fantasize about who is hiding behind this name.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=8PbqSnG7wcI",
+        "QaClip": "https://www.youtube.com/watch?v=AbrMOeHLstg",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "tagaotsitav-banksy",
+        "Slug_en": "banksy-most-wanted",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1013",
+        "Title_et": "Acas\u0103, mu kodu",
+        "Title_en": "Acas\u0103, My Home",
+        "Title_ru": "",
+        "TitleOriginal": "Acas\u0103",
+        "Year": "2020",
+        "Runtime": "86",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Corina Enache",
+                        "en": "Corina Enache",
+                        "ru": "Corina Enache"
+                    },
+                    {
+                        "et": "Duca Enache",
+                        "en": "Duca Enache",
+                        "ru": "Duca Enache"
+                    },
+                    {
+                        "et": "Georgiana Enache",
+                        "en": "Georgiana Enache",
+                        "ru": "Georgiana Enache"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Corina Enache",
+                        "en": "Corina Enache",
+                        "ru": "Corina Enache"
+                    },
+                    {
+                        "et": "Duca Enache",
+                        "en": "Duca Enache",
+                        "ru": "Duca Enache"
+                    },
+                    {
+                        "et": "Georgiana Enache",
+                        "en": "Georgiana Enache",
+                        "ru": "Georgiana Enache"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "HBO Europe",
+                        "en": "HBO Europe",
+                        "ru": "HBO Europe"
+                    },
+                    {
+                        "et": "HBO Romania",
+                        "en": "HBO Romania",
+                        "ru": "HBO Romania"
+                    },
+                    {
+                        "et": "Manifest Film",
+                        "en": "Manifest Film",
+                        "ru": "Manifest Film"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "9-lapseline roma perekond peab oma poolmetsiku eluviisiga h\u00fcvasti j\u00e4tma, kui nende elupaigast, Bukarestis laiuvast hiiglaslikust m\u00e4rgalast tehakse looduspark.\n\nNad on skvotterid, kui v\u00e4ljenduda moodsalt. Elanud juba 20 aastat lihtsat, looduse r\u00fctmi j\u00e4rgi kulgevat elu tsivilisatsiooni k\u00fclje all. K\u00fcll elektri ja teiste mugavusteta, aga vabana. \u00dchel heal p\u00e4eval k\u00f5ik muutub. Metsik m\u00e4rgala taltsutatakse, sinna ehitatakse loodusrajad. Muidugi riivab r\u00e4\u00e4bakas h\u00fctt silma.\nLinn, kuhu Enache\u00b4d asustatakse, paistab s\u00f5bralik. Eraldatakse korter. Lapsed saadetakse kooli. K\u00f5ik nagu kord ja kohus. Ometi pole kohanemine uute sotsiaalsete reeglitega lihtne. Pinna all h\u00f5\u00f5guvad pinged. Murenema hakkab isegi romadele tavaks olev patriarhaalne elukorraldus.\n\nHarva \u00f5nnestub \u00fchel dokumentaalfilmil avada nii p\u00f5hjalikult inimese ja moodsa \u00fchiskonna vahekorra aspekte, k\u00e4sitleda kultuurilise identiteedi, eluviisi ja v\u00e4\u00e4rikuse s\u00e4ilitamise v\u00f5imalikkust \u00fchtlustuvas maailmas. Mitmekihiline film on v\u00f5itnud juba hulk auhindu mainekatelt festivalidelt.",
+                "en": "Radu Ciorniciuc\u2019s heartbreaking debut is a thoughtful study of gentrification, seen through the eyes of a family trying to adapt to the new life they never asked for. Is it better to go back to their \"paradise lost,\u201d with its life free yet harsh, or to become part of the society that offers comforts but comes with pressures and conflict?",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=XOdUY_sL-ok",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "acas-mu-kodu",
+        "Slug_en": "acas-my-home",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1014",
+        "Title_et": "Tormipoiss",
+        "Title_en": "Storm Boy",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2019",
+        "Runtime": "99",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Finn Little",
+                        "en": "Finn Little",
+                        "ru": "Finn Little"
+                    },
+                    {
+                        "et": "Jai Courtney",
+                        "en": "Jai Courtney",
+                        "ru": "Jai Courtney"
+                    },
+                    {
+                        "et": "Geoffrey Rush",
+                        "en": "Geoffrey Rush",
+                        "ru": "Geoffrey Rush"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Justin Monjo",
+                        "en": "Justin Monjo",
+                        "ru": "Justin Monjo"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Bruce Young",
+                        "en": "Bruce Young",
+                        "ru": "Bruce Young"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Finn Little",
+                        "en": "Finn Little",
+                        "ru": "Finn Little"
+                    },
+                    {
+                        "et": "Jai Courtney",
+                        "en": "Jai Courtney",
+                        "ru": "Jai Courtney"
+                    },
+                    {
+                        "et": "Geoffrey Rush",
+                        "en": "Geoffrey Rush",
+                        "ru": "Geoffrey Rush"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "Alan John",
+                        "en": "Alan John",
+                        "ru": "Alan John"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Ambience Entertainment",
+                        "en": "Ambience Entertainment",
+                        "ru": "Ambience Entertainment"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Eelmise aasta suurimaid perefilme on saanud paljudel mainekatel festivalidel publiku sooja vastuv\u00f5tu osaliseks.\n\nFilm p\u00f5hineb samanimelisel Austraalia muinasjutul. Vanah\u00e4rra Michael hakkab \u00fchel heal p\u00e4eval n\u00e4gema pilte oma elust, mida ta seletada ei oska. Justkui oleks temaga toimumas midagi eriskummalist. Tasapisi hakkab talle meenuma ammu unustuse h\u00f5lma vajunud muinasjutuline lapsep\u00f5lv. Ta meenutab oma parimat s\u00f5pra, kelleks ei olnud keegi muu kui h\u00e4rra Percival, t\u00e4iesti harilik pelikan.\n\nUskumatud ja ennekuulmatud seiklused v\u00f5ivad kinolinal alata!",
+                "en": "When Michael Kingley, a successful retired businessman starts to see images from his past that he can't explain, he's forced to remember his childhood and how, as a boy, he rescued and raised an extraordinary orphaned pelican, Mr Percival.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=jaUpQ2EkbL4",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "tormipoiss",
+        "Slug_en": "storm-boy",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1015",
+        "Title_et": "Lammas all paremas nurgas",
+        "Title_en": "The Secret Lamb",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "1992",
+        "Runtime": "",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "T\u00f5nu Kark",
+                        "en": "T\u00f5nu Kark",
+                        "ru": "T\u00f5nu Kark"
+                    },
+                    {
+                        "et": "Margus Alver",
+                        "en": "Margus Alver",
+                        "ru": "Margus Alver"
+                    },
+                    {
+                        "et": "Kaur Sinissaar",
+                        "en": "Kaur Sinissaar",
+                        "ru": "Kaur Sinissaar"
+                    },
+                    {
+                        "et": "Dan P\u00f5ldroos",
+                        "en": "Dan P\u00f5ldroos",
+                        "ru": "Dan P\u00f5ldroos"
+                    },
+                    {
+                        "et": "Ain Lutsepp",
+                        "en": "Ain Lutsepp",
+                        "ru": "Ain Lutsepp"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "Janno P\u00f5ldma",
+                        "en": "Janno P\u00f5ldma",
+                        "ru": "Janno P\u00f5ldma"
+                    },
+                    {
+                        "et": "Lembit Ulsak",
+                        "en": "Lembit Ulsak",
+                        "ru": "Lembit Ulsak"
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "Ago Ruus",
+                        "en": "Ago Ruus",
+                        "ru": "Ago Ruus"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "T\u00f5nu Kark",
+                        "en": "T\u00f5nu Kark",
+                        "ru": "T\u00f5nu Kark"
+                    },
+                    {
+                        "et": "Margus Alver",
+                        "en": "Margus Alver",
+                        "ru": "Margus Alver"
+                    },
+                    {
+                        "et": "Kaur Sinissaar",
+                        "en": "Kaur Sinissaar",
+                        "ru": "Kaur Sinissaar"
+                    },
+                    {
+                        "et": "Dan P\u00f5ldroos",
+                        "en": "Dan P\u00f5ldroos",
+                        "ru": "Dan P\u00f5ldroos"
+                    },
+                    {
+                        "et": "Ain Lutsepp",
+                        "en": "Ain Lutsepp",
+                        "ru": "Ain Lutsepp"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "T\u00f5nu Naissoo",
+                        "en": "T\u00f5nu Naissoo",
+                        "ru": "T\u00f5nu Naissoo"
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Teadushuvilise Tomi (Margus Alver) tutvus tulnukahuvilise Ahvenaga (T\u00f5nu Kark) algab siis, kui Tomi raketikatsetus j\u00f5e \u00e4\u00e4res on l\u00f5ppenud paugu ja visinaga. Ahven teab rakettidest m\u00f5ndagi, lisaks on ta veendunud, et t\u00fchja taarat ei tohi niisama \u00e4ra visata. J\u00f5est leitud vanaaegsed pudelid taarapealik Filippi (Dan P\u00f5ldroos) aga ei huvita, kuni \u00fche pudeli kildude seast tulevad v\u00e4lja juhised kallihinnalise maali leidmiseks. Oma j\u00f5uguga taiese j\u00e4lgi ajades ristub Filipi tee Tomi, tema s\u00f5bra Harri (Kaur Sinissaar) ja Ahvenaga, kes otsivad Harrilt varastatud spordikotti. Pudelites peitunud saladus avaneb sellele, kel lisaks heale \u00f5nnele on ka m\u00f5istust, mis trumpab \u00fcle ahnuse ja alatuse.\n\nTaasiseseisvusaja populaarsemaid koguperefilme taastati ja digitaliseeriti 2013. aastal.",
+                "en": "The family film directed by Lembit Ulfsak tells the humorous story about detective adventures that boys undertake during their summer holiday. The film belongs to the classics of Estonian children's films.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "lammas-all-paremas-nurgas",
+        "Slug_en": "the-secret-lamb",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1016",
+        "Title_et": "Marcel Duchamp ja v\u00f5imalikkuse kunst",
+        "Title_en": "Marcel Duchamp: Art of the Possible",
+        "Title_ru": "",
+        "TitleOriginal": "",
+        "Year": "2019",
+        "Runtime": "86",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Marina Abramovic",
+                        "en": "Marina Abramovic",
+                        "ru": "Marina Abramovic"
+                    },
+                    {
+                        "et": "William Anastasi",
+                        "en": "William Anastasi",
+                        "ru": "William Anastasi"
+                    },
+                    {
+                        "et": "Michel Gondry",
+                        "en": "Michel Gondry",
+                        "ru": "Michel Gondry"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Marina Abramovic",
+                        "en": "Marina Abramovic",
+                        "ru": "Marina Abramovic"
+                    },
+                    {
+                        "et": "William Anastasi",
+                        "en": "William Anastasi",
+                        "ru": "William Anastasi"
+                    },
+                    {
+                        "et": "Michel Gondry",
+                        "en": "Michel Gondry",
+                        "ru": "Michel Gondry"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "Electrolift Creative",
+                        "en": "Electrolift Creative",
+                        "ru": "Electrolift Creative"
+                    },
+                    {
+                        "et": "ZDF/Arte",
+                        "en": "ZDF/Arte",
+                        "ru": "ZDF/Arte"
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Pole kahtlustki, kes on 20. sajandi t\u00e4htsaim kunstnik. Marcel Duchamp muidugi!\n\nV\u00e4hemalt ei kahtle selles filmi autor Matthew Taylor. See on enam kui p\u00f5hjalik portree, mis ei tutvusta \u00fcksnes selle pissuaari ja lumelabida kunstisaali tassinud ja Mona Lisale vuntsid ette joonistanud kunstirevolutsion\u00e4\u00e4ri elulugu ja loomingut, vaid n\u00e4itab ka, kuidas tema ideed muutsid \u00fchiskonda, arusaamist esteetikast ja kunstist. Veel enam: kuidas need meid j\u00e4tkuvalt m\u00f5jutavad.\n\nJeff Koons, David Bowie, Marina Abramovi\u0107, Paul Matisse, Robert Rauschenberg... - k\u00f5igil on siin midagi \u00f6elda mehe kohta, kes p\u00f6\u00f6ras kunsti definitsiooni pea peale, l\u00f5hkus hierarhiaid, demokratiseeris seda, v\u00e4ites, et iga\u00fcks v\u00f5ib olla kunstnik. Duchamp ei m\u00f5jutanud mitte ainult kujutavat kunsti, vaid ka etenduskunste, muusikat, koguni arhitektuuri ja luulet.\n\n\u201eMa olen sundinud ennast kogu aeg enesele vastu r\u00e4\u00e4kima, et v\u00e4ltida mugandumist,\u201d armastas korrata Duchamp ise. Kohustuslik vaatamine k\u00f5igile kunstihuvilistele.",
+                "en": "Art Of The Possible is broken into three acts that follow the arcs of Duchamp\u2019s life. Each act functions to explain three ideas: who is Marcel Duchamp; what are Duchamp\u2019s most in\ufb02uential works and why are they important; and what is Duchamp\u2019s lasting legacy from his death to present day and how does his work shape our future.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=3D2Jt2DRjo4",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "marcel-duchamp-ja-vimalikkuse-kunst",
+        "Slug_en": "marcel-duchamp-art-of-the-possible",
+        "Slug_ru": ""
+    },
+    {
+        "FilmId": "1017",
+        "Title_et": "Autoportree",
+        "Title_en": "Self Portrait",
+        "Title_ru": "",
+        "TitleOriginal": "Selvportrett",
+        "Year": "2020",
+        "Runtime": "80",
+        "Credentials": [
+            {
+                "Director": [
+                    {
+                        "et": "Geir Fossen",
+                        "en": "Geir Fossen",
+                        "ru": "Geir Fossen"
+                    },
+                    {
+                        "et": "Lene Marie Fossen",
+                        "en": "Lene Marie Fossen",
+                        "ru": "Lene Marie Fossen"
+                    },
+                    {
+                        "et": "Torill Fossen",
+                        "en": "Torill Fossen",
+                        "ru": "Torill Fossen"
+                    }
+                ],
+                "Screenwriter": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "DoP": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Cast": [
+                    {
+                        "et": "Geir Fossen",
+                        "en": "Geir Fossen",
+                        "ru": "Geir Fossen"
+                    },
+                    {
+                        "et": "Lene Marie Fossen",
+                        "en": "Lene Marie Fossen",
+                        "ru": "Lene Marie Fossen"
+                    },
+                    {
+                        "et": "Torill Fossen",
+                        "en": "Torill Fossen",
+                        "ru": "Torill Fossen"
+                    }
+                ],
+                "Composer": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Editor": "",
+                "Producer": "",
+                "CoProducer": "",
+                "ProductionCompany": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Synopsis": [
+            {
+                "et": "Kurbilus lugu t\u00fcdrukust, kes ei tahtnud suureks saada.\n\nLene Marie Fossen oli 10-aastane, kui ta otsustas, et peatab aja. Ta hakkas j\u00e4rjest v\u00e4hem s\u00f6\u00f6ma. See aitas \u00e4ngi, kurbuse ja valu vastu \u2013 ta vihkas ennast. Aga t\u00f5i kaasa ka haigestumise anoreksiasse, millega Lene Marie v\u00f5itles kokku \u00fcle 20 aasta. Piinav haigus n\u00e4rvutas tema keha ja ka m\u00f5tted. Kuni ta avastas fotograafia \u2013 see hoidis teda elu k\u00fcljes kinni. Ka fotograafiaga sai peatada aega. Oma h\u00e4\u00e4bumise j\u00e4\u00e4dvustas Lene Marie v\u00e4ga erilistel piltidel, mida on n\u00fc\u00fcdseks eksponeeritud mitmel pool maailmas. \"Ma ei taha, et mind m\u00e4letataks anorektiku, vaid fotograafina,\u201d \u00fctles ta ise.\n\n\u0160okeeriv, aus ja usalduslik, samas v\u00e4ga ilus film kunsti v\u00f5imest rahustada vaevatud meelt ja s\u00fcstida lootust \u2013 anda oma elule tagasi m\u00f5te. Linateos on v\u00f5itnud mitu publiku- ja kriitikute auhinda rahvusvahelistelt festivalidelt ja kandideerib \u00fchtlasi aasta parima Norra filmi preemiale \u2013 koos m\u00e4ngufilmidega!",
+                "en": "Lene Marie Fossen is 32-years-old and a unique photographer with an extraordinary talent. But she also suffers from severe anorexia and has done so for ten years.",
+                "ru": ""
+            }
+        ],
+        "Media": [
+            {
+                "Stills": "",
+                "Posters": ""
+            }
+        ],
+        "Trailer": "https://www.youtube.com/watch?v=EBCHRlop-hg",
+        "QaClip": "",
+        "Tags": [
+            {
+                "Tag_premiere_types": "",
+                "Tag_programmes": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_genres": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ],
+                "Tag_keywords": [
+                    {
+                        "et": "",
+                        "en": "",
+                        "ru": ""
+                    }
+                ]
+            }
+        ],
+        "Slug_et": "autoportree",
+        "Slug_en": "self-portrait",
+        "Slug_ru": ""
+    }
+]

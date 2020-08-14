@@ -80,7 +80,7 @@ def createJSON(values, location):
         while len(row) < len(values[0]):
             row.append('')
 
-        values2.append({'Code': row[0], 'Name': {'et': row[1],'en': row[2],'ru': row[3]}})
+        values2.append({'Code': row[0], 'Value_et': row[1], 'Value_en': row[2], 'Value_ru': row[3]})
 
     with open(r'../source/' + location, 'w', encoding='utf-8') as file:
         json.dump(values2, file, indent=4)
@@ -89,7 +89,7 @@ def createJSON(values, location):
 
 
 def postToStrapi(data):
-    url = "http://139.59.130.149/languages"
+    url = "http://139.59.130.149/LANGUAGES"
 
     for item in data:
         payload = json.dumps(item)
