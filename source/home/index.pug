@@ -112,7 +112,10 @@ block content
                         +calendarDate(screeningDay.calendarDate)
                     .calendar_day_body
                         each cinema in screeningDay.cinemas
+                            //- if cinema.cinema != 'Elisa Stage'
                             .clr_white_semi.caps= cinema.cinema
+                            //- else
+                            //-     .clr_elisa_stage.caps= cinema.cinema
                             each screening in cinema.screenings
                                 span.screeningTime
                                     +screeningTime(screening.screeningDatetime)
@@ -256,8 +259,8 @@ block content
         //-                 | Maudie
 
         section.calendar_e
-            span.font_h.clr_elisa_stage e
-            span.clr_white_96 &nbsp;-&nbsp;filmi saab vaadata ka Elisa veebiplatvormil Elisa Stage
+            span.font_h.clr_elisa_stage ELISA STAGE
+            span.clr_white_96= self.eFilmInfo
 
 
         //- EVENTS calendar
