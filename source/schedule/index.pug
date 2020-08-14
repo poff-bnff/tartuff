@@ -23,7 +23,7 @@ block content
                                 each screening in cinema.screenings
                                     span.screeningTime
                                         +screeningTime(screening.screeningDatetime)
-                                    a(href=`https://tartuff.ee/${screening.filmPath}`)
+                                    a(href=`/${lang_path}${screening.filmPath}`)
                                         span.filmTitle= screening.filmTitle
                                     br
                                 br
