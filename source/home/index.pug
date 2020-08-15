@@ -21,6 +21,7 @@ block content
                 .hero_p
                     - var frontpageText = self.frontpageText
                     | !{ self.md(frontpageText)}
+                    a.btn.btn_primary.active.font_h(href='https://tartuff.elisastage.ee' role='button')= self.frontPageButton
 
         section.grid_covid
             .covid_rules

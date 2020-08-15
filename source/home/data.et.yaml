@@ -2,16 +2,8 @@ path: ''
 data:
     pictures: /film_pictures.yaml
     screeningsCalendar: /film/screeningsCalendar.et.yaml
-frontpageText: 'Juba 15. korda muutub Tartu Raekoja plats Eesti suurimaks vabaõhukinoks, kui augusti teisel nädalal jõuab sealsele väliekraanile 11 armastusest kõnelevat filmi.
-
-
-    Peale selle avab PÖFFi armastusfilmide festival Tartuff esimest korda ka virtuaalse kinosaali, mida saab külastada üle kogu Eesti.
-
-
-    Filmid jõuavad publikuni telekommunikatsiooniettevõtte Elisa veebiplatvormi Elisa Stage vahendusel, mis kandis üle ka Haapsalu õudus- ja fantaasiafilmide festivali.
-
-
-    Traditsiooniliselt saab kõiki Tartus ekraanile jõudvaid filme vaadata tasuta, virtuaalsetele seanssidele tuleb osta pilet.'
+frontpageText: '10 Tartuffi 2020. aasta filmi on Elisa Stage paltvormil vaadatavad veel kogu pühapäeva - kuni südaööni vastu esmaspäeva.'
+frontPageButton: Vaata filme Elisa Stage'l
 festivalDates: '10.-15. august'
 festivalLocations:
     outdoors: 'Tartu Raekoja plats'
