@@ -82,7 +82,7 @@ def readJson(fileName):
         data = json.load(f)
     return data
 
-readJson('strapiFilms.json')
+# readJson()
 
 def splitCast(txt):
     names = txt.split(', ')
@@ -127,34 +127,35 @@ def createJSON(rows, location):
                         'Title_en': row[header.index('filmTitle_en')],
                         'Title_ru': '',
                         'TitleOriginal': row[header.index('filmTitleOriginal')],
-                        'Countries': splitCountriesLang(row[header.index('filmCountries_en')]),
+                        'countries': splitCountriesLang(row[header.index('filmCountries_en')]),
                         'Year': row[header.index('filmYear')],
                         'Runtime': row[header.index('filmDuration')],
-                        'Credentials': [{'Director': splitCast(row[header.index('filmCast')]),
+                        'Credentials': {'Director': splitCast(row[header.index('filmCast')]),
                                         'Screenwriter': splitCast(row[header.index('filmScreenwriter')]),
                                         'DoP': splitCast(row[header.index('filmDop')]),
                                         'Cast': splitCast(row[header.index('filmCast')]),
                                         'Composer': splitCast(row[header.index('filmComposer')]),
-                                        'Editor': '',
-                                        'Producer': '',
-                                        'CoProducer': '',
+                                        'Editor': [],
+                                        'Producer': [],
+                                        'CoProducer': [],
                                         'ProductionCompany': splitCompany(row[header.index('filmProduction')])
-                                        }],
-                        'Synopsis': [{'et': row[header.index('filmSynopsis_et')],
-                                        'en': row[header.index('filmSynopsis_en')],
-                                        'ru': ''}],
-                        'Media': [{'Stills': '',
-                                    'Posters': ''}],
+                                        },
+                        'Synopsis': {'Et': row[header.index('filmSynopsis_et')],
+                                        'En': row[header.index('filmSynopsis_en')],
+                                        'Ru': ''},
+                        'Media': {'Stills': [],
+                                    'Posters': []},
                         'Trailer': row[header.index('filmTrailer')],
                         'QaClip': row[header.index('filmQaClip')],
-                        'Tags': [{'Tag_premiere_types': '',
-                                    'Tag_programmes': splitCast(row[header.index('tagProgramme')]),
-                                    'Tag_genres': splitCast(row[header.index('tagGenre')]),
-                                    'Tag_keywords': splitCast(row[header.index('tagKeyword')])
+                        'Tags': [{'tag_premiere_types': '',
+                                    'tag_programmes': splitCast(row[header.index('tagProgramme')]),
+                                    'tag_genres': splitCast(row[header.index('tagGenre')]),
+                                    'tag_keywords': splitCast(row[header.index('tagKeyword')])
                                     }],
                         'Slug_et': row[header.index('path_et')],
                         'Slug_en': row[header.index('path_en')],
-                        'Slug_ru': ''
+                        'Slug_ru': '',
+                        'screenings': '',
                        })
 
 
@@ -164,20 +165,21 @@ def createJSON(rows, location):
     return filmList
 
 
-# def postToStrapi(data):
-#     url = "http://139.59.130.149/FILMS"
+def postToStrapi(data):
+    url = "http://139.59.130.149/FILMS"
 
-#     for item in data:
-#         payload = json.dumps(item)
-#         print(payload)
-#         headers = {
-#         'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3MjQwNDA2LCJleHAiOjE1OTk4MzI0MDZ9.ZddzcDSe7O130sr4dtxr2XOSP7j-BTmlOI8TGxWgKdM',
-#         'Content-Type': 'application/json'
-#         }
+    for item in data:
+        payload = json.dumps(item)
+        headers = {
+        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3MjQwNDA2LCJleHAiOjE1OTk4MzI0MDZ9.ZddzcDSe7O130sr4dtxr2XOSP7j-BTmlOI8TGxWgKdM',
+        'Content-Type': 'application/json'
+        }
 
-#         response = requests.request("POST", url, headers=headers, data = payload)
+        response = requests.request("POST", url, headers=headers, data = payload)
 
-#         print(response.text.encode('utf8'))
+        if response.status_code != 200:
+            pp(item)
+            print(response.text.encode('utf8'))
 
 
 def main(sheetName, location):
@@ -185,7 +187,7 @@ def main(sheetName, location):
 
         values = fetchDataFromSheet(service, sheetName)
         filmList = createJSON(values, location)
-        # postToStrapi(filmList)
+        postToStrapi(filmList)
 
         global totalcount
         totalcount = totalcount + 1
